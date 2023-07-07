@@ -506,6 +506,7 @@
         },
         "ghostequip": {
             "error": "Kozmetik kuşanılırken bilinmeyen bir hata oluştu.",
+            "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
             "embed1": {
                 "title": "Ghost Equip",
                 "description": "[cosmetic] başarıyla kuşanıldı\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir."
@@ -513,6 +514,7 @@
         },
         "fakelevel": {
             "error": "Seviye değiştirilirken bilinmeyen bir hata oluştu.",
+            "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
             "embed1": {
                 "title": "Sahte Seviye",
                 "description": "Seviyeniz başarıyla [level] olarak ayarlandı.\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir."
