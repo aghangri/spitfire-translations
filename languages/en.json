@@ -503,6 +503,20 @@
             "noAlerts": "There are no V-Bucks mission alerts today :(",
             "total": "Total V-Bucks",
             "vbucks": "V-Bucks"
+        },
+        "ghostequip": {
+            "error": "An unknown error occurred while equipping the cosmetic.",
+            "embed1": {
+                "title": "Ghost Equip",
+                "description": "Successfully equipped [cosmetic]\nNote: This is only visible to other players in the party."
+            }
+        },
+        "fakelevel": {
+            "error": "An unknown error occurred while changing the level.",
+            "embed1": {
+                "title": "Fake Level",
+                "description": "Successfully set your level to [level].\nNote: This is only visible to other players in the party."
+            }
         }
     },
     "changenickname": {
@@ -1179,6 +1193,35 @@
             "name": "mission-alerts",
             "localizedName": "mission-alerts",
             "localizedDescription": "View the Save the World mission alerts"
+        },
+        {
+            "name": "ghost-equip",
+            "localizedName": "ghost-equip",
+            "localizedDescription": "Equip any cosmetic in your party, no matter if you own it or not",
+            "options": [
+                {
+                    "name": "name",
+                    "localizedName": "name",
+                    "localizedDescription": "Cosmetic name to search"
+                },
+                {
+                    "name": "language",
+                    "localizedName": "language",
+                    "localizedDescription": "The search language and the language of appearance of the cosmetic's name, description, etc."
+                }
+            ]
+        },
+        {
+            "name": "fake-level",
+            "localizedName": "fake-level",
+            "localizedDescription": "Set your level to a fake level in your party",
+            "options": [
+                {
+                    "name": "level",
+                    "localizedName": "level",
+                    "localizedDescription": "New level"
+                }
+            ]
         }
     ]
 }
