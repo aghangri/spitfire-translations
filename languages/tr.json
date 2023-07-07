@@ -503,6 +503,20 @@
             "noAlerts": "Bugün hiçbir V-Papel görev uyarısı yok :(",
             "total": "Toplam V-Papel",
             "vbucks": "V-Papel"
+        },
+        "ghostequip": {
+            "error": "Kozmetik kuşanılırken bilinmeyen bir hata oluştu.",
+            "embed1": {
+                "title": "Ghost Equip",
+                "description": "[cosmetic] başarıyla kuşanıldı\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir."
+            }
+        },
+        "fakelevel": {
+            "error": "Seviye değiştirilirken bilinmeyen bir hata oluştu.",
+            "embed1": {
+                "title": "Sahte Seviye",
+                "description": "Seviyeniz başarıyla [level] olarak ayarlandı.\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir."
+            }
         }
     },
     "changenickname": {
@@ -1180,6 +1194,35 @@
             "name": "mission-alerts",
             "localizedName": "görev-uyarıları",
             "localizedDescription": "Dünyayı Kurtar görev uyarılarını görüntüleyin"
+        },
+        {
+            "name": "ghost-equip",
+            "localizedName": "ghost-equip",
+            "localizedDescription": "Sahip olsanız da olmasanız da grubunuzda herhangi bir kozmetiği kuşanın",
+            "options": [
+                {
+                    "name": "name",
+                    "localizedName": "isim",
+                    "localizedDescription": "Aranacak kozmetiğin ismi"
+                },
+                {
+                    "name": "language",
+                    "localizedName": "dil",
+                    "localizedDescription": "Arama dili ve kozmetik adının, açıklamasının vb. görünüm dili."
+                }
+            ]
+        },
+        {
+            "name": "fake-level",
+            "localizedName": "sahte-seviye",
+            "localizedDescription": "Grubunuzda seviyenizi sahte bir seviye olarak ayarlayın",
+            "options": [
+                {
+                    "name": "level",
+                    "localizedName": "seviye",
+                    "localizedDescription": "Yeni seviye"
+                }
+            ]
         }
     ]
 }
