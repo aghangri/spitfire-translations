@@ -153,6 +153,7 @@
         },
         "cloudstorage": {
             "embed1": "No file found with name: [file].",
+            "embed2": "No data to display.",
             "name": "Name",
             "uploaded": "Uploaded",
             "size": "Size"
