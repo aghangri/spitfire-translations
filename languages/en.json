@@ -506,6 +506,7 @@
         },
         "ghostequip": {
             "error": "An unknown error occurred while equipping the cosmetic.",
+            "notinparty": "You need to be in a party to use this command.",
             "embed1": {
                 "title": "Ghost Equip",
                 "description": "Successfully equipped [cosmetic]\nNote: This is only visible to other players in the party."
@@ -513,6 +514,7 @@
         },
         "fakelevel": {
             "error": "An unknown error occurred while changing the level.",
+            "notinparty": "You need to be in a party to use this command.",
             "embed1": {
                 "title": "Fake Level",
                 "description": "Successfully set your level to [level].\nNote: This is only visible to other players in the party."
