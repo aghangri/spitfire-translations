@@ -12,8 +12,6 @@
             "description": "Description",
             "category": "Category",
             "loginreq": "is Login Required?",
-            "slowmode": "Slowmode",
-            "slowmode2": "[seconds] seconds",
             "disabled": "is Disabled?"
         },
         "2fa": {
