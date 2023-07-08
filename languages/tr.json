@@ -12,8 +12,6 @@
             "description": "Açıklama",
             "category": "Kategori",
             "loginreq": "Giriş Gerekli mi?",
-            "slowmode": "Yavaş Mod",
-            "slowmode2": "[seconds] saniye",
             "disabled": "Devre Dışı mı?"
         },
         "2fa": {
