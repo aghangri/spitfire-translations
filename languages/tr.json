@@ -1262,6 +1262,23 @@
                     "localizedDescription": "Yeni seviye"
                 }
             ]
+        },
+        {
+            "name": "stw",
+            "localizedName": "dünyayı-kurtar",
+            "localizedDescription": "Dünyayı Kurtar bilgilerinizi görüntüleyin",
+            "options": [
+                {
+                    "name": "info",
+                    "localizedName": "bilgi",
+                    "localizedDescription": "Dünyayı Kurtar istatistiklerini görüntüleyin"
+                },
+                {
+                    "name": "xp",
+                    "localizedName": "tp",
+                    "localizedDescription": "Günlük Dünyayı Kurtar TP kullanımınızı ve limitinizi görüntüleyin"
+                }
+            ]
         }
     ]
 }
