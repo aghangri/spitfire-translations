@@ -507,7 +507,7 @@
             "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
             "embed1": {
                 "title": "Ghost Equip",
-                "description": "[cosmetic] başarıyla kuşanıldı\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir."
+                "description": "[cosmetic] başarıyla kuşanıldı\n\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir."
             }
         },
         "fakelevel": {
@@ -515,7 +515,46 @@
             "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
             "embed1": {
                 "title": "Sahte Seviye",
-                "description": "Seviyeniz başarıyla [level] olarak ayarlandı.\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir."
+                "description": "Seviyeniz başarıyla [level] olarak ayarlandı.\n\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir."
+            }
+        },
+        "stw": {
+            "nostw": "Dünyayı Kurtar moduna erişimin yok.",
+            "info": {
+                "embed1": {
+                    "title": "Dünyayı Kurtar İstatistikleri",
+                    "description": {
+                        "commander": "Komutan seviyesi",
+                        "zonescompleted": "Başarılı görevler",
+                        "loggedin": "Giriş yapılan günler"
+                    },
+                    "fields": {
+                        "dates": {
+                            "fieldname": "Tarihler",
+                            "firstplayed": "İlk oynama",
+                            "lastplayed": "Son oynama"
+                        },
+                        "research": "Araştırma",
+                        "collectionbook": {
+                            "fieldname": "Koleksiyon Kitabı",
+                            "level": "Seviye",
+                            "unslot": "Harcanan miktar"
+                        }
+                    }
+                },
+                "banner": {
+                    "fieldname": "Sancak Görevleri",
+                    "gognome": "Cicili Cüceli!",
+                    "guardianangel": "Koruyucu Melek",
+                    "lootlegend": "Hazine Avcısı",
+                    "playswellwithothers": "Başkalarıyla Güzel Oynar",
+                    "talentedbuilder": "Yetenekli İnşa Ustası",
+                    "unspeakablehorrors": "Tarifsiz Korkunçluklar",
+                    "worldexplorer": "Dünya Kâşifi"
+                },
+                "percent": "%[percent]",
+                "founder": "Kurucu Hesabı",
+                "nonfounder": "Standart Hesap"
             }
         }
     },
