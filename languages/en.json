@@ -1261,6 +1261,23 @@
                     "localizedDescription": "New level"
                 }
             ]
+        },
+        {
+            "name": "stw",
+            "localizedName": "stw",
+            "localizedDescription": "View your Save the World information",
+            "options": [
+                {
+                    "name": "info",
+                    "localizedName": "info",
+                    "localizedDescription": "View your Save the World statistics"
+                },
+                {
+                    "name": "xp",
+                    "localizedName": "xp",
+                    "localizedDescription": "View your daily Save the World XP usage and limit"
+                }
+            ]
         }
     ]
 }
