@@ -507,7 +507,7 @@
             "notinparty": "You need to be in a party to use this command.",
             "embed1": {
                 "title": "Ghost Equip",
-                "description": "Successfully equipped [cosmetic]\nNote: This is only visible to other players in the party."
+                "description": "Successfully equipped [cosmetic]\n\nNote: This is only visible to other players in the party."
             }
         },
         "fakelevel": {
@@ -515,7 +515,46 @@
             "notinparty": "You need to be in a party to use this command.",
             "embed1": {
                 "title": "Fake Level",
-                "description": "Successfully set your level to [level].\nNote: This is only visible to other players in the party."
+                "description": "Successfully set your level to [level].\n\nNote: This is only visible to other players in the party."
+            }
+        },
+        "stw": {
+            "nostw": "You don't have access Save the World.",
+            "info": {
+                "embed1": {
+                    "title": "Save the World Statistics",
+                    "description": {
+                        "commander": "Commander level",
+                        "zonescompleted": "Zones completed",
+                        "loggedin": "Days logged in"
+                    },
+                    "fields": {
+                        "dates": {
+                            "fieldname": "Dates",
+                            "firstplayed": "First played",
+                            "lastplayed": "Last played"
+                        },
+                        "research": "Research",
+                        "collectionbook": {
+                            "fieldname": "Collection Book",
+                            "level": "Level",
+                            "unslot": "Spent for unslotting"
+                        }
+                    }
+                },
+                "banner": {
+                    "fieldname": "Banner Challenges",
+                    "gognome": "Go Gnome!",
+                    "guardianangel": "Guardian Angel",
+                    "lootlegend": "Loot Legend",
+                    "playswellwithothers": "Plays Well With Others",
+                    "talentedbuilder": "Talented Builder",
+                    "unspeakablehorrors": "Unspeakable Horrors",
+                    "worldexplorer": "World Explorer"
+                },
+                "percent": "[percent]%",
+                "founder": "Founder Account",
+                "nonfounder": "Standard Account"
             }
         }
     },
