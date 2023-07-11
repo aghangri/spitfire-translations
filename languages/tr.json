@@ -559,6 +559,24 @@
                 "founder": "Kurucu Hesabı",
                 "nonfounder": "Standart Hesap"
             }
+        },
+        "starwars": {
+            "embed1": {
+                "title": "Coruscant Muhafızı Kıyafeti",
+                "description": "Coruscant Muhafızı kıyafetini [fiyat] karşılığında satın almak istediğinizden emin misiniz? Bu satın alma işlemi iade edilmez. Kıyafeti yanlışlıkla satın alırsanız herhangi bir sorumluluk kabul etmiyoruz."
+            },
+            "embed2": "Bu içeriği almak için size [requiredVB] gerekiyor. Sizde olan: [currentVB]",
+            "embed3": "Bu içeriğe zaten sahipsin.",
+            "embed4": "İçerik satın alınırken bilinmeyen bir hata oluştu",
+            "bought": {
+                "title": "İçerik Satın Alındı",
+                "description": "Coruscant Muhafızı, [price] karşılığında başarıyla satın alındı.",
+                "footer": "Desteklenen içerik üreticisi: [supportCode]"
+            },
+            "cancelled": {
+                "title": "Satın Alım İptal Edildi",
+                "description": "Coruscant Muhafızı içeriğini satın almaktan vazgeçtiniz."
+            }
         }
     },
     "changenickname": {
@@ -1282,6 +1300,11 @@
                     "localizedDescription": "Günlük Dünyayı Kurtar TP kullanımınızı ve limitinizi görüntüleyin"
                 }
             ]
+        },
+        {
+            "name": "purchase-starwars",
+            "localizedName": "starwars-paketini-al",
+            "localizedDescription": "Coruscant Muhafızı kıyafetini satın alın"
         }
     ]
 }
