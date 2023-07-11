@@ -81,7 +81,7 @@
             "embed6": "An unknown error occurred while sending the friend request.",
             "embed7": "Friend request from [name] has been accepted.",
             "embed8": "You have already sent a friend request to [name]. To withdraw the request, use the friend user command.",
-            "embed9": "You are already friends with [name]. To withdraw the request, use the friend user or friend remove command.",
+            "embed9": "You are already friends with [name]. To remove them, use the friend user or friend remove command.",
             "embed10": "Friend request has been sent to [name].",
             "embed11": "You can't remove yourself as a friend.",
             "embed12": "[name] has been removed from your friends list.",
