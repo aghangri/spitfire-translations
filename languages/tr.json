@@ -227,6 +227,7 @@
             "embed10": "Bu içeriği hediye etmeniz için size [requiredVB] daha gerekiyor. Sizde olan: [currentVB]",
             "embed11": "Bu içeriği hediye olarak gönderemezsiniz.",
             "embed12": "Hediye işlemi gerçekleştirilirken bilinmeyen bir hata oluştu.",
+            "embed13": "Günlük hediye gönderme limitine ulaştınız (5/5). Lütfen daha sonra tekrar deneyin.",
             "sent": {
                 "title": "İçerik Hediye Edildi",
                 "description": "[item], [price] karşılığında başarıyla [friendName] arkadaşına hediye edildi.",
