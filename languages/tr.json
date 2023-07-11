@@ -228,6 +228,7 @@
             "embed11": "Bu içeriği hediye olarak gönderemezsiniz.",
             "embed12": "Hediye işlemi gerçekleştirilirken bilinmeyen bir hata oluştu.",
             "embed13": "Günlük hediye gönderme limitine ulaştınız (5/5). Lütfen daha sonra tekrar deneyin.",
+            "embed14": "Bu içerik hediye edilemez.",
             "sent": {
                 "title": "İçerik Hediye Edildi",
                 "description": "[item], [price] karşılığında başarıyla [friendName] arkadaşına hediye edildi.",
@@ -332,6 +333,7 @@
             "embed3": "Bu içeriği almak için size [requiredVB] gerekiyor. Sizde olan: [currentVB]",
             "embed4": "Bu içeriğe zaten sahipsin.",
             "embed5": "İçerik satın alınırken bilinmeyen bir hata oluştu.",
+            "embed6": "Bu içerik satın alınamaz.",
             "bought": {
                 "title": "İçerik Satın Alındı",
                 "description": "[item], [price] karşılığında başarıyla satın alındı.",
