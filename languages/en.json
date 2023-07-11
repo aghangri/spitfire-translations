@@ -559,6 +559,24 @@
                 "founder": "Founder Account",
                 "nonfounder": "Standard Account"
             }
+        },
+        "starwars": {
+            "embed1": {
+                "title": "Coruscant Guard Skin",
+                "description": "Are you sure want to buy the Coruscant Guard skin for [price]? This purchase is not refundable. We don't take any responsibility if you accidentally purchase the skin."
+            },
+            "embed2": "You need [requiredVB] more to buy this item. You currently have: [currentVB]",
+            "embed3": "You already have this item.",
+            "embed4": "An unknown error occurred while buying the item.",
+            "bought": {
+                "title": "Item Bought",
+                "description": "Successfully bought Coruscant Guard skin for [price].",
+                "footer": "Supported content creator: [supportCode]"
+            },
+            "cancelled": {
+                "title": "Purchase Cancelled",
+                "description": "You cancelled the purchase of Coruscant Guard skin."
+            }
         }
     },
     "changenickname": {
@@ -1281,6 +1299,11 @@
                     "localizedDescription": "View your daily Save the World XP usage and limit"
                 }
             ]
+        },
+        {
+            "name": "purchase-starwars",
+            "localizedName": "purchase-starwars",
+            "localizedDescription": "Purchase the Coruscant Guard skin"
         }
     ]
 }
