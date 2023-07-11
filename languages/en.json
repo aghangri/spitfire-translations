@@ -227,6 +227,7 @@
             "embed10": "You need [requiredVB] more to gift this item. You currently have: [currentVB]",
             "embed11": "You can't send this item as a gift.",
             "embed12": "An unknown error occurred while sending the gift.",
+            "embed13": "You have reached your daily gift limit (5/5). Please try again later.",
             "sent": {
                 "title": "Item Gifted",
                 "description": "Successfully gifted [item] to [friendName] for [price].",
