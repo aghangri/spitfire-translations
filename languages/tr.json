@@ -583,6 +583,17 @@
                 "title": "Satın Alım İptal Edildi",
                 "description": "Coruscant Muhafızı içeriğini satın almaktan vazgeçtiniz."
             }
+        },
+        "research": {
+            "nostw": "Dünyayı Kurtar moduna erişimin yok.",
+            "level": "Seviye",
+            "fortitude": "Can",
+            "offense": "Saldırı",
+            "resistance": "Dayanıklılık",
+            "technology": "Kabiliyet",
+            "embed1": "Araştırma",
+            "embed2": "Yeterli araştırma puanınız yok.",
+            "embed3": "Araştırma puanınızı yükseltirken bilinmeyen bir hata oluştu."
         }
     },
     "changenickname": {
@@ -1318,6 +1329,11 @@
             "name": "purchase-starwars",
             "localizedName": "starwars-paketini-al",
             "localizedDescription": "Coruscant Muhafızı kıyafetini satın alın"
+        },
+        {
+            "name": "research",
+            "localizedName": "araştırma",
+            "localizedDescription": "Dünyayı Kurtar'da araştırma seviyelerinizi görüntüleyin veya yükseltin"
         }
     ]
 }
