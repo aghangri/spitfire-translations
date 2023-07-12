@@ -103,10 +103,16 @@
             "embed21": "Tüm arkadaşların başarıyla silindi.",
             "embed22": "Arkadaş listeniz alınırken bilinmeyen bir hata oluştu.",
             "embed23": {
-                "title": "Arkadaşların",
                 "description": ":x: = Hediye için uygun olmayan",
                 "footer": "Toplam [friends] arkadaş"
-            }
+            },
+            "embed24": "Herhangi bir gelen isteğiniz yok.",
+            "embed25": "Herhangi bir giden isteğiniz yok.",
+            "embed26": "Engellediğiniz herhangi bir kullanıcı yok.",
+            "friends": "Arkadaşlarınız",
+            "incoming": "Gelen İstekler",
+            "outgoing": "Giden İstekler",
+            "blocklist": "Engellenen Kullanıcılar"
         },
         "battleroyale": {
             "embed1": {
@@ -768,7 +774,14 @@
                 {
                     "name": "list",
                     "localizedName": "listem",
-                    "localizedDescription": "Arkadaş listeni görüntüle"
+                    "localizedDescription": "Arkadaş listeni görüntüle",
+                    "options": [
+                        {
+                            "name": "type",
+                            "localizedName": "tür",
+                            "localizedDescription": "Görüntülenecek arkadaş listesi türü"
+                        }
+                    ]
                 },
                 {
                     "name": "cleanup",
