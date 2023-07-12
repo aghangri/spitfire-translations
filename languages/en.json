@@ -103,10 +103,16 @@
             "embed21": "All friends have been successfully removed.",
             "embed22": "An unknown error occurred while retrieving your friends list.",
             "embed23": {
-                "title": "Your Friends",
                 "description": ":x: = Not eligible for gifting",
                 "footer": "Total [friends] friends"
-            }
+            },
+            "embed24": "You have no incoming requests.",
+            "embed25": "You have no outgoing requests.",
+            "embed26": "You have no blocked users.",
+            "friends": "Your Friends",
+            "incoming": "Incoming Requests",
+            "outgoing": "Outgoing Requests",
+            "blocklist": "Blocked Users"
         },
         "battleroyale": {
             "embed1": {
@@ -768,7 +774,14 @@
                 {
                     "name": "list",
                     "localizedName": "list",
-                    "localizedDescription": "View your friend list"
+                    "localizedDescription": "View your friend list",
+                    "options": [
+                        {
+                            "name": "type",
+                            "localizedName": "type",
+                            "localizedDescription": "Type of friend list to view"
+                        }
+                    ]
                 },
                 {
                     "name": "cleanup",
