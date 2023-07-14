@@ -514,6 +514,7 @@
         "ghostequip": {
             "error": "An unknown error occurred while equipping the cosmetic.",
             "notinparty": "You need to be in a party to use this command.",
+            "notfound": "No cosmetic named [name] found..",
             "embed1": {
                 "title": "Ghost Equip",
                 "description": "Successfully equipped [cosmetic]\n\nNote: This is only visible to other players in the party."
