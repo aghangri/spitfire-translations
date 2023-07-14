@@ -256,7 +256,7 @@
             "embed1": "İçerik Mağazası ([date])"
         },
         "progress": {
-            "embed1": "Chapter 4 Season 3 is completed [percent]%. [daysLeft] days left until it finishes."
+            "embed1": "4\\. Bölüm 3. sezon, %[percent] tamamlandı. Bitmesine [daysLeft] gün kaldı."
         },
         "cosmetic": {
             "embed1": "[name] ismiyle herhangi bir kozmetik bulunamadı.",
