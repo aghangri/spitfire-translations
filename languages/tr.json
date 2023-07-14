@@ -514,6 +514,7 @@
         "ghostequip": {
             "error": "Kozmetik kuşanılırken bilinmeyen bir hata oluştu.",
             "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
+            "notfound": "[cosmetic] isminde herhangi bir kozmetik bulunamadı",
             "embed1": {
                 "title": "Ghost Equip",
                 "description": "[cosmetic] başarıyla kuşanıldı\n\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir."
@@ -587,9 +588,9 @@
         "research": {
             "nostw": "Dünyayı Kurtar moduna erişimin yok.",
             "level": "Seviye",
-            "fortitude": "Can",
-            "offense": "Saldırı",
-            "resistance": "Dayanıklılık",
+            "fortitude": "Kuvvet",
+            "offense": "Atak",
+            "resistance": "Siper",
             "technology": "Kabiliyet",
             "embed1": "Araştırma",
             "embed2": "Yeterli araştırma puanınız yok.",
