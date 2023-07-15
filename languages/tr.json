@@ -512,8 +512,8 @@
             "vbucks": "V-Papel"
         },
         "ghostequip": {
-            "error": "Kozmetik kuşanılırken bilinmeyen bir hata oluştu.",
             "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
+            "error": "Kozmetik kuşanılırken bilinmeyen bir hata oluştu.",
             "notfound": "[name] isminde herhangi bir kozmetik bulunamadı",
             "invalidtype": "Geçersiz kozmetik türü.",
             "embed1": {
@@ -522,11 +522,19 @@
             }
         },
         "fakelevel": {
-            "error": "Seviye değiştirilirken bilinmeyen bir hata oluştu.",
             "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
+            "error": "Seviye değiştirilirken bilinmeyen bir hata oluştu.",
             "embed1": {
                 "title": "Sahte Seviye",
                 "description": "Seviyeniz başarıyla [level] olarak ayarlandı.\n\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir."
+            }
+        },
+        "fakecrownwins": {
+            "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
+            "error": "Taç sayısı değiştirilirken bilinmeyen bir hata oluştu.",
+            "embed1": {
+                "title": "Sahte Taç Zaferleri",
+                "description": "Taçlarınız başarıyla [amount] olarak ayarlandı ve taçlarınızı göstermek için Başarının Sembolü ifadesini kullandı.\n\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir"
             }
         },
         "stw": {
@@ -1307,6 +1315,18 @@
                     "name": "level",
                     "localizedName": "seviye",
                     "localizedDescription": "Yeni seviye"
+                }
+            ]
+        },
+        {
+            "name": "fake-crown-wins",
+            "localizedName": "sahte-taç-zaferleri",
+            "localizedDescription": "Grubunuzda taçlarınızı sahte taç miktarına ayarlayın",
+            "options": [
+                {
+                    "name": "amount",
+                    "localizedName": "miktar",
+                    "localizedDescription": "Yeni taç miktarı"
                 }
             ]
         },
