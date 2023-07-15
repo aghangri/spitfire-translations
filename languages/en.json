@@ -512,8 +512,8 @@
             "vbucks": "V-Bucks"
         },
         "ghostequip": {
-            "error": "An unknown error occurred while equipping the cosmetic.",
             "notinparty": "You need to be in a party to use this command.",
+            "error": "An unknown error occurred while equipping the cosmetic.",
             "notfound": "No cosmetic named [name] found.",
             "invalidtype": "Invalid cosmetic type.",
             "embed1": {
@@ -522,11 +522,19 @@
             }
         },
         "fakelevel": {
-            "error": "An unknown error occurred while changing the level.",
             "notinparty": "You need to be in a party to use this command.",
+            "error": "An unknown error occurred while changing the level.",
             "embed1": {
                 "title": "Fake Level",
                 "description": "Successfully set your level to [level].\n\nNote: This is only visible to other players in the party."
+            }
+        },
+        "fakecrownwins": {
+            "notinparty": "You need to be in a party to use this command.",
+            "error": "An unknown error occurred while changing the crown amount.",
+            "embed1": {
+                "title": "Fake Crown Wins",
+                "description": "Successfully set your crowns to [amount] and used the emote Crowning Achievement to show your crowns.\n\nNote: This is only visible to other players in the party."
             }
         },
         "stw": {
@@ -1306,6 +1314,18 @@
                     "name": "level",
                     "localizedName": "level",
                     "localizedDescription": "New level"
+                }
+            ]
+        },
+        {
+            "name": "fake-crown-wins",
+            "localizedName": "fake-crown-wins",
+            "localizedDescription": "Set your crowns to a fake crown amount in your party",
+            "options": [
+                {
+                    "name": "amount",
+                    "localizedName": "amount",
+                    "localizedDescription": "New crown amount"
                 }
             ]
         },
