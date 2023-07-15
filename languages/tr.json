@@ -514,7 +514,8 @@
         "ghostequip": {
             "error": "Kozmetik kuşanılırken bilinmeyen bir hata oluştu.",
             "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
-            "notfound": "[cosmetic] isminde herhangi bir kozmetik bulunamadı",
+            "notfound": "[name] isminde herhangi bir kozmetik bulunamadı",
+            "invalidtype": "Geçersiz kozmetik türü.",
             "embed1": {
                 "title": "Ghost Equip",
                 "description": "[cosmetic] başarıyla kuşanıldı\n\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir."
