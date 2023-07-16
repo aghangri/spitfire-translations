@@ -52,8 +52,8 @@
                 "unblock": "Unblock",
                 "remove": "Remove Friend",
                 "add": "Add Friend",
-                "back": "Withdraw Request",
-                "backed": "Request Withdrawn",
+                "back": "Cancel Request",
+                "backed": "Cancel Request",
                 "incoming": "Incoming Friend Request",
                 "outgoing": "Outgoing Friend Request",
                 "friends": "Friends with [name]",
@@ -63,12 +63,12 @@
                 "sent": "Request Sent",
                 "sentdate": "Friend Request Date",
                 "denied": "Request Denied",
-                "blocked2": "[name] Blocked",
+                "blocked2": "[name] is Blocked",
                 "blockdate": "Blocking Date",
                 "nickname": "Nickname",
                 "frienddate": "Friendship Date",
                 "changenickname": "Change Nickname",
-                "removed": "[name] Removed from Your Friends",
+                "removed": "[name] is Removed from Your Friends",
                 "removef": "Remove Friend",
                 "addfriend": "Add Friend",
                 "sent_w_name": "Request Sent to [name]"
@@ -80,7 +80,7 @@
             "embed5": "Friend request could not be sent as the user has exceeded the incoming friend request limit.",
             "embed6": "An unknown error occurred while sending the friend request.",
             "embed7": "Friend request from [name] has been accepted.",
-            "embed8": "You have already sent a friend request to [name]. To withdraw the request, use the friend user command.",
+            "embed8": "You have already sent a friend request to [name]. To cancel the request, use the friend user command.",
             "embed9": "You are already friends with [name]. To remove them, use the friend user or friend remove command.",
             "embed10": "Friend request has been sent to [name].",
             "embed11": "You can't remove yourself as a friend.",
@@ -143,17 +143,10 @@
             }
         },
         "whoami": {
-            "embed1": "Your profile wasn't found.",
-            "embed2": "An unknown error occurred while searching for your profile.",
-            "embed3": {
-                "fields": {
-                    "displayname": "Display Name",
-                    "connections": "Connections",
-                    "noconnection": "No Connection",
-                    "isparent": "is Parent Account?",
-                    "isparentverified": "is Parent Verified?"
-                }
-            }
+            "connections": "Connections",
+            "noconnection": "No Connection",
+            "isparent": "is Parent Account?",
+            "isparentverified": "is Parent Verified?"
         },
         "cloudstorage": {
             "embed1": "No file found with name: [file].",
