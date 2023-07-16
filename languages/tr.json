@@ -143,17 +143,10 @@
             }
         },
         "whoami": {
-            "embed1": "Profiliniz bulunamadı.",
-            "embed2": "Profiliniz bulunurken bilinmeyen bir hata oluştu.",
-            "embed3": {
-                "fields": {
-                    "displayname": "Görünen Ad",
-                    "connections": "Bağlantılar",
-                    "noconnection": "Bağlantı Yok",
-                    "isparent": "Ebeveyn Hesabı mı?",
-                    "isparentverified": "Ebeveyn Onaylı mı?"
-                }
-            }
+            "connections": "Bağlantılar",
+            "noconnection": "Bağlantı Yok",
+            "isparent": "Ebeveyn Hesabı mı?",
+            "isparentverified": "Ebeveyn Onaylı mı?"
         },
         "cloudstorage": {
             "embed1": "[file] ismiyle herhangi bir dosya bulunamadı.",
