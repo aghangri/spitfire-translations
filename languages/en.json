@@ -597,6 +597,23 @@
             "embed1": "Research",
             "embed2": "You don't have enough research points.",
             "embed3": "An unknown error occurred while upgrading the research."
+        },
+        "undolastpurchase": {
+            "nothingtocancel": "You don't have any purchases to cancel.",
+            "confirmundo": "Confirm",
+            "cancelundo": "Cancel",
+            "embed1": {
+                "title": "Undo Last Purchase",
+                "description": "Disclaimer: If you purchase it again after cancelling, you won’t be able to cancel it again for 24 hours since you canceled this purchase",
+                "fields": {
+                    "purchasedate": "Purchase Date",
+                    "creator": "Creator Supported",
+                    "none": "None",
+                    "items": "Items"
+                }
+            },
+            "error": "An unknown error occurred while cancelling the purchase.",
+            "refunded": "Item Refunded"
         }
     },
     "changenickname": {
@@ -1348,6 +1365,11 @@
             "name": "research",
             "localizedName": "research",
             "localizedDescription": "View or upgrade your research levels in Save the World"
+        },
+        {
+            "name": "undo-last-purchase",
+            "localizedName": "undo-last-purchase",
+            "localizedDescription": "Undo your last purchase"
         }
     ]
 }
