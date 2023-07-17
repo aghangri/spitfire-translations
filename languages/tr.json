@@ -597,6 +597,23 @@
             "embed1": "Araştırma",
             "embed2": "Yeterli araştırma puanınız yok.",
             "embed3": "Araştırma puanınızı yükseltirken bilinmeyen bir hata oluştu."
+        },
+        "undolastpurchase": {
+            "nothingtocancel": "Geri çekilecek herhangi bir satın alımınız yok.",
+            "confirmundo": "Onayla",
+            "cancelundo": "İptal Et",
+            "embed1": {
+                "title": "Son Satın Alımı Geri Al",
+                "description": "Uyarı: İptal ettikten sonra tekrar satın alırsanız, bu satın alma işlemini iptal ettiğinizden itibaren 24 saat boyunca tekrar iptal edemezsiniz",
+                "fields": {
+                    "purchasedate": "Satın Alım Tarihi",
+                    "creator": "Desteklenen Üretici",
+                    "none": "Yok",
+                    "items": "İçerikler"
+                }
+            },
+            "error": "Satın alma işlemi iptal edilirken bilinmeyen bir hata oluştu.",
+            "refunded": "İçerik İade Edildi"
         }
     },
     "changenickname": {
@@ -1349,6 +1366,11 @@
             "name": "research",
             "localizedName": "araştırma",
             "localizedDescription": "Dünyayı Kurtar'da araştırma seviyelerinizi görüntüleyin veya yükseltin"
+        },
+        {
+            "name": "undo-last-purchase",
+            "localizedName": "son-satın-alımı-geri-al",
+            "localizedDescription": "Son satın alımınızı geri alın"
         }
     ]
 }
