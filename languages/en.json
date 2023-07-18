@@ -614,6 +614,30 @@
             },
             "error": "An unknown error occurred while cancelling the purchase.",
             "refunded": "Item Refunded"
+        },
+        "party": {
+            "notinparty": "You need to be in a party to use this command.",
+            "none": "None",
+            "partyJoinability": {
+                "onlyfriends": "Friends",
+                "inviteonly": "Invite only"
+            },
+            "partyinfo": "Party Information",
+            "id": "Party ID",
+            "type": "Party Type",
+            "region": "Region",
+            "customkey": "Custom Matchmaking Key",
+            "playlist": "Playlist",
+            "members": "Members",
+            "readiness": "Readiness",
+            "ready": "Ready",
+            "notready": "Not Ready",
+            "hasbp": "Has Battle Pass",
+            "bplevel": "Battle Pass Level",
+            "hasstw": "Purchased STW",
+            "pmembers": "Party members",
+            "leaveerror": "An unknown error occured while leaving the party.",
+            "leftparty": "Successfully left the party."
         }
     },
     "changenickname": {
@@ -1370,6 +1394,23 @@
             "name": "undo-last-purchase",
             "localizedName": "undo-last-purchase",
             "localizedDescription": "Undo your last purchase"
+        },
+        {
+            "name": "party",
+            "localizedName": "party",
+            "localizedDescription": "Manage your current party",
+            "options": [
+                {
+                    "name": "info",
+                    "localizedName": "info",
+                    "localizedDescription": "Get info about your current party"
+                },
+                {
+                    "name": "leave",
+                    "localizedName": "leave",
+                    "localizedDescription": "Leave your current party"
+                }
+            ]
         }
     ]
 }
