@@ -614,6 +614,30 @@
             },
             "error": "Satın alma işlemi iptal edilirken bilinmeyen bir hata oluştu.",
             "refunded": "İçerik İade Edildi"
+        },
+        "party": {
+            "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
+            "none": "Yok",
+            "partyJoinability": {
+                "onlyfriends": "Friends",
+                "inviteonly": "Yalnızca davet edilenler"
+            },
+            "partyinfo": "Grup Bilgisi",
+            "id": "Grup ID",
+            "type": "Grup türü",
+            "region": "Bölge",
+            "customkey": "Özel eşleştirme kodu",
+            "playlist": "Playlist",
+            "members": "Üyeler",
+            "readiness": "Hazırlık durumu",
+            "ready": "Hazır",
+            "notready": "Hazır değil",
+            "hasbp": "Savaş Bileti var mı",
+            "bplevel": "Savaş Bileti seviyesi",
+            "hasstw": "Dünyayı Kurtarı var mı",
+            "pmembers": "Grup üyeleri",
+            "leaveerror": "Gruptan ayrılırken bilinmeyen bir hata oluştu.",
+            "leftparty": "Gruptan başarıyla ayrılındı."
         }
     },
     "changenickname": {
@@ -1371,6 +1395,23 @@
             "name": "undo-last-purchase",
             "localizedName": "son-satın-alımı-geri-al",
             "localizedDescription": "Son satın alımınızı geri alın"
+        },
+        {
+            "name": "party",
+            "localizedName": "grup",
+            "localizedDescription": "Mevcut grubunuzu yönetin",
+            "options": [
+                {
+                    "name": "info",
+                    "localizedName": "bilgi",
+                    "localizedDescription": "Mevcut grubunuz hakkında bilgi alın"
+                },
+                {
+                    "name": "leave",
+                    "localizedName": "ayrıl",
+                    "localizedDescription": "Mevcut grubunuzdan ayrılın"
+                }
+            ]
         }
     ]
 }
