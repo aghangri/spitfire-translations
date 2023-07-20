@@ -638,6 +638,10 @@
             "pmembers": "Party members",
             "leaveerror": "An unknown error occured while leaving the party.",
             "leftparty": "Successfully left the party."
+        },
+        "skiptutorial": {
+            "error": "You don't have access Save the World.",
+            "success": "Successfully skipped the Save the World tutorial."
         }
     },
     "changenickname": {
@@ -1411,6 +1415,11 @@
                     "localizedDescription": "Leave your current party"
                 }
             ]
+        }, 
+        {
+            "name": "skip-tutorial",
+            "localizedName": "skip-tutorial",
+            "localizedDescription": "Skip the Save the World tutorial"
         }
     ]
 }
