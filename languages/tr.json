@@ -638,6 +638,10 @@
             "pmembers": "Grup üyeleri",
             "leaveerror": "Gruptan ayrılırken bilinmeyen bir hata oluştu.",
             "leftparty": "Gruptan başarıyla ayrılındı."
+        },
+        "skiptutorial": {
+            "error": "Dünyayı Kurtar moduna erişimin yok",
+            "success": "Dünyayı Kurtar eğitimi başarıyla atlandı."
         }
     },
     "changenickname": {
@@ -1412,6 +1416,11 @@
                     "localizedDescription": "Mevcut grubunuzdan ayrılın"
                 }
             ]
+        },
+        {
+            "name": "skip-tutorial",
+            "localizedName": "eğitimi-atla",
+            "localizedDescription": "Dünyayı Kurtar eğitimini atlayın"
         }
     ]
 }
