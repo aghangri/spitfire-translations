@@ -596,7 +596,8 @@
             "technology": "Kabiliyet",
             "embed1": "Araştırma",
             "embed2": "Yeterli araştırma puanınız yok.",
-            "embed3": "Araştırma puanınızı yükseltirken bilinmeyen bir hata oluştu."
+            "embed3": "Araştırma puanınızı yükseltirken bilinmeyen bir hata oluştu.",
+            "claim": "Araştırma Puanlarını Topla"
         },
         "undolastpurchase": {
             "nothingtocancel": "Geri çekilecek herhangi bir satın alımınız yok.",
