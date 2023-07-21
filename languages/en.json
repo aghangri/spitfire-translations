@@ -596,7 +596,8 @@
             "technology": "Technology",
             "embed1": "Research",
             "embed2": "You don't have enough research points.",
-            "embed3": "An unknown error occurred while upgrading the research."
+            "embed3": "An unknown error occurred while upgrading the research.",
+            "claim": "Claim Research Points"
         },
         "undolastpurchase": {
             "nothingtocancel": "You don't have any purchases to cancel.",
