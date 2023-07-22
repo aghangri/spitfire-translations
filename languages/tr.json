@@ -569,24 +569,6 @@
                 "nonfounder": "Standart Hesap"
             }
         },
-        "starwars": {
-            "embed1": {
-                "title": "Coruscant Muhafızı Kıyafeti",
-                "description": "Coruscant Muhafızı kıyafetini [fiyat] karşılığında satın almak istediğinizden emin misiniz? Bu satın alma işlemi iade edilmez. Kıyafeti yanlışlıkla satın alırsanız herhangi bir sorumluluk kabul etmiyoruz."
-            },
-            "embed2": "Bu içeriği almak için size [requiredVB] gerekiyor. Sizde olan: [currentVB]",
-            "embed3": "Bu içeriğe zaten sahipsin.",
-            "embed4": "İçerik satın alınırken bilinmeyen bir hata oluştu",
-            "bought": {
-                "title": "İçerik Satın Alındı",
-                "description": "Coruscant Muhafızı, [price] karşılığında başarıyla satın alındı.",
-                "footer": "Desteklenen içerik üreticisi: [supportCode]"
-            },
-            "cancelled": {
-                "title": "Satın Alım İptal Edildi",
-                "description": "Coruscant Muhafızı içeriğini satın almaktan vazgeçtiniz."
-            }
-        },
         "research": {
             "nostw": "Dünyayı Kurtar moduna erişimin yok.",
             "level": "Seviye",
@@ -667,13 +649,13 @@
         "loginreq": "Bu komutu kullanmak için lütfen [command] komutunu kullanarak hesabınıza giriş yapın.",
         "dataerror": "Verileriniz veri tabanına düzgün işlenmediği için hesabınızdan çıkış yapmak zorunda kaldık. Lütfen tekrar giriş yapın ve sorun devam ederse yardım almak için [destek sunucumuza]([support]) katılın.",
         "servererror": "Bu komut bir hata nedeniyle çalıştırılamadı. Bu hatanın genel nedeni, Fortnite sunucularının devre dışı olmasıdır.",
-        "hadtologout": "Oturumunuz Kapatıldı! Aşağıdaki nedenlerden biri bunun sebebi olabilir:\n• Session süresi doldu.\n• Hesabınızın şifresi değişti.\n• Epic Games veya siz tüm yetkilendirmeleri sildiniz.\n\nHesabınızdan otomatik olarak çıkış yapıldı. Tekrar giriş yapabilirsiniz.",
+        "hadtologout": "Oturumunuz kapatıldı! Aşağıdaki nedenlerden biri bunun sebebi olabilir:\n• Session süresi doldu.\n• Hesabınızın şifresi değişti.\n• Epic Games veya siz tüm yetkilendirmeleri sildiniz.\n\nHesabınızdan otomatik olarak çıkış yapıldı. Tekrar giriş yapabilirsiniz.",
         "missingperms": "Botun hesabınızda yetersiz yetki olmasından dolayı işlem gerçekleştirilemedi.",
         "error": "Bu komut çalıştırılırken beklenmedik bir hata oluştu ve hata geliştiricilere bildirildi. Yardım almak için [destek sunucumuza]([support]) katılın.",
         "acceptedtryagain": "Kuralları kabul ettiniz. Devam etmek için butona yeniden tıklayın.",
-        "loginbruh": "Lütfen rolünüzü almadan önce Hesabını Bağla düğmesini veya [command] komutunu kullanarak giriş yapın.",
-        "norank": "Hesabını bağladın ancak herhangi bir rütbeye sahip değilsin. Rütbe atlamak için şimdi bir maç tamamla! Tamamladıktan sonra, 'Rütbeni Yenile' düğmesi ile rolünü alabilirsin.",
-        "rank": "Hesabını bağladın ve [currentRank] rütbesinde olduğun için [role] rolünü kaptın! Şimdi daha çok rütbe atla ve 'Rütbeni Yenile' düğmesi ile sunucudaki rolünü güncelle.",
+        "deletedrank": "Dereceniz rolünüz aynı olduğu için dereceli rolünüz kaldırıldı. 'Claim Role' butonu ile rütbenizi tekrar alabilirsiniz.",
+        "norank": "Herhangi bir rütbeye sahip değilsin. Rütbe atlamak için şimdi bir maç tamamla! Tamamladıktan sonra, 'Claim Role' butonu ile rolünü alabilirsin.",
+        "rank": "Oyunda [currentRank] rütbesinde olduğun için [role] rolünü kaptın! Şimdi daha çok rütbe atla ve 'Claim Role' butonu ile sunucudaki rolünü güncelle.",
         "hellouser": "Merhaba, [name]",
         "crank": "Derece",
         "chighestrank": "En Yüksek Derece",
@@ -736,7 +718,7 @@
         ],
         "rules": {
             "title": "Lütfen Giriş Yapmadan Önce Okuyun:",
-            "description": "1. Kullanıcı verilerinizi kimseye paylaşmıyoruz veya göstermiyoruz, hesap güvenliğinizi **çok ciddiye alıyoruz!**\n2. Lütfen bu botu yalnızca beraberinde gelebilecek riskleri tam olarak kabul ediyorsanız kullanın.\n3. Hesaba erişiminizin kısıtlanması, hesabınızın kapatılması, hesabınızın yasaklanması vb. dahil olmak üzere hesabınıza karşı gerçekleştirilen herhangi bir işlem için bir sorumluluk kabul etmiyoruz. Bu durumlar komutlardan veya komutların istenmeyen kullanımından kaynaklanabilir.\n\n**Yalnızca belirtilen bu şartları kabul ediyorsanız aşağıdaki 'Kabul Ediyorum' düğmesine tıklayın!**\n\n[Gizlilik Şartları]([website]/privacy-policy) - [Kullanım Koşulları]([website]/tos)",
+            "description": "1. Kullanıcı verilerinizi kimseye paylaşmıyoruz veya göstermiyoruz, hesap güvenliğinizi **çok ciddiye alıyoruz!**\n2. Lütfen bu botu yalnızca beraberinde gelebilecek riskleri tam olarak kabul ediyorsanız kullanın.\n3. Hesaba erişiminizin kısıtlanması, hesabınızın kapatılması, hesabınızın yasaklanması vb. dahil olmak üzere hesabınıza karşı gerçekleştirilen herhangi bir işlem için bir sorumluluk kabul etmiyoruz. Bu durumlar komutlardan veya komutların istenmeyen kullanımından kaynaklanabilir.\n\n**Yalnızca belirtilen bu şartları kabul ediyorsanız aşağıdaki 'Kabul Ediyorum' butonune tıklayın!**\n\n[Gizlilik Şartları]([website]/privacy-policy) - [Kullanım Koşulları]([website]/tos)",
             "accept": "Kabul Ediyorum",
             "deny": "Kabul Etmiyorum"
         }
@@ -1385,11 +1367,6 @@
                     "localizedDescription": "Günlük Dünyayı Kurtar TP kullanımınızı ve limitinizi görüntüleyin"
                 }
             ]
-        },
-        {
-            "name": "purchase-starwars",
-            "localizedName": "starwars-paketini-al",
-            "localizedDescription": "Coruscant Muhafızı kıyafetini satın alın"
         },
         {
             "name": "research",
