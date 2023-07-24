@@ -428,24 +428,29 @@
             }
         },
         "login": {
-            "embed1": {
-                "title": "📲 Epic Games Hesabına Giriş Yap",
-                "description": "**:warning: Sadece e-posta erişimi olduğunuz hesaplara giriş yapmanızı öneriyoruz!**\n1. Yukarıdaki linki ziyaret et ve 'authorizationCode' anahtarını bul.\n2. Anahtarın karşısındaki tüm değeri kopyala.Kod 30 saniye boyunca geçerli olacaktır, yeni kod almak için sayfayı yenileyin.\n3. Aşağıdaki 'Gönder' butonuna tıklayıp karşınıza gelen yere kodu yapıştırın. Eğer kod 'null' ise Epic Games hesabınıza https://epicgames.com/login adresinden giriş yapın ve tekrar deneyin.\n\n**Hesap değiştirmeniz mi gerekiyor?**\n[Bu Linke Tıklayın]([loginurl])"
-            },
             "selectmenu1": {
                 "placeholder": "Hesap Seç veya Giriş Yap",
-                "loginanother": "Başka Bir Hesaba Giriş yap",
                 "loginnew": "Yeni bir hesaba giriş yapın"
             },
+            "loginanother": "Başka Bir Hesaba Giriş Yap",
             "unknown": "Bilinmeyen",
             "selectaccount": "Aşağıdan bir hesap seçin.",
             "submit": "Gönder",
             "changed": "Hesap Değiştirildi",
             "switchedto": "[name] oyuncusuna geçiş yapıldı.",
-            "declinedrules": "Kuralları reddettiniz.",
+            "acceptedrules": "Kuralları kabul ettiniz. Giriş yapmaya devam edebilirsiniz.",
+            "declinedrules": "Kuralları reddettiniz. Eğer kurallarla veya botla ilgili herhangi bir sorunuz/probleminiz varsa [destek sunucumuza]([support]) katılın.",
             "reachedlimit": "Kayıtlı hesap limitinize ulaştınız ([limit]).",
-            "login": "Giriş Yap",
-            "code": "Kod"
+            "waitingauth": "Yetkilendirme bekleniyor [emoji]",
+            "followup": {
+                "title": "Başka Bir Hesaba Giriş Yap",
+                "howto": "Nasıl Giriş Yapılır",
+                "steps": {
+                    "step1": "**1\\. Adım:** Aşağıdaki butona tıklayın.",
+                    "step2": "**2\\. Adım:** Doğrula butonuna tıklayın.",
+                    "step3": "**3\\. Adım:** Birkaç saniye bekleyin ve giriş yaptınız!"
+                }
+            }
         },
         "dailyquests": {
             "embed1": {
