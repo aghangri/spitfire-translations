@@ -428,24 +428,29 @@
             }
         },
         "login": {
-            "embed1": {
-                "title": "📲 Login to your Epic Games Account",
-                "description": "**:warning: We recommend logging into accounts that only have email access!**\n1. Visit the link above and find the 'authorizationCode' key.\n2. Copy the entire value next to the key. The code will be valid for 30 seconds, refresh the page to get a new code.\n3. Click the 'Submit' button below and paste the code in the provided field. If the code is 'null', log into your Epic Games account at https://epicgames.com/login and try again.\n\n**Need to switch accounts?**\n[Click Here]([loginurl])"
-            },
             "selectmenu1": {
                 "placeholder": "Select Account or Login",
-                "loginanother": "Login with Another Account",
                 "loginnew": "Login with a New Account"
             },
+            "loginanother": "Login to Another Account",
             "unknown": "Unknown",
             "selectaccount": "Select an account from below.",
             "submit": "Submit",
             "changed": "Account Changed",
             "switchedto": "Switched to player [name].",
-            "declinedrules": "You declined the rules.",
+            "acceptedrules": "You have accepted the rules. You may now proceed to login.",
+            "declinedrules": "You declined the rules. If you have any question/problem related to the rules or the bot, join our [support server]([support])",
             "reachedlimit": "You have reached your registered account limit ([limit]).",
-            "login": "Login",
-            "code": "Code"
+            "waitingauth": "Waiting for authentication [emoji]",
+            "followup": {
+                "title": "Login to Another Account",
+                "howto": "How to Login",
+                "steps": {
+                    "step1": "**Step 1:** Click on the button below.",
+                    "step2": "**Step 2:** Click on the confirm button.",
+                    "step3": "**Step 3:** Wait a few seconds and you are logged in!"
+                }
+            }
         },
         "dailyquests": {
             "embed1": {
@@ -1393,7 +1398,7 @@
                     "localizedDescription": "Leave your current party"
                 }
             ]
-        }, 
+        },
         {
             "name": "skip-tutorial",
             "localizedName": "skip-tutorial",
