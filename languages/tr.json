@@ -630,6 +630,16 @@
         "skiptutorial": {
             "error": "Dünyayı Kurtar moduna erişimin yok",
             "success": "Dünyayı Kurtar eğitimi başarıyla atlandı."
+        },
+        "account": {
+            "namecooldown": "İsminizi her 14 günde bir değiştirebilirsiniz. Lütfen bekleme süresi bittikten sonra komutu kullanın.",
+            "toxicname": "Bu ismi kullanamazsınız. Lütfen başka bir isim deneyin.",
+            "duplicatename": "Bu isim zaten alınmış. Lütfen başka bir isim deneyin.",
+            "nameerror": "İsim değiştirilirken bilinmeyen bir hata oluştu.",
+            "namesuccess": "İsminiz başarıyla [name] olarak değiştirildi.",
+            "invalidnumber": "[number] geçerli bir telefon numarası değil.",
+            "numbererror": "Telefon numarası değiştirilirken bilinmeyen bir hata oluştu.",
+            "numbersuccess": "Telefon numaranız başarıyla [number] olarak değiştirildi."
         }
     },
     "changenickname": {
@@ -1404,6 +1414,37 @@
             "name": "skip-tutorial",
             "localizedName": "eğitimi-atla",
             "localizedDescription": "Dünyayı Kurtar eğitimini atlayın"
+        },
+        {
+            "name": "account",
+            "localizedName": "hesap",
+            "localizedDescription": "Hesabınızı yönetin",
+            "options": [
+                {
+                    "name": "change-name",
+                    "localizedName": "isim-değiştir",
+                    "localizedDescription": "Görünen adınızı değiştirir",
+                    "options": [
+                        {
+                            "name": "name",
+                            "localizedName": "isim",
+                            "localizedDescription": "Yeni görünen ad"
+                        }
+                    ]
+                },
+                {
+                    "name": "change-phone-number",
+                    "localizedName": "telefon-numarası-değiştir",
+                    "localizedDescription": "Telefon numaranızı değiştirir",
+                    "options": [
+                        {
+                            "name": "number",
+                            "localizedName": "numara",
+                            "localizedDescription": "Yeni telefon numarası"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
