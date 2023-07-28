@@ -640,6 +640,12 @@
             "invalidnumber": "[number] geçerli bir telefon numarası değil.",
             "numbererror": "Telefon numarası değiştirilirken bilinmeyen bir hata oluştu.",
             "numbersuccess": "Telefon numaranız başarıyla [number] olarak değiştirildi."
+        },
+        "shopsections": {
+            "today": "Bugün",
+            "tomorrow": "Yarın",
+            "notavailable": "[day] için içerik mağazası sekmeleri şu anda mevcut değil. Lütfen daha sonra tekrar deneyin.",
+            "sections": "İçerik Mağazası Sekmeleri ([date])"
         }
     },
     "changenickname": {
@@ -1443,6 +1449,18 @@
                             "localizedDescription": "Yeni telefon numarası"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "name": "shop-sections",
+            "localizedName": "mağaza-sekmeleri",
+            "localizedDescription": "Bugünün veya yarının içerik mağazası sekmelerini gönderir",
+            "options": [
+                {
+                    "name": "day",
+                    "localizedName": "gün",
+                    "localizedDescription": "İçerik mağazası sekmeleri alınacak gün"
                 }
             ]
         }
