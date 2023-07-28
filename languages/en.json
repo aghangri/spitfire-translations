@@ -640,6 +640,12 @@
             "invalidnumber": "[number] is not a valid phone number.",
             "numbererror": "An unknown error occurred while changing the phone number.",
             "numbersuccess": "Your phone number has been successfully changed to [number]."
+        },
+        "shopsections": {
+            "today": "today",
+            "tomorrow": "tomorrow",
+            "notavailable": "The item shop sections for [day] are not currently available. Please try again later.",
+            "sections": "Item Shop Sections ([date])"
         }
     },
     "changenickname": {
@@ -1442,6 +1448,18 @@
                             "localizedDescription": "New phone number"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "name": "shop-sections",
+            "localizedName": "shop-sections",
+            "localizedDescription": "Sends today's or tomorrow's item shop sections",
+            "options": [
+                {
+                    "name": "day",
+                    "localizedName": "day",
+                    "localizedDescription": "The day to get the item shop sections for"
                 }
             ]
         }
