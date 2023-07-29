@@ -151,14 +151,13 @@
         "cloudstorage": {
             "embed1": "No file found with name: [file].",
             "embed2": "No data to display.",
-            "name": "Name",
             "uploaded": "Uploaded",
             "size": "Size"
         },
         "logout": {
             "embed1": {
                 "title": "Logged Out",
-                "description": "Your account has been successfully removed from the system and logged out."
+                "description": "Goodbye, [name]. Your account has been successfully removed from the system and logged out."
             }
         },
         "ranked": {
@@ -600,6 +599,7 @@
                     "items": "Items"
                 }
             },
+            "cantrefund": "You can't return this content because 1 day has passed since the date of purchase, or because you have returned and repurchased the same item.",
             "error": "An unknown error occurred while cancelling the purchase.",
             "refunded": "Item Refunded"
         },
@@ -646,6 +646,11 @@
             "tomorrow": "tomorrow",
             "notavailable": "The item shop sections for [day] are not currently available. Please try again later.",
             "sections": "Item Shop Sections ([date])"
+        },
+        "claimrank": {
+            "deletedrank": "Your ranked role has been removed because your rank is the same as your role. You can claim your rank again by using the command again.",
+            "norank": "You don't have any rank yet. Complete a match now to rank up! Once you're done, you can claim your role by using the command again.",
+            "rank": "You have obtained the [role] role because you are currently at rank [currentRank]! Keep ranking up and update your role on the server by using the command again."
         }
     },
     "changenickname": {
@@ -674,9 +679,6 @@
         "missingperms": "This command couldn't be executed because of missing permissions on your account.",
         "error": "An unexpected error occurred while executing this command, and the error has been reported to the developers. Please join our [support server]([support]) for assistance.",
         "acceptedtryagain": "You have accepted the rules. Click the button again to continue.",
-        "deletedrank": "Your ranked role has been removed because your rank is the same as your role. You can claim your rank again with the 'Claim Role' button.",
-        "norank": "You don't have any rank yet. Complete a match now to rank up! Once you're done, you can claim your role with the 'Claim Role' button.",
-        "rank": "You have obtained the [role] role because you are currently at rank [currentRank]! Keep ranking up and update your role on the server with the 'Claim Role' button.",
         "hellouser": "Hello, [name]",
         "crank": "Rank",
         "chighestrank": "Highest Rank",
@@ -690,7 +692,6 @@
             "footer": "To log out and delete your account information from the bot, use the /logout command."
         },
         "dontuseanother": "Please log in to the bot using only the link provided by the bot.",
-        "expiredAuthCode": "An error occurred while logging in. The authorization code may have expired. Please try again.",
         "expiredExchange": "An error occurred while logging in. The Exchange Code may have expired. Please try again.",
         "noresults": "No results found!",
         "componentsinactive": "This message is now inactive.",
@@ -914,7 +915,7 @@
         {
             "name": "cloud-storage",
             "localizedName": "cloud-storage",
-            "localizedDescription": "View your cloud storage",
+            "localizedDescription": "Manage and view your cloud storage",
             "options": [
                 {
                     "name": "download",
@@ -924,7 +925,7 @@
                         {
                             "name": "file-name",
                             "localizedName": "file-name",
-                            "localizedDescription": "File name to be downloaded"
+                            "localizedDescription": "File name to download"
                         }
                     ]
                 },
@@ -1460,6 +1461,18 @@
                     "name": "day",
                     "localizedName": "day",
                     "localizedDescription": "The day to get the item shop sections for"
+                }
+            ]
+        },
+        {
+            "name": "claim-rank-role",
+            "localizedName": "claim-rank-role",
+            "localizedDescription": "Get a role based on your rank in the support server",
+            "options": [
+                {
+                    "name": "mode",
+                    "localizedName": "mode",
+                    "localizedDescription": "Ranked game mode"
                 }
             ]
         }
