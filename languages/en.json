@@ -228,12 +228,12 @@
             "embed13": "You have reached your daily gift limit (5/5). Please try again later.",
             "embed14": "This item is not giftable.",
             "sent": {
-                "title": "Item Gifted",
+                "title": "Item Gifted :white_check_mark:",
                 "description": "Successfully gifted [item] to [friendName] for [price].",
                 "footer": "Supported content creator: [supportCode]"
             },
             "cancelled": {
-                "title": "Gift Cancelled",
+                "title": "Gift Cancelled :x:",
                 "description": "You cancelled gifting [item] to your friend [friendName]."
             },
             "allcontents": "All Contents"
@@ -333,12 +333,12 @@
             "embed5": "An unknown error occurred while buying the item.",
             "embed6": "This item is not purchaseable.",
             "bought": {
-                "title": "Item Bought",
+                "title": "Item Bought :white_check_mark:",
                 "description": "Successfully bought [item] for [price].",
                 "footer": "Supported content creator: [supportCode]"
             },
             "cancelled": {
-                "title": "Purchase Cancelled",
+                "title": "Purchase Cancelled :x:",
                 "description": "You cancelled the purchase of [item]."
             },
             "allcontents": "All Contents"
@@ -601,7 +601,7 @@
             },
             "cantrefund": "You can't return this content because 1 day has passed since the date of purchase, or because you have returned and repurchased the same item.",
             "error": "An unknown error occurred while cancelling the purchase.",
-            "refunded": "Item Refunded"
+            "refunded": "Item Refunded :white_check_mark:"
         },
         "party": {
             "notinparty": "You need to be in a party to use this command.",
