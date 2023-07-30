@@ -229,12 +229,12 @@
             "embed13": "Günlük hediye gönderme limitine ulaştınız (5/5). Lütfen daha sonra tekrar deneyin.",
             "embed14": "Bu içerik hediye edilemez.",
             "sent": {
-                "title": "İçerik Hediye Edildi",
+                "title": "İçerik Hediye Edildi :white_check_mark:",
                 "description": "[item], [price] karşılığında başarıyla [friendName] arkadaşına hediye edildi.",
                 "footer": "Desteklenen içerik üreticisi: [supportCode]"
             },
             "cancelled": {
-                "title": "Hediye İptal Edildi",
+                "title": "Hediye İptal Edildi :x:",
                 "description": "[item] içeriğini [friendName] arkadaşına göndermekten vazgeçtin."
             },
             "allcontents": "Tüm İçerikler"
@@ -243,7 +243,7 @@
             "embed1": "Kimseye hediye göndermedin.",
             "embed2": "Gönderilen Hediye Geçmişin",
             "embed3": "Kimseden hediye almadın.",
-            "embed4": "Alınan Hediye Ge,çmişin"
+            "embed4": "Alınan Hediye Geçmişin"
         },
         "shop": {
             "embed1": "İçerik Mağazası ([date])"
@@ -334,12 +334,12 @@
             "embed5": "İçerik satın alınırken bilinmeyen bir hata oluştu.",
             "embed6": "Bu içerik satın alınamaz.",
             "bought": {
-                "title": "İçerik Satın Alındı",
+                "title": "İçerik Satın Alındı :white_check_mark:",
                 "description": "[item], [price] karşılığında başarıyla satın alındı.",
                 "footer": "Desteklenen içerik üreticisi: [supportCode]"
             },
             "cancelled": {
-                "title": "Satın Alım İptal Edildi",
+                "title": "Satın Alım İptal Edildi :x:",
                 "description": "[item] içeriğini satın almaktan vazgeçtiniz."
             },
             "allcontents": "Tüm İçerikler"
@@ -602,7 +602,7 @@
             },
             "cantrefund": "İçeriği satın alım tarihinden 1 gün geçtiği için veya aynı içeriği iade edip yeniden satın aldığınız için bu içeriği iade edemezsiniz.",
             "error": "Satın alma işlemi iptal edilirken bilinmeyen bir hata oluştu.",
-            "refunded": "İçerik İade Edildi"
+            "refunded": "İçerik İade Edildi :white_check_mark:"
         },
         "party": {
             "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
