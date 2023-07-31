@@ -647,11 +647,16 @@
             "tomorrow": "Yarın",
             "notavailable": "[day] için içerik mağazası sekmeleri şu anda mevcut değil. Lütfen daha sonra tekrar deneyin.",
             "sections": "İçerik Mağazası Sekmeleri ([date])"
+        },
+        "claimrank": {
+            "deletedrank": "Dereceniz rolünüz aynı olduğu için dereceli rolünüz kaldırıldı. Rütbe atladıktan sonra komutu yeniden kullanarak rütbe rolünüzü alabilirsiniz.",
+            "norank": "Herhangi bir rütbeye sahip değilsin. Rütbe atlamak için şimdi bir maç tamamla! Tamamladıktan sonra komutu yeniden kullanarak rolünü alabilirsin.",
+            "rank": "Oyunda [currentRank] rütbesinde olduğun için [role] rolünü kaptın! Şimdi daha çok rütbe atla ve komutu yeniden kullanarak sunucudaki rolünü güncelle."
         }
     },
     "changenickname": {
         "error": "Takma ad değiştirilirken bilinmeyen bir hata oluştu.",
-        "okay": "Arkaşının yeni takma adı [name] olarak ayarlandı"
+        "okay": "Arkadaşının yeni takma adı [name] olarak ayarlandı."
     },
     "buytiers": {
         "invalid": "Lütfen geçerli bir sayı giriniz.",
@@ -675,9 +680,6 @@
         "missingperms": "Botun hesabınızda yetersiz yetki olmasından dolayı işlem gerçekleştirilemedi.",
         "error": "Bu komut çalıştırılırken beklenmedik bir hata oluştu ve hata geliştiricilere bildirildi. Yardım almak için [destek sunucumuza]([support]) katılın.",
         "acceptedtryagain": "Kuralları kabul ettiniz. Devam etmek için butona yeniden tıklayın.",
-        "deletedrank": "Dereceniz rolünüz aynı olduğu için dereceli rolünüz kaldırıldı. 'Claim Role' butonu ile rütbenizi tekrar alabilirsiniz.",
-        "norank": "Herhangi bir rütbeye sahip değilsin. Rütbe atlamak için şimdi bir maç tamamla! Tamamladıktan sonra, 'Claim Role' butonu ile rolünü alabilirsin.",
-        "rank": "Oyunda [currentRank] rütbesinde olduğun için [role] rolünü kaptın! Şimdi daha çok rütbe atla ve 'Claim Role' butonu ile sunucudaki rolünü güncelle.",
         "hellouser": "Merhaba, [name]",
         "crank": "Derece",
         "chighestrank": "En Yüksek Derece",
