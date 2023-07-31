@@ -648,9 +648,9 @@
             "sections": "Item Shop Sections ([date])"
         },
         "claimrank": {
-            "deletedrank": "Your ranked role has been removed because your rank is the same as your role. You can claim your rank again by using the command again.",
+            "deletedrank": "Your ranked role has been removed because your rank is the same as your role. You can claim your rank role by using the command again after ranking up.",
             "norank": "You don't have any rank yet. Complete a match now to rank up! Once you're done, you can claim your role by using the command again.",
-            "rank": "You have obtained the [role] role because you are currently at rank [currentRank]! Keep ranking up and update your role on the server by using the command again."
+            "rank": "You have received the [role] role! Keep ranking up and update your role on the server by using the command again."
         }
     },
     "changenickname": {
