@@ -151,6 +151,9 @@
         "cloudstorage": {
             "embed1": "No file found with name: [file].",
             "embed2": "No data to display.",
+            "embed3": "An unknown error occurred while retrieving the file.",
+            "embed4": "An unknown error occurred while uploading the file.",
+            "embed5": "[file] has been successfully uploaded to your game files.",
             "uploaded": "Uploaded",
             "size": "Size"
         },
@@ -624,7 +627,7 @@
             "bplevel": "Battle Pass Level",
             "hasstw": "Purchased STW",
             "pmembers": "Party members",
-            "leaveerror": "An unknown error occured while leaving the party.",
+            "leaveerror": "An unknown error occurred while leaving the party.",
             "leftparty": "Successfully left the party."
         },
         "skiptutorial": {
@@ -930,6 +933,23 @@
                     ]
                 },
                 {
+                    "name": "upload",
+                    "localizedName": "upload",
+                    "localizedDescription": "Upload a file to your game files",
+                    "options": [
+                        {
+                            "name": "file",
+                            "localizedName": "file",
+                            "localizedDescription": "File to upload"
+                        },
+                        {
+                            "name": "file-name",
+                            "localizedName": "file-name",
+                            "localizedDescription": "File name to use"
+                        }
+                    ]
+                },
+                {
                     "name": "list",
                     "localizedName": "list",
                     "localizedDescription": "List your game files"
@@ -1166,7 +1186,7 @@
                     "options": [
                         {
                             "name": "code",
-                            "localizedName": "kod",
+                            "localizedName": "code",
                             "localizedDescription": "Creator code to support"
                         }
                     ]
