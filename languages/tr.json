@@ -151,6 +151,9 @@
         "cloudstorage": {
             "embed1": "[file] ismiyle herhangi bir dosya bulunamadı.",
             "embed2": "Görüntülenecek hiçbir dosya yok.",
+            "embed3": "Dosya alınırken bilinmeyen bir hata oluştu.",
+            "embed4": "Dosya yüklenirken bilinmeyen bir hata oluştu.",
+            "embed5": "[file] oyun dosyalarına başarıyla yüklendi.",
             "name": "İsim",
             "uploaded": "Yüklenme",
             "size": "Boyut"
@@ -532,7 +535,7 @@
             "error": "Taç sayısı değiştirilirken bilinmeyen bir hata oluştu.",
             "embed1": {
                 "title": "Sahte Taç Zaferleri",
-                "description": "Taçlarınız başarıyla [amount] olarak ayarlandı ve taçlarınızı göstermek için Başarının Sembolü ifadesini kullandı.\n\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir"
+                "description": "Taçlarınız başarıyla [amount] olarak ayarlandı ve taçlarınızı göstermek için Başarının Sembolü ifadesini kullanıldı.\n\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir"
             }
         },
         "stw": {
@@ -927,6 +930,23 @@
                             "name": "file-name",
                             "localizedName": "dosya-adı",
                             "localizedDescription": "İndirilecek dosya adı"
+                        }
+                    ]
+                },
+                {
+                    "name": "download",
+                    "localizedName": "yükle",
+                    "localizedDescription": "Oyun dosyalarına bir dosya yükle",
+                    "options": [
+                        {
+                            "name": "file",
+                            "localizedName": "dosya",
+                            "localizedDescription": "Yüklenecek dosya"
+                        },
+                        {
+                            "name": "file-name",
+                            "localizedName": "dosya-adı",
+                            "localizedDescription": "Kullanılacak dosya adı"
                         }
                     ]
                 },
