@@ -698,7 +698,7 @@
         "dontuseanother": "Lütfen bota sadece botun size verdiği bağlantıyı kullanarak giriş yapın.",
         "expiredExchange": "Giriş yaparken bir sorun oluştu. Exchange Code geçerliliğini yitirmiş olabilir. Lütfen tekrar deneyin.",
         "noresults": "Sonuç bulunamadı!",
-        "componentsinactive": "This message is now inactive.",
+        "componentsinactive": "Bu mesaj artık inaktif.",
         "page": "Sayfa",
         "reachedmax": "En fazla sayfaya ulaştın.",
         "notactive": "Epic hesabın ([accountId]) Epic Games tarafından devre dışı bırakıldığı için komut çalıştırılamadı. Daha fazla bilgi için lütfen Epic Games ile iletişime geç",
