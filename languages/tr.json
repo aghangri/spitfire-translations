@@ -716,7 +716,8 @@
         "errorTitles": [
             ":warning: Hata!",
             ":warning: Bir Engele Çarptık!",
-            ":warning: Aradığın Lama Bu Değil!"
+            ":warning: Aradığın Lama Bu Değil!",
+            ":warning: Böyle Olmamalıydı!"
         ],
         "warningTitles": [
             "Uyarı"
