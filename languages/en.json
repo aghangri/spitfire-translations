@@ -334,7 +334,6 @@
             "embed3": "You need [requiredVB] more to buy this item. You currently have: [currentVB]",
             "embed4": "You already have this item.",
             "embed5": "An unknown error occurred while buying the item.",
-            "embed6": "This item is not purchaseable.",
             "bought": {
                 "title": "Item Bought :white_check_mark:",
                 "description": "Successfully bought [item] for [price].",
