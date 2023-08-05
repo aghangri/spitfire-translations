@@ -335,7 +335,6 @@
             "embed3": "Bu içeriği almak için size [requiredVB] gerekiyor. Sizde olan: [currentVB]",
             "embed4": "Bu içeriğe zaten sahipsin.",
             "embed5": "İçerik satın alınırken bilinmeyen bir hata oluştu.",
-            "embed6": "Bu içerik satın alınamaz.",
             "bought": {
                 "title": "İçerik Satın Alındı :white_check_mark:",
                 "description": "[item], [price] karşılığında başarıyla satın alındı.",
@@ -935,7 +934,7 @@
                     ]
                 },
                 {
-                    "name": "download",
+                    "name": "upload",
                     "localizedName": "yükle",
                     "localizedDescription": "Oyun dosyalarına bir dosya yükle",
                     "options": [
