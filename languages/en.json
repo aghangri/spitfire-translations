@@ -634,6 +634,7 @@
             "success": "Successfully skipped the Save the World tutorial."
         },
         "account": {
+            "cancelled": "Action Cancelled :x:",
             "namecooldown": "You can change your name every 14 days. Please use the command after the cooldown ends.",
             "toxicname": "You can't use this name. Please try another name.",
             "duplicatename": "This name is already taken. Please try another name.",
@@ -641,7 +642,23 @@
             "namesuccess": "Your name has been successfully changed to [name].",
             "invalidnumber": "[number] is not a valid phone number.",
             "numbererror": "An unknown error occurred while changing the phone number.",
-            "numbersuccess": "Your phone number has been successfully changed to [number]."
+            "numbersuccess": "Your phone number has been successfully changed to [number].",
+            "samename": "The name you want to set is the same as your current name.",
+            "namechange": "Change Name",
+            "nameconfirmation": "Are you sure you want to change your name to [name]? If you change your name, you can't change your name for 14 days.",
+            "invalidcharacters": "Your name contains invalid characters. Please try another name.",
+            "namechanged": {
+                "title": "Name Changed :white_check_mark:",
+                "description": "Your name has been successfully changed to [name]. You can change your name again on [date]."
+            },
+            "numberchange": "Change Phone Number",
+            "numberconfirmation": "Are you sure you want to change your phone number to [number]?",
+            "numberchanged": {
+                "title": "Phone Number Changed :white_check_mark:",
+                "description": "Your phone number was successfully changed to [number]."
+            },
+            "nameremains": "The name change has been cancelled. Your name is still [name].",
+            "numberremains": "The phone number change has been cancelled."
         },
         "shopsections": {
             "today": "today",
