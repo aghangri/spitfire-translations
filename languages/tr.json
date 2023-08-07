@@ -635,6 +635,7 @@
             "success": "Dünyayı Kurtar eğitimi başarıyla atlandı."
         },
         "account": {
+            "cancelled": "İşlem İptal Edildi :x:",
             "namecooldown": "İsminizi her 14 günde bir değiştirebilirsiniz. Lütfen bekleme süresi bittikten sonra komutu kullanın.",
             "toxicname": "Bu ismi kullanamazsınız. Lütfen başka bir isim deneyin.",
             "duplicatename": "Bu isim zaten alınmış. Lütfen başka bir isim deneyin.",
@@ -642,7 +643,23 @@
             "namesuccess": "İsminiz başarıyla [name] olarak değiştirildi.",
             "invalidnumber": "[number] geçerli bir telefon numarası değil.",
             "numbererror": "Telefon numarası değiştirilirken bilinmeyen bir hata oluştu.",
-            "numbersuccess": "Telefon numaranız başarıyla [number] olarak değiştirildi."
+            "numbersuccess": "Telefon numaranız başarıyla [number] olarak değiştirildi.",
+            "samename": "Ayarlamak istediğiniz isim, mevcut isminizle aynı.",
+            "namechange": "İsminizi Değiştirin",
+            "nameconfirmation": "İsminizi [name] olarak değiştirmek istediğinizden emin misiniz? İsminizi değiştirirseniz 14 gün boyunca isminizi değiştiremezsiniz.",
+            "invalidcharacters": "İsminizde geçersiz karakterler var. Lütfen başka bir isim deneyin.",
+            "namechanged": {
+                "title": "İsminiz Değiştirildi :white_check_mark:",
+                "description": "İsminiz başarıyla [name] olarak değiştirildi. İsminizi yeniden [date] tarihinden itibaren değiştirebilirsiniz."
+            },
+            "numberchange": "Telefon Numaranızı Değiştirin",
+            "numberconfirmation": "Telefon numaranızı [number] olarak değiştirmek istediğinizden emin misiniz?",
+            "numberchanged": {
+                "title": "Telefon Numaranız Değiştirildi :white_check_mark:",
+                "description": "Telefon numaranız başarıyla [number] olarak değiştirildi."
+            },
+            "nameremains": "İsim değiştirme işlemi iptal edildi. İsminiz hâlâ [name].",
+            "numberremains": "Telefon numarası değiştirme işlemi iptal edildi."
         },
         "shopsections": {
             "today": "Bugün",
