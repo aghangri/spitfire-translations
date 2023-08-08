@@ -248,7 +248,8 @@
             "embed4": "Received Gift History"
         },
         "shop": {
-            "embed1": "Item Shop ([date])"
+            "embed1": "Item Shop ([date])",
+            "wait": "The item shop image has not been generated yet. Please try again later."
         },
         "progress": {
             "embed1": "Chapter 4 Season 3 is completed [percent]%. [daysLeft] days left until it finishes."
