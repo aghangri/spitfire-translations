@@ -1143,8 +1143,8 @@
             "localizedDescription": "Sends an image of today's item shop"
         },
         {
-            "name": "progress",
-            "localizedName": "progress",
+            "name": "season-progress",
+            "localizedName": "season-progress",
             "localizedDescription": "Sends season progress"
         },
         {
