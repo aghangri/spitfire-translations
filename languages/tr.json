@@ -249,7 +249,8 @@
             "embed4": "Alınan Hediye Geçmişin"
         },
         "shop": {
-            "embed1": "İçerik Mağazası ([date])"
+            "embed1": "İçerik Mağazası ([date])",
+            "wait": "İçerik mağazasının resmi henüz oluşturulmadı. Lütfen daha sonra tekrar deneyin."
         },
         "progress": {
             "embed1": "4\\. Bölüm 3. sezon, %[percent] tamamlandı. Bitmesine [daysLeft] gün kaldı."
