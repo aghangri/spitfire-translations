@@ -1146,8 +1146,8 @@
             "localizedDescription": "Bugünün içerik mağazasının bir resmini gönderir"
         },
         {
-            "name": "progress",
-            "localizedName": "ilerleme",
+            "name": "season-progress",
+            "localizedName": "sezon-ilerlemesi",
             "localizedDescription": "Sezon ilerlemesini gönderir"
         },
         {
