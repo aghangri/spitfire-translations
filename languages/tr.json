@@ -446,7 +446,7 @@
             "reachedlimit": "Kayıtlı hesap limitinize ulaştınız ([limit]).",
             "waitingauth": "Yetkilendirme bekleniyor [emoji]",
             "followup": {
-                "title": "Başka Bir Hesaba Giriş Yap",
+                "title": "Yeni Bir Hesaba Giriş Yap",
                 "howto": "Nasıl Giriş Yapılır",
                 "steps": {
                     "step1": "**1\\. Adım:** Aşağıdaki butona tıklayın.",
