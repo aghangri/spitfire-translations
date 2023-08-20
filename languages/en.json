@@ -115,32 +115,32 @@
             "blocklist": "Blocked Users"
         },
         "battleroyale": {
-            "embed1": {
-                "account": "Account",
-                "creation": "First played",
-                "account_level": "Account level",
-                "mfa": "2FA rewards",
-                "claimed": "Claimed [emoji]",
-                "notclaimed": "Not claimed [emoji]",
-                "br": "Battle Royale",
-                "wins": "Wins",
-                "allwins": "All wins",
-                "battlepass": "Battle pass",
-                "bp_active": "Active [emoji]",
-                "bp_notactive": "Not active [emoji]",
-                "level": "Level",
-                "superchargedxp": "Supercharged XP",
-                "xp": "XP",
-                "multiplier": "Multiplier",
-                "season_resources": "Season Resources",
-                "battlestars": "Battle stars",
-                "gold": "Gold",
-                "crown": "Crown",
-                "yescrown": "Owned [emoji]",
-                "nocrown": "Not owned [emoji]",
-                "wins_with_crown": "Wins with crown",
-                "lastmatch": "Last Match Time"
-            }
+            "account": "Account",
+            "creation": "First played",
+            "account_level": "Account level",
+            "mfa": "2FA rewards",
+            "claimed": "Claimed [emoji]",
+            "notclaimed": "Not claimed [emoji]",
+            "br": "Battle Royale",
+            "wins": "Wins",
+            "allwins": "All wins",
+            "battlepass": "Battle pass",
+            "bp_active": "Active [emoji]",
+            "bp_notactive": "Not active [emoji]",
+            "level": "Level",
+            "superchargedxp": "Supercharged XP",
+            "xp": "XP",
+            "multiplier": "Multiplier",
+            "season_resources": "Season Resources",
+            "battlestars": "Battle stars",
+            "gold": "Gold",
+            "crown": "Crown",
+            "yescrown": "Owned [emoji]",
+            "nocrown": "Not owned [emoji]",
+            "wins_with_crown": "Wins with crown",
+            "lastmatch": "Last Match Time",
+            "pastSeasons": "Past Seasons",
+            "pastSeasons2": "Past Seasons (Continued)"
         },
         "whoami": {
             "connections": "Connections",
@@ -154,13 +154,14 @@
             "embed3": "An unknown error occurred while retrieving the file.",
             "embed4": "An unknown error occurred while uploading the file.",
             "embed5": "[file] has been successfully uploaded to your game files.",
+            "embed6": "Cloud Storage List",
             "uploaded": "Uploaded",
             "size": "Size"
         },
         "logout": {
             "embed1": {
-                "title": "Logged Out",
-                "description": "Goodbye, [name]. Your account has been successfully removed from the system and logged out."
+                "title": ":wave: Goodbye, [name]!",
+                "description": "You have successfully logged out of your account. If you have any questions or problems, join our [support server]([support])."
             }
         },
         "ranked": {
@@ -187,7 +188,7 @@
         },
         "map": {
             "randomlocation": "Random Location",
-            "embed1": "Battle Royale Map - [version]"
+            "embed1": "Battle Royale Map"
         },
         "reminder": {
             "embed1": "No cosmetic named [cosmetic] found.",
@@ -264,6 +265,7 @@
             "style": "Style: [style]",
             "shophistory": "Shop History [total]",
             "firstseen": "First seen",
+            "previousseen": "Previous seen",
             "lastseen": "Last seen"
         },
         "creativexp": {
@@ -301,12 +303,15 @@
             }
         },
         "redeem": {
-            "embed1": "Code redeeming has been limited for [seconds] seconds. Please try again later.",
+            "throttled": "Code redeeming has been limited for [seconds] seconds. Please try again later.",
             "embed2": "[code] is not a valid code.",
             "embed3": "You already redeemed this code.",
             "embed4": "An unknown error occurred. If the problem persists, please try another code.",
             "embed5": "Code Redeemed",
-            "by": "By [codeSeller]"
+            "by": "By [codeSeller]",
+            "redeemedall": "Redeemed the Code in All Accounts :white_check_mark:",
+            "couldntredeemall": "Couldn't Redeemed the Code in All Accounts :x:",
+            "redeemed": "Redeemed"
         },
         "sac": {
             "embed1": "This is not a valid code.",
@@ -406,7 +411,9 @@
             "embed1": {
                 "description": "You have purchased a total of [bought] V-Bucks since [date].",
                 "field": "[vbucks]: [count] times"
-            }
+            },
+            "totalVB": "Total V-Bucks",
+            "totalOnAll": "Total V-Bucks on All Accounts"
         },
         "botinfo": {
             "botinfo": "Bot Information",
@@ -435,7 +442,6 @@
                 "loginnew": "Login with a New Account"
             },
             "loginanother": "Login to Another Account",
-            "unknown": "Unknown",
             "selectaccount": "Select an account from below.",
             "submit": "Submit",
             "changed": "Account Changed",
@@ -452,7 +458,8 @@
                     "step2": "**Step 2:** Click on the confirm button.",
                     "step3": "**Step 3:** Wait a few seconds and you are logged in!"
                 }
-            }
+            },
+            "login": "Login"
         },
         "dailyquests": {
             "embed1": {
@@ -463,7 +470,8 @@
                 "battlepassxp": "[emoji] [amount] × Battle Pass XP"
             },
             "embed2": "You don't have any daily quest.",
-            "reroll": "Reroll a daily quest"
+            "reroll": "Reroll a daily quest",
+            "error": "An unknown error occurred while rerolling the daily quest."
         },
         "banned": {
             "message1": "An unknown error occurred.",
@@ -503,7 +511,13 @@
                 "embed": "Embed",
                 "plaintext": "Plain Text"
             },
-            "auto": "Your preferred bot language is automatically set to [language]."
+            "auto": "Your preferred bot language is automatically set to [language].",
+            "censorTypes": {
+                "none": "Your preferred censor type has been set to **None**. Your display name and account ID will not be censored.",
+                "dm": "Your preferred censor type has been set to **DM**. Your display name and account ID will be censored only in DMs.",
+                "server": "Your preferred censor type has been set to **Server**. Your display name and account ID will be censored only in servers.",
+                "all": "Your preferred censor type has been set to **All**. Your display name and account ID will be censored in both DMs and servers."
+            }
         },
         "missionalerts": {
             "missionAlerts": "Mission Alerts",
@@ -558,7 +572,8 @@
                             "fieldname": "Collection Book",
                             "level": "Level",
                             "unslot": "Spent for unslotting"
-                        }
+                        },
+                        "miscellaneous": "Miscellaneous"
                     }
                 },
                 "banner": {
@@ -597,14 +612,14 @@
                 "description": "Disclaimer: If you purchase it again after cancelling, you won’t be able to cancel it again for 24 hours since you canceled this purchase",
                 "fields": {
                     "purchasedate": "Purchase Date",
-                    "creator": "Creator Supported",
                     "none": "None",
                     "items": "Items"
                 }
             },
-            "cantrefund": "You can't return this content because 1 day has passed since the date of purchase, or because you have returned and repurchased the same item.",
+            "cantrefund": "You can't return this item because the free return window has expired or because you have returned and repurchased the same item.",
             "error": "An unknown error occurred while cancelling the purchase.",
-            "refunded": "Item Refunded :white_check_mark:"
+            "refunded": "Item Refunded :white_check_mark:",
+            "creator": "Supported content creator"
         },
         "party": {
             "notinparty": "You need to be in a party to use this command.",
@@ -647,7 +662,7 @@
             "samename": "The name you want to set is the same as your current name.",
             "namechange": "Change Name",
             "nameconfirmation": "Are you sure you want to change your name to [name]? If you change your name, you can't change your name for 14 days.",
-            "invalidcharacters": "Your name contains invalid characters. Please try another name.",
+            "invalidcharacters": "Your name contains invalid characters. Please try another name without including these characters: [chars]",
             "namechanged": {
                 "title": "Name Changed :white_check_mark:",
                 "description": "Your name has been successfully changed to [name]. You can change your name again on [date]."
@@ -703,7 +718,7 @@
         "crank": "Rank",
         "chighestrank": "Highest Rank",
         "alreadyloggedin": "You have already logged in with this account.",
-        "welcomeuser": "Welcome, [name]!",
+        "welcomeuser": ":wave: Welcome, [name]!",
         "help": "If you need help, join our [support server]([support]).",
         "deviceidcreated": {
             "title": "Device Auth Created",
@@ -730,9 +745,10 @@
             "Successful"
         ],
         "errorTitles": [
-            ":warning: Error!",
+            ":warning: There was an Error!",
             ":warning: We Hit a Roadblock!",
-            ":warning: Not the Llama You're Looking For!"
+            ":warning: Not the Llama You're Looking For!",
+            ":warning: That Wasn't Supposed To Happen!"
         ],
         "warningTitles": [
             "Warning"
@@ -760,8 +776,8 @@
         ],
         "rules": {
             "title": "Please Read Before Logging in:",
-            "description": "Please Read Before Logging In:\n\n1. We do not share or display your user data to anyone; we take your account security very seriously!\n2. Please use this bot only if you fully accept the potential risks that may come with it.\n3. We do not take responsibility for any actions taken against your account, including but not limited to restrictions, closures, or bans. These situations may arise from the usage or misuse of commands.\n\n**If you agree to these terms, click the 'I Accept' button below!**\n\n[Privacy Policy]([website]/privacy-policy) - [Terms of Service]([website]/tos)",
-            "accept": "I Accept",
+            "description": "1. Bot uses personal data collected from users, such as Epic Games account information, only to use it to provide the services provided. Your data will never be shown, sold, rented to a third party.\n2. We do not accept any responsibility for any action taken against your account, including but not limited to restrictions, closures, or bans. These situations can be caused by commands or unintended use of commands.\n3. Please use this bot only if you fully accept the risks involved and fully agree to the [Terms of Service](https://rookie-spitfire.cf/tos) and [Privacy Policy](https://rookie-spitfire.cf/privacy-policy).\n\n**Only click the \"I Agree\" button below if you agree to these terms!**",
+            "accept": "I Agree",
             "deny": "I Deny"
         }
     },
@@ -1188,6 +1204,11 @@
                     "name": "code",
                     "localizedName": "code",
                     "localizedDescription": "Code to scan"
+                },
+                {
+                    "name": "bulk",
+                    "localizedName": "bulk",
+                    "localizedDescription": "Whether to redeem the code in every account"
                 }
             ]
         },
@@ -1288,7 +1309,14 @@
                 {
                     "name": "balance",
                     "localizedName": "balance",
-                    "localizedDescription": "View how much v-bucks you have"
+                    "localizedDescription": "View how much v-bucks you have",
+                    "options": [
+                        {
+                            "name": "bulk",
+                            "localizedName": "bulk",
+                            "localizedDescription": "Whether to view the balance of all accounts"
+                        }
+                    ]
                 },
                 {
                     "name": "history",
@@ -1358,6 +1386,18 @@
                             "name": "type",
                             "localizedName": "type",
                             "localizedDescription": "The new reply type"
+                        }
+                    ]
+                },
+                {
+                    "name": "censor",
+                    "localizedName": "censor",
+                    "localizedDescription": "Change your bot censor type",
+                    "options": [
+                        {
+                            "name": "type",
+                            "localizedName": "type",
+                            "localizedDescription": "The new censor type"
                         }
                     ]
                 }
