@@ -81,7 +81,7 @@
             "embed6": "Arkadaşlık isteği gönderilirken bilinmeyen bir hata oluştu.",
             "embed7": "[name] oyuncusunun arkadaşlık isteği kabul edildi.",
             "embed8": "[name] oyuncusuna zaten arkadaşlık isteği gönderdin. İsteği geri çekmek için `arkadaş kullanıcı` komutunu kullan.",
-            "embed9": "[name] ile zaten arkadaşsın. İsteği geri çekmek için `arkadaş kullanıcı` veya `arkadaş sil` komutunu kullan.",
+            "embed9": "[name] ile zaten arkadaşsın. İsteği geri çekmek için `arkadaş sil` veya `arkadaş kullanıcı` komutunu kullan.",
             "embed10": "[name] oyuncusuna arkadaşlık isteği gönderildi.",
             "embed11": "Kendini arkadaşlıktan silemezsin.",
             "embed12": "[name] arkadaş listenizden silindi.",
@@ -315,9 +315,12 @@
             "redeemed": "Kullanıldı"
         },
         "sac": {
-            "embed1": "Bu kod geçerli bir kod değil.",
+            "embed1": "[code] geçerli bir kod değil.",
             "embed2": "Bilinmeyen bir hata oluştu. Sorun devam ederse başka bir kod okutmayı deneyin.",
-            "embed3": "[supporting] artık destekleniyor",
+            "embed3": {
+                "title": "SaC Değiştirildi",
+                "description": "[supporting] içerik üreticisini destekliyorsun."
+            },
             "supported": "Desteklenen Üretici",
             "none": "Yok",
             "supportDate": "Destekleme Tarihi",
@@ -447,7 +450,7 @@
             "submit": "Gönder",
             "changed": "Hesap Değiştirildi",
             "switchedto": "[name] oyuncusuna geçiş yapıldı.",
-            "acceptedrules": "Kuralları kabul ettiniz. Giriş yapmaya devam edebilirsiniz.",
+            "acceptedrules": "Kuralları kabul ettiniz. Lütfen giriş yapmak için komutu yeniden kullanın.",
             "declinedrules": "Kuralları reddettiniz. Eğer kurallarla veya botla ilgili herhangi bir sorunuz/probleminiz varsa [destek sunucumuza]([support]) katılın.",
             "reachedlimit": "Kayıtlı hesap limitinize ulaştınız ([limit]).",
             "waitingauth": "Yetkilendirme bekleniyor [emoji]",
@@ -460,7 +463,8 @@
                     "step3": "**3\\. Adım:** Birkaç saniye bekleyin ve giriş yaptınız!"
                 }
             },
-            "login": "Giriş Yap"
+            "login": "Giriş Yap",
+            "exchange": "Exchange Code"
         },
         "dailyquests": {
             "embed1": {
@@ -594,7 +598,7 @@
         },
         "research": {
             "nostw": "Dünyayı Kurtar moduna erişimin yok.",
-            "level": "Seviye",
+            "level": "[level] Seviye",
             "fortitude": "Kuvvet",
             "offense": "Atak",
             "resistance": "Siper",

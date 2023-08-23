@@ -73,22 +73,22 @@
                 "addfriend": "Add Friend",
                 "sent_w_name": "Request Sent to [name]"
             },
-            "embed1": "No player found with the name [name].",
+            "embed1": "No player found with the name [name]",
             "embed2": "You can't add yourself as a friend.",
-            "embed3": "Please remove the player from your block list using the friend unblock or friend user command before performing this action.",
+            "embed3": "Please remove the player from your block list using the `friend unblock` or `friend user` command before performing this action.",
             "embed4": "Friend request can't be sent due to the user's settings.",
             "embed5": "Friend request could not be sent as the user has exceeded the incoming friend request limit.",
             "embed6": "An unknown error occurred while sending the friend request.",
             "embed7": "Friend request from [name] has been accepted.",
-            "embed8": "You have already sent a friend request to [name]. To cancel the request, use the friend user command.",
-            "embed9": "You are already friends with [name]. To remove them, use the friend user or friend remove command.",
+            "embed8": "You have already sent a friend request to [name]. To cancel the request, use the `friend user` command.",
+            "embed9": "You are already friends with [name]. To remove them, use the `friend remove` or friend user` command.",
             "embed10": "Friend request has been sent to [name].",
             "embed11": "You can't remove yourself as a friend.",
             "embed12": "[name] has been removed from your friends list.",
             "embed13": "You are not friends with [name].",
             "embed14": "You can't block yourself.",
             "embed15": "[name] has been blocked.",
-            "embed16": "[name] is already blocked in your list. To unblock, use the friend unblock or friend user command.",
+            "embed16": "[name] is already blocked in your list. To unblock, use the `friend unblock` or `friend user` command.",
             "embed17": "[name]'s block has been removed.",
             "embed18": "[name] is not in your blocked list.",
             "embed19": "You have no friends.",
@@ -314,9 +314,12 @@
             "redeemed": "Redeemed"
         },
         "sac": {
-            "embed1": "This is not a valid code.",
+            "embed1": "[code] is not a valid code.",
             "embed2": "An unknown error occurred. If the issue persists, please try another code.",
-            "embed3": "[supporting] is now supporting.",
+            "embed3": {
+                "title": "SaC Changed",
+                "description": "You are now supporting [supporting]."
+            },
             "supported": "Supported Content Creator",
             "none": "None",
             "supportDate": "Support Date",
@@ -446,7 +449,7 @@
             "submit": "Submit",
             "changed": "Account Changed",
             "switchedto": "Switched to player [name].",
-            "acceptedrules": "You have accepted the rules. You may now proceed to login.",
+            "acceptedrules": "You have accepted the rules. Please use the command again to login.",
             "declinedrules": "You declined the rules. If you have any question/problem related to the rules or the bot, join our [support server]([support])",
             "reachedlimit": "You have reached your registered account limit ([limit]).",
             "waitingauth": "Waiting for authentication [emoji]",
@@ -459,7 +462,8 @@
                     "step3": "**Step 3:** Wait a few seconds and you are logged in!"
                 }
             },
-            "login": "Login"
+            "login": "Login",
+            "exchange": "Exchange Code"
         },
         "dailyquests": {
             "embed1": {
@@ -567,7 +571,7 @@
                             "firstplayed": "First played",
                             "lastplayed": "Last played"
                         },
-                        "research": "Research",
+                        "level": "Level",
                         "collectionbook": {
                             "fieldname": "Collection Book",
                             "level": "Level",
@@ -593,7 +597,7 @@
         },
         "research": {
             "nostw": "You don't have access Save the World.",
-            "level": "Level",
+            "level": "Level [level]",
             "fortitude": "Fortitude",
             "offense": "Offense",
             "resistance": "Resistance",
