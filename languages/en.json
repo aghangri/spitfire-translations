@@ -325,10 +325,9 @@
             "supportDate": "Support Date",
             "expire": "Expiration Date",
             "embed4": "No information found for this code. Please make sure you typed it correctly.",
-            "embed5": "An unknown error occurred.",
             "active": "Active",
             "disabled": "Disabled",
-            "embed6": {
+            "embed5": {
                 "title": "Code Info",
                 "codeinfo": "Code Info",
                 "code": "Code",
@@ -690,6 +689,14 @@
             "deletedrank": "Your ranked role has been removed because your rank is the same as your role. You can claim your rank role by using the command again after ranking up.",
             "norank": "You don't have any rank yet. Complete a match now to rank up! Once you're done, you can claim your role by using the command again.",
             "rank": "You have received the [role] role! Keep ranking up and update your role on the server by using the command again."
+        },
+        "claimfreeitems": {
+            "embed1": "There's no free items available to claim from the item shop.",
+            "embed2": {
+                "title": "Claimed Free Items :white_check_mark:",
+                "description": "You have successfully claimed every available free items from the item shop."
+            },
+            "items": "Items"
         }
     },
     "changenickname": {
@@ -1556,6 +1563,11 @@
                     "localizedDescription": "Ranked game mode"
                 }
             ]
+        },
+        {
+            "name": "claim-free-items",
+            "localizedName": "claim-free-items",
+            "localizedDescription": "Claims free items from the item shop"
         }
     ]
 }

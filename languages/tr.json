@@ -326,10 +326,9 @@
             "supportDate": "Destekleme Tarihi",
             "expire": "Sona Erme Tarihi",
             "embed4": "Bu kod ile ilgili hiçbir bilgi bulunamadı. Lütfen doğru yazdığınızdan emin olun.",
-            "embed5": "Bilinmeyen bir hata oluştu.",
             "active": "Aktif",
             "disabled": "Devre Dışı",
-            "embed6": {
+            "embed5": {
                 "title": "Kod Bilgileri",
                 "codeinfo": "Kod Bilgileri",
                 "code": "Kod",
@@ -691,6 +690,14 @@
             "deletedrank": "Dereceniz rolünüz aynı olduğu için dereceli rolünüz kaldırıldı. Rütbe atladıktan sonra komutu yeniden kullanarak rütbe rolünüzü alabilirsiniz.",
             "norank": "Herhangi bir rütbeye sahip değilsin. Rütbe atlamak için şimdi bir maç tamamla! Tamamladıktan sonra komutu yeniden kullanarak rolünü alabilirsin.",
             "rank": "Oyunda [currentRank] rütbesinde olduğun için [role] rolünü kaptın! Şimdi daha çok rütbe atla ve komutu yeniden kullanarak sunucudaki rolünü güncelle."
+        },
+        "claimfreeitems": {
+            "embed1": "İçerik mağazasından alabileceğiniz hiçbir ücretsiz içerik yok.",
+            "embed2": {
+                "title": "Ücretsiz İçerikler Alındı :white_check_mark:",
+                "description": "İçerik mağazasındaki mevcut tüm ücretsiz içerik başarıyla aldınız."
+            },
+            "items": "İçerikler"
         }
     },
     "changenickname": {
@@ -1558,6 +1565,11 @@
                     "localizedDescription": "Dereceli oyun modu"
                 }
             ]
+        },
+        {
+            "name": "claim-free-items",
+            "localizedName": "ücretsiz-içerikleri-al",
+            "localizedDescription": "İçerik mağazasından ücretsiz içerikleri alır"
         }
     ]
 }
