@@ -253,7 +253,15 @@
             "wait": "The item shop image has not been generated yet. Please try again later."
         },
         "seasonprogress": {
-            "embed1": "Chapter 4 Season 4 is completed [percent]%. [daysLeft] days left until it finishes."
+            "times": {
+                "month": "month",
+                "week": "week",
+                "day": "day",
+                "hour": "hour",
+                "minute": "minute",
+                "second": "second"
+            },
+            "embed1": "Chapter 4 Season 4 is completed [percent]%. [time] left until it finishes."
         },
         "cosmetic": {
             "embed1": "No cosmetic named [name] found.",

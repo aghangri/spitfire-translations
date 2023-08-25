@@ -254,7 +254,15 @@
             "wait": "İçerik mağazasının resmi henüz oluşturulmadı. Lütfen daha sonra tekrar deneyin."
         },
         "seasonprogress": {
-            "embed1": "4\\. Bölüm 4. Sezon, %[percent] tamamlandı. Bitmesine [daysLeft] gün kaldı."
+            "times": {
+                "month": "ay",
+                "week": "hafta",
+                "day": "gün",
+                "hour": "saat",
+                "minute": "dakika",
+                "second": "saniye"
+            },
+            "embed1": "4\\. Bölüm 4. Sezon, %[percent] tamamlandı. Bitmesine [time] kaldı."
         },
         "cosmetic": {
             "embed1": "[name] ismiyle herhangi bir kozmetik bulunamadı.",
