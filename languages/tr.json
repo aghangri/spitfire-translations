@@ -254,7 +254,7 @@
             "wait": "İçerik mağazasının resmi henüz oluşturulmadı. Lütfen daha sonra tekrar deneyin."
         },
         "seasonprogress": {
-            "embed1": "4\\. Bölüm 3. sezon, %[percent] tamamlandı. Bitmesine [daysLeft] gün kaldı."
+            "embed1": "4\\. Bölüm 4. Sezon, %[percent] tamamlandı. Bitmesine [daysLeft] gün kaldı."
         },
         "cosmetic": {
             "embed1": "[name] ismiyle herhangi bir kozmetik bulunamadı.",
@@ -362,7 +362,7 @@
                 "b25tier": "1850 • 25 Aşama"
             },
             "embed1": {
-                "title": "4. Bölüm 3. Sezon Savaş Bileti",
+                "title": "4. Bölüm 4. Sezon Savaş Bileti",
                 "yourinfo": "Bilgileriniz",
                 "vbucks": "V-Papel",
                 "level": "Seviyeniz"
@@ -647,7 +647,10 @@
             "hasstw": "Dünyayı Kurtarı var mı",
             "pmembers": "Grup üyeleri",
             "leaveerror": "Gruptan ayrılırken bilinmeyen bir hata oluştu.",
-            "leftparty": "Gruptan başarıyla ayrılındı."
+            "leftparty": {
+                "title": "Gruptan Ayrılındı",
+                "description": "Gruptan başarıyla ayrılındı."
+            }
         },
         "skiptutorial": {
             "error": "Dünyayı Kurtar moduna erişimin yok",
@@ -721,7 +724,7 @@
         "supserveronly": "Bu komutu sadece [destek sunucumuzda]([support]) kullanabilirsiniz.",
         "loginreq": "Bu komutu kullanmak için lütfen [command] komutunu kullanarak hesabınıza giriş yapın.",
         "dataerror": "Verileriniz veri tabanına düzgün işlenmediği için hesabınızdan çıkış yapmak zorunda kaldık. Lütfen tekrar giriş yapın ve sorun devam ederse yardım almak için [destek sunucumuza]([support]) katılın.",
-        "servererror": "Bu komut bir hata nedeniyle çalıştırılamadı. Bu hatanın genel nedeni, Fortnite sunucularının devre dışı olmasıdır.",
+        "servererror": "Epic Games sunucuları çevrimdışı olduğu için Epic Games ile etkileşime giren komutlar geçici olarak devre dışı bırakıldı. Lütfen sunucuların durumunu [buradan](https://status.epicgames.com/) kontrol edin.",
         "hadtologout": "Oturumunuz kapatıldı! Aşağıdaki nedenlerden biri bunun sebebi olabilir:\n• Session süresi doldu.\n• Hesabınızın şifresi değişti.\n• Epic Games veya siz tüm yetkilendirmeleri sildiniz.\n\nHesabınızdan otomatik olarak çıkış yapıldı. Tekrar giriş yapabilirsiniz.",
         "missingperms": "Botun hesabınızda yetersiz yetki olmasından dolayı işlem gerçekleştirilemedi.",
         "error": "Bu komut çalıştırılırken beklenmedik bir hata oluştu ve hata geliştiricilere bildirildi. Yardım almak için [destek sunucumuza]([support]) katılın.",
@@ -741,7 +744,6 @@
         "dontuseanother": "Lütfen bota sadece botun size verdiği bağlantıyı kullanarak giriş yapın.",
         "expiredExchange": "Giriş yaparken bir sorun oluştu. Exchange Code geçerliliğini yitirmiş olabilir. Lütfen tekrar deneyin.",
         "noresults": "Sonuç bulunamadı!",
-        "componentsinactive": "Bu mesaj artık inaktif.",
         "page": "Sayfa",
         "reachedmax": "En fazla sayfaya ulaştın.",
         "notactive": "Epic hesabın ([accountId]) Epic Games tarafından devre dışı bırakıldığı için komut çalıştırılamadı. Daha fazla bilgi için lütfen Epic Games ile iletişime geç",
