@@ -450,7 +450,7 @@
         },
         "login": {
             "selectmenu1": {
-                "placeholder": "Hesap Seç veya Giriş Yap",
+                "placeholder": "Bir Hesap Seç",
                 "loginnew": "Yeni bir hesaba giriş yapın"
             },
             "loginanother": "Başka Bir Hesaba Giriş Yap",

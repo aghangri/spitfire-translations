@@ -449,7 +449,7 @@
         },
         "login": {
             "selectmenu1": {
-                "placeholder": "Select Account or Login",
+                "placeholder": "Select an Account",
                 "loginnew": "Login with a New Account"
             },
             "loginanother": "Login to Another Account",
