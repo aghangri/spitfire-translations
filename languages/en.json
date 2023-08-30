@@ -756,7 +756,8 @@
         "reachedmax": "You have reached maximum page.",
         "notactive": "The command couldn't be executed because your Epic account ([accountId]) is disabled by Epic Games. Please contact Epic Games for more information.",
         "yourvbucks": "Your V-Bucks",
-        "supportedcreator": "Supported Creator"
+        "supportedcreator": "Supported Creator",
+        "banned": "Sorry, it appears that your account has been banned by Epic Games. Please contact Epic Games using [this link](https://www.epicgames.com/help/en-US/contact-us) for more information."
     },
     "global": {
         "yes": "Yes",

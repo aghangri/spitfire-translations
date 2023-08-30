@@ -757,7 +757,8 @@
         "reachedmax": "En fazla sayfaya ulaştın.",
         "notactive": "Epic hesabın ([accountId]) Epic Games tarafından devre dışı bırakıldığı için komut çalıştırılamadı. Daha fazla bilgi için lütfen Epic Games ile iletişime geç",
         "yourvbucks": "V-Papelin",
-        "supportedcreator": "Desteklenilen Üretici"
+        "supportedcreator": "Desteklenilen Üretici",
+        "banned": "Üzgünüz, hesabınız Epic Games tarafından yasaklanmış görünüyor. Lütfen daha fazla bilgi için [bu bağlantıyı](https://www.epicgames.com/help/tr/contact-us) kullanarak Epic Games ile iletişime geçin."
     },
     "global": {
         "yes": "Evet",
