@@ -709,6 +709,17 @@
                 "description": "You have successfully claimed every available free items from the item shop."
             },
             "items": "Items"
+        },
+        "playercount": {
+            "title": "Player Count",
+            "total": "Total player count",
+            "bymode": "Player Counts by Game Modes",
+            "battleroyale": "Battle Royale",
+            "rankedbr": "Ranked Battle Royale",
+            "zerobuilds": "Zero Builds",
+            "rankedzb": "Ranked Zero Builds",
+            "creative": "Creative",
+            "stw": "Save the World"
         }
     },
     "changenickname": {
@@ -1580,6 +1591,11 @@
             "name": "claim-free-items",
             "localizedName": "claim-free-items",
             "localizedDescription": "Claims free items from the item shop"
+        },
+        {
+            "name": "player-count",
+            "localizedName": "player-count",
+            "localizedDescription": "View the number of active players and how many players are playing which game modes"
         }
     ]
 }

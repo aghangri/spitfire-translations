@@ -710,6 +710,17 @@
                 "description": "İçerik mağazasındaki mevcut tüm ücretsiz içerik başarıyla aldınız."
             },
             "items": "İçerikler"
+        },
+        "playercount": {
+            "title": "Oyuncu Sayısı",
+            "total": "Toplam oyuncu sayısı",
+            "bymode": "Oyun Modlarına Göre Oyuncu Sayısı",
+            "battleroyale": "Battle Royale",
+            "rankedbr": "Dereceli Battle Royale",
+            "zerobuilds": "Sıfır İnşa",
+            "rankedzb": "Dereceli Sıfır İnşa",
+            "creative": "Kreatif",
+            "stw": "Dünyayı Kurtar"
         }
     },
     "changenickname": {
@@ -1582,6 +1593,11 @@
             "name": "claim-free-items",
             "localizedName": "ücretsiz-içerikleri-al",
             "localizedDescription": "İçerik mağazasından ücretsiz içerikleri alır"
+        },
+        {
+            "name": "player-count",
+            "localizedName": "oyuncu-sayısı",
+            "localizedDescription": "Aktif oyuncu sayısını ve kaç oyuncunun hangi oyun modlarını oynadığını görüntüleyin"
         }
     ]
 }
