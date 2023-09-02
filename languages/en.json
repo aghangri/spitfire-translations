@@ -93,14 +93,17 @@
             "embed18": "[name] is not in your blocked list.",
             "embed19": "You have no friends.",
             "embed20": {
-                "title": "Your Friends List has been Cleared",
+                "title": "Friends List Cleaned Up",
                 "description": "[deleted] users whose accounts have been locked, suspended, or closed have been removed from your friends list."
             },
             "modal": {
                 "title": "Change Nickname",
                 "label": "New Nickname"
             },
-            "embed21": "All friends have been successfully removed.",
+            "embed21": {
+                "title": "Friends List Cleared",
+                "description": "Everybody in your friends list has been successfully removed."
+            },
             "embed22": "An unknown error occurred while retrieving your friends list.",
             "embed23": {
                 "description": ":x: = Not eligible for gifting",
@@ -112,7 +115,11 @@
             "friends": "Your Friends",
             "incoming": "Incoming Requests",
             "outgoing": "Outgoing Requests",
-            "blocklist": "Blocked Users"
+            "blocklist": "Blocked Users",
+            "clearconfirmation": {
+                "title": "Clear Friends List",
+                "description": "Are you sure you want to clear your friends list? This action cannot be undone."
+            }
         },
         "battleroyale": {
             "account": "Account",
@@ -768,7 +775,8 @@
         "notactive": "The command couldn't be executed because your Epic account ([accountId]) is disabled by Epic Games. Please contact Epic Games for more information.",
         "yourvbucks": "Your V-Bucks",
         "supportedcreator": "Supported Creator",
-        "banned": "Sorry, it appears that your account has been banned by Epic Games. Please contact Epic Games using [this link](https://www.epicgames.com/help/en-US/contact-us) for more information."
+        "banned": "Sorry, it appears that your account has been banned by Epic Games. Please contact Epic Games using [this link](https://www.epicgames.com/help/en-US/contact-us) for more information.",
+        "dmonly": "This command can only be used in DMs."
     },
     "global": {
         "yes": "Yes",

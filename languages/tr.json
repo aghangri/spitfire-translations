@@ -100,7 +100,10 @@
                 "title": "Takma Ad Değiştir",
                 "label": "Yeni Takma Ad"
             },
-            "embed21": "Tüm arkadaşların başarıyla silindi.",
+            "embed21": {
+                "title": "Arkadaş Listeniz Silindi",
+                "description": "Arkadaş listenizdeki herkes başarıyla silindi."
+            },
             "embed22": "Arkadaş listeniz alınırken bilinmeyen bir hata oluştu.",
             "embed23": {
                 "description": ":x: = Hediye için uygun olmayan",
@@ -112,7 +115,11 @@
             "friends": "Arkadaşlarınız",
             "incoming": "Gelen İstekler",
             "outgoing": "Giden İstekler",
-            "blocklist": "Engellenen Kullanıcılar"
+            "blocklist": "Engellenen Kullanıcılar",
+            "clearconfirmation": {
+                "title": "Arkadaş Listenizi Temizleyin",
+                "description": "Arkadaş listenizdeki herkesi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+            }
         },
         "battleroyale": {
             "account": "Hesap",
@@ -769,7 +776,8 @@
         "notactive": "Epic hesabın ([accountId]) Epic Games tarafından devre dışı bırakıldığı için komut çalıştırılamadı. Daha fazla bilgi için lütfen Epic Games ile iletişime geç",
         "yourvbucks": "V-Papelin",
         "supportedcreator": "Desteklenilen Üretici",
-        "banned": "Üzgünüz, hesabınız Epic Games tarafından yasaklanmış görünüyor. Lütfen daha fazla bilgi için [bu bağlantıyı](https://www.epicgames.com/help/tr/contact-us) kullanarak Epic Games ile iletişime geçin."
+        "banned": "Üzgünüz, hesabınız Epic Games tarafından yasaklanmış gibi görünüyor. Lütfen daha fazla bilgi için [bu bağlantıyı](https://www.epicgames.com/help/tr/contact-us) kullanarak Epic Games ile iletişime geçin.",
+        "dmonly": "Bu komutu yalnızca DM'lerde kullanabilirsiniz."
     },
     "global": {
         "yes": "Evet",
