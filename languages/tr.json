@@ -623,23 +623,19 @@
             "embed3": "Araştırma puanınızı yükseltirken bilinmeyen bir hata oluştu.",
             "claim": "Araştırma Puanlarını Topla"
         },
-        "undolastpurchase": {
+        "undopurchase": {
             "nothingtocancel": "Geri çekilecek herhangi bir satın alımınız yok.",
-            "confirmundo": "Onayla",
-            "cancelundo": "İptal Et",
-            "embed1": {
-                "title": "Son Satın Alımı Geri Al",
-                "description": "Uyarı: İptal ettikten sonra tekrar satın alırsanız, bu satın alma işlemini iptal ettiğinizden itibaren 24 saat boyunca tekrar iptal edemezsiniz",
-                "fields": {
-                    "purchasedate": "Satın Alım Tarihi",
-                    "none": "Yok",
-                    "items": "İçerikler"
-                }
-            },
+            "purchase": "Satın Alım #[number]",
+            "purchasedate": "Alma tarihi",
+            "selectpurchase": "Bir Satın Alım Seç",
+            "selecttoundo": "Geri alınacak bir satın alım seç",
+            "none": "Yok",
             "cantrefund": "Ücretsiz iade etme penceresinin süresi dolduğu için veya aynı içeriği iade edip yeniden satın aldığınız için bu içeriği iade edemezsiniz.",
             "error": "Satın alma işlemi iptal edilirken bilinmeyen bir hata oluştu.",
             "refunded": "İçerik İade Edildi :white_check_mark:",
-            "creator": "Desteklenen içerik üreticisi"
+            "creator": "Desteklenen üretici",
+            "vbucks": "V-Papel",
+            "success": "Aşağıdaki satın alma işlemi başarıyla geri alındı ve hesabınıza [vbucks] eklendi."
         },
         "party": {
             "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
@@ -1516,9 +1512,9 @@
             "localizedDescription": "Dünyayı Kurtar'da araştırma seviyelerinizi görüntüleyin veya yükseltin"
         },
         {
-            "name": "undo-last-purchase",
-            "localizedName": "son-satın-alımı-geri-al",
-            "localizedDescription": "Son satın alımınızı geri alın"
+            "name": "undo-purchase",
+            "localizedName": "satın-alımı-geri-al",
+            "localizedDescription": "İade biletİ kullanmadan satın alımlarınızdan birini geri alın"
         },
         {
             "name": "party",
@@ -1606,6 +1602,23 @@
             "name": "player-count",
             "localizedName": "oyuncu-sayısı",
             "localizedDescription": "Aktif oyuncu sayısını ve kaç oyuncunun hangi oyun modlarını oynadığını görüntüleyin"
+        },
+        {
+            "name": "weapon-info",
+            "localizedName": "silah-bilgi",
+            "localizedDescription": "Bir silah hakkında bilgi alın",
+            "options": [
+                {
+                    "name": "rarity",
+                    "localizedName": "nadirlik",
+                    "localizedDescription": "Silahın nadirliği"
+                },
+                {
+                    "name": "weapon",
+                    "localizedName": "weapon",
+                    "localizedDescription": "Bilgisi alınacak silah adı"
+                }
+            ]
         }
     ]
 }

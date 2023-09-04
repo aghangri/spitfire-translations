@@ -622,23 +622,19 @@
             "embed3": "An unknown error occurred while upgrading the research.",
             "claim": "Claim Research Points"
         },
-        "undolastpurchase": {
-            "nothingtocancel": "You don't have any purchases to cancel.",
-            "confirmundo": "Confirm",
-            "cancelundo": "Cancel",
-            "embed1": {
-                "title": "Undo Last Purchase",
-                "description": "Disclaimer: If you purchase it again after cancelling, you won’t be able to cancel it again for 24 hours since you canceled this purchase",
-                "fields": {
-                    "purchasedate": "Purchase Date",
-                    "none": "None",
-                    "items": "Items"
-                }
-            },
+        "undopurchase": {
+            "nothingtocancel": "You don't have any purchases to undo.",
+            "purchase": "Purchase #[number]",
+            "purchasedate": "Purchase Date",
+            "selectpurchase": "Select a Purchase",
+            "selecttoundo": "Select a purchase to undo",
+            "none": "None",
             "cantrefund": "You can't return this item because the free return window has expired or because you have returned and repurchased the same item.",
             "error": "An unknown error occurred while cancelling the purchase.",
             "refunded": "Item Refunded :white_check_mark:",
-            "creator": "Supported content creator"
+            "creator": "Supported creator",
+            "vbucks": "V-Bucks",
+            "success": "The purchase below has been succesfully refunded and [vbucks] has been added to your account."
         },
         "party": {
             "notinparty": "You need to be in a party to use this command.",
@@ -727,6 +723,16 @@
             "rankedzb": "Ranked Zero Builds",
             "creative": "Creative",
             "stw": "Save the World"
+        },
+        "weaponinfo": {
+            "notfound": "No weapon with [weapon] name and [rarity] rarity found.",
+            "stats": "Weapon Stats",
+            "damage": "Damage",
+            "critical": "Headshot Damage",
+            "firerate": "Fire Rate",
+            "clipsize": "Clip Size",
+            "reloadtime": "Reload Time",
+            "seconds": "[seconds] seconds"
         }
     },
     "changenickname": {
@@ -1514,9 +1520,9 @@
             "localizedDescription": "View or upgrade your research levels in Save the World"
         },
         {
-            "name": "undo-last-purchase",
-            "localizedName": "undo-last-purchase",
-            "localizedDescription": "Undo your last purchase"
+            "name": "undo-purchase",
+            "localizedName": "undo-purchase",
+            "localizedDescription": "Undo one of your purchases without using refund tickets"
         },
         {
             "name": "party",
@@ -1604,6 +1610,23 @@
             "name": "player-count",
             "localizedName": "player-count",
             "localizedDescription": "View the number of active players and how many players are playing which game modes"
+        },
+        {
+            "name": "weapon-info",
+            "localizedName": "weapon-info",
+            "localizedDescription": "Get information about a weapon",
+            "options": [
+                {
+                    "name": "rarity",
+                    "localizedName": "rarity",
+                    "localizedDescription": "The rarity of the weapon"
+                },
+                {
+                    "name": "weapon",
+                    "localizedName": "weapon",
+                    "localizedDescription": "The weapon to get information about"
+                }
+            ]
         }
     ]
 }
