@@ -732,7 +732,16 @@
             "firerate": "Fire Rate",
             "clipsize": "Clip Size",
             "reloadtime": "Reload Time",
-            "seconds": "[seconds] seconds"
+            "seconds": "[seconds] seconds",
+            "rarities": {
+                "common": "Common",
+                "uncommon": "Uncommon",
+                "rare": "Rare",
+                "epic": "Epic",
+                "legendary": "Legendary",
+                "mythic": "Mythic",
+                "exotic": "Exotic"
+            }
         }
     },
     "changenickname": {

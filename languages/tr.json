@@ -724,6 +724,25 @@
             "rankedzb": "Dereceli Sıfır İnşa",
             "creative": "Kreatif",
             "stw": "Dünyayı Kurtar"
+        },
+        "weaponinfo": {
+            "notfound": "[weapon] ismiyle ve [rarity] nadirliğiyle herhangi bir silah bulunamadı.",
+            "stats": "Silah İstatistikleri",
+            "damage": "Hasar",
+            "critical": "Kafa Vuruşu Hasarı",
+            "firerate": "Ateş Hızı",
+            "clipsize": "Şarjör Boyutu",
+            "reloadtime": "Yeniden Doldurma Süresi",
+            "seconds": "[seconds] saniye",
+            "rarities": {
+                "common": "Sıradan",
+                "uncommon": "Nadir",
+                "rare": "Ender",
+                "epic": "Destansı",
+                "legendary": "Efsanevi",
+                "mythic": "Eşsiz",
+                "exotic": "Egzotik"
+            }
         }
     },
     "changenickname": {
