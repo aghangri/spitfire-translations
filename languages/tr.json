@@ -744,7 +744,7 @@
                 "exotic": "Egzotik"
             }
         },
-        "deviceauths": {
+        "deviceauth": {
             "created": "Cihaz Bağlantısı Oluşturuldu :white_check_mark:",
             "deleted": "Cihaz Bağlantısı Silindi :white_check_mark:",
             "dontshare": "**Hesabınıza erişmek için kullanılabileceğinden lütfen bu bilgileri kimseyle paylaşmayın!**",
@@ -765,7 +765,8 @@
             "page": "Sayfa [page]/[total]",
             "deleted3": "Cihaz bağlantısı başarıyla silindi",
             "deleteauth": "Cihaz Bağlantısı",
-            "unknown": "Bilinmiyor"
+            "unknown": "Bilinmiyor",
+            "loggedout": "Hesabınızdan çıkış yapıldı."
         }
     },
     "changenickname": {

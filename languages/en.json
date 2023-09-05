@@ -743,7 +743,7 @@
                 "exotic": "Exotic"
             }
         },
-        "deviceauths": {
+        "deviceauth": {
             "created": "Device Auth Created :white_check_mark:",
             "deleted": "Device Auth Deleted :white_check_mark:",
             "dontshare": "**Please don't share these details with anyone as it can be used to access your account!**",
@@ -764,7 +764,8 @@
             "page": "Page [page]/[total]",
             "deleted3": "Device auth succesfully deleted.",
             "deleteauth": "Delete Auth",
-            "unknown": "Unknown"
+            "unknown": "Unknown",
+            "loggedout": "You have been logged out."
         }
     },
     "changenickname": {
@@ -1681,7 +1682,7 @@
                     "localizedDescription": "Delete a device auth",
                     "options": [
                         {
-                            "name": "dvice-id",
+                            "name": "device-id",
                             "localizedName": "device-id",
                             "localizedDescription": "Device ID to delete"
                         }
