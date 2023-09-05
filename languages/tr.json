@@ -743,6 +743,29 @@
                 "mythic": "Eşsiz",
                 "exotic": "Egzotik"
             }
+        },
+        "deviceauths": {
+            "created": "Cihaz Bağlantısı Oluşturuldu :white_check_mark:",
+            "deleted": "Cihaz Bağlantısı Silindi :white_check_mark:",
+            "dontshare": "**Hesabınıza erişmek için kullanılabileceğinden lütfen bu bilgileri kimseyle paylaşmayın!**",
+            "deviceid": "Cihaz ID",
+            "noauth": "[id] id'sine sahip herhangi bir cihaz bağlantısı yok.",
+            "error": "Cihaz bağlantısı silinirken bilinmeyen bir hata oluştu.",
+            "deleted2": "[id] id'sine sahip cihaz bağlantısı silindi.",
+            "noauths": "Hiçbir cihaz bağlantın yok.",
+            "deleteall": "Tüm Cihaz Bağlantılarını Sil",
+            "deleteallconfirmation": "Botun kullandığı bağlantı dışındaki tüm cihaz bağlantılarını silmek istediğinizden emin misiniz? Bu işlem [amount] cihaz bağlantısını silecek ve tüm cihazlardan çıkış yapmanızı sağlayacaktır.",
+            "deletedall": {
+                "title": "Tüm Cihaz Bağlantıları Silindi :white_check_mark:",
+                "description": "[deleted]/[total] cihaz yetkileri silindi. Tüm cihazlardan çıkışınız yapıldı."
+            },
+            "dates": "Tarihler",
+            "createdat": "Oluşturma",
+            "lastAccess": "Son Kullanma",
+            "page": "Sayfa [page]/[total]",
+            "deleted3": "Cihaz bağlantısı başarıyla silindi",
+            "deleteauth": "Cihaz Bağlantısı",
+            "unknown": "Bilinmiyor"
         }
     },
     "changenickname": {
@@ -1636,6 +1659,40 @@
                     "name": "weapon",
                     "localizedName": "weapon",
                     "localizedDescription": "Bilgisi alınacak silah adı"
+                }
+            ]
+        },
+        {
+            "name": "device-auth",
+            "localizedName": "cihaz-bağlantısı",
+            "localizedDescription": "Cihaz bağlantılarını yönet",
+            "options": [
+                {
+                    "name": "create",
+                    "localizedName": "oluştur",
+                    "localizedDescription": "Yeni bir cihaz bağlantısı oluştur"
+                },
+                {
+                    "name": "list",
+                    "localizedName": "listesi",
+                    "localizedDescription": "Cihaz bağlantılarını listele"
+                },
+                {
+                    "name": "delete",
+                    "localizedName": "sil",
+                    "localizedDescription": "Bir cihaz bağlantısını sil",
+                    "options": [
+                        {
+                            "name": "device-id",
+                            "localizedName": "device-id",
+                            "localizedDescription": "Silinecek cihaz id'si"
+                        }
+                    ]
+                },
+                {
+                    "name": "delete-all",
+                    "localizedName": "hepsini-sil",
+                    "localizedDescription": "Bot tarafından kullanılan hariç tüm cihaz bağlantılarını sil"
                 }
             ]
         }

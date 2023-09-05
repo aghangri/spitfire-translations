@@ -742,6 +742,29 @@
                 "mythic": "Mythic",
                 "exotic": "Exotic"
             }
+        },
+        "deviceauths": {
+            "created": "Device Auth Created :white_check_mark:",
+            "deleted": "Device Auth Deleted :white_check_mark:",
+            "dontshare": "**Please don't share these details with anyone as it can be used to access your account!**",
+            "deviceid": "Device ID",
+            "noauth": "There isn't any device auth with [id] id.",
+            "error": "An unknown error occurred while deleting the device auth.",
+            "deleted2": "Device auth with [id] id has been deleted.",
+            "noauths": "You don't have any device auths.",
+            "deleteall": "Delete All Device Auths",
+            "deleteallconfirmation": "Are you sure you want to delete all your device auths except the one used by the bot? This will delete [amount] device auths and log you out from all devices.",
+            "deletedall": {
+                "title": "All Device Auths Deleted :white_check_mark:",
+                "description": "[deleted]/[total] device auths have been deleted. You have been logged out from all devices."
+            },
+            "dates": "Dates",
+            "createdat": "Created",
+            "lastAccess": "Last Used",
+            "page": "Page [page]/[total]",
+            "deleted3": "Device auth succesfully deleted.",
+            "deleteauth": "Delete Auth",
+            "unknown": "Unknown"
         }
     },
     "changenickname": {
@@ -1634,6 +1657,40 @@
                     "name": "weapon",
                     "localizedName": "weapon",
                     "localizedDescription": "The weapon to get information about"
+                }
+            ]
+        },
+        {
+            "name": "device-auth",
+            "localizedName": "device-auth",
+            "localizedDescription": "Manage your device auths",
+            "options": [
+                {
+                    "name": "create",
+                    "localizedName": "create",
+                    "localizedDescription": "Create a new device auth"
+                },
+                {
+                    "name": "list",
+                    "localizedName": "list",
+                    "localizedDescription": "List your device auths"
+                },
+                {
+                    "name": "delete",
+                    "localizedName": "delete",
+                    "localizedDescription": "Delete a device auth",
+                    "options": [
+                        {
+                            "name": "dvice-id",
+                            "localizedName": "device-id",
+                            "localizedDescription": "Device ID to delete"
+                        }
+                    ]
+                },
+                {
+                    "name": "delete-all",
+                    "localizedName": "delete-all",
+                    "localizedDescription": "Delete all your device auths except the one used by the bot"
                 }
             ]
         }
