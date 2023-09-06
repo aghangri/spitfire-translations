@@ -425,14 +425,20 @@
             "vbplatform": "V-Papel platformu",
             "supported": "Desteklenen içerik üreticisi",
             "none": "Yok",
-            "breakdown": "Dağılım",
+            "details": "Detaylar",
             "neverbought": "Hiç V-Papel satın almadınız.",
             "embed1": {
                 "description": "[date] tarihinden beri toplamda [bought] V-Papel satın aldınız.",
                 "field": "[vbucks]: [count] adet"
             },
             "totalVB": "Toplam V-Papel",
-            "totalOnAll": "Tüm Hesaplardaki Toplam V-Papel"
+            "totalOnAll": "Tüm Hesaplardaki Toplam V-Papel",
+            "st": {
+                "Giveaway": "Görevler/Savaş Bileti",
+                "Complimentary": "STW/İadeler",
+                "Purchased": "Satın Alınan",
+                "Purchase Bonus": "Satın Alınan"
+            }
         },
         "botinfo": {
             "botinfo": "Bot Bilgileri",
@@ -767,6 +773,14 @@
             "deleteauth": "Cihaz Bağlantısı",
             "unknown": "Bilinmiyor",
             "loggedout": "Hesabınızdan çıkış yapıldı."
+        },
+        "serverstatus": {
+            "up": "Sunucular Aktif!",
+            "down": "Sunucular Kapalı!",
+            "banned": "Oyundan yasaklısın.",
+            "notbanned": "Oyundan yasaklı değilsin!",
+            "statusPage": "Sunucu Durumu Sayfasını Kontrol Et",
+            "isBanned": "Yasaklı mısın"
         }
     },
     "changenickname": {
@@ -1696,6 +1710,11 @@
                     "localizedDescription": "Bot tarafından kullanılan hariç tüm cihaz bağlantılarını sil"
                 }
             ]
+        },
+        {
+            "name": "server-status",
+            "localizedName": "sunucu-durumu",
+            "localizedDescription": "Fortnite sunucularının durumunu görüntüleyin"
         }
     ]
 }

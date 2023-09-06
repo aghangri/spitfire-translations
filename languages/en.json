@@ -424,14 +424,20 @@
             "vbplatform": "V-Bucks platform",
             "supported": "Supported content creator",
             "none": "None",
-            "breakdown": "Breakdown",
+            "details": "Details",
             "neverbought": "You have never purchased V-Bucks.",
             "embed1": {
                 "description": "You have purchased a total of [bought] V-Bucks since [date].",
                 "field": "[vbucks]: [count] times"
             },
             "totalVB": "Total V-Bucks",
-            "totalOnAll": "Total V-Bucks on All Accounts"
+            "totalOnAll": "Total V-Bucks on All Accounts",
+            "st": {
+                "Giveaway": "Challenges/Battle Pass",
+                "Complimentary": "STW/Refunds",
+                "Purchased": "Purchased",
+                "Purchase Bonus": "Purchased"
+            }
         },
         "botinfo": {
             "botinfo": "Bot Information",
@@ -766,6 +772,14 @@
             "deleteauth": "Delete Auth",
             "unknown": "Unknown",
             "loggedout": "You have been logged out."
+        },
+        "serverstatus": {
+            "up": "Servers Are Up!",
+            "down": "Servers Are Down!",
+            "banned": "You are banned.",
+            "notbanned": "You are not banned!",
+            "statusPage": "Check Status Page",
+            "isBanned": "Banned"
         }
     },
     "changenickname": {
@@ -1694,6 +1708,11 @@
                     "localizedDescription": "Delete all your device auths except the one used by the bot"
                 }
             ]
+        },
+        {
+            "name": "server-status",
+            "localizedName": "server-status",
+            "localizedDescription": "View the status of Fortnite servers"
         }
     ]
 }
