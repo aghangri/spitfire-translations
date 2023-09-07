@@ -260,15 +260,7 @@
             "wait": "The item shop image has not been generated yet. Please try again later."
         },
         "seasonprogress": {
-            "times": {
-                "month": "month",
-                "week": "week",
-                "day": "day",
-                "hour": "hour",
-                "minute": "minute",
-                "second": "second"
-            },
-            "embed1": "Chapter 4 Season 4 is completed [percent]%. [time] left until it finishes."
+            "message": "Chapter 4 Season 4 is completed [percent]%. This season wil end [time]."
         },
         "cosmetic": {
             "embed1": "No cosmetic named [name] found.",
@@ -441,17 +433,17 @@
         },
         "botinfo": {
             "botinfo": "Bot Information",
-            "servercount": "Server Count",
-            "usercount": "User Count",
+            "servercount": "Server count",
+            "usercount": "User count",
             "ping": "Ping",
             "uptime": "Uptime",
-            "ram": "RAM Usage",
+            "ram": "RAM usage",
             "invite": "Invite",
             "click": "Click",
             "userinfo": "User Information",
-            "totalregistered": "Total Registered Users",
-            "totalregisteredaccounts": "Total Registered Accounts",
-            "blacklistcount": "Number of Users Blacklisted",
+            "totalregistered": "Total registered users",
+            "totalregisteredaccounts": "Total registered accounts",
+            "remindercount": "Total reminders set",
             "times": {
                 "week": "week",
                 "day": "day",

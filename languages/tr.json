@@ -261,15 +261,7 @@
             "wait": "İçerik mağazasının resmi henüz oluşturulmadı. Lütfen daha sonra tekrar deneyin."
         },
         "seasonprogress": {
-            "times": {
-                "month": "ay",
-                "week": "hafta",
-                "day": "gün",
-                "hour": "saat",
-                "minute": "dakika",
-                "second": "saniye"
-            },
-            "embed1": "4\\. Bölüm 4. Sezon, %[percent] tamamlandı. Bitmesine [time] kaldı."
+            "message": "4\\. Bölüm 4. Sezon, %[percent] tamamlandı. [time] bu sezon bitecek."
         },
         "cosmetic": {
             "embed1": "[name] ismiyle herhangi bir kozmetik bulunamadı.",
@@ -452,7 +444,7 @@
             "userinfo": "Kullanıcı Bilgileri",
             "totalregistered": "Kayıtlı toplam kullanıcı sayısı",
             "totalregisteredaccounts": "Kayıtlı hesap sayısı",
-            "blacklistcount": "Kara listeye alınanların sayısı",
+            "remindercount": "Ayarlanan toplam hatırlatıcılar",
             "times": {
                 "week": "hafta",
                 "day": "gün",
