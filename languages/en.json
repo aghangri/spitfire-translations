@@ -1705,6 +1705,18 @@
             "name": "server-status",
             "localizedName": "server-status",
             "localizedDescription": "View the status of Fortnite servers"
+        },
+        {
+            "name": "access-token",
+            "localizedName": "access-token",
+            "localizedDescription": "Generate a new access token by selecting a client",
+            "options": [
+                {
+                    "name": "client",
+                    "localizedName": "client",
+                    "localizedDescription": "The client you want to use"
+                }
+            ]
         }
     ]
 }

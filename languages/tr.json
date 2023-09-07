@@ -1707,6 +1707,18 @@
             "name": "server-status",
             "localizedName": "sunucu-durumu",
             "localizedDescription": "Fortnite sunucularının durumunu görüntüleyin"
+        },
+        {
+            "name": "access-token",
+            "localizedName": "access-token",
+            "localizedDescription": "Bir client seçerek yeni bir access token oluşturun",
+            "options": [
+                {
+                    "name": "client",
+                    "localizedName": "client",
+                    "localizedDescription": "Kullanmak istediğiniz client"
+                }
+            ]
         }
     ]
 }
