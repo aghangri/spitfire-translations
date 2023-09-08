@@ -314,13 +314,14 @@
         "redeem": {
             "embed1": "Kod okutmanız [seconds] saniye boyunca limitlendi. Lütfen daha sonra tekrar deneyiniz.",
             "embed2": "[code] geçerli bir kod değil.",
-            "embed3": "Zaten bu kodu kullandın.",
+            "embed3": "Bu kodu zaten kullanmışsınız.",
             "embed4": "Bilinmeyen bir hata oluştu. Sorun devam ederse başka bir kod okutmayı deneyin.",
             "embed5": "Kod Okutuldu",
             "by": "[codeSeller] tarafından",
             "redeemedall": "Kod Tüm Hesaplarda Kullanıldı :white_check_mark:",
             "couldntredeemall": "Kod Tüm Hesaplarda Kullanılamadı :x:",
-            "redeemed": "Kullanıldı"
+            "redeemed": "Kullanıldı",
+            "unknown": "Bilinmiyor"
         },
         "sac": {
             "embed1": "[code] geçerli bir kod değil.",
@@ -633,7 +634,8 @@
             "refunded": "İçerik İade Edildi :white_check_mark:",
             "creator": "Desteklenen üretici",
             "vbucks": "V-Papel",
-            "success": "Aşağıdaki satın alma işlemi başarıyla geri alındı ve hesabınıza [vbucks] eklendi."
+            "success": "Aşağıdaki satın alma işlemi başarıyla geri alındı ve hesabınıza [vbucks] eklendi.",
+            "note": "Lütfen dikkat: 24 saat içinde iade ettikten sonra aynı kozmetiği satın alırsanız, 24 saat geçene kadar tekrar iade edemezsiniz."
         },
         "party": {
             "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",

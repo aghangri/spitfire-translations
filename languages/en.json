@@ -319,7 +319,8 @@
             "by": "By [codeSeller]",
             "redeemedall": "Redeemed the Code in All Accounts :white_check_mark:",
             "couldntredeemall": "Couldn't Redeemed the Code in All Accounts :x:",
-            "redeemed": "Redeemed"
+            "redeemed": "Redeemed",
+            "unknown": "Unknown"
         },
         "sac": {
             "embed1": "[code] is not a valid code.",
@@ -632,7 +633,8 @@
             "refunded": "Item Refunded :white_check_mark:",
             "creator": "Supported creator",
             "vbucks": "V-Bucks",
-            "success": "The purchase below has been succesfully refunded and [vbucks] has been added to your account."
+            "success": "The purchase below has been succesfully refunded and [vbucks] has been added to your account.",
+            "note": "Please note: If you buy the same cosmetic after refunding it in 24 hours, you will not be able to refund it again until 24 hours have passed."
         },
         "party": {
             "notinparty": "You need to be in a party to use this command.",
