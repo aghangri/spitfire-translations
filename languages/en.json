@@ -266,14 +266,13 @@
             "embed1": "No cosmetic named [name] found.",
             "partofset": "Part of the [set] set.",
             "intro": "Introduced in Chapter [chapter] Season [season].",
-            "lastSeen": "Last seen: [lastSeen]",
-            "notpublished": "Never seen",
-            "placeholder": "Select a style",
-            "style": "Style: [style]",
+            "style": "Style",
             "shophistory": "Shop History [total]",
             "firstseen": "First seen",
             "previousseen": "Previous seen",
-            "lastseen": "Last seen"
+            "lastseen": "Last seen",
+            "selectstyle": "Select a style",
+            "selectstyleoption": "Select a style option"
         },
         "creativexp": {
             "embed1": {
@@ -551,7 +550,9 @@
             "embed1": {
                 "title": "Ghost Equip",
                 "description": "Successfully equipped [cosmetic]\n\nNote: This is only visible to other players in the party."
-            }
+            },
+            "selectstyle": "Select a style",
+            "selectstyleoption": "Select a style option"
         },
         "fakelevel": {
             "notinparty": "You need to be in a party to use this command.",
@@ -650,11 +651,10 @@
             "customkey": "Custom Matchmaking Key",
             "playlist": "Playlist",
             "members": "Members",
-            "readiness": "Readiness",
             "ready": "Ready",
             "notready": "Not Ready",
             "hasbp": "Has Battle Pass",
-            "bplevel": "Battle Pass Level",
+            "bplevel": "[level] Level",
             "hasstw": "Purchased STW",
             "pmembers": "Party members",
             "leaveerror": "An unknown error occurred while leaving the party.",
@@ -774,6 +774,19 @@
             "notbanned": "You are not banned!",
             "statusPage": "Check Status Page",
             "isBanned": "Banned"
+        },
+        "settings": {
+            "select": "Select a setting to change",
+            "enabled": "Enabled",
+            "disabled": "Disabled",
+            "autosac": "Auto SAC",
+            "autosacdesc": "Refreshes your SAC automatically on every purchase.",
+            "freellama": "Free Llama Claimer",
+            "freellamadesc": "Automatically claims your free llamas every day.",
+            "embed1": {
+                "title": "Settings",
+                "description": "Use the drop-down menu below to change your settings."
+            }
         }
     },
     "changenickname": {
@@ -1719,6 +1732,11 @@
                     "localizedDescription": "The client you want to use"
                 }
             ]
+        },
+        {
+            "name": "settings",
+            "localizedName": "settings",
+            "localizedDescription": "Manage your settings"
         }
     ]
 }
