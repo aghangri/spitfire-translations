@@ -261,7 +261,7 @@
             "wait": "İçerik mağazasının resmi henüz oluşturulmadı. Lütfen daha sonra tekrar deneyin."
         },
         "seasonprogress": {
-            "message": "4\\. Bölüm 4. Sezon, %[percent] tamamlandı. [time] bu sezon bitecek.",
+            "message": "4\\. Bölüm 4. Sezon, %[percent] tamamlandı. [time] sonra bu sezon bitecek.",
             "times": {
                 "days": "gün",
                 "hours": "saat"

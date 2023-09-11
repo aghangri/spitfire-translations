@@ -260,7 +260,7 @@
             "wait": "The item shop image has not been generated yet. Please try again later."
         },
         "seasonprogress": {
-            "message": "Chapter 4 Season 4 is completed [percent]%. This season will end after [time].",
+            "message": "Chapter 4 Season 4 is completed [percent]%. This season will end in [time].",
             "times": {
                 "days": "days",
                 "hours": "hours"
