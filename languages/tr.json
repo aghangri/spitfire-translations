@@ -261,7 +261,11 @@
             "wait": "İçerik mağazasının resmi henüz oluşturulmadı. Lütfen daha sonra tekrar deneyin."
         },
         "seasonprogress": {
-            "message": "4\\. Bölüm 4. Sezon, %[percent] tamamlandı. [time] bu sezon bitecek."
+            "message": "4\\. Bölüm 4. Sezon, %[percent] tamamlandı. [time] bu sezon bitecek.",
+            "times": {
+                "days": "gün",
+                "hours": "saat"
+            }
         },
         "cosmetic": {
             "embed1": "[name] ismiyle herhangi bir kozmetik bulunamadı.",
@@ -272,7 +276,8 @@
             "previousseen": "Önceki görülme",
             "lastseen": "Son görülme",
             "selectstyle": "Bir tarz seçin",
-            "selectstyleoption": "Bir tarz seçeneği seçin"
+            "selectstyleoption": "Bir tarz seçeneği seçin",
+            "buy": "Bu içeriği [price] karşılığında satın almak için `/satın-al içerik: [number]` komutunu kullanın."
         },
         "creativexp": {
             "embed1": {
