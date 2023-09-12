@@ -590,7 +590,7 @@
                             "firstplayed": "First played",
                             "lastplayed": "Last played"
                         },
-                        "level": "Level",
+                        "research": "Research",
                         "collectionbook": {
                             "fieldname": "Collection Book",
                             "level": "Level",
