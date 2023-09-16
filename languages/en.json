@@ -495,9 +495,8 @@
             "error": "An unknown error occurred while rerolling the daily quest."
         },
         "banned": {
-            "message1": "An unknown error occurred.",
-            "message2": "You are not banned!",
-            "message3": "You are banned."
+            "notbanned": "You are not banned! :partying_face:",
+            "banned": "You are banned."
         },
         "refreshprofile": {
             "embed1": {
@@ -791,6 +790,10 @@
                 "title": "Settings",
                 "description": "Use the drop-down menu below to change your settings."
             }
+        },
+        "accesstoken": {
+            "warning": "**:warning: Warning:** Do not share these tokens with anyone as they can be used to access your account!",
+            "accountid": "Account ID"
         }
     },
     "changenickname": {
