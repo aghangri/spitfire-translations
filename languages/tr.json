@@ -635,7 +635,7 @@
             "selectpurchase": "Bir Satın Alım Seç",
             "selecttoundo": "Geri alınacak bir satın alım seç",
             "none": "Yok",
-            "cantrefund": "Ücretsiz iade etme penceresinin süresi dolduğu için veya aynı içeriği iade edip yeniden satın aldığınız için bu içeriği iade edemezsiniz.",
+            "cantrefund": "[purchase] iade edilemedi! Aşağıdakilerden biri bunun nedeni olabilir:\n\n1. İade etme penceresinin süresi doldu.\n2. Aynı kozmetiği 24 saat içinde iade edip satın tekrar aldınız. Bu durumda 24 saat beklemelisiniz.",
             "error": "Satın alma işlemi iptal edilirken bilinmeyen bir hata oluştu.",
             "refunded": "İçerik İade Edildi :white_check_mark:",
             "creator": "Desteklenen üretici",

@@ -634,7 +634,7 @@
             "selectpurchase": "Select a Purchase",
             "selecttoundo": "Select a purchase to undo",
             "none": "None",
-            "cantrefund": "You can't return this item because the free return window has expired or because you have returned and repurchased the same item.",
+            "cantrefund": "[purchase] could not be refunded! One of the following could be the reason for this:\n\n1. The refund window has expired.\n2. You refunded and bought the same cosmetic within 24 hours. In this case you have to wait 24 hours.",
             "error": "An unknown error occurred while cancelling the purchase.",
             "refunded": "Item Refunded :white_check_mark:",
             "creator": "Supported creator",
