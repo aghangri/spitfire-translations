@@ -42,7 +42,8 @@
             "notallowed": "[code] is currently not allowed to matchmake."
         },
         "anticheat": {
-            "embed1": "Anti-cheat system you are using: [provider]. Anti-cheat providers are random. Some of them are refreshed after the item shop is updated."
+            "anticheat": "Anti-Cheat",
+            "message": "You are currently using [provider] as your anti-cheat provider."
         },
         "friends": {
             "global": {
@@ -492,7 +493,8 @@
             },
             "embed2": "You don't have any daily quest.",
             "reroll": "Reroll a daily quest",
-            "error": "An unknown error occurred while rerolling the daily quest."
+            "error": "An unknown error occurred while rerolling the daily quest.",
+            "completed": "You completed this quest."
         },
         "banned": {
             "notbanned": "You are not banned! :partying_face:",
@@ -794,6 +796,9 @@
         "accesstoken": {
             "warning": "**:warning: Warning:** Do not share these tokens with anyone as they can be used to access your account!",
             "accountid": "Account ID"
+        },
+        "staging": {
+            "notfound": "No staging server with the name or URL [input] was found."
         }
     },
     "changenickname": {
@@ -1744,6 +1749,18 @@
             "name": "settings",
             "localizedName": "settings",
             "localizedDescription": "Manage your settings"
+        },
+        {
+            "name": "staging",
+            "localizedName": "staging",
+            "localizedDescription": "View the information of a staging server's MCP server",
+            "options": [
+                {
+                    "name": "server",
+                    "localizedName": "server",
+                    "localizedDescription": "The server name or URL to get information about"
+                }
+            ]
         }
     ]
 }

@@ -42,7 +42,8 @@
             "notallowed": "Şu anda [code] koduna erişilmeye izin verilmiyor."
         },
         "anticheat": {
-            "embed1": "Kullanılan anti-hile sistemi: [provider]. Anti-hile sağlayıcıları rastgeledir. Bazıları içerik mağazası yenilendikten sonra yenilenir."
+            "anticheat": "Anti-Cheat",
+            "message": "Şu anda anti-cheat sağlayıcınız olarak [provider] kullanıyorsunuz."
         },
         "friends": {
             "global": {
@@ -493,7 +494,8 @@
             },
             "embed2": "Hiçbir günlük göreviniz yok.",
             "reroll": "Bir günlük görevi değiştirin",
-            "error": "Günlük görev değiştirilirken bilinmeyen bir hata oluştu."
+            "error": "Günlük görev değiştirilirken bilinmeyen bir hata oluştu.",
+            "completed": "Bu görevi tamamladın."
         },
         "banned": {
             "notbanned": "Oyundan yasaklı değilsiniz! :partying_face:",
@@ -794,7 +796,10 @@
         },
         "accesstoken": {
             "warning": "**:uyarı: Uyarı:** Hesabınıza erişmek için kullanılabileceğinden bu tokenleri kimseyle paylaşmayın!",
-            "accountid": "Account ID"
+            "accountid": "Hesap ID"
+        },
+        "staging": {
+            "notfound": "[input] ismiyle veya URL'siyle herhangi bir staging sunucusu bulunamadı."
         }
     },
     "changenickname": {
@@ -1746,6 +1751,18 @@
             "name": "settings",
             "localizedName": "ayarlar",
             "localizedDescription": "Ayarlarınızı yönetin"
+        },
+        {
+            "name": "staging",
+            "localizedName": "staging",
+            "localizedDescription": "Bir staging sunucusunun MCP sunucusunun bilgilerini görüntüle",
+            "options": [
+                {
+                    "name": "server",
+                    "localizedName": "sunucu",
+                    "localizedDescription": "Bilgisi alınacak sunucu adı veya URL"
+                }
+            ]
         }
     ]
 }
