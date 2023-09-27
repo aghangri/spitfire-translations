@@ -630,7 +630,7 @@
         "undopurchase": {
             "nothingtocancel": "You don't have any purchases to undo.",
             "purchase": "Purchase #[number]",
-            "purchasedate": "Purchase Date",
+            "purchasedate": "Purchase date",
             "selectpurchase": "Select a Purchase",
             "selecttoundo": "Select a purchase to undo",
             "none": "None",
