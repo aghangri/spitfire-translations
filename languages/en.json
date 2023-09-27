@@ -636,11 +636,12 @@
             "none": "None",
             "cantrefund": "[purchase] could not be refunded! One of the following could be the reason for this:\n\n1. The refund window has expired.\n2. You refunded and bought the same cosmetic within 24 hours. In this case you have to wait 24 hours.",
             "error": "An unknown error occurred while cancelling the purchase.",
+            "alreadyrefunded": "You have already refunded this purchase.",
             "refunded": "Item Refunded :white_check_mark:",
             "creator": "Supported creator",
-            "vbucks": "V-Bucks",
             "success": "The purchase below has been succesfully refunded and [vbucks] has been added to your account.",
-            "note": "Please note: If you buy the same cosmetic after refunding it in 24 hours, you will not be able to refund it again until 24 hours have passed."
+            "note": "Please note: If you buy the same cosmetic after refunding it in 24 hours, you will not be able to refund it again until 24 hours have passed.",
+            "vbucksspent": "V-Bucks spent"
         },
         "party": {
             "notinparty": "You need to be in a party to use this command.",
