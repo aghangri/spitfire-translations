@@ -849,7 +849,8 @@
         "yourvbucks": "Your V-Bucks",
         "supportedcreator": "Supported Creator",
         "banned": "Sorry, it appears that your account has been banned by Epic Games. Please contact Epic Games using [this link](https://www.epicgames.com/help/en-US/contact-us) for more information.",
-        "dmonly": "This command can only be used in DMs."
+        "dmonly": "This command can only be used in DMs.",
+        "premium": "You can read this message [messageLink] [in our support server]([support]) to learn more about premium features."
     },
     "global": {
         "yes": "Yes",
@@ -865,8 +866,8 @@
             ":warning: Not the Llama You're Looking For!",
             ":warning: That Wasn't Supposed To Happen!"
         ],
-        "warningTitles": [
-            "Warning"
+        "premiumTitles": [
+            ":star: A Premium Feature!"
         ],
         "ranks": [
             "Unranked",

@@ -851,7 +851,8 @@
         "yourvbucks": "V-Papelin",
         "supportedcreator": "Desteklenilen Üretici",
         "banned": "Üzgünüz, hesabınız Epic Games tarafından yasaklanmış gibi görünüyor. Lütfen daha fazla bilgi için [bu bağlantıyı](https://www.epicgames.com/help/tr/contact-us) kullanarak Epic Games ile iletişime geçin.",
-        "dmonly": "Bu komutu yalnızca DM'lerde kullanabilirsiniz."
+        "dmonly": "Bu komutu yalnızca DM'de kullanabilirsiniz.",
+        "premium": "Premium özellikler hakkında daha fazla bilgi edinmek için [destek sunucumuzda]([support]) bu mesajı [messageLink] okuyabilirsiniz!"
     },
     "global": {
         "yes": "Evet",
@@ -867,8 +868,8 @@
             ":warning: Aradığın Lama Bu Değil!",
             ":warning: Böyle Olmamalıydı!"
         ],
-        "warningTitles": [
-            "Uyarı"
+        "premiumTitles": [
+            ":star: Bir Premium Özellik!"
         ],
         "ranks": [
             "Derecesiz",
