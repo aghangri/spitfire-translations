@@ -800,6 +800,13 @@
         },
         "staging": {
             "notfound": "No staging server with the name or URL [input] was found."
+        },
+        "saveprogress": {
+            "success": {
+                "title": "Progress Saved",
+                "description": "You can now leave the mission and get your rewards!"
+            },
+            "error": "An unknown error occurred while saving your progress."
         }
     },
     "changenickname": {
@@ -1763,6 +1770,11 @@
                     "localizedDescription": "The server name or URL to get information about"
                 }
             ]
+        },
+        {
+            "name": "save-progress",
+            "localizedName": "save-progress",
+            "localizedDescription": "Complete quests in STW without completing the mission"
         }
     ]
 }

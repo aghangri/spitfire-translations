@@ -802,6 +802,13 @@
         },
         "staging": {
             "notfound": "[input] ismiyle veya URL'siyle herhangi bir staging sunucusu bulunamadı."
+        },
+        "saveprogress": {
+            "success": {
+                "title": "İlerleme Kaydedildi",
+                "description": "Şimdi görevden ayrılabilir ve ödüllerinizi alabilirsiniz!"
+            },
+            "error": "İlerlemeniz kaydedilirken bilinmeyen bir hata oluştu."
         }
     },
     "changenickname": {
@@ -1766,6 +1773,11 @@
                     "localizedDescription": "Bilgisi alınacak sunucu adı veya URL"
                 }
             ]
+        },
+        {
+            "name": "save-progress",
+            "localizedName": "ilerlemeyi-kaydet",
+            "localizedDescription": "Dünyayı Kurtardaki görevleri görevi tamamlamadan tamamlayın"
         }
     ]
 }
