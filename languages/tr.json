@@ -1677,7 +1677,7 @@
         {
             "name": "claim-rank-role",
             "localizedName": "rütbe-rolünü-al",
-            "localizedDescription": "Rütbeli derecenize göre destek sunucusunda bir rol alın",
+            "localizedDescription": "Rütbeli derecenize göre sunucuda bir rol alın",
             "options": [
                 {
                     "name": "mode",

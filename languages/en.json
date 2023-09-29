@@ -1674,7 +1674,7 @@
         {
             "name": "claim-rank-role",
             "localizedName": "claim-rank-role",
-            "localizedDescription": "Get a role based on your rank in the support server",
+            "localizedDescription": "Get a role based on your rank in the server",
             "options": [
                 {
                     "name": "mode",
