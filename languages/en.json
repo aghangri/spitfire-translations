@@ -692,10 +692,13 @@
             "notavailable": "The item shop sections for [day] are not currently available. Please try again later.",
             "sections": "Item Shop Sections ([date])"
         },
-        "claimrank": {
+        "claimrankrole": {
             "deletedrank": "Your ranked role has been removed because your rank is the same as your role. You can claim your rank role by using the command again after ranking up.",
             "norank": "You don't have any rank yet. Complete a match now to rank up! Once you're done, you can claim your role by using the command again.",
-            "rank": "You have received the [role] role! Keep ranking up and update your role on the server by using the command again."
+            "rank": "You have received the [role] role! Keep ranking up and update your role on the server by using the command again.",
+            "disabled": "Rank roles are disabled on this server. Please contact the server owner to enable them.",
+            "ranknotfound": "Your rank is [rank] but there is no role with this rank. Please contact the server owner to add a role with this rank.",
+            "error": "Sorry, I don't have enough permissions to give you the [role] role. Please contact the server owner to give me the Manage Roles permission."
         },
         "claimfreeitems": {
             "embed1": "There's no free items available to claim from the item shop.",
@@ -793,6 +796,26 @@
                 "description": "You can now leave the mission and get your rewards!"
             },
             "error": "An unknown error occurred while saving your progress."
+        },
+        "ranksystem": {
+            "notenabled": "Rank-role system is not enabled on this server. Add a role to the system to enable it.",
+            "rankroles": "Rank Roles",
+            "added": "Successfully added [rank] rank and the [role] role to the system",
+            "removed": "Successfully removed [rank] rank and the [role] role from the system",
+            "alreadyenabled": "Rank-role system is already enabled on this server.",
+            "alreadydisabled": "Rank-role system is already disabled on this server.",
+            "enabledsystem": "Successfully enabled the rank-role system on this server.",
+            "disabledsystem": "Successfully disabled the rank-role system on this server.",
+            "alreadyinsystem": "This rank is already in the system.",
+            "notinsystem": "This rank is not in the system.",
+            "ranks": {
+                "bronze": "Bronze",
+                "silver": "Silver",
+                "gold": "Gold",
+                "platinum": "Platinum",
+                "diamond": "Diamond",
+                "thebest": "The Best"
+            }
         }
     },
     "changenickname": {
@@ -843,7 +866,10 @@
         "supportedcreator": "Supported Creator",
         "banned": "Sorry, it appears that your account has been banned by Epic Games. Please contact Epic Games using [this link](https://www.epicgames.com/help/en-US/contact-us) for more information.",
         "dmonly": "This command can only be used in DMs.",
-        "premium": "You can read this message [messageLink] [in our support server]([support]) to learn more about premium features."
+        "premium": "You can read this message [messageLink] [in our support server]([support]) to learn more about Premium!",
+        "premiumGuild": "The owner of this server must have Premium to use this command. You can read this message [messageLink] [in our support server]([support]) to learn more about Premium!",
+        "missingpermissions": "You must have [perm] permission to use this command.",
+        "missingpermsbot": "I must have [perm] permission to use this command."
     },
     "global": {
         "yes": "Yes",
@@ -1756,6 +1782,57 @@
             "name": "save-progress",
             "localizedName": "save-progress",
             "localizedDescription": "Complete quests in STW without completing the mission"
+        },
+        {
+            "name": "rank-system",
+            "localizedName": "rank-system",
+            "localizedDescription": "Manage the rank-role system in your server to let users get roles using /claim-rank-role command",
+            "options": [
+                {
+                    "name": "add",
+                    "localizedName": "add",
+                    "localizedDescription": "Add a rank-role system to your server",
+                    "options": [
+                        {
+                            "name": "rank",
+                            "localizedName": "rank",
+                            "localizedDescription": "The rank"
+                        },
+                        {
+                            "name": "role",
+                            "localizedName": "role",
+                            "localizedDescription": "Role to give to users"
+                        }
+                    ]
+                },
+                {
+                    "name": "remove",
+                    "localizedName": "remove",
+                    "localizedDescription": "Remove a rank-role system from your server",
+                    "options": [
+                        {
+                            "name": "rank",
+                            "localizedName": "rank",
+                            "localizedDescription": "The rank"
+                        }
+                    ]
+                },
+                {
+                    "name": "list",
+                    "localizedName": "list",
+                    "localizedDescription": "List the rank-role systems in your server"
+                },
+                {
+                    "name": "enable",
+                    "localizedName": "enable",
+                    "localizedDescription": "Enable the rank-role system in your server"
+                },
+                {
+                    "name": "disable",
+                    "localizedName": "disable",
+                    "localizedDescription": "Disable the rank-role system in your server"
+                }
+            ]
         }
     ]
 }

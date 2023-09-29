@@ -694,10 +694,13 @@
             "notavailable": "[day] için içerik mağazası sekmeleri şu anda mevcut değil. Lütfen daha sonra tekrar deneyin.",
             "sections": "İçerik Mağazası Sekmeleri ([date])"
         },
-        "claimrank": {
+        "claimrankrole": {
             "deletedrank": "Dereceniz rolünüz aynı olduğu için dereceli rolünüz kaldırıldı. Rütbe atladıktan sonra komutu yeniden kullanarak rütbe rolünüzü alabilirsiniz.",
             "norank": "Herhangi bir rütbeye sahip değilsin. Rütbe atlamak için şimdi bir maç tamamla! Tamamladıktan sonra komutu yeniden kullanarak rolünü alabilirsin.",
-            "rank": "Oyunda [currentRank] rütbesinde olduğun için [role] rolünü kaptın! Şimdi daha çok rütbe atla ve komutu yeniden kullanarak sunucudaki rolünü güncelle."
+            "rank": "Oyunda [currentRank] rütbesinde olduğun için [role] rolünü kaptın! Şimdi daha çok rütbe atla ve komutu yeniden kullanarak sunucudaki rolünü güncelle.",
+            "disabled": "Bu sunucuda rütbe rolleri devre dışı. Etkinleştirmek için lütfen sunucu sahibiyle iletişime geçin.",
+            "ranknotfound": "Rütbeniz [rank] ancak bu rütbeye sahip bir rol yok. Bu rütbeye sahip bir rol eklemek için lütfen sunucu sahibiyle iletişime geçin.",
+            "error": "Üzgünüm, size [role] rolünü vermek için yeterli iznim yok. Lütfen bana Rolleri Yönetme izni vermesi için sunucu sahibiyle iletişime geçin."
         },
         "claimfreeitems": {
             "embed1": "İçerik mağazasından alabileceğiniz hiçbir ücretsiz içerik yok.",
@@ -795,6 +798,26 @@
                 "description": "Şimdi görevden ayrılabilir ve ödüllerinizi alabilirsiniz!"
             },
             "error": "İlerlemeniz kaydedilirken bilinmeyen bir hata oluştu."
+        },
+        "ranksystem": {
+            "notenabled": "Rütbe-rol sistemi bu sunucuda etkin değil. Etkinleştirmek için sisteme bir rol ekleyin.",
+            "rankroles": "Rütbe Rolleri",
+            "added": "[rank] rütbesi ve [role] rolü sisteme başarıyla eklendi.",
+            "removed": "[rank] rütbesi ve [role] rolü sistemden başarıyla kaldırıldı.",
+            "alreadyenabled": "Rütbe-rol sistemi bu sunucuda zaten etkin.",
+            "alreadydisabled": "Rütbe-rol sistemi bu sunucuda zaten devre dışı.",
+            "enabledsystem": "Bu sunucuda rank-role sistemi başarıyla etkinleştirildi.",
+            "disabledsystem": "Bu sunucuda rütbe-rol sistemi başarıyla devre dışı bırakıldı.",
+            "alreadyinsystem": "Bu rütbe zaten sistemde var.",
+            "notinsystem": "Bu rütbe sistemde yok.",
+            "ranks": {
+                "bronze": "Bronz",
+                "silver": "Gümüş",
+                "gold": "Altın",
+                "platinum": "Platinum",
+                "diamond": "Elmas",
+                "thebest": "En İyileri"
+            }
         }
     },
     "changenickname": {
@@ -845,7 +868,10 @@
         "supportedcreator": "Desteklenilen Üretici",
         "banned": "Üzgünüz, hesabınız Epic Games tarafından yasaklanmış gibi görünüyor. Lütfen daha fazla bilgi için [bu bağlantıyı](https://www.epicgames.com/help/tr/contact-us) kullanarak Epic Games ile iletişime geçin.",
         "dmonly": "Bu komutu yalnızca DM'de kullanabilirsiniz.",
-        "premium": "Premium özellikler hakkında daha fazla bilgi edinmek için [destek sunucumuzda]([support]) bu mesajı [messageLink] okuyabilirsiniz!"
+        "premium": "Premium hakkında daha fazla bilgi edinmek için [destek sunucumuzda]([support]) bu mesajı [messageLink] okuyabilirsiniz!",
+        "premiumGuild": "Bu komutu kullanabilmek için sunucu sahibinin Premium olması gerekir. Premium hakkında daha fazla bilgi edinmek için [destek sunucumuzda]([support]) bu mesajı [messageLink] okuyabilirsiniz!",
+        "missingpermissions": "Bu komutu kullanmak için [perm] iznine sahip olmalısınız.",
+        "missingpermsbot": "Bu komutu kullanmak için [perm] iznine sahip olmalıyım."
     },
     "global": {
         "yes": "Evet",
@@ -1759,6 +1785,57 @@
             "name": "save-progress",
             "localizedName": "ilerlemeyi-kaydet",
             "localizedDescription": "Dünyayı Kurtardaki görevleri görevi tamamlamadan tamamlayın"
+        },
+        {
+            "name": "rank-system",
+            "localizedName": "rütbe-sistemi",
+            "localizedDescription": "Kullanıcıların /rütbe-rolünü-al komutunu kullanarak rol almalarını sağlamak için bu sistemi yönetin",
+            "options": [
+                {
+                    "name": "add",
+                    "localizedName": "ekle",
+                    "localizedDescription": "Sunucunuza bir rütbe-rol sistemi ekleyin",
+                    "options": [
+                        {
+                            "name": "rank",
+                            "localizedName": "rütbe",
+                            "localizedDescription": "Rütbe"
+                        },
+                        {
+                            "name": "role",
+                            "localizedName": "rol",
+                            "localizedDescription": "Kullanıcılara verilecek rol"
+                        }
+                    ]
+                },
+                {
+                    "name": "remove",
+                    "localizedName": "kaldır",
+                    "localizedDescription": "Sunucunuzdan bir rank-role sistemini kaldırın",
+                    "options": [
+                        {
+                            "name": "rank",
+                            "localizedName": "rütbe",
+                            "localizedDescription": "Rütbe"
+                        }
+                    ]
+                },
+                {
+                    "name": "list",
+                    "localizedName": "liste",
+                    "localizedDescription": "Sunucunuzdaki rütbe-rol sistemlerini görüntüleyin"
+                },
+                {
+                    "name": "enable",
+                    "localizedName": "etkinleştir",
+                    "localizedDescription": "Sunucunuzda rank-role sistemini etkinleştirin"
+                },
+                {
+                    "name": "disable",
+                    "localizedName": "kapat",
+                    "localizedDescription": "Sunucunuzdaki rütbe-rol sistemini devre dışı bırakın"
+                }
+            ]
         }
     ]
 }
