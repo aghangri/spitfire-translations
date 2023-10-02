@@ -113,6 +113,12 @@
             "embed24": "Herhangi bir gelen isteğiniz yok.",
             "embed25": "Herhangi bir giden isteğiniz yok.",
             "embed26": "Engellediğiniz herhangi bir kullanıcı yok.",
+            "embed27": "Lütfen gelen [count] arkadaşlık isteğini kabul ederken bekleyin [emoji]",
+            "embed28": "Gelen arkadaşlık isteklerinin [count] adeti başarıyla kabul edildi.",
+            "embed29": "Lütfen gelen [count] arkadaşlık isteğini reddederken bekleyin [emoji]",
+            "embed30": "Gelen arkadaşlık isteklerinin [count] adeti başarıyla reddedildi.",
+            "embed31": "Lütfen giden [count] arkadaşlık isteğini geri çekerken bekleyin [emoji]",
+            "embed32": "Giden arkadaşlık isteklerinin [count] adeti başarıyla geri çekildi.",
             "friends": "Arkadaşlarınız",
             "incoming": "Gelen İstekler",
             "outgoing": "Giden İstekler",
@@ -468,10 +474,17 @@
             "submit": "Gönder",
             "changed": "Hesap Değiştirildi",
             "switchedto": "[name] oyuncusuna geçiş yapıldı.",
-            "acceptedrules": "Kuralları kabul ettiniz. Lütfen giriş yapmak için komutu yeniden kullanın.",
-            "declinedrules": "Kuralları reddettiniz. Eğer kurallarla veya botla ilgili herhangi bir sorunuz/probleminiz varsa [destek sunucumuza]([support]) katılın.",
+            "acceptedrules": {
+                "title": "Kuralları Kabul Ettiniz",
+                "description": "Kuralları kabul ettiniz. Lütfen giriş yapmak için komutu yeniden kullanın."
+            },
+            "declinedrules": {
+                "title": "Kuralları Reddettiniz",
+                "description": "Kuralları reddettiniz. Eğer kurallarla veya botla ilgili herhangi bir sorunuz/probleminiz varsa [destek sunucumuza]([support]) katılın."
+            },
             "reachedlimit": "Kayıtlı hesap limitinize ulaştınız ([limit]).",
             "waitingauth": "Yetkilendirme bekleniyor [emoji]",
+            "error": "Hesaplarınız alınırken bilinmeyen bir hata oluştu.",
             "followup": {
                 "title": "Yeni Bir Hesaba Giriş Yap",
                 "howto": "Nasıl Giriş Yapılır",
@@ -818,6 +831,12 @@
                 "diamond": "Elmas",
                 "thebest": "En İyileri"
             }
+        },
+        "accountsettings": {
+            "gifts": [
+                "Hediye alma ayarınız **Etkin** olarak ayarlandı. Artık arkadaşlarınızdan hediye alabilirsiniz.",
+                "Hediye alma ayarınız **Devre Dışı** olarak ayarlandı. Artık arkadaşlarınızdan hediye alamazsınız."
+            ]
         }
     },
     "changenickname": {
@@ -1019,6 +1038,21 @@
                             "localizedDescription": "Görüntülenecek arkadaş listesi türü"
                         }
                     ]
+                },
+                {
+                    "name": "accept-all-incoming",
+                    "localizedName": "gelen-istekleri-kabul-et",
+                    "localizedDescription": "Gelen tüm arkadaşlık isteklerini kabul et"
+                },
+                {
+                    "name": "decline-all-incoming",
+                    "localizedName": "gelen-istekleri-reddet",
+                    "localizedDescription": "Gelen tüm arkadaşlık isteklerini reddet"
+                },
+                {
+                    "name": "cancel-all-outgoing",
+                    "localizedName": "giden-istekleri-geri-çek",
+                    "localizedDescription": "Giden tüm arkadaşlık isteklerini geri çek"
                 },
                 {
                     "name": "cleanup",
@@ -1834,6 +1868,25 @@
                     "name": "disable",
                     "localizedName": "kapat",
                     "localizedDescription": "Sunucunuzdaki rütbe-rol sistemini devre dışı bırakın"
+                }
+            ]
+        },
+        {
+            "name": "account-settings",
+            "localizedName": "hesap-ayarları",
+            "localizedDescription": "Epic Games hesap ayarlarınızı güncelleyin",
+            "options": [
+                {
+                    "name": "receive-gifts",
+                    "localizedName": "hediye-alma",
+                    "localizedDescription": "Arkadaşlarınızdan hediye alıp almayacağınızı belirleyin",
+                    "options": [
+                        {
+                            "name": "state",
+                            "localizedName": "durum",
+                            "localizedDescription": "Hediye alma veya almama"
+                        }
+                    ]
                 }
             ]
         }

@@ -113,6 +113,12 @@
             "embed24": "You have no incoming requests.",
             "embed25": "You have no outgoing requests.",
             "embed26": "You have no blocked users.",
+            "embed27": "Please wait while accepting [count] incoming friend requests [emoji]",
+            "embed28": "Successfully accepted [count] incoming friend requests.",
+            "embed29": "Please wait while denying [count] incoming friend requests [emoji]",
+            "embed30": "Successfully denied [count] incoming friend requests.",
+            "embed31": "Please wait while cancelling [count] outgoing friend requests [emoji]",
+            "embed32": "Successfully cancelled [count] outgoing friend requests.",
             "friends": "Your Friends",
             "incoming": "Incoming Requests",
             "outgoing": "Outgoing Requests",
@@ -467,10 +473,17 @@
             "submit": "Submit",
             "changed": "Account Changed",
             "switchedto": "Switched to player [name].",
-            "acceptedrules": "You have accepted the rules. Please use the command again to login.",
-            "declinedrules": "You declined the rules. If you have any question/problem related to the rules or the bot, join our [support server]([support])",
+            "acceptedrules": {
+                "title": "Accepted the Rules",
+                "description": "You have accepted the rules. Please use the command again to login."
+            },
+            "declinedrules": {
+                "title": "Declined the Rules",
+                "description": "You declined the rules. If you have any question/problem related to the rules or the bot, join our [support server]([support])"
+            },
             "reachedlimit": "You have reached your registered account limit ([limit]).",
             "waitingauth": "Waiting for authentication [emoji]",
+            "error": "An unknown error occurred while fetching your accounts.",
             "followup": {
                 "title": "Login to a New Account",
                 "howto": "How to Login",
@@ -816,6 +829,12 @@
                 "diamond": "Diamond",
                 "thebest": "The Best"
             }
+        },
+        "accountsettings": {
+            "gifts": [
+                "Successfully set your gift settings to **Enabled**. You can now receive gifts from your friends.",
+                "Successfully set your gift settings to **Disabled**. You can no longer receive gifts from your friends."
+            ]
         }
     },
     "changenickname": {
@@ -1017,6 +1036,21 @@
                             "localizedDescription": "Type of friend list to view"
                         }
                     ]
+                },
+                {
+                    "name": "accept-all-incoming",
+                    "localizedName": "accept-all-incoming",
+                    "localizedDescription": "Accept all incoming friend requests"
+                },
+                {
+                    "name": "decline-all-incoming",
+                    "localizedName": "decline-all-incoming",
+                    "localizedDescription": "Decline all incoming friend requests"
+                },
+                {
+                    "name": "cancel-all-outgoing",
+                    "localizedName": "cancel-all-outgoing",
+                    "localizedDescription": "Cancel all outgoing friend requests"
                 },
                 {
                     "name": "cleanup",
@@ -1831,6 +1865,25 @@
                     "name": "disable",
                     "localizedName": "disable",
                     "localizedDescription": "Disable the rank-role system in your server"
+                }
+            ]
+        },
+        {
+            "name": "account-settings",
+            "localizedName": "account-settings",
+            "localizedDescription": "Update your Epic Games account settings",
+            "options": [
+                {
+                    "name": "receive-gifts",
+                    "localizedName": "receive-gifts",
+                    "localizedDescription": "Toggle receiving gifts from friends",
+                    "options": [
+                        {
+                            "name": "state",
+                            "localizedName": "state",
+                            "localizedDescription": "Whether to receive gifts or not"
+                        }
+                    ]
                 }
             ]
         }
