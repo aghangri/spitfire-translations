@@ -193,7 +193,8 @@
             "noselectedcosmetics": "You don't have any cosmetics with this type."
         },
         "exchangecode": {
-            "expireNotification": "**WARNING: Do not share this code with anyone as it may grant access to your account!**\nThe code will expire [date].",
+            "expireNotification": "**WARNING: Do not share this code with anyone as it may grant access to your account!**",
+            "expiration": "Expiration",
             "logintoepicgames": "Login to Epic Games"
         },
         "news": {

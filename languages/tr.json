@@ -194,7 +194,8 @@
             "noselectedcosmetics": "Bu türde hiçbir içeriğe sahip değilsin."
         },
         "exchangecode": {
-            "expireNotification": "**DİKKAT: Bu kodu kimseyle paylaşmayın, hesabınıza erişim sağlayabilirler!**\nKodun geçerliliği [date] dolacak.",
+            "expireNotification": "**DİKKAT: Bu kodu kimseyle paylaşmayın, hesabınıza erişim sağlayabilirler!**",
+            "expiration": "Sona Erme",
             "logintoepicgames": "Epic Games'e Giriş Yap"
         },
         "news": {
