@@ -836,6 +836,12 @@
                 "Successfully set your gift settings to **Enabled**. You can now receive gifts from your friends.",
                 "Successfully set your gift settings to **Disabled**. You can no longer receive gifts from your friends."
             ]
+        },
+        "customprofile": {
+            "notfound": "No skin named [name] was found.",
+            "invalidtype": "The cosmetic type must be a character.",
+            "success": "Your avatar and embed color has been successfully changed to match the [name] skin!",
+            "reset": "Your profile has been successfully synced with your Fortnite profile!"
         }
     },
     "changenickname": {
@@ -1885,6 +1891,35 @@
                             "localizedDescription": "Whether to receive gifts or not"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "name": "custom-profile",
+            "localizedName": "custom-profile",
+            "localizedDescription": "Edit the bot's embed color and avatar",
+            "options": [
+                {
+                    "name": "set",
+                    "localizedName": "set",
+                    "localizedDescription": "Setup your custom profile",
+                    "options": [
+                        {
+                            "name": "skin",
+                            "localizedName": "skin",
+                            "localizedDescription": "The skin to use for the avatar and embed color"
+                        },
+                        {
+                            "name": "search-language",
+                            "localizedName": "search-language",
+                            "localizedDescription": "Set the cosmetic search language"
+                        }
+                    ]
+                },
+                {
+                    "name": "reset",
+                    "localizedName": "reset",
+                    "localizedDescription": "Reset your custom profile"
                 }
             ]
         }

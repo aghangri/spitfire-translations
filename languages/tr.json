@@ -800,7 +800,7 @@
             }
         },
         "accesstoken": {
-            "warning": "**:uyarı: Uyarı:** Hesabınıza erişmek için kullanılabileceğinden bu tokenleri kimseyle paylaşmayın!",
+            "warning": "**:warning: Uyarı:** Hesabınıza erişmek için kullanılabileceğinden bu tokenleri kimseyle paylaşmayın!",
             "accountid": "Hesap ID"
         },
         "staging": {
@@ -838,6 +838,12 @@
                 "Hediye alma ayarınız **Etkin** olarak ayarlandı. Artık arkadaşlarınızdan hediye alabilirsiniz.",
                 "Hediye alma ayarınız **Devre Dışı** olarak ayarlandı. Artık arkadaşlarınızdan hediye alamazsınız."
             ]
+        },
+        "customprofile": {
+            "notfound": "[name] ismiyle herhangi bir karakter bulunamadı.",
+            "invalidtype": "Kozmetik tipi karakter olmalı.",
+            "success": "Avatar ve embed rengin [name] karakteriyle uyuşacak şekilde değiştirildi!!",
+            "reset": "Profilin Fortnite profilinle başarıyla eşleştirildi!"
         }
     },
     "changenickname": {
@@ -1888,6 +1894,35 @@
                             "localizedDescription": "Hediye alma veya almama"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "name": "custom-profile",
+            "localizedName": "özel-profil",
+            "localizedDescription": "Botun embed rengini ve avatarını düzenle",
+            "options": [
+                {
+                    "name": "set",
+                    "localizedName": "ayarla",
+                    "localizedDescription": "Özel profilini ayarla",
+                    "options": [
+                        {
+                            "name": "skin",
+                            "localizedName": "karakter",
+                            "localizedDescription": "Avatar ve embed rengi için kullanılacak karakter"
+                        },
+                        {
+                            "name": "search-language",
+                            "localizedName": "arama-dili",
+                            "localizedDescription": "Kozmetik arama dilini ayarla"
+                        }
+                    ]
+                },
+                {
+                    "name": "reset",
+                    "localizedName": "sıfırla",
+                    "localizedDescription": "Özel profilini sıfırla"
                 }
             ]
         }
