@@ -701,7 +701,23 @@
                 "description": "Telefon numaranız başarıyla [number] olarak değiştirildi."
             },
             "nameremains": "İsim değiştirme işlemi iptal edildi. İsminiz hâlâ [name].",
-            "numberremains": "Telefon numarası değiştirme işlemi iptal edildi."
+            "numberremains": "Telefon numarası değiştirme işlemi iptal edildi.",
+            "name": "İsim",
+            "email": "E-posta",
+            "displayname": "Görünen Ad",
+            "lastchange": "Son değiştirme",
+            "totalchanges": "Toplam değiştirme",
+            "canchangename": "Görünen adını değiştirebilirsin :white_check_mark:",
+            "cantchangename": "Görünen adını değiştiremezsin :x:",
+            "login": "Oturum Açma",
+            "lastlogin": "Son oturum açma",
+            "failedattempts": "Başarısız oturum açma denemeleri",
+            "tfa": "2 Aşamalı Doğrulama",
+            "account": "Hesap",
+            "country": "Ülke",
+            "language": "Tercih edilen dil",
+            "cantchangename2": "Şu anda görünen adınızı değiştiremezsiniz. Lütfen daha sonra tekrar deneyin.",
+            "id": "Hesap ID"
         },
         "shopsections": {
             "today": "Bugün",
@@ -843,7 +859,7 @@
         "customprofile": {
             "notfound": "[name] ismiyle herhangi bir karakter bulunamadı.",
             "invalidtype": "Kozmetik tipi karakter olmalı.",
-            "success": "Avatar ve embed rengin [name] karakteriyle uyuşacak şekilde değiştirildi!!",
+            "success": "Avatar ve embed rengin [name] karakteriyle uyuşacak şekilde değiştirildi!",
             "reset": "Profilin Fortnite profilinle başarıyla eşleştirildi!"
         }
     },
@@ -1701,6 +1717,11 @@
                             "localizedDescription": "Yeni telefon numarası"
                         }
                     ]
+                },
+                {
+                    "name": "info",
+                    "localizedName": "bilgi",
+                    "localizedDescription": "Hassas hesap bilgilerinizi görüntüleyin"
                 }
             ]
         },

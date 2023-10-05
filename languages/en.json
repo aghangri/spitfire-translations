@@ -699,7 +699,23 @@
                 "description": "Your phone number was successfully changed to [number]."
             },
             "nameremains": "The name change has been cancelled. Your name is still [name].",
-            "numberremains": "The phone number change has been cancelled."
+            "numberremains": "The phone number change has been cancelled.",
+            "name": "Name",
+            "email": "E-mail",
+            "displayname": "Display Name",
+            "lastchange": "Last change",
+            "totalchanges": "Total changes",
+            "canchangename": "You can change your display name :white_check_mark:",
+            "cantchangename": "You can't change your display name :x:",
+            "login": "Login",
+            "lastlogin": "Last login",
+            "failedattempts": "Failed login attempts",
+            "tfa": "Two-Factor Authentication",
+            "account": "Account",
+            "country": "Country",
+            "language": "Preferred language",
+            "cantchangename2": "You can't change your display name at this time. Please try again later.",
+            "id": "Account ID"
         },
         "shopsections": {
             "today": "today",
@@ -1698,6 +1714,11 @@
                             "localizedDescription": "New phone number"
                         }
                     ]
+                },
+                {
+                    "name": "info",
+                    "localizedName": "info",
+                    "localizedDescription": "View your sensitive account information"
                 }
             ]
         },
