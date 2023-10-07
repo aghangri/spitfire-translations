@@ -861,6 +861,15 @@
             "invalidtype": "Kozmetik tipi karakter olmalı.",
             "success": "Avatar ve embed rengin [name] karakteriyle uyuşacak şekilde değiştirildi!",
             "reset": "Profilin Fortnite profilinle başarıyla eşleştirildi!"
+        },
+        "activatepremium": {
+            "alreadyPremium": "Siz zaten bir Premium kullanıcısınız.",
+            "invalidCode": "Girdiğiniz kod geçerli değil.",
+            "redeemed": {
+                "title": "Kod Okutuldu",
+                "description": "Kodu başarıyla kullandınız. Artık Premium komutlarını kullanabilirsiniz.",
+                "description2": "Kodu başarıyla kullandınız. Artık Premium komutlarını [date] tarihine kadar kullanabilirsiniz."
+            }
         }
     },
     "changenickname": {
@@ -1945,6 +1954,18 @@
                     "name": "reset",
                     "localizedName": "sıfırla",
                     "localizedDescription": "Özel profilini sıfırla"
+                }
+            ]
+        },
+        {
+            "name": "activate-premium",
+            "localizedName": "premium-etkinleştir",
+            "localizedDescription": "Bir kod kullanarak Premium'u etkinleştirin",
+            "options": [
+                {
+                    "name": "code",
+                    "localizedName": "kod",
+                    "localizedDescription": "Okutulacak kod"
                 }
             ]
         }

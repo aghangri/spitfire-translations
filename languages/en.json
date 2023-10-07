@@ -859,6 +859,15 @@
             "invalidtype": "The cosmetic type must be a character.",
             "success": "Your avatar and embed color has been successfully changed to match the [name] skin!",
             "reset": "Your profile has been successfully synced with your Fortnite profile!"
+        },
+        "activatepremium": {
+            "alreadyPremium": "You are already a Premium user.",
+            "invalidCode": "The code you entered is invalid.",
+            "redeemed": {
+                "title": "Code Redeemed",
+                "description": "You have successfully redeemed the code. You can now use the Premium commands.",
+                "description2": "You have successfully redeemed the code. You can now use the Premium commands until [date]."
+            }
         }
     },
     "changenickname": {
@@ -1942,6 +1951,18 @@
                     "name": "reset",
                     "localizedName": "reset",
                     "localizedDescription": "Reset your custom profile"
+                }
+            ]
+        }, 
+        {
+            "name": "activate-premium",
+            "localizedName": "activate-premium",
+            "localizedDescription": "Activate Premium using a code",
+            "options": [
+                {
+                    "name": "code",
+                    "localizedName": "code",
+                    "localizedDescription": "The code to redeem"
                 }
             ]
         }
