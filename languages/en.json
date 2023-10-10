@@ -553,6 +553,7 @@
             "error": "An unknown error occurred while equipping the cosmetic.",
             "notfound": "No cosmetic named [name] found.",
             "invalidtype": "Invalid cosmetic type.",
+            "premiumNote": "If you want to equip cosmetics with their styles, you must buy Premium. Join our support server for more information.",
             "embed1": {
                 "title": "Ghost Equip",
                 "description": "Successfully equipped [cosmetic]\n\nNote: This is only visible to other players in the party."

@@ -554,6 +554,7 @@
             "error": "Kozmetik kuşanılırken bilinmeyen bir hata oluştu.",
             "notfound": "[name] isminde herhangi bir kozmetik bulunamadı",
             "invalidtype": "Geçersiz kozmetik türü.",
+            "premiumNote": "Kozmetikleri tarzlarıyla kuşanmak istiyorsanız, Premium satın almalısınız. Daha fazla bilgi için destek sunucumuza katılın.",
             "embed1": {
                 "title": "Ghost Equip",
                 "description": "[cosmetic] başarıyla kuşanıldı\n\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir."
