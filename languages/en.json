@@ -153,8 +153,8 @@
             "nocrown": "Not owned [emoji]",
             "wins_with_crown": "Wins with crown",
             "lastmatch": "Last Match Time",
-            "pastSeasons": "Past Seasons",
-            "pastSeasons2": "Past Seasons (Continued)"
+            "season_levels": "Season Stats",
+            "season_levels2": "Season Stats (Continued)"
         },
         "whoami": {
             "connections": "Connections",

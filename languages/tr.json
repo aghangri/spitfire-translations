@@ -153,8 +153,8 @@
             "nocrown": "Sahip değil [emoji]",
             "wins_with_crown": "Zafer tacı ile zaferler",
             "lastmatch": "Son Maç Tarihi",
-            "pastSeasons": "Geçmiş Sezonlar",
-            "pastSeasons2": "Geçmiş Sezonlar (Devamı)"
+            "season_levels": "Sezon İstatistikleri",
+            "season_levels2": "Sezon İstatistikleri (Devamı)"
         },
         "whoami": {
             "connections": "Bağlantılar",
