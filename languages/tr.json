@@ -1,1974 +1,1988 @@
 {
-    "language": "Türkçe",
-    "languageCode": "tr",
-    "commands": {
-        "help": {
-            "embed1": {
-                "title": "Yardım Menüsü",
-                "description": "[name] kullanımı kolay bir Fortnite botudur.\n\n**Linkler**\n[Gizlilik Şartları]([website]/privacy-policy)\n[Kullanım Koşulları]([website]/tos)\n[Destek Sunucusu]([supportServer])\n[Davet Linki]([invite])"
-            },
-            "notfound": "[command] ismiyle herhangi bir komut bulunamadı.",
-            "command": "Komut",
-            "description": "Açıklama",
-            "category": "Kategori",
-            "loginreq": "Giriş Gerekli mi?",
-            "disabled": "Devre Dışı mı?"
+  "language": "Türkçe",
+  "languageCode": "tr",
+  "commands": {
+    "help": {
+      "embed1": {
+        "title": "Yardım Menüsü",
+        "description": "[name] kullanımı kolay bir Fortnite botudur.\n\n**Linkler**\n[Gizlilik Şartları]([website]/privacy-policy)\n[Kullanım Koşulları]([website]/tos)\n[Destek Sunucusu]([supportServer])\n[Davet Linki]([invite])"
+      },
+      "notfound": "[command] ismiyle herhangi bir komut bulunamadı.",
+      "command": "Komut",
+      "description": "Açıklama",
+      "category": "Kategori",
+      "loginreq": "Giriş Gerekli mi?",
+      "disabled": "Devre Dışı mı?"
+    },
+    "2fa": {
+      "embed1": "Ödül alınırken bilinmeyen bir hata oluştu.",
+      "embed2": {
+        "title": "Ödüller Alındı",
+        "description": "Battle Royale ödülleri başarıyla alındı.",
+        "description2": "Battle Royale ve Dünyayı Kurtar ödülleri başarıyla alındı."
+      }
+    },
+    "island": {
+      "invalid": "[code] geçerli bir kod değil.",
+      "embed1": "Ada aranırken bilinmeyen bir hata oluştu.",
+      "description": "Açıklama",
+      "no_description": "Açıklama Yok",
+      "version": "Sürüm",
+      "creator": "Oluşturan",
+      "creation": "Oluşturma:",
+      "tags": "Etiketler",
+      "no_tags": "Etiket Yok",
+      "footer": "İçerik üreticisi kodu: [code]",
+      "embed2": "Ada favorilerinize eklenirken bilinmeyen bir hata oluştu.",
+      "embed3": {
+        "title": "Ada Favorilerinize Eklendi",
+        "description": "[island] favorilerinize eklendi.",
+        "footer": "Not: Bazı yasak oyun modlarının oynanması sizin hesabınızı kısıtlayabilir. Lütfen bu riski göz önünde bulundurmayı unutmayın."
+      },
+      "notallowed": "Şu anda [code] koduna erişilmeye izin verilmiyor."
+    },
+    "anticheat": {
+      "anticheat": "Anti-Cheat",
+      "message": "Şu anda anti-cheat sağlayıcınız olarak [provider] kullanıyorsunuz."
+    },
+    "friends": {
+      "global": {
+        "accept": "Kabul Et",
+        "deny": "Reddet",
+        "block": "Engelle",
+        "unblock": "Engeli Kaldır",
+        "remove": "Arkadaşlıktan Sil",
+        "add": "Arkadaş Ekle",
+        "back": "İsteği Geri Çek",
+        "backed": "İstek Geri Çekildi",
+        "incoming": "Gelen Arkadaşlık İsteği",
+        "outgoing": "Giden Arkadaşlık İsteği",
+        "friends": "[name] ile Arkadaşsınız",
+        "notfriends": "[name] ile Arkadaş Değilsiniz",
+        "blocked": "[name] Oyuncusunu Engelledin",
+        "accepted": "İstek Kabul Edildi",
+        "sent": "İstek Gönderildi",
+        "sentdate": "Arkadaşlık İsteği Tarihi",
+        "denied": "İstek Reddedildi",
+        "blocked2": "[name] Engellendi",
+        "blockdate": "Engelleme Tarihi",
+        "nickname": "Takma Ad",
+        "frienddate": "Arkadaş Olma Tarihi",
+        "changenickname": "Takma Adı Değiştir",
+        "removed": "[name] Arkadaşlarınızdan Çıkarıldı",
+        "removef": "Arkadaşlıktan Sil",
+        "addfriend": "Arkadaş Ekle",
+        "sent_w_name": "[name] Oyuncusuna İstek Gönderildi"
+      },
+      "embed1": "[name] ismiyle herhangi bir oyuncu bulunamadı.",
+      "embed2": "Kendini arkadaş ekleyemezsin.",
+      "embed3": "Bu işlemi gerçekleştirmeden önce lütfen bu oyuncunun engelini `arkadaş engel-kaldır` veya `arkadaş kullanıcı` komutuyla kaldırın.",
+      "embed4": "Kullanıcının ayarları nedeniyle arkadaşlık isteği gönderilemiyor.",
+      "embed5": "Kullanıcıya gelen arkadaşlık isteği sayısı limiti aştığı için istek gönderilemedi.",
+      "embed6": "Arkadaşlık isteği gönderilirken bilinmeyen bir hata oluştu.",
+      "embed7": "[name] oyuncusunun arkadaşlık isteği kabul edildi.",
+      "embed8": "[name] oyuncusuna zaten arkadaşlık isteği gönderdin. İsteği geri çekmek için `arkadaş kullanıcı` komutunu kullan.",
+      "embed9": "[name] ile zaten arkadaşsın. İsteği geri çekmek için `arkadaş sil` veya `arkadaş kullanıcı` komutunu kullan.",
+      "embed10": "[name] oyuncusuna arkadaşlık isteği gönderildi.",
+      "embed11": "Kendini arkadaşlıktan silemezsin.",
+      "embed12": "[name] arkadaş listenizden silindi.",
+      "embed13": "[name] ile zaten arkadaş değilsin.",
+      "embed14": "Kendini engelleyemezsin.",
+      "embed15": "[name] engellendi.",
+      "embed16": "[name] zaten engellenmiş listenizde. Engeli kaldırmak için `arkadaş engel-kaldır` veya `arkadaş kullanıcı` komutunu kullanın.",
+      "embed17": "[name] oyuncusunun engeli kaldırıldı.",
+      "embed18": "[name] engelli listenizde değil.",
+      "embed19": "Hiçbir arkadaşın yok.",
+      "embed20": {
+        "title": "Arkadaş Listeniz Temizlendi",
+        "description": "Hesabı kilitlenen, askıya alınan, kapatılan [deleted] kişi arkadaş listenizden kaldırıldı."
+      },
+      "modal": {
+        "title": "Takma Ad Değiştir",
+        "label": "Yeni Takma Ad"
+      },
+      "embed21": {
+        "title": "Arkadaş Listeniz Silindi",
+        "description": "Arkadaş listenizdeki herkes başarıyla silindi."
+      },
+      "embed22": "Arkadaş listeniz alınırken bilinmeyen bir hata oluştu.",
+      "embed23": {
+        "description": ":x: = Hediye için uygun olmayan",
+        "footer": "Toplam [friends] arkadaş"
+      },
+      "embed24": "Herhangi bir gelen isteğiniz yok.",
+      "embed25": "Herhangi bir giden isteğiniz yok.",
+      "embed26": "Engellediğiniz herhangi bir kullanıcı yok.",
+      "embed27": "Lütfen gelen [count] arkadaşlık isteğini kabul ederken bekleyin [emoji]",
+      "embed28": "Gelen arkadaşlık isteklerinin [count] adeti başarıyla kabul edildi.",
+      "embed29": "Lütfen gelen [count] arkadaşlık isteğini reddederken bekleyin [emoji]",
+      "embed30": "Gelen arkadaşlık isteklerinin [count] adeti başarıyla reddedildi.",
+      "embed31": "Lütfen giden [count] arkadaşlık isteğini geri çekerken bekleyin [emoji]",
+      "embed32": "Giden arkadaşlık isteklerinin [count] adeti başarıyla geri çekildi.",
+      "friends": "Arkadaşlarınız",
+      "incoming": "Gelen İstekler",
+      "outgoing": "Giden İstekler",
+      "blocklist": "Engellenen Kullanıcılar",
+      "clearconfirmation": {
+        "title": "Arkadaş Listenizi Temizleyin",
+        "description": "Arkadaş listenizdeki herkesi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+      }
+    },
+    "battleroyale": {
+      "account": "Hesap",
+      "creation": "İlk oynama",
+      "account_level": "Hesap seviyesi",
+      "mfa": "2AD ödülleri",
+      "claimed": "Alındı [emoji]",
+      "notclaimed": "Alınmadı [emoji]",
+      "br": "Battle Royale",
+      "wins": "Zaferler",
+      "allwins": "Tüm zaferler",
+      "battlepass": "Savaş bileti",
+      "bp_active": "Aktif [emoji]",
+      "bp_notactive": "Aktif değil [emoji]",
+      "level": "Seviye",
+      "superchargedxp": "Aşırı Yüklenmiş TP",
+      "xp": "TP",
+      "multiplier": "Katlayıcı",
+      "season_resources": "Sezon Kaynakları",
+      "battlestars": "Savaş yıldızları",
+      "gold": "Külçe",
+      "crown": "Zafer tacı",
+      "yescrown": "Sahip [emoji]",
+      "nocrown": "Sahip değil [emoji]",
+      "wins_with_crown": "Zafer tacı ile zaferler",
+      "lastmatch": "Son Maç Tarihi",
+      "season_levels": "Sezon İstatistikleri",
+      "season_levels2": "Sezon İstatistikleri (Devamı)"
+    },
+    "whoami": {
+      "connections": "Bağlantılar",
+      "noconnection": "Bağlantı Yok",
+      "isparent": "Ebeveyn Hesabı mı?",
+      "isparentverified": "Ebeveyn Onaylı mı?"
+    },
+    "cloudstorage": {
+      "embed1": "[file] ismiyle herhangi bir dosya bulunamadı.",
+      "embed2": "Görüntülenecek hiçbir dosya yok.",
+      "embed3": "Dosya alınırken bilinmeyen bir hata oluştu.",
+      "embed4": "Dosya yüklenirken bilinmeyen bir hata oluştu.",
+      "embed5": "[file] oyun dosyalarına başarıyla yüklendi.",
+      "embed6": "Bulut Depolama Listesi",
+      "name": "İsim",
+      "uploaded": "Yüklenme",
+      "size": "Boyut"
+    },
+    "logout": {
+      "embed1": {
+        "title": ":wave: Görüşürüz, [name]!",
+        "description": "Hesabınızdan başarıyla çıkış yaptınız. Herhangi bir sorunuz veya probleminiz varsa, [destek sunucumuza]([support]) katılın."
+      },
+      "embed2": {
+        "title": ":wave: Tüm Hesaplardan Çıkış Yapıldı",
+        "description": "Tüm hesaplarınızdan başarıyla çıkış yaptınız. Herhangi bir sorunuz veya probleminiz varsa, [destek sunucumuza]([support]) katılın."
+      }
+    },
+    "ranked": {
+      "current": "Mevcut derecen",
+      "highest": "En yüksek derecen",
+      "progress": "İlerleme: **%[progress]**",
+      "br": "Dereceli Battle Royale",
+      "zb": "Dereceli Sıfır İnşa"
+    },
+    "locker": {
+      "nocosmetics": "Herhangi bir kozmetiğin yok.",
+      "toolong": "URL çok uzun olduğu için dolabınız yüklenemedi.",
+      "locker": "Dolabım",
+      "viewonfngg": "Dolabını Fortnite.GG Üzerinde Görüntüle",
+      "noselectedcosmetics": "Bu türde hiçbir içeriğe sahip değilsin."
+    },
+    "exchangecode": {
+      "expireNotification": "**DİKKAT: Bu kodu kimseyle paylaşmayın, hesabınıza erişim sağlayabilirler!**",
+      "expiration": "Sona Erme",
+      "logintoepicgames": "Epic Games'e Giriş Yap"
+    },
+    "news": {
+      "no_br": "Battle Royale modu için hiçbir haber bulunmuyor.",
+      "no_stw": "Dünyayı Kurtar modu için hiçbir haber bulunmuyor."
+    },
+    "map": {
+      "randomlocation": "Rastgele Atla",
+      "embed1": "Battle Royale Haritası"
+    },
+    "reminder": {
+      "embed1": "[cosmetic] isminde herhangi bir kozmetik bulunamadı.",
+      "embed2": "Bu içeriği hatırlatıcına ekleyemezsin.",
+      "reachedlimit": "Hatırlatıcı limitinize ulaştınız ([limit]).",
+      "embed4": "Bu içerik zaten hatırlatıcında bulunuyor.",
+      "embed5": "[cosmetic] başarıyla hatırlatıcınıza eklendi. Mağazaya geri döndüğünde bir DM mesajı ve [channel]'nda bir bildirim alacaksınız.",
+      "embed6": "Bu içerik zaten hatırlatıcında bulunmuyor.",
+      "embed7": "[cosmetic] başarıyla hatırlatıcınızdan kaldırıldı.",
+      "embed8": "Hatırlatıcı Listesi",
+      "embed9": "Hatırlatıcında herhangi bir içerik bulunmuyor.",
+      "embed10": "Hatırlatıcı listeniz başarıyla sıfırlandı.",
+      "types": {
+        "outfit": "Kostümler",
+        "pickaxe": "Toplama Aletleri",
+        "backpack": "Sırt Çantaları",
+        "glider": "Planörler",
+        "emote": "Danslar",
+        "loadingscreen": "Yükleme Ekranları",
+        "emoji": "Emojiler",
+        "wrap": "Kaplamalar",
+        "spray": "Spreyler",
+        "contrail": "Dalış İzleri",
+        "music": "Müzikler",
+        "toy": "Oyuncaklar"
+      }
+    },
+    "gift": {
+      "embed1": "[item] içerik mağazasında bulunamadı. Lütfen doğru yazdığınızdan emin olun.",
+      "embed2": "[name] ismiyle herhangi bir oyuncu bulunamadı.",
+      "embed3": "Kendine hediye gönderemezsin.",
+      "embed4": "Hediye göndermek için öncelikle [friendName] arkadaş olmanız gerekir.",
+      "embed5": "[item] içeriğini [price] karşılığında [friendName] arkadaşına hediye etmek istiyor musun?",
+      "embed6": "Hediye göndermek için ilk önce hesabında 2 Aşamalı Doğrulamayı aktif etmelisin.",
+      "embed7": "[friendName] ile 2 günden yeni bir sürede arkadaş olduğunuz için hediye gönderilemiyor. [afterTime] tekrar deneyin",
+      "embed8": "[friendName] hediyeleri kabul etmiyor.",
+      "embed9": "Hediye gönderilemedi. [friendName] zaten bu içeriğe sahip olabilir.",
+      "embed10": "Bu içeriği hediye etmeniz için size [requiredVB] daha gerekiyor. Sizde olan: [currentVB]",
+      "embed11": "Bu içeriği hediye olarak gönderemezsiniz.",
+      "embed12": "Hediye işlemi gerçekleştirilirken bilinmeyen bir hata oluştu.",
+      "embed13": "Günlük hediye gönderme limitine ulaştınız (5/5). Lütfen daha sonra tekrar deneyin.",
+      "embed14": "Bu içerik hediye edilemez.",
+      "sent": {
+        "title": "İçerik Hediye Edildi :white_check_mark:",
+        "description": "[item], [price] karşılığında başarıyla [friendName] arkadaşına hediye edildi.",
+        "footer": "Desteklenen içerik üreticisi: [supportCode]"
+      },
+      "cancelled": {
+        "title": "Hediye İptal Edildi :x:",
+        "description": "[item] içeriğini [friendName] arkadaşına göndermekten vazgeçtin."
+      },
+      "allcontents": "Tüm İçerikler"
+    },
+    "gifthistory": {
+      "embed1": "Kimseye hediye göndermedin.",
+      "embed2": "Gönderilen Hediye Geçmişin",
+      "embed3": "Kimseden hediye almadın.",
+      "embed4": "Alınan Hediye Geçmişin"
+    },
+    "shop": {
+      "embed1": "İçerik Mağazası ([date])",
+      "wait": "İçerik mağazasının resmi henüz oluşturulmadı. Lütfen daha sonra tekrar deneyin."
+    },
+    "seasonprogress": {
+      "message": "4\\. Bölüm 4. Sezon, %[percent] tamamlandı. [time] sonra bu sezon bitecek.",
+      "times": {
+        "days": "gün",
+        "hours": "saat"
+      }
+    },
+    "cosmetic": {
+      "embed1": "[name] ismiyle herhangi bir kozmetik bulunamadı.",
+      "partofset": "[set] setinin bir parçası.",
+      "intro": "[chapter]\\. Bölüm [season]. Sezon'da tanıtıldı.",
+      "shophistory": "İçerik Mağazası Geçmişi [total]",
+      "firstseen": "İlk görülme",
+      "previousseen": "Önceki görülme",
+      "lastseen": "Son görülme",
+      "selectstyle": "Bir tarz seçin",
+      "selectstyleoption": "Bir tarz seçeneği seçin",
+      "buy": "Bu içeriği [price] karşılığında satın almak için `/satın-al içerik: [number]` komutunu kullanın."
+    },
+    "creativexp": {
+      "embed1": {
+        "title": "Kreatif TP",
+        "fields": {
+          "daily": "Günlük",
+          "gameplay": "Oynanış",
+          "gainedXp": "Kazanılan TP",
+          "dailyMultiplier": "Günlük aşım katlayıcısı",
+          "bankXp": "Bank TP",
+          "bankXpMultiplier": "Bank TP katlayıcısı",
+          "bucketXp": "Bucket TP"
         },
-        "2fa": {
-            "embed1": "Ödül alınırken bilinmeyen bir hata oluştu.",
-            "embed2": {
-                "title": "Ödüller Alındı",
-                "description": "Battle Royale ödülleri başarıyla alındı.",
-                "description2": "Battle Royale ve Dünyayı Kurtar ödülleri başarıyla alındı."
-            }
-        },
-        "island": {
-            "invalid": "[code] geçerli bir kod değil.",
-            "embed1": "Ada aranırken bilinmeyen bir hata oluştu.",
-            "description": "Açıklama",
-            "no_description": "Açıklama Yok",
-            "version": "Sürüm",
-            "creator": "Oluşturan",
-            "creation": "Oluşturma:",
-            "tags": "Etiketler",
-            "no_tags": "Etiket Yok",
-            "footer": "İçerik üreticisi kodu: [code]",
-            "embed2": "Ada favorilerinize eklenirken bilinmeyen bir hata oluştu.",
-            "embed3": {
-                "title": "Ada Favorilerinize Eklendi",
-                "description": "[island] favorilerinize eklendi.",
-                "footer": "Not: Bazı yasak oyun modlarının oynanması sizin hesabınızı kısıtlayabilir. Lütfen bu riski göz önünde bulundurmayı unutmayın."
-            },
-            "notallowed": "Şu anda [code] koduna erişilmeye izin verilmiyor."
-        },
-        "anticheat": {
-            "anticheat": "Anti-Cheat",
-            "message": "Şu anda anti-cheat sağlayıcınız olarak [provider] kullanıyorsunuz."
-        },
-        "friends": {
-            "global": {
-                "accept": "Kabul Et",
-                "deny": "Reddet",
-                "block": "Engelle",
-                "unblock": "Engeli Kaldır",
-                "remove": "Arkadaşlıktan Sil",
-                "add": "Arkadaş Ekle",
-                "back": "İsteği Geri Çek",
-                "backed": "İstek Geri Çekildi",
-                "incoming": "Gelen Arkadaşlık İsteği",
-                "outgoing": "Giden Arkadaşlık İsteği",
-                "friends": "[name] ile Arkadaşsınız",
-                "notfriends": "[name] ile Arkadaş Değilsiniz",
-                "blocked": "[name] Oyuncusunu Engelledin",
-                "accepted": "İstek Kabul Edildi",
-                "sent": "İstek Gönderildi",
-                "sentdate": "Arkadaşlık İsteği Tarihi",
-                "denied": "İstek Reddedildi",
-                "blocked2": "[name] Engellendi",
-                "blockdate": "Engelleme Tarihi",
-                "nickname": "Takma Ad",
-                "frienddate": "Arkadaş Olma Tarihi",
-                "changenickname": "Takma Adı Değiştir",
-                "removed": "[name] Arkadaşlarınızdan Çıkarıldı",
-                "removef": "Arkadaşlıktan Sil",
-                "addfriend": "Arkadaş Ekle",
-                "sent_w_name": "[name] Oyuncusuna İstek Gönderildi"
-            },
-            "embed1": "[name] ismiyle herhangi bir oyuncu bulunamadı.",
-            "embed2": "Kendini arkadaş ekleyemezsin.",
-            "embed3": "Bu işlemi gerçekleştirmeden önce lütfen bu oyuncunun engelini `arkadaş engel-kaldır` veya `arkadaş kullanıcı` komutuyla kaldırın.",
-            "embed4": "Kullanıcının ayarları nedeniyle arkadaşlık isteği gönderilemiyor.",
-            "embed5": "Kullanıcıya gelen arkadaşlık isteği sayısı limiti aştığı için istek gönderilemedi.",
-            "embed6": "Arkadaşlık isteği gönderilirken bilinmeyen bir hata oluştu.",
-            "embed7": "[name] oyuncusunun arkadaşlık isteği kabul edildi.",
-            "embed8": "[name] oyuncusuna zaten arkadaşlık isteği gönderdin. İsteği geri çekmek için `arkadaş kullanıcı` komutunu kullan.",
-            "embed9": "[name] ile zaten arkadaşsın. İsteği geri çekmek için `arkadaş sil` veya `arkadaş kullanıcı` komutunu kullan.",
-            "embed10": "[name] oyuncusuna arkadaşlık isteği gönderildi.",
-            "embed11": "Kendini arkadaşlıktan silemezsin.",
-            "embed12": "[name] arkadaş listenizden silindi.",
-            "embed13": "[name] ile zaten arkadaş değilsin.",
-            "embed14": "Kendini engelleyemezsin.",
-            "embed15": "[name] engellendi.",
-            "embed16": "[name] zaten engellenmiş listenizde. Engeli kaldırmak için `arkadaş engel-kaldır` veya `arkadaş kullanıcı` komutunu kullanın.",
-            "embed17": "[name] oyuncusunun engeli kaldırıldı.",
-            "embed18": "[name] engelli listenizde değil.",
-            "embed19": "Hiçbir arkadaşın yok.",
-            "embed20": {
-                "title": "Arkadaş Listeniz Temizlendi",
-                "description": "Hesabı kilitlenen, askıya alınan, kapatılan [deleted] kişi arkadaş listenizden kaldırıldı."
-            },
-            "modal": {
-                "title": "Takma Ad Değiştir",
-                "label": "Yeni Takma Ad"
-            },
-            "embed21": {
-                "title": "Arkadaş Listeniz Silindi",
-                "description": "Arkadaş listenizdeki herkes başarıyla silindi."
-            },
-            "embed22": "Arkadaş listeniz alınırken bilinmeyen bir hata oluştu.",
-            "embed23": {
-                "description": ":x: = Hediye için uygun olmayan",
-                "footer": "Toplam [friends] arkadaş"
-            },
-            "embed24": "Herhangi bir gelen isteğiniz yok.",
-            "embed25": "Herhangi bir giden isteğiniz yok.",
-            "embed26": "Engellediğiniz herhangi bir kullanıcı yok.",
-            "embed27": "Lütfen gelen [count] arkadaşlık isteğini kabul ederken bekleyin [emoji]",
-            "embed28": "Gelen arkadaşlık isteklerinin [count] adeti başarıyla kabul edildi.",
-            "embed29": "Lütfen gelen [count] arkadaşlık isteğini reddederken bekleyin [emoji]",
-            "embed30": "Gelen arkadaşlık isteklerinin [count] adeti başarıyla reddedildi.",
-            "embed31": "Lütfen giden [count] arkadaşlık isteğini geri çekerken bekleyin [emoji]",
-            "embed32": "Giden arkadaşlık isteklerinin [count] adeti başarıyla geri çekildi.",
-            "friends": "Arkadaşlarınız",
-            "incoming": "Gelen İstekler",
-            "outgoing": "Giden İstekler",
-            "blocklist": "Engellenen Kullanıcılar",
-            "clearconfirmation": {
-                "title": "Arkadaş Listenizi Temizleyin",
-                "description": "Arkadaş listenizdeki herkesi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
-            }
-        },
-        "battleroyale": {
-            "account": "Hesap",
-            "creation": "İlk oynama",
-            "account_level": "Hesap seviyesi",
-            "mfa": "2AD ödülleri",
-            "claimed": "Alındı [emoji]",
-            "notclaimed": "Alınmadı [emoji]",
-            "br": "Battle Royale",
-            "wins": "Zaferler",
-            "allwins": "Tüm zaferler",
-            "battlepass": "Savaş bileti",
-            "bp_active": "Aktif [emoji]",
-            "bp_notactive": "Aktif değil [emoji]",
-            "level": "Seviye",
-            "superchargedxp": "Aşırı Yüklenmiş TP",
-            "xp": "TP",
-            "multiplier": "Katlayıcı",
-            "season_resources": "Sezon Kaynakları",
-            "battlestars": "Savaş yıldızları",
-            "gold": "Külçe",
-            "crown": "Zafer tacı",
-            "yescrown": "Sahip [emoji]",
-            "nocrown": "Sahip değil [emoji]",
-            "wins_with_crown": "Zafer tacı ile zaferler",
-            "lastmatch": "Son Maç Tarihi",
-            "season_levels": "Sezon İstatistikleri",
-            "season_levels2": "Sezon İstatistikleri (Devamı)"
-        },
-        "whoami": {
-            "connections": "Bağlantılar",
-            "noconnection": "Bağlantı Yok",
-            "isparent": "Ebeveyn Hesabı mı?",
-            "isparentverified": "Ebeveyn Onaylı mı?"
-        },
-        "cloudstorage": {
-            "embed1": "[file] ismiyle herhangi bir dosya bulunamadı.",
-            "embed2": "Görüntülenecek hiçbir dosya yok.",
-            "embed3": "Dosya alınırken bilinmeyen bir hata oluştu.",
-            "embed4": "Dosya yüklenirken bilinmeyen bir hata oluştu.",
-            "embed5": "[file] oyun dosyalarına başarıyla yüklendi.",
-            "embed6": "Bulut Depolama Listesi",
-            "name": "İsim",
-            "uploaded": "Yüklenme",
-            "size": "Boyut"
-        },
-        "logout": {
-            "embed1": {
-                "title": ":wave: Görüşürüz, [name]!",
-                "description": "Hesabınızdan başarıyla çıkış yaptınız. Herhangi bir sorunuz veya probleminiz varsa, [destek sunucumuza]([support]) katılın."
-            }
-        },
-        "ranked": {
-            "current": "Mevcut derecen",
-            "highest": "En yüksek derecen",
-            "progress": "İlerleme: **%[progress]**",
-            "br": "Dereceli Battle Royale",
-            "zb": "Dereceli Sıfır İnşa"
-        },
-        "locker": {
-            "nocosmetics": "Herhangi bir kozmetiğin yok.",
-            "toolong": "URL çok uzun olduğu için dolabınız yüklenemedi.",
-            "locker": "Dolabım",
-            "viewonfngg": "Dolabını Fortnite.GG Üzerinde Görüntüle",
-            "noselectedcosmetics": "Bu türde hiçbir içeriğe sahip değilsin."
-        },
-        "exchangecode": {
-            "expireNotification": "**DİKKAT: Bu kodu kimseyle paylaşmayın, hesabınıza erişim sağlayabilirler!**",
-            "expiration": "Sona Erme",
-            "logintoepicgames": "Epic Games'e Giriş Yap"
-        },
-        "news": {
-            "no_br": "Battle Royale modu için hiçbir haber bulunmuyor.",
-            "no_stw": "Dünyayı Kurtar modu için hiçbir haber bulunmuyor."
-        },
-        "map": {
-            "randomlocation": "Rastgele Atla",
-            "embed1": "Battle Royale Haritası"
-        },
-        "reminder": {
-            "embed1": "[cosmetic] isminde herhangi bir kozmetik bulunamadı.",
-            "embed2": "Bu içeriği hatırlatıcına ekleyemezsin.",
-            "reachedlimit": "Hatırlatıcı limitinize ulaştınız ([limit]).",
-            "embed4": "Bu içerik zaten hatırlatıcında bulunuyor.",
-            "embed5": "[cosmetic] başarıyla hatırlatıcınıza eklendi. Mağazaya geri döndüğünde bir DM mesajı ve [channel]'nda bir bildirim alacaksınız.",
-            "embed6": "Bu içerik zaten hatırlatıcında bulunmuyor.",
-            "embed7": "[cosmetic] başarıyla hatırlatıcınızdan kaldırıldı.",
-            "embed8": "Hatırlatıcı Listesi",
-            "embed9": "Hatırlatıcında herhangi bir içerik bulunmuyor.",
-            "embed10": "Hatırlatıcı listeniz başarıyla sıfırlandı.",
-            "types": {
-                "outfit": "Kostümler",
-                "pickaxe": "Toplama Aletleri",
-                "backpack": "Sırt Çantaları",
-                "glider": "Planörler",
-                "emote": "Danslar",
-                "loadingscreen": "Yükleme Ekranları",
-                "emoji": "Emojiler",
-                "wrap": "Kaplamalar",
-                "spray": "Spreyler",
-                "contrail": "Dalış İzleri",
-                "music": "Müzikler",
-                "toy": "Oyuncaklar"
-            }
-        },
-        "gift": {
-            "embed1": "[item] içerik mağazasında bulunamadı. Lütfen doğru yazdığınızdan emin olun.",
-            "embed2": "[name] ismiyle herhangi bir oyuncu bulunamadı.",
-            "embed3": "Kendine hediye gönderemezsin.",
-            "embed4": "Hediye göndermek için öncelikle [friendName] arkadaş olmanız gerekir.",
-            "embed5": "[item] içeriğini [price] karşılığında [friendName] arkadaşına hediye etmek istiyor musun?",
-            "embed6": "Hediye göndermek için ilk önce hesabında 2 Aşamalı Doğrulamayı aktif etmelisin.",
-            "embed7": "[friendName] ile 2 günden yeni bir sürede arkadaş olduğunuz için hediye gönderilemiyor. [afterTime] tekrar deneyin",
-            "embed8": "[friendName] hediyeleri kabul etmiyor.",
-            "embed9": "Hediye gönderilemedi. [friendName] zaten bu içeriğe sahip olabilir.",
-            "embed10": "Bu içeriği hediye etmeniz için size [requiredVB] daha gerekiyor. Sizde olan: [currentVB]",
-            "embed11": "Bu içeriği hediye olarak gönderemezsiniz.",
-            "embed12": "Hediye işlemi gerçekleştirilirken bilinmeyen bir hata oluştu.",
-            "embed13": "Günlük hediye gönderme limitine ulaştınız (5/5). Lütfen daha sonra tekrar deneyin.",
-            "embed14": "Bu içerik hediye edilemez.",
-            "sent": {
-                "title": "İçerik Hediye Edildi :white_check_mark:",
-                "description": "[item], [price] karşılığında başarıyla [friendName] arkadaşına hediye edildi.",
-                "footer": "Desteklenen içerik üreticisi: [supportCode]"
-            },
-            "cancelled": {
-                "title": "Hediye İptal Edildi :x:",
-                "description": "[item] içeriğini [friendName] arkadaşına göndermekten vazgeçtin."
-            },
-            "allcontents": "Tüm İçerikler"
-        },
-        "gifthistory": {
-            "embed1": "Kimseye hediye göndermedin.",
-            "embed2": "Gönderilen Hediye Geçmişin",
-            "embed3": "Kimseden hediye almadın.",
-            "embed4": "Alınan Hediye Geçmişin"
-        },
-        "shop": {
-            "embed1": "İçerik Mağazası ([date])",
-            "wait": "İçerik mağazasının resmi henüz oluşturulmadı. Lütfen daha sonra tekrar deneyin."
-        },
-        "seasonprogress": {
-            "message": "4\\. Bölüm 4. Sezon, %[percent] tamamlandı. [time] sonra bu sezon bitecek.",
-            "times": {
-                "days": "gün",
-                "hours": "saat"
-            }
-        },
-        "cosmetic": {
-            "embed1": "[name] ismiyle herhangi bir kozmetik bulunamadı.",
-            "partofset": "[set] setinin bir parçası.",
-            "intro": "[chapter]\\. Bölüm [season]. Sezon'da tanıtıldı.",
-            "shophistory": "İçerik Mağazası Geçmişi [total]",
-            "firstseen": "İlk görülme",
-            "previousseen": "Önceki görülme",
-            "lastseen": "Son görülme",
-            "selectstyle": "Bir tarz seçin",
-            "selectstyleoption": "Bir tarz seçeneği seçin",
-            "buy": "Bu içeriği [price] karşılığında satın almak için `/satın-al içerik: [number]` komutunu kullanın."
-        },
-        "creativexp": {
-            "embed1": {
-                "title": "Kreatif TP",
-                "fields": {
-                    "daily": "Günlük",
-                    "gameplay": "Oynanış",
-                    "gainedXp": "Kazanılan TP",
-                    "dailyMultiplier": "Günlük aşım katlayıcısı",
-                    "bankXp": "Bank TP",
-                    "bankXpMultiplier": "Bank TP katlayıcısı",
-                    "bucketXp": "Bucket TP"
-                },
-                "resetdate": "Sıfırlanma Tarihi"
-            }
-        },
-        "randomlocation": {
-            "random": "Bu maç atlayacağın konum",
-            "pois": {
-                "MEGA-CITY": "Mega Kent",
-                "SHATTERED-SLABS": "Talan Taşocağı",
-                "SLAPPY-SHORES": "Kabotaj Kıyılar",
-                "SHADY-STILTS": "Köklü Köy",
-                "RUMBLE-RUINS": "Heybetli Harabeler",
-                "SANGUINE-SUITES": "Pırlanta Palas",
-                "BREAKWATER-BAY": "Korunaklı Koy",
-                "BRUTAL-BASTION": "Ücra Üs",
-                "STEAMY-SPRINGS": "Pembe Pınar",
-                "FRENZY-FIELDS": "Çalışkan Çiftlik",
-                "KENJUTSU-CROSSING": "Kenjutsu Köyü",
-                "RELENTLESS-RETREAT": "İnsafsız İnziva",
-                "KNOTTY-NETS": "Balıkçı Belde",
-                "ECLIPSED-ESTATE": "Mehtaplı Malikâne",
-                "CREEKY-COMPOUND": "Tenha Tesis"
-            }
-        },
-        "redeem": {
-            "embed1": "Kod okutmanız [seconds] saniye boyunca limitlendi. Lütfen daha sonra tekrar deneyiniz.",
-            "embed2": "[code] geçerli bir kod değil.",
-            "embed3": "Bu kodu zaten kullanmışsınız.",
-            "embed4": "Bilinmeyen bir hata oluştu. Sorun devam ederse başka bir kod okutmayı deneyin.",
-            "embed5": "Kod Okutuldu",
-            "by": "[codeSeller] tarafından",
-            "redeemedall": "Kod Tüm Hesaplarda Kullanıldı :white_check_mark:",
-            "couldntredeemall": "Kod Tüm Hesaplarda Kullanılamadı :x:",
-            "redeemed": "Kullanıldı",
-            "unknown": "Bilinmiyor"
-        },
-        "sac": {
-            "embed1": "[code] geçerli bir kod değil.",
-            "embed2": "Bilinmeyen bir hata oluştu. Sorun devam ederse başka bir kod okutmayı deneyin.",
-            "embed3": {
-                "title": "SaC Değiştirildi",
-                "description": "[supporting] içerik üreticisini destekliyorsun."
-            },
-            "supported": "Desteklenen Üretici",
-            "none": "Yok",
-            "supportDate": "Destekleme Tarihi",
-            "expire": "Sona Erme Tarihi",
-            "embed4": "Bu kod ile ilgili hiçbir bilgi bulunamadı. Lütfen doğru yazdığınızdan emin olun.",
-            "active": "Aktif",
-            "disabled": "Devre Dışı",
-            "embed5": {
-                "title": "Kod Bilgileri",
-                "codeinfo": "Kod Bilgileri",
-                "code": "Kod",
-                "status": "Durum",
-                "creatorinfo": "İçerik Üreticisi Bilgileri",
-                "displayname": "Görünen adı"
-            }
-        },
-        "buy": {
-            "embed1": "[item] içerik mağazasında bulunamadı. Lütfen doğru yazdığınızdan emin olun.",
-            "embed2": "[item] içeriğini [price] karşılığında satın almak istiyor musunuz?",
-            "embed3": "Bu içeriği almak için size [requiredVB] gerekiyor. Sizde olan: [currentVB]",
-            "embed4": "Bu içeriğe zaten sahipsin.",
-            "embed5": "İçerik satın alınırken bilinmeyen bir hata oluştu.",
-            "bought": {
-                "title": "İçerik Satın Alındı :white_check_mark:",
-                "description": "[item], [price] karşılığında başarıyla satın alındı.",
-                "footer": "Desteklenen içerik üreticisi: [supportCode]"
-            },
-            "cancelled": {
-                "title": "Satın Alım İptal Edildi :x:",
-                "description": "[item] içeriğini satın almaktan vazgeçtiniz."
-            },
-            "allcontents": "Tüm İçerikler"
-        },
-        "battlepass": {
-            "prices": {
-                "bp": "950 • Savaş Bileti",
-                "b2800pack": "2800 • Savaş Bileti Paketi",
-                "atier": "150 • 1 Aşama",
-                "b25tier": "1850 • 25 Aşama"
-            },
-            "embed1": {
-                "title": "4. Bölüm 4. Sezon Savaş Bileti",
-                "yourinfo": "Bilgileriniz",
-                "vbucks": "V-Papel",
-                "level": "Seviyeniz"
-            },
-            "embed2": "Savaş Biletini satın almak için [requiredVB] v-papel'e ihtiyacınız var. Sizde olan: [currentVB]",
-            "embed3": "Savaş Biletini zaten satın aldınız.",
-            "embed4": "Satın alım işlenirken bilinmeyen bir hata oluştu.",
-            "embed5": "Savaş Bileti başarıyla satın alındı.",
-            "embed6": "Savaş Bileti Paketini satın almak için [requiredVB] v-papel'e ihtiyacınız var. Sizde olan: [currentVB]",
-            "embed7": "Savaş Bileti Paketini zaten satın aldınız.",
-            "embed8": "Savaş Bileti Paketi başarıyla satın alındı.",
-            "embed9": "25 Aşama Paketini satın almak için [requiredVB] v-papel'e ihtiyacınız var. Sizde olan: [currentVB]",
-            "embed10": "25 Aşama Paketini zaten satın aldın.",
-            "embed11": "25 Aşama Paketi başarıyla satın alındı.",
-            "modal": {
-                "title": "Aşama Satın Al",
-                "label": "Alınacak Aşama Sayısı"
-            }
-        },
-        "stats": {
-            "embed1": "[name] ismiyle herhangi bir Epic Games hesabı bulunamadı.",
-            "embed2": "[name] oyuncusunun istatistikleri gizli.",
-            "embed3": "[name] oyuncusunun istatistikleri alınamadı."
-        },
-        "offer": {
-            "embed1": "Belirtilen Offer ID ile ilişkili herhangi bir teklif bulunamadı.",
-            "embed2": "Bilinmeyen bir hata oluştu. Lütfen başka bir OfferID ile tekrar deneyin.",
-            "price": "Fiyat",
-            "free": "Ücretsiz",
-            "buy": "Satın Al",
-            "status": "Durum",
-            "unknown": "Bilinmiyor",
-            "by": "[sellerName] tarafından",
-            "releaseDate": "Yayınlanma Tarihi",
-            "viewableDate": "Görüntülenme Tarihi",
-            "effectiveDate": "Etkili Tarih",
-            "expiryDate": "Sona Erme Tarihi",
-            "none": "Yok"
-        },
-        "vbucks": {
-            "price": "Fiyat",
-            "buy": "Satın Al",
-            "vbucks": "[vbucks] V-Papel",
-            "vbplatform": "V-Papel platformu",
-            "supported": "Desteklenen içerik üreticisi",
-            "none": "Yok",
-            "details": "Detaylar",
-            "neverbought": "Hiç V-Papel satın almadınız.",
-            "embed1": {
-                "description": "[date] tarihinden beri toplamda [bought] V-Papel satın aldınız.",
-                "field": "[vbucks]: [count] adet"
-            },
-            "totalVB": "Toplam V-Papel",
-            "totalOnAll": "Tüm Hesaplardaki Toplam V-Papel",
-            "st": {
-                "Giveaway": "Görevler/Savaş Bileti",
-                "Complimentary": "STW/İadeler",
-                "Purchased": "Satın Alınan",
-                "Purchase Bonus": "Satın Alınan"
-            }
-        },
-        "botinfo": {
-            "botinfo": "Bot Bilgileri",
-            "servercount": "Sunucu Sayısı",
-            "usercount": "Kullanıcı Sayısı",
-            "ping": "Gecikme",
-            "uptime": "Çalışma Süresi",
-            "ram": "RAM Kullanımı",
-            "invite": "Davet Et",
-            "click": "Tıkla",
-            "userinfo": "Kullanıcı Bilgileri",
-            "totalregistered": "Kayıtlı toplam kullanıcı sayısı",
-            "totalregisteredaccounts": "Kayıtlı hesap sayısı",
-            "totalpremiums": "Toplam Premium kullanıcı sayısı",
-            "remindercount": "Ayarlanan toplam hatırlatıcılar",
-            "times": {
-                "week": "hafta",
-                "day": "gün",
-                "hour": "saat",
-                "minute": "dakika",
-                "second": "saniye"
-            }
-        },
-        "login": {
-            "selectmenu1": {
-                "placeholder": "Bir Hesap Seç",
-                "loginnew": "Yeni bir hesaba giriş yapın"
-            },
-            "loginanother": "Başka Bir Hesaba Giriş Yap",
-            "selectaccount": "Aşağıdan bir hesap seçin.",
-            "submit": "Gönder",
-            "changed": "Hesap Değiştirildi",
-            "switchedto": "[name] oyuncusuna geçiş yapıldı.",
-            "acceptedrules": {
-                "title": "Kuralları Kabul Ettiniz",
-                "description": "Kuralları kabul ettiniz. Lütfen giriş yapmak için komutu yeniden kullanın."
-            },
-            "declinedrules": {
-                "title": "Kuralları Reddettiniz",
-                "description": "Kuralları reddettiniz. Eğer kurallarla veya botla ilgili herhangi bir sorunuz/probleminiz varsa [destek sunucumuza]([support]) katılın."
-            },
-            "reachedlimit": "Kayıtlı hesap limitinize ulaştınız ([limit]).",
-            "waitingauth": "Yetkilendirme bekleniyor [emoji]",
-            "error": "Hesaplarınız alınırken bilinmeyen bir hata oluştu.",
-            "followup": {
-                "title": "Yeni Bir Hesaba Giriş Yap",
-                "howto": "Nasıl Giriş Yapılır",
-                "steps": {
-                    "step1": "**1\\. Adım:** Aşağıdaki butona tıklayın.",
-                    "step2": "**2\\. Adım:** Doğrula butonuna tıklayın.",
-                    "step3": "**3\\. Adım:** Birkaç saniye bekleyin ve giriş yaptınız!"
-                }
-            },
-            "login": "Giriş Yap",
-            "exchange": "Exchange Code"
-        },
-        "dailyquests": {
-            "embed1": {
-                "title": "Günlük Görevler",
-                "gold": "[emoji] [amount] × Altın",
-                "vbucks": "[emoji] [amount] × V-Papel",
-                "xray": "[emoji] [amount] × İçi Dışı Bir Biletleri",
-                "battlepassxp": "[emoji] [amount] × Savaş Bileti TP'si"
-            },
-            "embed2": "Hiçbir günlük göreviniz yok.",
-            "reroll": "Bir günlük görevi değiştirin",
-            "error": "Günlük görev değiştirilirken bilinmeyen bir hata oluştu.",
-            "completed": "Bu görevi tamamladın."
-        },
-        "banned": {
-            "notbanned": "Oyundan yasaklı değilsiniz! :partying_face:",
-            "banned": "Oyundan yasaklısın."
-        },
-        "refreshprofile": {
-            "embed1": {
-                "title": "Profiliniz Yenilendi [count]",
-                "description": "Battle Royale ve Dünyayı Kurtar profiliniz yenilendi."
-            }
-        },
-        "launchfortnite": {
-            "embed1": {
-                "title": "Fortnite'ı Başlat",
-                "description": "**DİKKAT: Bu komutu kimseyle paylaşmayın, hesabınıza erişim sağlayabilirler!**\nKodun geçerliliği [expire] dolacak.\n\n[command]"
-            }
-        },
-        "preferences": {
-            "language": "Tercih edilen bot dili [language] olarak ayarlandı.",
-            "replyType": "Tercih edilen cevap tipi [type] olarak ayarlandı.\n\nNot: Sadece başarılı, hata ve uyarı mesajları bu ayardan etkilenir.",
-            "replyTypes": {
-                "embed": "Embed",
-                "plaintext": "Düz Metin"
-            },
-            "auto": "Tercih ettiğin bot dili otomatik olarak [language] olarak ayarlandı.",
-            "censorTypes": {
-                "none": "Tercih ettiğiniz sansür türü **Hiçbiri** olarak ayarlandı. Görünen isminiz ve hesap ID'niz sansürlenmeyecektir.",
-                "dm": "Tercih ettiğiniz sansür türü **DM** olarak ayarlandı. Görünen isminiz ve hesap ID'niz yalnızca DM'lerde sansürlenecektir.",
-                "server": "Tercih ettiğiniz sansür türü **Sunucu** olarak ayarlandı. Görünen isminiz ve hesap ID'niz sadece sunucularda sansürlenecektir.",
-                "all": "Tercih ettiğiniz sansür türü **Tümü** olarak ayarlandı. Görünen isminiz ve hesap ID'niz hem DM'lerde hem de sunucularda sansürlenecektir."
-            }
-        },
-        "missionalerts": {
-            "missionAlerts": "Görev Uyarıları",
-            "noAlerts": "Bugün hiçbir V-Papel görev uyarısı yok :(",
-            "total": "Toplam V-Papel",
-            "vbucks": "V-Papel"
-        },
-        "ghostequip": {
-            "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
-            "error": "Kozmetik kuşanılırken bilinmeyen bir hata oluştu.",
-            "notfound": "[name] isminde herhangi bir kozmetik bulunamadı",
-            "invalidtype": "Geçersiz kozmetik türü.",
-            "premiumNote": "Kozmetikleri tarzlarıyla kuşanmak istiyorsanız, Premium satın almalısınız. Daha fazla bilgi için destek sunucumuza katılın.",
-            "embed1": {
-                "title": "Ghost Equip",
-                "description": "[cosmetic] başarıyla kuşanıldı\n\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir."
-            },
-            "selectstyle": "Bir tarz seçin",
-            "selectstyleoption": "Bir tarz seçeneği seçin"
-        },
-        "fakelevel": {
-            "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
-            "error": "Seviye değiştirilirken bilinmeyen bir hata oluştu.",
-            "embed1": {
-                "title": "Sahte Seviye",
-                "description": "Seviyeniz başarıyla [level] olarak ayarlandı.\n\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir."
-            }
-        },
-        "fakecrownwins": {
-            "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
-            "error": "Taç sayısı değiştirilirken bilinmeyen bir hata oluştu.",
-            "embed1": {
-                "title": "Sahte Taç Zaferleri",
-                "description": "Taçlarınız başarıyla [amount] olarak ayarlandı ve taçlarınızı göstermek için Başarının Sembolü ifadesini kullanıldı.\n\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir"
-            }
-        },
-        "stw": {
-            "nostw": "Dünyayı Kurtar moduna erişimin yok.",
-            "info": {
-                "embed1": {
-                    "title": "Dünyayı Kurtar İstatistikleri",
-                    "description": {
-                        "commander": "Komutan seviyesi",
-                        "zonescompleted": "Başarılı görevler",
-                        "loggedin": "Giriş yapılan günler"
-                    },
-                    "fields": {
-                        "dates": {
-                            "fieldname": "Tarihler",
-                            "firstplayed": "İlk oynama",
-                            "lastplayed": "Son oynama"
-                        },
-                        "research": "Araştırma",
-                        "collectionbook": {
-                            "fieldname": "Koleksiyon Kitabı",
-                            "level": "Seviye",
-                            "unslot": "Harcanan miktar"
-                        },
-                        "miscellaneous": "Çeşitli"
-                    }
-                },
-                "banner": {
-                    "fieldname": "Sancak Görevleri",
-                    "gognome": "Cicili Cüceli!",
-                    "guardianangel": "Koruyucu Melek",
-                    "lootlegend": "Hazine Avcısı",
-                    "playswellwithothers": "Başkalarıyla Güzel Oynar",
-                    "talentedbuilder": "Yetenekli İnşa Ustası",
-                    "unspeakablehorrors": "Tarifsiz Korkunçluklar",
-                    "worldexplorer": "Dünya Kâşifi"
-                },
-                "percent": "%[percent]",
-                "founder": "Kurucu Hesabı",
-                "nonfounder": "Standart Hesap"
-            }
-        },
-        "research": {
-            "nostw": "Dünyayı Kurtar moduna erişimin yok.",
-            "level": "[level] Seviye",
-            "fortitude": "Kuvvet",
-            "offense": "Atak",
-            "resistance": "Siper",
-            "technology": "Kabiliyet",
-            "embed1": "Araştırma",
-            "embed2": "Yeterli araştırma puanınız yok.",
-            "embed3": "Araştırma puanınızı yükseltirken bilinmeyen bir hata oluştu.",
-            "claim": "Araştırma Puanlarını Topla"
-        },
-        "undopurchase": {
-            "nothingtocancel": "Geri çekilecek herhangi bir satın alımınız yok.",
-            "purchase": "Satın Alım #[number]",
-            "purchasedate": "Alma tarihi",
-            "selectpurchase": "Bir Satın Alım Seç",
-            "selecttoundo": "Geri alınacak bir satın alım seç",
-            "none": "Yok",
-            "cantrefund": "[purchase] iade edilemedi! Aşağıdakilerden biri bunun nedeni olabilir:\n\n1. İade etme penceresinin süresi doldu.\n2. Aynı kozmetiği 24 saat içinde iade edip satın tekrar aldınız. Bu durumda 24 saat beklemelisiniz.",
-            "error": "Satın alma işlemi iptal edilirken bilinmeyen bir hata oluştu.",
-            "alreadyrefunded": "Bu satın alım zaten iade edildi.",
-            "refunded": "İçerik İade Edildi :white_check_mark:",
-            "creator": "Desteklenen üretici",
-            "success": "Aşağıdaki satın alma işlemi başarıyla geri alındı ve hesabınıza [vbucks] eklendi.",
-            "note": "Lütfen dikkat: 24 saat içinde iade ettikten sonra aynı kozmetiği satın alırsanız, 24 saat geçene kadar tekrar iade edemezsiniz.",
-            "vbucksspent": "Harcanan V-Papel",
-            "supported": "Desteklenen Üretici"
-        },
-        "party": {
-            "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
-            "none": "Yok",
-            "partyJoinability": {
-                "onlyfriends": "Friends",
-                "inviteonly": "Yalnızca davet edilenler"
-            },
-            "partyinfo": "Grup Bilgisi",
-            "id": "Grup ID",
-            "type": "Grup türü",
-            "region": "Bölge",
-            "customkey": "Özel eşleştirme kodu",
-            "playlist": "Playlist",
-            "members": "Üyeler",
-            "ready": "hazır",
-            "notready": "hazır değil",
-            "hasbp": "savaş bileti var",
-            "bplevel": "[level] seviye",
-            "hasstw": "dünyayı kurtar'ı var",
-            "pmembers": "Grup üyeleri",
-            "leaveerror": "Gruptan ayrılırken bilinmeyen bir hata oluştu.",
-            "leftparty": {
-                "title": "Gruptan Ayrılındı",
-                "description": "Gruptan başarıyla ayrılındı."
-            }
-        },
-        "skiptutorial": {
-            "error": "Dünyayı Kurtar moduna erişimin yok",
-            "success": "Dünyayı Kurtar eğitimi başarıyla atlandı."
-        },
-        "account": {
-            "cancelled": "İşlem İptal Edildi :x:",
-            "namecooldown": "İsminizi her 14 günde bir değiştirebilirsiniz. Lütfen bekleme süresi bittikten sonra komutu kullanın.",
-            "toxicname": "Bu ismi kullanamazsınız. Lütfen başka bir isim deneyin.",
-            "duplicatename": "Bu isim zaten alınmış. Lütfen başka bir isim deneyin.",
-            "nameerror": "İsim değiştirilirken bilinmeyen bir hata oluştu.",
-            "namesuccess": "İsminiz başarıyla [name] olarak değiştirildi.",
-            "invalidnumber": "[number] geçerli bir telefon numarası değil.",
-            "numbererror": "Telefon numarası değiştirilirken bilinmeyen bir hata oluştu.",
-            "numbersuccess": "Telefon numaranız başarıyla [number] olarak değiştirildi.",
-            "samename": "Ayarlamak istediğiniz isim, mevcut isminizle aynı.",
-            "namechange": "İsminizi Değiştirin",
-            "nameconfirmation": "İsminizi [name] olarak değiştirmek istediğinizden emin misiniz? İsminizi değiştirirseniz 14 gün boyunca isminizi değiştiremezsiniz.",
-            "invalidcharacters": "İsminizde geçersiz karakterler var. Lütfen bu karakterleri içermeyen başka bir isim deneyin: [chars]",
-            "namechanged": {
-                "title": "İsminiz Değiştirildi :white_check_mark:",
-                "description": "İsminiz başarıyla [name] olarak değiştirildi. İsminizi yeniden [date] tarihinden itibaren değiştirebilirsiniz."
-            },
-            "numberchange": "Telefon Numaranızı Değiştirin",
-            "numberconfirmation": "Telefon numaranızı [number] olarak değiştirmek istediğinizden emin misiniz?",
-            "numberchanged": {
-                "title": "Telefon Numaranız Değiştirildi :white_check_mark:",
-                "description": "Telefon numaranız başarıyla [number] olarak değiştirildi."
-            },
-            "nameremains": "İsim değiştirme işlemi iptal edildi. İsminiz hâlâ [name].",
-            "numberremains": "Telefon numarası değiştirme işlemi iptal edildi.",
-            "name": "İsim",
-            "email": "E-posta",
-            "displayname": "Görünen Ad",
-            "lastchange": "Son değiştirme",
-            "totalchanges": "Toplam değiştirme",
-            "canchangename": "Görünen adını değiştirebilirsin :white_check_mark:",
-            "cantchangename": "Görünen adını değiştiremezsin :x:",
-            "login": "Oturum Açma",
-            "lastlogin": "Son oturum açma",
-            "failedattempts": "Başarısız oturum açma denemeleri",
-            "tfa": "2 Aşamalı Doğrulama",
-            "account": "Hesap",
-            "country": "Ülke",
-            "language": "Tercih edilen dil",
-            "cantchangename2": "Şu anda görünen adınızı değiştiremezsiniz. Lütfen daha sonra tekrar deneyin.",
-            "id": "Hesap ID"
-        },
-        "shopsections": {
-            "today": "Bugün",
-            "tomorrow": "Yarın",
-            "notavailable": "[day] için içerik mağazası sekmeleri şu anda mevcut değil. Lütfen daha sonra tekrar deneyin.",
-            "sections": "İçerik Mağazası Sekmeleri ([date])"
-        },
-        "claimrankrole": {
-            "deletedrank": "Dereceniz rolünüz aynı olduğu için dereceli rolünüz kaldırıldı. Rütbe atladıktan sonra komutu yeniden kullanarak rütbe rolünüzü alabilirsiniz.",
-            "norank": "Herhangi bir rütbeye sahip değilsin. Rütbe atlamak için şimdi bir maç tamamla! Tamamladıktan sonra komutu yeniden kullanarak rolünü alabilirsin.",
-            "rank": "Oyunda [currentRank] rütbesinde olduğun için [role] rolünü kaptın! Şimdi daha çok rütbe atla ve komutu yeniden kullanarak sunucudaki rolünü güncelle.",
-            "disabled": "Bu sunucuda rütbe rolleri devre dışı. Etkinleştirmek için lütfen sunucu sahibiyle iletişime geçin.",
-            "ranknotfound": "Rütbeniz [rank] ancak bu rütbeye sahip bir rol yok. Bu rütbeye sahip bir rol eklemek için lütfen sunucu sahibiyle iletişime geçin.",
-            "error": "Üzgünüm, size [role] rolünü vermek için yeterli iznim yok. Lütfen bana Rolleri Yönetme izni vermesi için sunucu sahibiyle iletişime geçin."
-        },
-        "claimfreeitems": {
-            "embed1": "İçerik mağazasından alabileceğiniz hiçbir ücretsiz içerik yok.",
-            "embed2": {
-                "title": "Ücretsiz İçerikler Alındı :white_check_mark:",
-                "description": "İçerik mağazasındaki mevcut tüm ücretsiz içerik başarıyla aldınız."
-            },
-            "items": "İçerikler"
-        },
-        "playercount": {
-            "title": "Oyuncu Sayısı",
-            "total": "Toplam oyuncu sayısı",
-            "bymode": "Oyun Modlarına Göre Oyuncu Sayısı",
-            "battleroyale": "Battle Royale",
-            "rankedbr": "Dereceli Battle Royale",
-            "zerobuilds": "Sıfır İnşa",
-            "rankedzb": "Dereceli Sıfır İnşa",
-            "creative": "Kreatif",
-            "stw": "Dünyayı Kurtar"
-        },
-        "weaponinfo": {
-            "notfound": "[weapon] ismiyle ve [rarity] nadirliğiyle herhangi bir silah bulunamadı.",
-            "stats": "Silah İstatistikleri",
-            "damage": "Hasar",
-            "critical": "Kafa Vuruşu Hasarı",
-            "firerate": "Ateş Hızı",
-            "clipsize": "Şarjör Boyutu",
-            "reloadtime": "Yeniden Doldurma Süresi",
-            "seconds": "[seconds] saniye",
-            "rarities": {
-                "common": "Sıradan",
-                "uncommon": "Nadir",
-                "rare": "Ender",
-                "epic": "Destansı",
-                "legendary": "Efsanevi",
-                "mythic": "Eşsiz",
-                "exotic": "Egzotik"
-            }
-        },
-        "deviceauth": {
-            "created": "Cihaz Bağlantısı Oluşturuldu :white_check_mark:",
-            "deleted": "Cihaz Bağlantısı Silindi :white_check_mark:",
-            "dontshare": "**Hesabınıza erişmek için kullanılabileceğinden lütfen bu bilgileri kimseyle paylaşmayın!**",
-            "deviceid": "Cihaz ID",
-            "noauth": "[id] id'sine sahip herhangi bir cihaz bağlantısı yok.",
-            "error": "Cihaz bağlantısı silinirken bilinmeyen bir hata oluştu.",
-            "deleted2": "[id] id'sine sahip cihaz bağlantısı silindi.",
-            "noauths": "Hiçbir cihaz bağlantın yok.",
-            "deleteall": "Tüm Cihaz Bağlantılarını Sil",
-            "deleteallconfirmation": "Botun kullandığı bağlantı dışındaki tüm cihaz bağlantılarını silmek istediğinizden emin misiniz? Bu işlem [amount] cihaz bağlantısını silecek ve tüm cihazlardan çıkış yapmanızı sağlayacaktır.",
-            "deletedall": {
-                "title": "Tüm Cihaz Bağlantıları Silindi :white_check_mark:",
-                "description": "[deleted]/[total] cihaz yetkileri silindi. Tüm cihazlardan çıkışınız yapıldı."
-            },
-            "dates": "Tarihler",
-            "createdat": "Oluşturma",
-            "lastAccess": "Son Kullanma",
-            "page": "Sayfa [page]/[total]",
-            "deleted3": "Cihaz bağlantısı başarıyla silindi",
-            "deleteauth": "Cihaz Bağlantısı",
-            "unknown": "Bilinmiyor",
-            "loggedout": "Hesabınızdan çıkış yapıldı."
-        },
-        "serverstatus": {
-            "up": "Sunucular Aktif!",
-            "down": "Sunucular Kapalı!",
-            "banned": "Oyundan yasaklısın.",
-            "notbanned": "Oyundan yasaklı değilsin!",
-            "statusPage": "Sunucu Durumu Sayfasını Kontrol Et",
-            "isBanned": "Yasaklı mısın"
-        },
-        "settings": {
-            "select": "Değiştirilecek bir ayar seçin",
-            "enabled": "Aktif",
-            "disabled": "Kapalı",
-            "autosac": "Otomatik Destekleme",
-            "autosacdesc": "Her satın alma işleminde desteklediğiniz içerik üreticisini otomatik olarak yeniler.",
-            "freellama": "Ücretsiz Lama Alıcı",
-            "freellamadesc": "Ücretsiz lamalarınızı her gün otomatik olarak alır.",
-            "embed1": {
-                "title": "Ayarlar",
-                "description": "Ayarlarınızı değiştirmek için aşağıdaki açılır menüyü kullanın."
-            }
-        },
-        "accesstoken": {
-            "warning": "**:warning: Uyarı:** Hesabınıza erişmek için kullanılabileceğinden bu tokenleri kimseyle paylaşmayın!",
-            "accountid": "Hesap ID"
-        },
-        "staging": {
-            "notfound": "[input] ismiyle veya URL'siyle herhangi bir staging sunucusu bulunamadı."
-        },
-        "saveprogress": {
-            "success": {
-                "title": "İlerleme Kaydedildi",
-                "description": "Şimdi görevden ayrılabilir ve ödüllerinizi alabilirsiniz!"
-            },
-            "error": "İlerlemeniz kaydedilirken bilinmeyen bir hata oluştu."
-        },
-        "ranksystem": {
-            "notenabled": "Rütbe-rol sistemi bu sunucuda etkin değil. Etkinleştirmek için sisteme bir rol ekleyin.",
-            "rankroles": "Rütbe Rolleri",
-            "added": "[rank] rütbesi ve [role] rolü sisteme başarıyla eklendi.",
-            "removed": "[rank] rütbesi ve [role] rolü sistemden başarıyla kaldırıldı.",
-            "alreadyenabled": "Rütbe-rol sistemi bu sunucuda zaten etkin.",
-            "alreadydisabled": "Rütbe-rol sistemi bu sunucuda zaten devre dışı.",
-            "enabledsystem": "Bu sunucuda rank-role sistemi başarıyla etkinleştirildi.",
-            "disabledsystem": "Bu sunucuda rütbe-rol sistemi başarıyla devre dışı bırakıldı.",
-            "alreadyinsystem": "Bu rütbe zaten sistemde var.",
-            "notinsystem": "Bu rütbe sistemde yok.",
-            "ranks": {
-                "bronze": "Bronz",
-                "silver": "Gümüş",
-                "gold": "Altın",
-                "platinum": "Platinum",
-                "diamond": "Elmas",
-                "thebest": "En İyileri"
-            }
-        },
-        "accountsettings": {
-            "gifts": [
-                "Hediye alma ayarınız **Etkin** olarak ayarlandı. Artık arkadaşlarınızdan hediye alabilirsiniz.",
-                "Hediye alma ayarınız **Devre Dışı** olarak ayarlandı. Artık arkadaşlarınızdan hediye alamazsınız."
-            ]
-        },
-        "customprofile": {
-            "notfound": "[name] ismiyle herhangi bir karakter bulunamadı.",
-            "invalidtype": "Kozmetik tipi karakter olmalı.",
-            "success": "Avatar ve embed rengin [name] karakteriyle uyuşacak şekilde değiştirildi!",
-            "reset": "Profilin Fortnite profilinle başarıyla eşleştirildi!"
-        },
-        "activatepremium": {
-            "alreadyPremium": "Siz zaten bir Premium kullanıcısınız.",
-            "invalidCode": "Girdiğiniz kod geçerli değil.",
-            "redeemed": {
-                "title": "Kod Okutuldu",
-                "description": "Kodu başarıyla kullandınız. Artık Premium komutlarını kullanabilirsiniz.",
-                "description2": "Kodu başarıyla kullandınız. Artık Premium komutlarını [date] tarihine kadar kullanabilirsiniz."
-            }
+        "resetdate": "Sıfırlanma Tarihi"
+      }
+    },
+    "randomlocation": {
+      "random": "Bu maç atlayacağın konum",
+      "pois": {
+        "MEGA-CITY": "Mega Kent",
+        "SHATTERED-SLABS": "Talan Taşocağı",
+        "SLAPPY-SHORES": "Kabotaj Kıyılar",
+        "SHADY-STILTS": "Köklü Köy",
+        "RUMBLE-RUINS": "Heybetli Harabeler",
+        "SANGUINE-SUITES": "Pırlanta Palas",
+        "BREAKWATER-BAY": "Korunaklı Koy",
+        "BRUTAL-BASTION": "Ücra Üs",
+        "STEAMY-SPRINGS": "Pembe Pınar",
+        "FRENZY-FIELDS": "Çalışkan Çiftlik",
+        "KENJUTSU-CROSSING": "Kenjutsu Köyü",
+        "RELENTLESS-RETREAT": "İnsafsız İnziva",
+        "KNOTTY-NETS": "Balıkçı Belde",
+        "ECLIPSED-ESTATE": "Mehtaplı Malikâne",
+        "CREEKY-COMPOUND": "Tenha Tesis"
+      }
+    },
+    "redeem": {
+      "embed1": "Kod okutmanız [seconds] saniye boyunca limitlendi. Lütfen daha sonra tekrar deneyiniz.",
+      "embed2": "[code] geçerli bir kod değil.",
+      "embed3": "Bu kodu zaten kullanmışsınız.",
+      "embed4": "Bilinmeyen bir hata oluştu. Sorun devam ederse başka bir kod okutmayı deneyin.",
+      "embed5": "Kod Okutuldu",
+      "by": "[codeSeller] tarafından",
+      "redeemedall": "Kod Tüm Hesaplarda Kullanıldı :white_check_mark:",
+      "couldntredeemall": "Kod Tüm Hesaplarda Kullanılamadı :x:",
+      "redeemed": "Kullanıldı",
+      "unknown": "Bilinmiyor"
+    },
+    "sac": {
+      "embed1": "[code] geçerli bir kod değil.",
+      "embed2": "Bilinmeyen bir hata oluştu. Sorun devam ederse başka bir kod okutmayı deneyin.",
+      "embed3": {
+        "title": "SaC Değiştirildi",
+        "description": "[supporting] içerik üreticisini destekliyorsun."
+      },
+      "supported": "Desteklenen Üretici",
+      "none": "Yok",
+      "supportDate": "Destekleme Tarihi",
+      "expire": "Sona Erme Tarihi",
+      "embed4": "Bu kod ile ilgili hiçbir bilgi bulunamadı. Lütfen doğru yazdığınızdan emin olun.",
+      "active": "Aktif",
+      "disabled": "Devre Dışı",
+      "embed5": {
+        "title": "Kod Bilgileri",
+        "codeinfo": "Kod Bilgileri",
+        "code": "Kod",
+        "status": "Durum",
+        "creatorinfo": "İçerik Üreticisi Bilgileri",
+        "displayname": "Görünen adı"
+      }
+    },
+    "buy": {
+      "embed1": "[item] içerik mağazasında bulunamadı. Lütfen doğru yazdığınızdan emin olun.",
+      "embed2": "[item] içeriğini [price] karşılığında satın almak istiyor musunuz?",
+      "embed3": "Bu içeriği almak için size [requiredVB] daha gerekiyor. Sizde olan: [currentVB]",
+      "embed4": "Bu içeriğe zaten sahipsin.",
+      "embed5": "İçerik satın alınırken bilinmeyen bir hata oluştu.",
+      "embed6": ":warning: Bu içeriği satın almak için [price] V-Papele ihtiyacınız var.",
+      "remaining": "Kalan V-Papel",
+      "none": "Yok",
+      "bought": {
+        "title": "İçerik Satın Alındı :white_check_mark:",
+        "description": "[item], [price] karşılığında başarıyla satın alındı.",
+        "footer": "Desteklenen içerik üreticisi: [supportCode]"
+      },
+      "cancelled": {
+        "title": "Satın Alım İptal Edildi :x:",
+        "description": "[item] içeriğini satın almaktan vazgeçtiniz."
+      },
+      "allcontents": "Tüm İçerikler"
+    },
+    "battlepass": {
+      "prices": {
+        "bp": "950 • Savaş Bileti",
+        "b2800pack": "2800 • Savaş Bileti Paketi",
+        "atier": "150 • 1 Aşama",
+        "b25tier": "1850 • 25 Aşama"
+      },
+      "embed1": {
+        "title": "4. Bölüm 4. Sezon Savaş Bileti",
+        "yourinfo": "Bilgileriniz",
+        "vbucks": "V-Papel",
+        "level": "Seviyeniz"
+      },
+      "embed2": "Savaş Biletini satın almak için [requiredVB] v-papel'e ihtiyacınız var. Sizde olan: [currentVB]",
+      "embed3": "Savaş Biletini zaten satın aldınız.",
+      "embed4": "Satın alım işlenirken bilinmeyen bir hata oluştu.",
+      "embed5": "Savaş Bileti başarıyla satın alındı.",
+      "embed6": "Savaş Bileti Paketini satın almak için [requiredVB] v-papel'e ihtiyacınız var. Sizde olan: [currentVB]",
+      "embed7": "Savaş Bileti Paketini zaten satın aldınız.",
+      "embed8": "Savaş Bileti Paketi başarıyla satın alındı.",
+      "embed9": "25 Aşama Paketini satın almak için [requiredVB] v-papel'e ihtiyacınız var. Sizde olan: [currentVB]",
+      "embed10": "25 Aşama Paketini zaten satın aldın.",
+      "embed11": "25 Aşama Paketi başarıyla satın alındı.",
+      "modal": {
+        "title": "Aşama Satın Al",
+        "label": "Alınacak Aşama Sayısı"
+      }
+    },
+    "stats": {
+      "embed1": "[name] ismiyle herhangi bir Epic Games hesabı bulunamadı.",
+      "embed2": "[name] oyuncusunun istatistikleri gizli.",
+      "embed3": "[name] oyuncusunun istatistikleri alınamadı."
+    },
+    "offer": {
+      "embed1": "Belirtilen Offer ID ile ilişkili herhangi bir teklif bulunamadı.",
+      "embed2": "Bilinmeyen bir hata oluştu. Lütfen başka bir OfferID ile tekrar deneyin.",
+      "price": "Fiyat",
+      "free": "Ücretsiz",
+      "buy": "Satın Al",
+      "status": "Durum",
+      "unknown": "Bilinmiyor",
+      "by": "[sellerName] tarafından",
+      "releaseDate": "Yayınlanma Tarihi",
+      "viewableDate": "Görüntülenme Tarihi",
+      "effectiveDate": "Etkili Tarih",
+      "expiryDate": "Sona Erme Tarihi",
+      "none": "Yok"
+    },
+    "vbucks": {
+      "price": "Fiyat",
+      "buy": "Satın Al",
+      "vbucks": "[vbucks] V-Papel",
+      "vbplatform": "V-Papel platformu",
+      "supported": "Desteklenen içerik üreticisi",
+      "none": "Yok",
+      "details": "Detaylar",
+      "neverbought": "Hiç V-Papel satın almadınız.",
+      "embed1": {
+        "description": "[date] tarihinden beri toplamda [bought] V-Papel satın aldınız.",
+        "field": "[vbucks]: [count] adet"
+      },
+      "totalVB": "Toplam V-Papel",
+      "totalOnAll": "Tüm Hesaplardaki Toplam V-Papel",
+      "st": {
+        "Giveaway": "Görevler/Savaş Bileti",
+        "Complimentary": "STW/İadeler",
+        "Purchased": "Satın Alınan",
+        "Purchase Bonus": "Satın Alınan"
+      }
+    },
+    "botinfo": {
+      "botinfo": "Bot Bilgileri",
+      "servercount": "Sunucu Sayısı",
+      "usercount": "Kullanıcı Sayısı",
+      "ping": "Gecikme",
+      "uptime": "Çalışma Süresi",
+      "ram": "RAM Kullanımı",
+      "invite": "Davet Et",
+      "click": "Tıkla",
+      "userinfo": "Kullanıcı Bilgileri",
+      "totalregistered": "Kayıtlı toplam kullanıcı sayısı",
+      "totalregisteredaccounts": "Kayıtlı hesap sayısı",
+      "totalpremiums": "Toplam Premium kullanıcı sayısı",
+      "remindercount": "Ayarlanan toplam hatırlatıcılar",
+      "times": {
+        "week": "hafta",
+        "day": "gün",
+        "hour": "saat",
+        "minute": "dakika",
+        "second": "saniye"
+      }
+    },
+    "login": {
+      "selectmenu1": {
+        "placeholder": "Bir Hesap Seç",
+        "loginnew": "Yeni bir hesaba giriş yapın"
+      },
+      "loginanother": "Başka Bir Hesaba Giriş Yap",
+      "selectaccount": "Aşağıdan bir hesap seçin.",
+      "submit": "Gönder",
+      "changed": "Hesap Değiştirildi",
+      "switchedto": "[name] oyuncusuna geçiş yapıldı.",
+      "acceptedrules": {
+        "title": "Kuralları Kabul Ettiniz",
+        "description": "Kuralları kabul ettiniz. Lütfen giriş yapmak için komutu yeniden kullanın."
+      },
+      "declinedrules": {
+        "title": "Kuralları Reddettiniz",
+        "description": "Kuralları reddettiniz. Eğer kurallarla veya botla ilgili herhangi bir sorunuz/probleminiz varsa [destek sunucumuza]([support]) katılın."
+      },
+      "reachedlimit": "Kayıtlı hesap limitinize ulaştınız ([limit]).",
+      "waitingauth": "Yetkilendirme bekleniyor [emoji]",
+      "error": "Hesaplarınız alınırken bilinmeyen bir hata oluştu.",
+      "followup": {
+        "title": "Yeni Bir Hesaba Giriş Yap",
+        "howto": "Nasıl Giriş Yapılır",
+        "steps": {
+          "step1": "**1\\. Adım:** Aşağıdaki butona tıklayın.",
+          "step2": "**2\\. Adım:** Doğrula butonuna tıklayın.",
+          "step3": "**3\\. Adım:** Birkaç saniye bekleyin ve giriş yaptınız!"
         }
+      },
+      "login": "Giriş Yap",
+      "exchange": "Exchange Code"
     },
-    "changenickname": {
-        "error": "Takma ad değiştirilirken bilinmeyen bir hata oluştu.",
-        "okay": "Arkadaşının yeni takma adı [name] olarak ayarlandı."
+    "dailyquests": {
+      "embed1": {
+        "title": "Günlük Görevler",
+        "gold": "[emoji] [amount] × Altın",
+        "vbucks": "[emoji] [amount] × V-Papel",
+        "xray": "[emoji] [amount] × İçi Dışı Bir Biletleri",
+        "battlepassxp": "[emoji] [amount] × Savaş Bileti TP'si"
+      },
+      "embed2": "Hiçbir günlük göreviniz yok.",
+      "reroll": "Bir günlük görevi değiştirin",
+      "error": "Günlük görev değiştirilirken bilinmeyen bir hata oluştu.",
+      "completed": "Bu görevi tamamladın."
     },
-    "buytiers": {
-        "invalid": "Lütfen geçerli bir sayı giriniz.",
-        "notenough": "[amount] adet aşama satın almanız için size [requiredVB] daha gerekiyor. Sizde olan: [currentVB]",
-        "unknown": "Satın alım işlenirken bilinmeyen bir hata oluştu.",
-        "okay": {
-            "title": "Aşama Satın Alındı",
-            "description": "[amount] adet aşama, [spentVB] başarıyla satın alındı."
+    "banned": {
+      "notbanned": "Oyundan yasaklı değilsiniz! :partying_face:",
+      "banned": "Oyundan yasaklısın."
+    },
+    "refreshprofile": {
+      "embed1": {
+        "title": "Profiliniz Yenilendi [count]",
+        "description": "Battle Royale ve Dünyayı Kurtar profiliniz yenilendi."
+      }
+    },
+    "launchfortnite": {
+      "embed1": {
+        "title": "Fortnite'ı Başlat",
+        "description": "**DİKKAT: Bu komutu kimseyle paylaşmayın, hesabınıza erişim sağlayabilirler!**\nKodun geçerliliği [expire] dolacak.\n\n[command]"
+      }
+    },
+    "preferences": {
+      "language": "Tercih edilen bot dili [language] olarak ayarlandı.",
+      "replyType": "Tercih edilen cevap tipi [type] olarak ayarlandı.\n\nNot: Sadece başarılı, hata ve uyarı mesajları bu ayardan etkilenir.",
+      "replyTypes": {
+        "embed": "Embed",
+        "plaintext": "Düz Metin"
+      },
+      "auto": "Tercih ettiğin bot dili otomatik olarak [language] olarak ayarlandı.",
+      "censorTypes": {
+        "none": "Tercih ettiğiniz sansür türü **Hiçbiri** olarak ayarlandı. Görünen isminiz ve hesap ID'niz sansürlenmeyecektir.",
+        "dm": "Tercih ettiğiniz sansür türü **DM** olarak ayarlandı. Görünen isminiz ve hesap ID'niz yalnızca DM'lerde sansürlenecektir.",
+        "server": "Tercih ettiğiniz sansür türü **Sunucu** olarak ayarlandı. Görünen isminiz ve hesap ID'niz sadece sunucularda sansürlenecektir.",
+        "all": "Tercih ettiğiniz sansür türü **Tümü** olarak ayarlandı. Görünen isminiz ve hesap ID'niz hem DM'lerde hem de sunucularda sansürlenecektir."
+      }
+    },
+    "missionalerts": {
+      "missionAlerts": "Görev Uyarıları",
+      "noAlerts": "Bugün hiçbir V-Papel görev uyarısı yok :(",
+      "total": "Toplam V-Papel",
+      "vbucks": "V-Papel"
+    },
+    "ghostequip": {
+      "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
+      "error": "Kozmetik kuşanılırken bilinmeyen bir hata oluştu.",
+      "notfound": "[name] isminde herhangi bir kozmetik bulunamadı",
+      "invalidtype": "Geçersiz kozmetik türü.",
+      "premiumNote": "Kozmetikleri tarzlarıyla kuşanmak istiyorsanız, Premium satın almalısınız. Daha fazla bilgi için destek sunucumuza katılın.",
+      "embed1": {
+        "title": "Ghost Equip",
+        "description": "[cosmetic] başarıyla kuşanıldı\n\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir."
+      },
+      "selectstyle": "Bir tarz seçin",
+      "selectstyleoption": "Bir tarz seçeneği seçin"
+    },
+    "fakelevel": {
+      "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
+      "error": "Seviye değiştirilirken bilinmeyen bir hata oluştu.",
+      "embed1": {
+        "title": "Sahte Seviye",
+        "description": "Seviyeniz başarıyla [level] olarak ayarlandı.\n\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir."
+      }
+    },
+    "fakecrownwins": {
+      "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
+      "error": "Taç sayısı değiştirilirken bilinmeyen bir hata oluştu.",
+      "embed1": {
+        "title": "Sahte Taç Zaferleri",
+        "description": "Taçlarınız başarıyla [amount] olarak ayarlandı ve taçlarınızı göstermek için Başarının Sembolü ifadesini kullanıldı.\n\nNot: Bu sadece gruptaki diğer oyuncular tarafından görülebilir"
+      }
+    },
+    "stw": {
+      "nostw": "Dünyayı Kurtar moduna erişimin yok.",
+      "info": {
+        "embed1": {
+          "title": "Dünyayı Kurtar İstatistikleri",
+          "description": {
+            "commander": "Komutan seviyesi",
+            "zonescompleted": "Başarılı görevler",
+            "loggedin": "Giriş yapılan günler"
+          },
+          "fields": {
+            "dates": {
+              "fieldname": "Tarihler",
+              "firstplayed": "İlk oynama",
+              "lastplayed": "Son oynama"
+            },
+            "research": "Araştırma",
+            "collectionbook": {
+              "fieldname": "Koleksiyon Kitabı",
+              "level": "Seviye",
+              "unslot": "Harcanan miktar"
+            },
+            "miscellaneous": "Çeşitli"
+          }
+        },
+        "banner": {
+          "fieldname": "Sancak Görevleri",
+          "gognome": "Cicili Cüceli!",
+          "guardianangel": "Koruyucu Melek",
+          "lootlegend": "Hazine Avcısı",
+          "playswellwithothers": "Başkalarıyla Güzel Oynar",
+          "talentedbuilder": "Yetenekli İnşa Ustası",
+          "unspeakablehorrors": "Tarifsiz Korkunçluklar",
+          "worldexplorer": "Dünya Kâşifi"
+        },
+        "percent": "%[percent]",
+        "founder": "Kurucu Hesabı",
+        "nonfounder": "Standart Hesap"
+      }
+    },
+    "research": {
+      "nostw": "Dünyayı Kurtar moduna erişimin yok.",
+      "level": "[level] Seviye",
+      "fortitude": "Kuvvet",
+      "offense": "Atak",
+      "resistance": "Siper",
+      "technology": "Kabiliyet",
+      "embed1": "Araştırma",
+      "embed2": "Yeterli araştırma puanınız yok.",
+      "embed3": "Araştırma puanınızı yükseltirken bilinmeyen bir hata oluştu.",
+      "claim": "Araştırma Puanlarını Topla"
+    },
+    "undopurchase": {
+      "nothingtocancel": "Geri çekilecek herhangi bir satın alımınız yok.",
+      "purchase": "Satın Alım #[number]",
+      "purchasedate": "Alma tarihi",
+      "selectpurchase": "Bir Satın Alım Seç",
+      "selecttoundo": "Geri alınacak bir satın alım seç",
+      "none": "Yok",
+      "cantrefund": "[purchase] iade edilemedi! Aşağıdakilerden biri bunun nedeni olabilir:\n\n1. İade etme penceresinin süresi doldu.\n2. Aynı kozmetiği 24 saat içinde iade edip satın tekrar aldınız. Bu durumda 24 saat beklemelisiniz.",
+      "error": "Satın alma işlemi iptal edilirken bilinmeyen bir hata oluştu.",
+      "alreadyrefunded": "Bu satın alım zaten iade edildi.",
+      "refunded": "İçerik İade Edildi :white_check_mark:",
+      "creator": "Desteklenen üretici",
+      "success": "Aşağıdaki satın alma işlemi başarıyla geri alındı ve hesabınıza [vbucks] eklendi.",
+      "note": "Lütfen dikkat: 24 saat içinde iade ettikten sonra aynı kozmetiği satın alırsanız, 24 saat geçene kadar tekrar iade edemezsiniz.",
+      "vbucksspent": "Harcanan V-Papel",
+      "supported": "Desteklenen Üretici"
+    },
+    "party": {
+      "notinparty": "Bu komutu kullanabilmek için bir grupta olmanız gerekiyor.",
+      "none": "Yok",
+      "partyJoinability": {
+        "onlyfriends": "Friends",
+        "inviteonly": "Yalnızca davet edilenler"
+      },
+      "partyinfo": "Grup Bilgisi",
+      "id": "Grup ID",
+      "type": "Grup türü",
+      "region": "Bölge",
+      "customkey": "Özel eşleştirme kodu",
+      "playlist": "Playlist",
+      "members": "Üyeler",
+      "ready": "hazır",
+      "notready": "hazır değil",
+      "hasbp": "savaş bileti var",
+      "bplevel": "[level] seviye",
+      "hasstw": "dünyayı kurtar'ı var",
+      "pmembers": "Grup üyeleri",
+      "leaveerror": "Gruptan ayrılırken bilinmeyen bir hata oluştu.",
+      "leftparty": {
+        "title": "Gruptan Ayrılındı",
+        "description": "Gruptan başarıyla ayrılındı."
+      }
+    },
+    "skiptutorial": {
+      "error": "Dünyayı Kurtar moduna erişimin yok",
+      "success": "Dünyayı Kurtar eğitimi başarıyla atlandı."
+    },
+    "account": {
+      "cancelled": "İşlem İptal Edildi :x:",
+      "namecooldown": "İsminizi her 14 günde bir değiştirebilirsiniz. Lütfen bekleme süresi bittikten sonra komutu kullanın.",
+      "toxicname": "Bu ismi kullanamazsınız. Lütfen başka bir isim deneyin.",
+      "duplicatename": "Bu isim zaten alınmış. Lütfen başka bir isim deneyin.",
+      "nameerror": "İsim değiştirilirken bilinmeyen bir hata oluştu.",
+      "namesuccess": "İsminiz başarıyla [name] olarak değiştirildi.",
+      "invalidnumber": "[number] geçerli bir telefon numarası değil.",
+      "numbererror": "Telefon numarası değiştirilirken bilinmeyen bir hata oluştu.",
+      "numbersuccess": "Telefon numaranız başarıyla [number] olarak değiştirildi.",
+      "samename": "Ayarlamak istediğiniz isim, mevcut isminizle aynı.",
+      "namechange": "İsminizi Değiştirin",
+      "nameconfirmation": "İsminizi [name] olarak değiştirmek istediğinizden emin misiniz? İsminizi değiştirirseniz 14 gün boyunca isminizi değiştiremezsiniz.",
+      "invalidcharacters": "İsminizde geçersiz karakterler var. Lütfen bu karakterleri içermeyen başka bir isim deneyin: [chars]",
+      "namechanged": {
+        "title": "İsminiz Değiştirildi :white_check_mark:",
+        "description": "İsminiz başarıyla [name] olarak değiştirildi. İsminizi yeniden [date] tarihinden itibaren değiştirebilirsiniz."
+      },
+      "numberchange": "Telefon Numaranızı Değiştirin",
+      "numberconfirmation": "Telefon numaranızı [number] olarak değiştirmek istediğinizden emin misiniz?",
+      "numberchanged": {
+        "title": "Telefon Numaranız Değiştirildi :white_check_mark:",
+        "description": "Telefon numaranız başarıyla [number] olarak değiştirildi."
+      },
+      "nameremains": "İsim değiştirme işlemi iptal edildi. İsminiz hâlâ [name].",
+      "numberremains": "Telefon numarası değiştirme işlemi iptal edildi.",
+      "name": "İsim",
+      "email": "E-posta",
+      "displayname": "Görünen Ad",
+      "lastchange": "Son değiştirme",
+      "totalchanges": "Toplam değiştirme",
+      "canchangename": "Görünen adını değiştirebilirsin :white_check_mark:",
+      "cantchangename": "Görünen adını değiştiremezsin :x:",
+      "login": "Oturum Açma",
+      "lastlogin": "Son oturum açma",
+      "failedattempts": "Başarısız oturum açma denemeleri",
+      "tfa": "2 Aşamalı Doğrulama",
+      "account": "Hesap",
+      "country": "Ülke",
+      "language": "Tercih edilen dil",
+      "cantchangename2": "Şu anda görünen adınızı değiştiremezsiniz. Lütfen daha sonra tekrar deneyin.",
+      "id": "Hesap ID"
+    },
+    "shopsections": {
+      "today": "Bugün",
+      "tomorrow": "Yarın",
+      "notavailable": "[day] için içerik mağazası sekmeleri şu anda mevcut değil. Lütfen daha sonra tekrar deneyin.",
+      "sections": "İçerik Mağazası Sekmeleri ([date])"
+    },
+    "claimrankrole": {
+      "deletedrank": "Dereceniz rolünüz aynı olduğu için dereceli rolünüz kaldırıldı. Rütbe atladıktan sonra komutu yeniden kullanarak rütbe rolünüzü alabilirsiniz.",
+      "norank": "Herhangi bir rütbeye sahip değilsin. Rütbe atlamak için şimdi bir maç tamamla! Tamamladıktan sonra komutu yeniden kullanarak rolünü alabilirsin.",
+      "rank": "Oyunda [currentRank] rütbesinde olduğun için [role] rolünü kaptın! Şimdi daha çok rütbe atla ve komutu yeniden kullanarak sunucudaki rolünü güncelle.",
+      "disabled": "Bu sunucuda rütbe rolleri devre dışı. Etkinleştirmek için lütfen sunucu sahibiyle iletişime geçin.",
+      "ranknotfound": "Rütbeniz [rank] ancak bu rütbeye sahip bir rol yok. Bu rütbeye sahip bir rol eklemek için lütfen sunucu sahibiyle iletişime geçin.",
+      "error": "Üzgünüm, size [role] rolünü vermek için yeterli iznim yok. Lütfen bana Rolleri Yönetme izni vermesi için sunucu sahibiyle iletişime geçin."
+    },
+    "claimfreeitems": {
+      "embed1": "İçerik mağazasından alabileceğiniz hiçbir ücretsiz içerik yok.",
+      "embed2": {
+        "title": "Ücretsiz İçerikler Alındı :white_check_mark:",
+        "description": "İçerik mağazasındaki mevcut tüm ücretsiz içerik başarıyla aldınız."
+      },
+      "items": "İçerikler"
+    },
+    "playercount": {
+      "title": "Oyuncu Sayısı",
+      "total": "Toplam oyuncu sayısı",
+      "bymode": "Oyun Modlarına Göre Oyuncu Sayısı",
+      "battleroyale": "Battle Royale",
+      "rankedbr": "Dereceli Battle Royale",
+      "zerobuilds": "Sıfır İnşa",
+      "rankedzb": "Dereceli Sıfır İnşa",
+      "creative": "Kreatif",
+      "stw": "Dünyayı Kurtar"
+    },
+    "weaponinfo": {
+      "notfound": "[weapon] ismiyle ve [rarity] nadirliğiyle herhangi bir silah bulunamadı.",
+      "stats": "Silah İstatistikleri",
+      "damage": "Hasar",
+      "critical": "Kafa Vuruşu Hasarı",
+      "firerate": "Ateş Hızı",
+      "clipsize": "Şarjör Boyutu",
+      "reloadtime": "Yeniden Doldurma Süresi",
+      "seconds": "[seconds] saniye",
+      "rarities": {
+        "common": "Sıradan",
+        "uncommon": "Nadir",
+        "rare": "Ender",
+        "epic": "Destansı",
+        "legendary": "Efsanevi",
+        "mythic": "Eşsiz",
+        "exotic": "Egzotik"
+      }
+    },
+    "deviceauth": {
+      "created": "Cihaz Bağlantısı Oluşturuldu :white_check_mark:",
+      "deleted": "Cihaz Bağlantısı Silindi :white_check_mark:",
+      "dontshare": "**Hesabınıza erişmek için kullanılabileceğinden lütfen bu bilgileri kimseyle paylaşmayın!**",
+      "deviceid": "Cihaz ID",
+      "noauth": "[id] id'sine sahip herhangi bir cihaz bağlantısı yok.",
+      "error": "Cihaz bağlantısı silinirken bilinmeyen bir hata oluştu.",
+      "deleted2": "[id] id'sine sahip cihaz bağlantısı silindi.",
+      "noauths": "Hiçbir cihaz bağlantın yok.",
+      "deleteall": "Tüm Cihaz Bağlantılarını Sil",
+      "deleteallconfirmation": "Botun kullandığı bağlantı dışındaki tüm cihaz bağlantılarını silmek istediğinizden emin misiniz? Bu işlem [amount] cihaz bağlantısını silecek ve tüm cihazlardan çıkış yapmanızı sağlayacaktır.",
+      "deletedall": {
+        "title": "Tüm Cihaz Bağlantıları Silindi :white_check_mark:",
+        "description": "[deleted]/[total] cihaz yetkileri silindi. Tüm cihazlardan çıkışınız yapıldı."
+      },
+      "dates": "Tarihler",
+      "createdat": "Oluşturma",
+      "lastAccess": "Son Kullanma",
+      "page": "Sayfa [page]/[total]",
+      "deleted3": "Cihaz bağlantısı başarıyla silindi",
+      "deleteauth": "Cihaz Bağlantısı",
+      "unknown": "Bilinmiyor",
+      "loggedout": "Hesabınızdan çıkış yapıldı."
+    },
+    "serverstatus": {
+      "up": "Sunucular Aktif!",
+      "down": "Sunucular Kapalı!",
+      "banned": "Oyundan yasaklısın.",
+      "notbanned": "Oyundan yasaklı değilsin!",
+      "statusPage": "Sunucu Durumu Sayfasını Kontrol Et",
+      "isBanned": "Yasaklı mısın"
+    },
+    "settings": {
+      "select": "Değiştirilecek bir ayar seçin",
+      "enabled": "Aktif",
+      "disabled": "Kapalı",
+      "autosac": "Otomatik Destekleme",
+      "autosacdesc": "Her satın alma işleminde desteklediğiniz içerik üreticisini otomatik olarak yeniler.",
+      "freellama": "Ücretsiz Lama Alıcı",
+      "freellamadesc": "Ücretsiz lamalarınızı her gün otomatik olarak alır.",
+      "embed1": {
+        "title": "Ayarlar",
+        "description": "Ayarlarınızı değiştirmek için aşağıdaki açılır menüyü kullanın."
+      }
+    },
+    "accesstoken": {
+      "warning": "**:warning: Uyarı:** Hesabınıza erişmek için kullanılabileceğinden bu tokenleri kimseyle paylaşmayın!",
+      "accountid": "Hesap ID"
+    },
+    "staging": {
+      "notfound": "[input] ismiyle veya URL'siyle herhangi bir staging sunucusu bulunamadı."
+    },
+    "saveprogress": {
+      "success": {
+        "title": "İlerleme Kaydedildi",
+        "description": "Şimdi görevden ayrılabilir ve ödüllerinizi alabilirsiniz!"
+      },
+      "error": "İlerlemeniz kaydedilirken bilinmeyen bir hata oluştu."
+    },
+    "ranksystem": {
+      "notenabled": "Rütbe-rol sistemi bu sunucuda etkin değil. Etkinleştirmek için sisteme bir rol ekleyin.",
+      "rankroles": "Rütbe Rolleri",
+      "added": "[rank] rütbesi ve [role] rolü sisteme başarıyla eklendi.",
+      "removed": "[rank] rütbesi ve [role] rolü sistemden başarıyla kaldırıldı.",
+      "alreadyenabled": "Rütbe-rol sistemi bu sunucuda zaten etkin.",
+      "alreadydisabled": "Rütbe-rol sistemi bu sunucuda zaten devre dışı.",
+      "enabledsystem": "Bu sunucuda rank-role sistemi başarıyla etkinleştirildi.",
+      "disabledsystem": "Bu sunucuda rütbe-rol sistemi başarıyla devre dışı bırakıldı.",
+      "alreadyinsystem": "Bu rütbe zaten sistemde var.",
+      "notinsystem": "Bu rütbe sistemde yok.",
+      "ranks": {
+        "bronze": "Bronz",
+        "silver": "Gümüş",
+        "gold": "Altın",
+        "platinum": "Platinum",
+        "diamond": "Elmas",
+        "thebest": "En İyileri"
+      }
+    },
+    "accountsettings": {
+      "gifts": [
+        "Hediye alma ayarınız **Etkin** olarak ayarlandı. Artık arkadaşlarınızdan hediye alabilirsiniz.",
+        "Hediye alma ayarınız **Devre Dışı** olarak ayarlandı. Artık arkadaşlarınızdan hediye alamazsınız."
+      ]
+    },
+    "customprofile": {
+      "notfound": "[name] ismiyle herhangi bir karakter bulunamadı.",
+      "invalidtype": "Kozmetik tipi karakter olmalı.",
+      "success": "Avatar ve embed rengin [name] karakteriyle uyuşacak şekilde değiştirildi!",
+      "reset": "Profilin Fortnite profilinle başarıyla eşleştirildi!"
+    },
+    "activatepremium": {
+      "alreadyPremium": "Siz zaten bir Premium kullanıcısınız.",
+      "invalidCode": "Girdiğiniz kod geçerli değil.",
+      "redeemed": {
+        "title": "Kod Okutuldu",
+        "description": "Kodu başarıyla kullandınız. Artık Premium komutlarını kullanabilirsiniz.",
+        "description2": "Kodu başarıyla kullandınız. Artık Premium komutlarını [date] tarihine kadar kullanabilirsiniz."
+      }
+    }
+  },
+  "changenickname": {
+    "error": "Takma ad değiştirilirken bilinmeyen bir hata oluştu.",
+    "okay": "Arkadaşının yeni takma adı [name] olarak ayarlandı."
+  },
+  "buytiers": {
+    "invalid": "Lütfen geçerli bir sayı giriniz.",
+    "notenough": "[amount] adet aşama satın almanız için size [requiredVB] daha gerekiyor. Sizde olan: [currentVB]",
+    "unknown": "Satın alım işlenirken bilinmeyen bir hata oluştu.",
+    "okay": {
+      "title": "Aşama Satın Alındı",
+      "description": "[amount] adet aşama, [spentVB] başarıyla satın alındı."
+    }
+  },
+  "general": {
+    "didntconnectdb": "Veritabanına bağlanılamadığı için bot bu komutu çalıştırılamadı. Lütfen daha sonra tekrar deneyin ve bilgi almak için [destek sunucumuza]([support]) katılın.",
+    "blacklist": "Botu kullanamazsın. [reason] sebebiyle kara listeye alındın.",
+    "blacklistguild": "Bu sunucu botu kullanamaz. Bu sunucu [reason] sebebiyle kara listeye alındı.",
+    "disabled": "Bu komut kısa süreliğine devre dışı bırakılmıştır.",
+    "supserveronly": "Bu komutu sadece [destek sunucumuzda]([support]) kullanabilirsiniz.",
+    "loginreq": "Bu komutu kullanmak için lütfen [command] komutunu kullanarak hesabınıza giriş yapın.",
+    "dataerror": "Verileriniz veri tabanına düzgün işlenmediği için hesabınızdan çıkış yapmak zorunda kaldık. Lütfen tekrar giriş yapın ve sorun devam ederse yardım almak için [destek sunucumuza]([support]) katılın.",
+    "servererror": "Epic Games sunucuları çevrimdışı olduğu için Epic Games ile etkileşime giren komutlar geçici olarak devre dışı bırakıldı. Lütfen sunucuların durumunu [buradan](https://status.epicgames.com/) kontrol edin.",
+    "hadtologout": "Oturumunuz kapatıldı! Aşağıdaki nedenlerden biri bunun sebebi olabilir:\n• Session süresi doldu.\n• Hesabınızın şifresi değişti.\n• Epic Games veya siz tüm yetkilendirmeleri sildiniz.\n\nHesabınızdan otomatik olarak çıkış yapıldı. Tekrar giriş yapabilirsiniz.",
+    "missingperms": "Botun hesabınızda yetersiz yetki olmasından dolayı işlem gerçekleştirilemedi.",
+    "error": "Bu komut çalıştırılırken beklenmedik bir hata oluştu ve hata geliştiricilere bildirildi. Yardım almak için [destek sunucumuza]([support]) katılın.",
+    "acceptedtryagain": "Kuralları kabul ettiniz. Devam etmek için butona yeniden tıklayın.",
+    "hellouser": "Merhaba, [name]",
+    "crank": "Derece",
+    "chighestrank": "En Yüksek Derece",
+    "alreadyloggedin": "Bu hesapla zaten giriş yaptınız.",
+    "welcomeuser": ":wave: Hoşgeldin, [name]!",
+    "help": "Yardım almaya ihtiyacınız varsa [destek sunucumuza]([support]) katılın",
+    "deviceidcreated": {
+      "title": "Cihaz Bağlantısı Oluşturuldu",
+      "deviceId": "Cihaz ID",
+      "secret": "Secret (Sakın Paylaşma!)",
+      "footer": "Çıkış yapmak ve hesap bilgilerinizi bottan silmek için /çıkış-yap komutunu kullanın."
+    },
+    "dontuseanother": "Lütfen bota sadece botun size verdiği bağlantıyı kullanarak giriş yapın.",
+    "expiredExchange": "Giriş yaparken bir sorun oluştu. Exchange Code geçerliliğini yitirmiş olabilir. Lütfen tekrar deneyin.",
+    "noresults": "Sonuç bulunamadı!",
+    "page": "Sayfa",
+    "reachedmax": "En fazla sayfaya ulaştın.",
+    "notactive": "Epic hesabın ([accountId]) Epic Games tarafından devre dışı bırakıldığı için komut çalıştırılamadı. Lütfen daha fazla bilgi için [bu bağlantıyı](https://www.epicgames.com/help/tr/contact-us) kullanarak Epic Games ile iletişime geçin.",
+    "yourvbucks": "V-Papelin",
+    "supportedcreator": "Desteklenilen Üretici",
+    "banned": "Üzgünüz, hesabınız Epic Games tarafından yasaklanmış gibi görünüyor. Lütfen daha fazla bilgi için [bu bağlantıyı](https://www.epicgames.com/help/tr/contact-us) kullanarak Epic Games ile iletişime geçin.",
+    "dmonly": "Bu komutu yalnızca DM'de kullanabilirsiniz.",
+    "premium": "Premium hakkında daha fazla bilgi edinmek için [destek sunucumuzda]([support]) bu mesajı [messageLink] okuyabilirsiniz!",
+    "premiumGuild": "Bu komutu kullanabilmek için sunucu sahibinin Premium olması gerekir. Premium hakkında daha fazla bilgi edinmek için [destek sunucumuzda]([support]) bu mesajı [messageLink] okuyabilirsiniz!",
+    "missingpermissions": "Bu komutu kullanmak için [perm] iznine sahip olmalısınız.",
+    "missingpermsbot": "Bu komutu kullanmak için [perm] iznine sahip olmalıyım."
+  },
+  "global": {
+    "yes": "Evet",
+    "no": "Hayır",
+    "account_id": "Hesap ID",
+    "successTitles": [
+      "Harika!",
+      "Başarılı"
+    ],
+    "errorTitles": [
+      ":warning: Bir Hata Oluştu!",
+      ":warning: Bir Engele Çarptık!",
+      ":warning: Aradığın Lama Bu Değil!",
+      ":warning: Böyle Olmamalıydı!"
+    ],
+    "premiumTitles": [
+      ":star: Bir Premium Özellik!"
+    ],
+    "ranks": [
+      "Derecesiz",
+      "Bronz I",
+      "Bronz II",
+      "Bronz III",
+      "Gümüş I",
+      "Gümüş II",
+      "Gümüş III",
+      "Altın I",
+      "Altın II",
+      "Altın III",
+      "Platinum I",
+      "Platinum II",
+      "Platinum III",
+      "Elmas I",
+      "Elmas II",
+      "Elmas III",
+      "Elit",
+      "Şampiyon",
+      "Efsane"
+    ],
+    "rules": {
+      "title": "Lütfen Giriş Yapmadan Önce Okuyun:",
+      "description": "1. Bot, kullanıcılardan toplanan Epic Games hesap bilgileri gibi kişisel verileri sadece sağlanan hizmetleri gerçekleştirmek için kullanır. Verileriniz asla bir üçüncü tarafa gösterilmez, satılmaz, kiralanmaz.\n2. Kısıtlamalar, kapatmalar veya yasaklar dahil ancak bunlarla sınırlı olmamak üzere hesabınıza karşı yapılan herhangi bir işlem için herhangi bir sorumluluk kabul etmiyoruz. Bu durumlar komutlardan veya komutların istenmeyen kullanımından kaynaklanabilir.\n3. Lütfen bu botu yalnızca beraberinde gelebilecek riskleri ve [Hizmet Koşulları](https://rookie-spitfire.cf/tos) ve [Gizlilik Şartları](https://rookie-spitfire.cf/privacy-policy)'nı tam olarak kabul ediyorsanız kullanın.\n\n**Yalnızca belirtilen bu şartları kabul ediyorsanız aşağıdaki \"Kabul Ediyorum\" butonuna tıklayın!**",
+      "accept": "Kabul Ediyorum",
+      "deny": "Kabul Etmiyorum"
+    }
+  },
+  "commandData": [
+    {
+      "name": "ping",
+      "localizedName": "ping",
+      "localizedDescription": "Bot ve API gecikmesini döndürür"
+    },
+    {
+      "name": "help",
+      "localizedName": "yardım",
+      "localizedDescription": "Bot hakkında bilgi verir",
+      "options": [
+        {
+          "name": "command",
+          "localizedName": "komut",
+          "localizedDescription": "Bir komut hakkında bilgi al"
         }
+      ]
     },
-    "general": {
-        "didntconnectdb": "Veritabanına bağlanılamadığı için bot bu komutu çalıştırılamadı. Lütfen daha sonra tekrar deneyin ve bilgi almak için [destek sunucumuza]([support]) katılın.",
-        "blacklist": "Botu kullanamazsın. [reason] sebebiyle kara listeye alındın.",
-        "blacklistguild": "Bu sunucu botu kullanamaz. Bu sunucu [reason] sebebiyle kara listeye alındı.",
-        "disabled": "Bu komut kısa süreliğine devre dışı bırakılmıştır.",
-        "supserveronly": "Bu komutu sadece [destek sunucumuzda]([support]) kullanabilirsiniz.",
-        "loginreq": "Bu komutu kullanmak için lütfen [command] komutunu kullanarak hesabınıza giriş yapın.",
-        "dataerror": "Verileriniz veri tabanına düzgün işlenmediği için hesabınızdan çıkış yapmak zorunda kaldık. Lütfen tekrar giriş yapın ve sorun devam ederse yardım almak için [destek sunucumuza]([support]) katılın.",
-        "servererror": "Epic Games sunucuları çevrimdışı olduğu için Epic Games ile etkileşime giren komutlar geçici olarak devre dışı bırakıldı. Lütfen sunucuların durumunu [buradan](https://status.epicgames.com/) kontrol edin.",
-        "hadtologout": "Oturumunuz kapatıldı! Aşağıdaki nedenlerden biri bunun sebebi olabilir:\n• Session süresi doldu.\n• Hesabınızın şifresi değişti.\n• Epic Games veya siz tüm yetkilendirmeleri sildiniz.\n\nHesabınızdan otomatik olarak çıkış yapıldı. Tekrar giriş yapabilirsiniz.",
-        "missingperms": "Botun hesabınızda yetersiz yetki olmasından dolayı işlem gerçekleştirilemedi.",
-        "error": "Bu komut çalıştırılırken beklenmedik bir hata oluştu ve hata geliştiricilere bildirildi. Yardım almak için [destek sunucumuza]([support]) katılın.",
-        "acceptedtryagain": "Kuralları kabul ettiniz. Devam etmek için butona yeniden tıklayın.",
-        "hellouser": "Merhaba, [name]",
-        "crank": "Derece",
-        "chighestrank": "En Yüksek Derece",
-        "alreadyloggedin": "Bu hesapla zaten giriş yaptınız.",
-        "welcomeuser": ":wave: Hoşgeldin, [name]!",
-        "help": "Yardım almaya ihtiyacınız varsa [destek sunucumuza]([support]) katılın",
-        "deviceidcreated": {
-            "title": "Cihaz Bağlantısı Oluşturuldu",
-            "deviceId": "Cihaz ID",
-            "secret": "Secret (Sakın Paylaşma!)",
-            "footer": "Çıkış yapmak ve hesap bilgilerinizi bottan silmek için /çıkış-yap komutunu kullanın."
-        },
-        "dontuseanother": "Lütfen bota sadece botun size verdiği bağlantıyı kullanarak giriş yapın.",
-        "expiredExchange": "Giriş yaparken bir sorun oluştu. Exchange Code geçerliliğini yitirmiş olabilir. Lütfen tekrar deneyin.",
-        "noresults": "Sonuç bulunamadı!",
-        "page": "Sayfa",
-        "reachedmax": "En fazla sayfaya ulaştın.",
-        "notactive": "Epic hesabın ([accountId]) Epic Games tarafından devre dışı bırakıldığı için komut çalıştırılamadı. Lütfen daha fazla bilgi için [bu bağlantıyı](https://www.epicgames.com/help/tr/contact-us) kullanarak Epic Games ile iletişime geçin.",
-        "yourvbucks": "V-Papelin",
-        "supportedcreator": "Desteklenilen Üretici",
-        "banned": "Üzgünüz, hesabınız Epic Games tarafından yasaklanmış gibi görünüyor. Lütfen daha fazla bilgi için [bu bağlantıyı](https://www.epicgames.com/help/tr/contact-us) kullanarak Epic Games ile iletişime geçin.",
-        "dmonly": "Bu komutu yalnızca DM'de kullanabilirsiniz.",
-        "premium": "Premium hakkında daha fazla bilgi edinmek için [destek sunucumuzda]([support]) bu mesajı [messageLink] okuyabilirsiniz!",
-        "premiumGuild": "Bu komutu kullanabilmek için sunucu sahibinin Premium olması gerekir. Premium hakkında daha fazla bilgi edinmek için [destek sunucumuzda]([support]) bu mesajı [messageLink] okuyabilirsiniz!",
-        "missingpermissions": "Bu komutu kullanmak için [perm] iznine sahip olmalısınız.",
-        "missingpermsbot": "Bu komutu kullanmak için [perm] iznine sahip olmalıyım."
-    },
-    "global": {
-        "yes": "Evet",
-        "no": "Hayır",
-        "account_id": "Hesap ID",
-        "successTitles": [
-            "Harika!",
-            "Başarılı"
-        ],
-        "errorTitles": [
-            ":warning: Bir Hata Oluştu!",
-            ":warning: Bir Engele Çarptık!",
-            ":warning: Aradığın Lama Bu Değil!",
-            ":warning: Böyle Olmamalıydı!"
-        ],
-        "premiumTitles": [
-            ":star: Bir Premium Özellik!"
-        ],
-        "ranks": [
-            "Derecesiz",
-            "Bronz I",
-            "Bronz II",
-            "Bronz III",
-            "Gümüş I",
-            "Gümüş II",
-            "Gümüş III",
-            "Altın I",
-            "Altın II",
-            "Altın III",
-            "Platinum I",
-            "Platinum II",
-            "Platinum III",
-            "Elmas I",
-            "Elmas II",
-            "Elmas III",
-            "Elit",
-            "Şampiyon",
-            "Efsane"
-        ],
-        "rules": {
-            "title": "Lütfen Giriş Yapmadan Önce Okuyun:",
-            "description": "1. Bot, kullanıcılardan toplanan Epic Games hesap bilgileri gibi kişisel verileri sadece sağlanan hizmetleri gerçekleştirmek için kullanır. Verileriniz asla bir üçüncü tarafa gösterilmez, satılmaz, kiralanmaz.\n2. Kısıtlamalar, kapatmalar veya yasaklar dahil ancak bunlarla sınırlı olmamak üzere hesabınıza karşı yapılan herhangi bir işlem için herhangi bir sorumluluk kabul etmiyoruz. Bu durumlar komutlardan veya komutların istenmeyen kullanımından kaynaklanabilir.\n3. Lütfen bu botu yalnızca beraberinde gelebilecek riskleri ve [Hizmet Koşulları](https://rookie-spitfire.cf/tos) ve [Gizlilik Şartları](https://rookie-spitfire.cf/privacy-policy)'nı tam olarak kabul ediyorsanız kullanın.\n\n**Yalnızca belirtilen bu şartları kabul ediyorsanız aşağıdaki \"Kabul Ediyorum\" butonuna tıklayın!**",
-            "accept": "Kabul Ediyorum",
-            "deny": "Kabul Etmiyorum"
+    {
+      "name": "claim2fa",
+      "localizedName": "2ad-ödüllerini-al",
+      "localizedDescription": "2 Aşamalı Doğrulama ödüllerinizi alın",
+      "options": [
+        {
+          "name": "stw",
+          "localizedName": "dünyayı-kurtar",
+          "localizedDescription": "Dünyayı kurtar ödüllerini al veya alma. Varsayılan: True (al)"
         }
+      ]
     },
-    "commandData": [
+    {
+      "name": "island",
+      "localizedName": "ada",
+      "localizedDescription": "Bir kreatif adası arayın veya favorilerinize ekleyin",
+      "options": [
         {
-            "name": "ping",
-            "localizedName": "ping",
-            "localizedDescription": "Bot ve API gecikmesini döndürür"
+          "name": "search",
+          "localizedName": "ara",
+          "localizedDescription": "Bir ada ara",
+          "options": [
+            {
+              "name": "code",
+              "description": "Island code",
+              "localizedName": "kod",
+              "localizedDescription": "Ada kodu"
+            }
+          ]
         },
         {
-            "name": "help",
-            "localizedName": "yardım",
-            "localizedDescription": "Bot hakkında bilgi verir",
-            "options": [
-                {
-                    "name": "command",
-                    "localizedName": "komut",
-                    "localizedDescription": "Bir komut hakkında bilgi al"
-                }
-            ]
-        },
-        {
-            "name": "claim2fa",
-            "localizedName": "2ad-ödüllerini-al",
-            "localizedDescription": "2 Aşamalı Doğrulama ödüllerinizi alın",
-            "options": [
-                {
-                    "name": "stw",
-                    "localizedName": "dünyayı-kurtar",
-                    "localizedDescription": "Dünyayı kurtar ödüllerini al veya alma. Varsayılan: True (al)"
-                }
-            ]
-        },
-        {
-            "name": "island",
-            "localizedName": "ada",
-            "localizedDescription": "Bir kreatif adası arayın veya favorilerinize ekleyin",
-            "options": [
-                {
-                    "name": "search",
-                    "localizedName": "ara",
-                    "localizedDescription": "Bir ada ara",
-                    "options": [
-                        {
-                            "name": "code",
-                            "description": "Island code",
-                            "localizedName": "kod",
-                            "localizedDescription": "Ada kodu"
-                        }
-                    ]
-                },
-                {
-                    "name": "favorite",
-                    "localizedName": "favorile",
-                    "localizedDescription": "Bir adayı favorilerine ekle",
-                    "options": [
-                        {
-                            "name": "code",
-                            "description": "Island code",
-                            "localizedName": "kod",
-                            "localizedDescription": "Ada kodu"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "anti-cheat",
-            "localizedName": "anti-hile",
-            "localizedDescription": "Kullandığınız anti-hile sağlayıcısını gösterir"
-        },
-        {
-            "name": "friends",
-            "localizedName": "arkadaş",
-            "localizedDescription": "Arkadaş listenizi yönetin",
-            "options": [
-                {
-                    "name": "user",
-                    "localizedName": "kullanıcı",
-                    "localizedDescription": "Bir oyuncuyla arkadaşlık durumunu kontrol et",
-                    "options": [
-                        {
-                            "name": "name",
-                            "localizedName": "ad",
-                            "localizedDescription": "Oyuncunun görünen adı"
-                        }
-                    ]
-                },
-                {
-                    "name": "remove-all",
-                    "localizedName": "herkesi-sil",
-                    "localizedDescription": "Tüm arkadaşlarını sil"
-                },
-                {
-                    "name": "list",
-                    "localizedName": "listem",
-                    "localizedDescription": "Arkadaş listeni görüntüle",
-                    "options": [
-                        {
-                            "name": "type",
-                            "localizedName": "tür",
-                            "localizedDescription": "Görüntülenecek arkadaş listesi türü"
-                        }
-                    ]
-                },
-                {
-                    "name": "accept-all-incoming",
-                    "localizedName": "gelen-istekleri-kabul-et",
-                    "localizedDescription": "Gelen tüm arkadaşlık isteklerini kabul et"
-                },
-                {
-                    "name": "decline-all-incoming",
-                    "localizedName": "gelen-istekleri-reddet",
-                    "localizedDescription": "Gelen tüm arkadaşlık isteklerini reddet"
-                },
-                {
-                    "name": "cancel-all-outgoing",
-                    "localizedName": "giden-istekleri-geri-çek",
-                    "localizedDescription": "Giden tüm arkadaşlık isteklerini geri çek"
-                },
-                {
-                    "name": "cleanup",
-                    "localizedName": "temizle",
-                    "localizedDescription": "Hesabı kapatılan oyuncuları arkadaşlık listenden kaldır"
-                },
-                {
-                    "name": "add",
-                    "localizedName": "ekle",
-                    "localizedDescription": "Bir oyuncuyu arkadaş ekle",
-                    "options": [
-                        {
-                            "name": "name",
-                            "localizedName": "isim",
-                            "localizedDescription": "Oyuncunun görünen adı"
-                        }
-                    ]
-                },
-                {
-                    "name": "remove",
-                    "localizedName": "sil",
-                    "localizedDescription": "Bir oyuncuyu arkadaşlıktan sil",
-                    "options": [
-                        {
-                            "name": "isim",
-                            "localizedName": "isim",
-                            "localizedDescription": "Oyuncunun görünen adı"
-                        }
-                    ]
-                },
-                {
-                    "name": "block",
-                    "localizedName": "engelle",
-                    "localizedDescription": "Bir oyuncuyu engelle",
-                    "options": [
-                        {
-                            "name": "name",
-                            "localizedName": "isim",
-                            "localizedDescription": "Oyuncunun görünen adı"
-                        }
-                    ]
-                },
-                {
-                    "name": "unblock",
-                    "localizedName": "engel-kaldır",
-                    "localizedDescription": "Bir oyuncunun engelini kaldır",
-                    "options": [
-                        {
-                            "name": "name",
-                            "localizedName": "isim",
-                            "localizedDescription": "Oyuncunun görünen adı"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "battle-royale",
-            "localizedName": "battle-royale",
-            "localizedDescription": "Battle Royale bilgilerinizi verir"
-        },
-        {
-            "name": "whoami",
-            "localizedName": "ben-kimim",
-            "localizedDescription": "Hesap bilgilerini görüntüle"
-        },
-        {
-            "name": "cloud-storage",
-            "localizedName": "bulut-depolama",
-            "localizedDescription": "Bulut depolamanı yönet veya görüntüle",
-            "options": [
-                {
-                    "name": "download",
-                    "localizedName": "indir",
-                    "localizedDescription": "Oyun dosyalarından bir dosya indir",
-                    "options": [
-                        {
-                            "name": "file-name",
-                            "localizedName": "dosya-adı",
-                            "localizedDescription": "İndirilecek dosya adı"
-                        }
-                    ]
-                },
-                {
-                    "name": "upload",
-                    "localizedName": "yükle",
-                    "localizedDescription": "Oyun dosyalarına bir dosya yükle",
-                    "options": [
-                        {
-                            "name": "file",
-                            "localizedName": "dosya",
-                            "localizedDescription": "Yüklenecek dosya"
-                        },
-                        {
-                            "name": "file-name",
-                            "localizedName": "dosya-adı",
-                            "localizedDescription": "Kullanılacak dosya adı"
-                        }
-                    ]
-                },
-                {
-                    "name": "list",
-                    "localizedName": "liste",
-                    "localizedDescription": "Oyun dosyalarını listele"
-                }
-            ]
-        },
-        {
-            "name": "logout",
-            "localizedName": "çıkış-yap",
-            "localizedDescription": "Bottan çıkış yaparsınız"
-        },
-        {
-            "name": "ranked",
-            "localizedName": "dereceli",
-            "localizedDescription": "Dereceli durumunuzu görüntüleyin",
-            "options": [
-                {
-                    "name": "mode",
-                    "localizedName": "mod",
-                    "localizedDescription": "İstatistiklerinizin alınacağı mod"
-                }
-            ]
-        },
-        {
-            "name": "locker",
-            "localizedName": "dolabım",
-            "localizedDescription": "Dolabınızı görüntülersiniz",
-            "options": [
-                {
-                    "name": "fortnitegg",
-                    "localizedName": "fortnitegg",
-                    "localizedDescription": "Dolabını Fortnite.GG üzerinde görüntüle"
-                },
-                {
-                    "name": "image",
-                    "localizedName": "resim",
-                    "localizedDescription": "Dolabını bir resim olarak görüntüle",
-                    "options": [
-                        {
-                            "name": "type",
-                            "localizedName": "tür",
-                            "localizedDescription": "Görüntülenecek kozmetik türü"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "exchange-code",
-            "localizedName": "exchange-code",
-            "localizedDescription": "Başka bir yerden giriş yapmak için bir kod oluşturur"
-        },
-        {
-            "name": "login",
-            "localizedName": "giriş-yap",
-            "localizedDescription": "Epic Games hesabına giriş yap",
-            "options": [
-                {
-                    "name": "auth-type",
-                    "localizedName": "yetkilendirme-tipi",
-                    "localizedDescription": "Hesabınıza nasıl giriş yapacağınızı seçin"
-                }
-            ]
-        },
-        {
-            "name": "daily-quests",
-            "localizedName": "günlük-görevler",
-            "localizedDescription": "Günlük Dünyayı Kurtar görevlerinizi görüntüleyin"
-        },
-        {
-            "name": "news",
-            "localizedName": "haberler",
-            "localizedDescription": "Mevcut Battle Royale haberlerini görüntülersiniz",
-            "options": [
-                {
-                    "name": "mode",
-                    "localizedName": "mod",
-                    "localizedDescription": "Haberleri görüntülenecek oyun modu"
-                }
-            ]
-        },
-        {
-            "name": "map",
-            "localizedName": "harita",
-            "localizedDescription": "Fortnite haritasını görüntüle"
-        },
-        {
-            "name": "reminder",
-            "localizedName": "hatırlatıcı",
-            "localizedDescription": "İçerik Mağazasına bir kozmetik geldiğinde haberdar ol",
-            "options": [
-                {
-                    "name": "add",
-                    "localizedName": "ekle",
-                    "localizedDescription": "Hatırlatıcına bir kozmetik ekle",
-                    "options": [
-                        {
-                            "name": "cosmetic",
-                            "localizedName": "kozmetik",
-                            "localizedDescription": "Hatırlatıcına eklenecek kozmetiğin adı"
-                        },
-                        {
-                            "name": "language",
-                            "localizedName": "dil",
-                            "localizedDescription": "Arama dili ve kozmetik adının, açıklamasının vs. görünüm dili."
-                        }
-                    ]
-                },
-                {
-                    "name": "remove",
-                    "localizedName": "kaldır",
-                    "localizedDescription": "Hatırlatıcından bir kozmetik kaldır",
-                    "options": [
-                        {
-                            "name": "cosmetic",
-                            "localizedName": "kozmetik",
-                            "localizedDescription": "Hatırlatıcımdan kaldırılacak kozmetiğin adı"
-                        },
-                        {
-                            "name": "language",
-                            "localizedName": "dil",
-                            "localizedDescription": "Arama dili ve kozmetik adının, açıklamasının vs. görünüm dili."
-                        }
-                    ]
-                },
-                {
-                    "name": "clear",
-                    "localizedName": "temizle",
-                    "localizedDescription": "Hatırlatıcındaki tüm kozmetikleri kaldır"
-                },
-                {
-                    "name": "list",
-                    "localizedName": "liste",
-                    "localizedDescription": "Hatırlatıcını görüntüle"
-                }
-            ]
-        },
-        {
-            "name": "gift",
-            "localizedName": "hediye-et",
-            "localizedDescription": "Bir arkadaşına bir içerik hediye et",
-            "options": [
-                {
-                    "name": "friend-name",
-                    "localizedName": "arkadaş-ismi",
-                    "localizedDescription": "Hediyeyi göndereceğin arkadaşının görünen adı"
-                },
-                {
-                    "name": "item",
-                    "localizedName": "içerik",
-                    "localizedDescription": "İçerik mağazası resminde gözüken sol alttaki sayı veya içerik ismi"
-                }
-            ]
-        },
-        {
-            "name": "gift-history",
-            "localizedName": "hediye-geçmişi",
-            "localizedDescription": "Hediye geçmişini görüntüle",
-            "options": [
-                {
-                    "name": "received",
-                    "localizedName": "alınan",
-                    "localizedDescription": "Sana kimlerin hediye attığını görüntüle"
-                },
-                {
-                    "name": "sent",
-                    "localizedName": "gönderilen",
-                    "localizedDescription": "Kimlere hediye attığını görüntüle"
-                }
-            ]
-        },
-        {
-            "name": "shop",
-            "localizedName": "içerik-mağazası",
-            "localizedDescription": "Bugünün içerik mağazasının bir resmini gönderir"
-        },
-        {
-            "name": "season-progress",
-            "localizedName": "sezon-ilerlemesi",
-            "localizedDescription": "Sezon ilerlemesini gönderir"
-        },
-        {
-            "name": "cosmetic",
-            "localizedName": "kozmetik",
-            "localizedDescription": "Bir kozmetik ara",
-            "options": [
-                {
-                    "name": "name",
-                    "localizedName": "isim",
-                    "localizedDescription": "Aranacak kozmetiğin ismi"
-                },
-                {
-                    "name": "search-language",
-                    "localizedName": "arama-dili",
-                    "localizedDescription": "Kozmetiği arama dilini belirle"
-                },
-                {
-                    "name": "output-language",
-                    "localizedName": "sonuç-dili",
-                    "localizedDescription": "Kozmetiğin adının, açıklamasının vs. görünüm dili"
-                }
-            ]
-        },
-        {
-            "name": "creative-xp",
-            "localizedName": "kreatif-xp",
-            "localizedDescription": "Günlük Kreatif XP limitlerinizi ve kullanma miktarınızı görüntüleyin"
-        },
-        {
-            "name": "random-location",
-            "localizedName": "rastgele-konum",
-            "localizedDescription": "Size atlamanız için rastgele bir konum verir"
-        },
-        {
-            "name": "redeem",
-            "localizedName": "kod-okut",
-            "localizedDescription": "Epic Games için bir kod doğrula",
-            "options": [
-                {
-                    "name": "code",
-                    "localizedName": "kod",
-                    "localizedDescription": "Taranacak kod"
-                },
-                {
-                    "name": "bulk",
-                    "localizedName": "toplu",
-                    "localizedDescription": "Kodun her hesapta kullanılıp kullanılmayacağı"
-                }
-            ]
-        },
-        {
-            "name": "sac",
-            "localizedName": "sac",
-            "localizedDescription": "Desteklediğin içerik üreticisini yönet",
-            "options": [
-                {
-                    "name": "change",
-                    "localizedName": "değiştir",
-                    "localizedDescription": "Desteklediğin içerik üreticisini değiştir",
-                    "options": [
-                        {
-                            "name": "code",
-                            "localizedName": "kod",
-                            "localizedDescription": "Destekleyeceğiniz içerik üreticisi kodu"
-                        }
-                    ]
-                },
-                {
-                    "name": "supported",
-                    "localizedName": "desteklenen",
-                    "localizedDescription": "Desteklediğin içerik üreticisini görüntüle"
-                },
-                {
-                    "name": "search",
-                    "localizedName": "ara",
-                    "localizedDescription": "Bir kodun sahibini ve bilgilerini görüntüle",
-                    "options": [
-                        {
-                            "name": "code",
-                            "localizedName": "kod",
-                            "localizedDescription": "Aranacak kod"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "buy",
-            "localizedName": "satın-al",
-            "localizedDescription": "İçerik mağazasından bir içerik satın alın",
-            "options": [
-                {
-                    "name": "item",
-                    "localizedName": "içerik",
-                    "localizedDescription": "İçerik mağazası resminde gözüken sol alttaki sayı veya içerik ismi"
-                }
-            ]
-        },
-        {
-            "name": "battle-pass",
-            "localizedName": "savaş-bileti",
-            "localizedDescription": "Savaş biletini ve diğer paketleri satın al"
-        },
-        {
-            "name": "stats",
-            "localizedName": "stats",
-            "localizedDescription": "Bir Fortnite oyuncusunun istatistiklerini görüntülersiniz",
-            "options": [
-                {
-                    "name": "name",
-                    "localizedName": "isim",
-                    "localizedDescription": "Oyunucunun Epic görünen adı"
-                }
-            ]
-        },
-        {
-            "name": "offer",
-            "localizedName": "teklif",
-            "localizedDescription": "Offer ID girerek bir teklif arayın veya satın alın",
-            "options": [
-                {
-                    "name": "offer-id",
-                    "localizedName": "offer-id",
-                    "localizedDescription": "Arayacağınız veya satın alacağınız teklifin Offer ID'si"
-                }
-            ]
-        },
-        {
-            "name": "vbucks",
-            "localizedName": "vpapel",
-            "localizedDescription": "Belirli bir miktar için v-papel linki oluşturun, bakiyenizi ya da geçmişinizi görüntüleyin",
-            "options": [
-                {
-                    "name": "buy",
-                    "localizedName": "satın-al",
-                    "localizedDescription": "Belirli miktarda bir v-papel satın alma linki oluştur",
-                    "options": [
-                        {
-                            "name": "amount",
-                            "localizedName": "miktar",
-                            "localizedDescription": "Oluşturulacak miktar"
-                        }
-                    ]
-                },
-                {
-                    "name": "balance",
-                    "localizedName": "bakiyem",
-                    "localizedDescription": "Ne kadar v-papele sahip olduğunu görüntüle",
-                    "options": [
-                        {
-                            "name": "bulk",
-                            "localizedName": "toplu",
-                            "localizedDescription": "Tüm hesapların bakiyesinin görüntülenip görüntülenmeyeceği"
-                        }
-                    ]
-                },
-                {
-                    "name": "history",
-                    "localizedName": "geçmişi",
-                    "localizedDescription": "V-papel satın alma geçmişinizi görüntüle"
-                }
-            ]
-        },
-        {
-            "name": "bot-info",
-            "localizedName": "bot-bilgi",
-            "localizedDescription": "Bot hakkında bilgi verir"
-        },
-        {
-            "name": "banned",
-            "localizedName": "yasaklı-mıyım",
-            "localizedDescription": "Hesabınız banlı mı değil mi kontrol edin"
-        },
-        {
-            "name": "creative-xp",
-            "localizedName": "kreatif-xp",
-            "localizedDescription": "Kreatif TP limitinizi ve kullanımınızı görüntüleyin"
-        },
-        {
-            "name": "refresh-profile",
-            "localizedName": "profil-yenile",
-            "localizedDescription": "Battle Royale ve Dünyayı Kurtar profilinizi yeniler"
-        },
-        {
-            "name": "motd",
-            "localizedName": "kişisel-haberler",
-            "localizedDescription": "Kişisel Fortnite haberlerinizi görüntüleyin"
-        },
-        {
-            "name": "launch-fortnite",
-            "localizedName": "fortnite-başlat",
-            "localizedDescription": "Fortnite'ı bir Command Prompt komutu ile başlatın"
-        },
-        {
-            "name": "preferences",
-            "localizedName": "tercihler",
-            "localizedDescription": "Bot tercihlerinizi değiştirin",
-            "options": [
-                {
-                    "name": "language",
-                    "localizedName": "dil",
-                    "localizedDescription": "Bot dilinizi değiştirin",
-                    "options": [
-                        {
-                            "name": "language",
-                            "localizedName": "dil",
-                            "localizedDescription": "Yeni dil"
-                        }
-                    ]
-                },
-                {
-                    "name": "reply-type",
-                    "localizedName": "yanıt-tipi",
-                    "localizedDescription": "Bot yanıt tipini değiştirin",
-                    "options": [
-                        {
-                            "name": "type",
-                            "localizedName": "tip",
-                            "localizedDescription": "Yeni yanıt tipi"
-                        }
-                    ]
-                },
-                {
-                    "name": "censor",
-                    "localizedName": "sansür",
-                    "localizedDescription": "Bot sansür türünüzü değiştirin",
-                    "options": [
-                        {
-                            "name": "type",
-                            "localizedName": "tür",
-                            "localizedDescription": "Yeni sansür türü"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "mission-alerts",
-            "localizedName": "görev-uyarıları",
-            "localizedDescription": "Dünyayı Kurtar görev uyarılarını görüntüleyin"
-        },
-        {
-            "name": "ghost-equip",
-            "localizedName": "ghost-equip",
-            "localizedDescription": "Sahip olsanız da olmasanız da grubunuzda herhangi bir kozmetiği kuşanın",
-            "options": [
-                {
-                    "name": "name",
-                    "localizedName": "isim",
-                    "localizedDescription": "Aranacak kozmetiğin ismi"
-                },
-                {
-                    "name": "language",
-                    "localizedName": "dil",
-                    "localizedDescription": "Arama dili ve kozmetik adının, açıklamasının vb. görünüm dili."
-                }
-            ]
-        },
-        {
-            "name": "fake-level",
-            "localizedName": "sahte-seviye",
-            "localizedDescription": "Grubunuzda seviyenizi sahte bir seviye olarak ayarlayın",
-            "options": [
-                {
-                    "name": "level",
-                    "localizedName": "seviye",
-                    "localizedDescription": "Yeni seviye"
-                }
-            ]
-        },
-        {
-            "name": "fake-crown-wins",
-            "localizedName": "sahte-taç-zaferleri",
-            "localizedDescription": "Grubunuzda taçlarınızı sahte taç miktarına ayarlayın",
-            "options": [
-                {
-                    "name": "amount",
-                    "localizedName": "miktar",
-                    "localizedDescription": "Yeni taç miktarı"
-                }
-            ]
-        },
-        {
-            "name": "stw",
-            "localizedName": "dünyayı-kurtar",
-            "localizedDescription": "Dünyayı Kurtar bilgilerinizi görüntüleyin",
-            "options": [
-                {
-                    "name": "info",
-                    "localizedName": "bilgi",
-                    "localizedDescription": "Dünyayı Kurtar istatistiklerini görüntüleyin"
-                },
-                {
-                    "name": "xp",
-                    "localizedName": "tp",
-                    "localizedDescription": "Günlük Dünyayı Kurtar TP kullanımınızı ve limitinizi görüntüleyin"
-                }
-            ]
-        },
-        {
-            "name": "research",
-            "localizedName": "araştırma",
-            "localizedDescription": "Dünyayı Kurtar'da araştırma seviyelerinizi görüntüleyin veya yükseltin"
-        },
-        {
-            "name": "undo-purchase",
-            "localizedName": "satın-alımı-geri-al",
-            "localizedDescription": "İade biletİ kullanmadan satın alımlarınızdan birini geri alın"
-        },
-        {
-            "name": "party",
-            "localizedName": "grup",
-            "localizedDescription": "Mevcut grubunuzu yönetin",
-            "options": [
-                {
-                    "name": "info",
-                    "localizedName": "bilgi",
-                    "localizedDescription": "Mevcut grubunuz hakkında bilgi alın"
-                },
-                {
-                    "name": "leave",
-                    "localizedName": "ayrıl",
-                    "localizedDescription": "Mevcut grubunuzdan ayrılın"
-                }
-            ]
-        },
-        {
-            "name": "skip-tutorial",
-            "localizedName": "eğitimi-atla",
-            "localizedDescription": "Dünyayı Kurtar eğitimini atlayın"
-        },
-        {
-            "name": "account",
-            "localizedName": "hesap",
-            "localizedDescription": "Hesabınızı yönetin",
-            "options": [
-                {
-                    "name": "change-name",
-                    "localizedName": "isim-değiştir",
-                    "localizedDescription": "Görünen adınızı değiştirir",
-                    "options": [
-                        {
-                            "name": "name",
-                            "localizedName": "isim",
-                            "localizedDescription": "Yeni görünen ad"
-                        }
-                    ]
-                },
-                {
-                    "name": "change-phone-number",
-                    "localizedName": "telefon-numarası-değiştir",
-                    "localizedDescription": "Telefon numaranızı değiştirir",
-                    "options": [
-                        {
-                            "name": "number",
-                            "localizedName": "numara",
-                            "localizedDescription": "Yeni telefon numarası"
-                        }
-                    ]
-                },
-                {
-                    "name": "info",
-                    "localizedName": "bilgi",
-                    "localizedDescription": "Hassas hesap bilgilerinizi görüntüleyin"
-                }
-            ]
-        },
-        {
-            "name": "shop-sections",
-            "localizedName": "mağaza-sekmeleri",
-            "localizedDescription": "Bugünün veya yarının içerik mağazası sekmelerini gönderir",
-            "options": [
-                {
-                    "name": "day",
-                    "localizedName": "gün",
-                    "localizedDescription": "İçerik mağazası sekmeleri alınacak gün"
-                }
-            ]
-        },
-        {
-            "name": "claim-rank-role",
-            "localizedName": "rütbe-rolünü-al",
-            "localizedDescription": "Rütbeli derecenize göre sunucuda bir rol alın",
-            "options": [
-                {
-                    "name": "mode",
-                    "localizedName": "mod",
-                    "localizedDescription": "Dereceli oyun modu"
-                }
-            ]
-        },
-        {
-            "name": "claim-free-items",
-            "localizedName": "ücretsiz-içerikleri-al",
-            "localizedDescription": "İçerik mağazasından ücretsiz içerikleri alır"
-        },
-        {
-            "name": "player-count",
-            "localizedName": "oyuncu-sayısı",
-            "localizedDescription": "Aktif oyuncu sayısını ve kaç oyuncunun hangi oyun modlarını oynadığını görüntüleyin"
-        },
-        {
-            "name": "weapon-info",
-            "localizedName": "silah-bilgi",
-            "localizedDescription": "Bir silah hakkında bilgi alın",
-            "options": [
-                {
-                    "name": "rarity",
-                    "localizedName": "nadirlik",
-                    "localizedDescription": "Silahın nadirliği"
-                },
-                {
-                    "name": "weapon",
-                    "localizedName": "weapon",
-                    "localizedDescription": "Bilgisi alınacak silah adı"
-                }
-            ]
-        },
-        {
-            "name": "device-auth",
-            "localizedName": "cihaz-bağlantısı",
-            "localizedDescription": "Cihaz bağlantılarını yönet",
-            "options": [
-                {
-                    "name": "create",
-                    "localizedName": "oluştur",
-                    "localizedDescription": "Yeni bir cihaz bağlantısı oluştur"
-                },
-                {
-                    "name": "list",
-                    "localizedName": "listesi",
-                    "localizedDescription": "Cihaz bağlantılarını listele"
-                },
-                {
-                    "name": "delete",
-                    "localizedName": "sil",
-                    "localizedDescription": "Bir cihaz bağlantısını sil",
-                    "options": [
-                        {
-                            "name": "device-id",
-                            "localizedName": "device-id",
-                            "localizedDescription": "Silinecek cihaz id'si"
-                        }
-                    ]
-                },
-                {
-                    "name": "delete-all",
-                    "localizedName": "hepsini-sil",
-                    "localizedDescription": "Bot tarafından kullanılan hariç tüm cihaz bağlantılarını sil"
-                }
-            ]
-        },
-        {
-            "name": "server-status",
-            "localizedName": "sunucu-durumu",
-            "localizedDescription": "Fortnite sunucularının durumunu görüntüleyin"
-        },
-        {
-            "name": "access-token",
-            "localizedName": "access-token",
-            "localizedDescription": "Bir client seçerek yeni bir access token oluşturun",
-            "options": [
-                {
-                    "name": "client",
-                    "localizedName": "client",
-                    "localizedDescription": "Kullanmak istediğiniz client"
-                }
-            ]
-        },
-        {
-            "name": "settings",
-            "localizedName": "ayarlar",
-            "localizedDescription": "Ayarlarınızı yönetin"
-        },
-        {
-            "name": "staging",
-            "localizedName": "staging",
-            "localizedDescription": "Bir staging sunucusunun MCP sunucusunun bilgilerini görüntüle",
-            "options": [
-                {
-                    "name": "server",
-                    "localizedName": "sunucu",
-                    "localizedDescription": "Bilgisi alınacak sunucu adı veya URL"
-                }
-            ]
-        },
-        {
-            "name": "save-progress",
-            "localizedName": "ilerlemeyi-kaydet",
-            "localizedDescription": "Dünyayı Kurtardaki görevleri görevi tamamlamadan tamamlayın"
-        },
-        {
-            "name": "rank-system",
-            "localizedName": "rütbe-sistemi",
-            "localizedDescription": "Kullanıcıların /rütbe-rolünü-al komutunu kullanarak rol almalarını sağlamak için bu sistemi yönetin",
-            "options": [
-                {
-                    "name": "add",
-                    "localizedName": "ekle",
-                    "localizedDescription": "Sunucunuza bir rütbe-rol sistemi ekleyin",
-                    "options": [
-                        {
-                            "name": "rank",
-                            "localizedName": "rütbe",
-                            "localizedDescription": "Rütbe"
-                        },
-                        {
-                            "name": "role",
-                            "localizedName": "rol",
-                            "localizedDescription": "Kullanıcılara verilecek rol"
-                        }
-                    ]
-                },
-                {
-                    "name": "remove",
-                    "localizedName": "kaldır",
-                    "localizedDescription": "Sunucunuzdan bir rank-role sistemini kaldırın",
-                    "options": [
-                        {
-                            "name": "rank",
-                            "localizedName": "rütbe",
-                            "localizedDescription": "Rütbe"
-                        }
-                    ]
-                },
-                {
-                    "name": "list",
-                    "localizedName": "liste",
-                    "localizedDescription": "Sunucunuzdaki rütbe-rol sistemlerini görüntüleyin"
-                },
-                {
-                    "name": "enable",
-                    "localizedName": "etkinleştir",
-                    "localizedDescription": "Sunucunuzda rank-role sistemini etkinleştirin"
-                },
-                {
-                    "name": "disable",
-                    "localizedName": "kapat",
-                    "localizedDescription": "Sunucunuzdaki rütbe-rol sistemini devre dışı bırakın"
-                }
-            ]
-        },
-        {
-            "name": "account-settings",
-            "localizedName": "hesap-ayarları",
-            "localizedDescription": "Epic Games hesap ayarlarınızı güncelleyin",
-            "options": [
-                {
-                    "name": "receive-gifts",
-                    "localizedName": "hediye-alma",
-                    "localizedDescription": "Arkadaşlarınızdan hediye alıp almayacağınızı belirleyin",
-                    "options": [
-                        {
-                            "name": "state",
-                            "localizedName": "durum",
-                            "localizedDescription": "Hediye alma veya almama"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "custom-profile",
-            "localizedName": "özel-profil",
-            "localizedDescription": "Botun embed rengini ve avatarını düzenle",
-            "options": [
-                {
-                    "name": "set",
-                    "localizedName": "ayarla",
-                    "localizedDescription": "Özel profilini ayarla",
-                    "options": [
-                        {
-                            "name": "skin",
-                            "localizedName": "karakter",
-                            "localizedDescription": "Avatar ve embed rengi için kullanılacak karakter"
-                        },
-                        {
-                            "name": "search-language",
-                            "localizedName": "arama-dili",
-                            "localizedDescription": "Kozmetik arama dilini ayarla"
-                        }
-                    ]
-                },
-                {
-                    "name": "reset",
-                    "localizedName": "sıfırla",
-                    "localizedDescription": "Özel profilini sıfırla"
-                }
-            ]
-        },
-        {
-            "name": "activate-premium",
-            "localizedName": "premium-etkinleştir",
-            "localizedDescription": "Bir kod kullanarak Premium'u etkinleştirin",
-            "options": [
-                {
-                    "name": "code",
-                    "localizedName": "kod",
-                    "localizedDescription": "Okutulacak kod"
-                }
-            ]
+          "name": "favorite",
+          "localizedName": "favorile",
+          "localizedDescription": "Bir adayı favorilerine ekle",
+          "options": [
+            {
+              "name": "code",
+              "description": "Island code",
+              "localizedName": "kod",
+              "localizedDescription": "Ada kodu"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "name": "anti-cheat",
+      "localizedName": "anti-hile",
+      "localizedDescription": "Kullandığınız anti-hile sağlayıcısını gösterir"
+    },
+    {
+      "name": "friends",
+      "localizedName": "arkadaş",
+      "localizedDescription": "Arkadaş listenizi yönetin",
+      "options": [
+        {
+          "name": "user",
+          "localizedName": "kullanıcı",
+          "localizedDescription": "Bir oyuncuyla arkadaşlık durumunu kontrol et",
+          "options": [
+            {
+              "name": "name",
+              "localizedName": "ad",
+              "localizedDescription": "Oyuncunun görünen adı"
+            }
+          ]
+        },
+        {
+          "name": "remove-all",
+          "localizedName": "herkesi-sil",
+          "localizedDescription": "Tüm arkadaşlarını sil"
+        },
+        {
+          "name": "list",
+          "localizedName": "listem",
+          "localizedDescription": "Arkadaş listeni görüntüle",
+          "options": [
+            {
+              "name": "type",
+              "localizedName": "tür",
+              "localizedDescription": "Görüntülenecek arkadaş listesi türü"
+            }
+          ]
+        },
+        {
+          "name": "accept-all-incoming",
+          "localizedName": "gelen-istekleri-kabul-et",
+          "localizedDescription": "Gelen tüm arkadaşlık isteklerini kabul et"
+        },
+        {
+          "name": "decline-all-incoming",
+          "localizedName": "gelen-istekleri-reddet",
+          "localizedDescription": "Gelen tüm arkadaşlık isteklerini reddet"
+        },
+        {
+          "name": "cancel-all-outgoing",
+          "localizedName": "giden-istekleri-geri-çek",
+          "localizedDescription": "Giden tüm arkadaşlık isteklerini geri çek"
+        },
+        {
+          "name": "cleanup",
+          "localizedName": "temizle",
+          "localizedDescription": "Hesabı kapatılan oyuncuları arkadaşlık listenden kaldır"
+        },
+        {
+          "name": "add",
+          "localizedName": "ekle",
+          "localizedDescription": "Bir oyuncuyu arkadaş ekle",
+          "options": [
+            {
+              "name": "name",
+              "localizedName": "isim",
+              "localizedDescription": "Oyuncunun görünen adı"
+            }
+          ]
+        },
+        {
+          "name": "remove",
+          "localizedName": "sil",
+          "localizedDescription": "Bir oyuncuyu arkadaşlıktan sil",
+          "options": [
+            {
+              "name": "isim",
+              "localizedName": "isim",
+              "localizedDescription": "Oyuncunun görünen adı"
+            }
+          ]
+        },
+        {
+          "name": "block",
+          "localizedName": "engelle",
+          "localizedDescription": "Bir oyuncuyu engelle",
+          "options": [
+            {
+              "name": "name",
+              "localizedName": "isim",
+              "localizedDescription": "Oyuncunun görünen adı"
+            }
+          ]
+        },
+        {
+          "name": "unblock",
+          "localizedName": "engel-kaldır",
+          "localizedDescription": "Bir oyuncunun engelini kaldır",
+          "options": [
+            {
+              "name": "name",
+              "localizedName": "isim",
+              "localizedDescription": "Oyuncunun görünen adı"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "battle-royale",
+      "localizedName": "battle-royale",
+      "localizedDescription": "Battle Royale bilgilerinizi verir"
+    },
+    {
+      "name": "whoami",
+      "localizedName": "ben-kimim",
+      "localizedDescription": "Hesap bilgilerini görüntüle"
+    },
+    {
+      "name": "cloud-storage",
+      "localizedName": "bulut-depolama",
+      "localizedDescription": "Bulut depolamanı yönet veya görüntüle",
+      "options": [
+        {
+          "name": "download",
+          "localizedName": "indir",
+          "localizedDescription": "Oyun dosyalarından bir dosya indir",
+          "options": [
+            {
+              "name": "file-name",
+              "localizedName": "dosya-adı",
+              "localizedDescription": "İndirilecek dosya adı"
+            }
+          ]
+        },
+        {
+          "name": "upload",
+          "localizedName": "yükle",
+          "localizedDescription": "Oyun dosyalarına bir dosya yükle",
+          "options": [
+            {
+              "name": "file",
+              "localizedName": "dosya",
+              "localizedDescription": "Yüklenecek dosya"
+            },
+            {
+              "name": "file-name",
+              "localizedName": "dosya-adı",
+              "localizedDescription": "Kullanılacak dosya adı"
+            }
+          ]
+        },
+        {
+          "name": "list",
+          "localizedName": "liste",
+          "localizedDescription": "Oyun dosyalarını listele"
+        }
+      ]
+    },
+    {
+      "name": "logout",
+      "localizedName": "çıkış-yap",
+      "localizedDescription": "Bottan çıkış yaparsınız",
+      "options": [
+        {
+          "name": "bulk",
+          "localizedName": "toplu",
+          "localizedDescription": "Tüm hesaplardan çıkış yapma veya yapmama"
+        }
+      ]
+    },
+    {
+      "name": "ranked",
+      "localizedName": "dereceli",
+      "localizedDescription": "Dereceli durumunuzu görüntüleyin",
+      "options": [
+        {
+          "name": "mode",
+          "localizedName": "mod",
+          "localizedDescription": "İstatistiklerinizin alınacağı mod"
+        }
+      ]
+    },
+    {
+      "name": "locker",
+      "localizedName": "dolabım",
+      "localizedDescription": "Dolabınızı görüntülersiniz",
+      "options": [
+        {
+          "name": "fortnitegg",
+          "localizedName": "fortnitegg",
+          "localizedDescription": "Dolabını Fortnite.GG üzerinde görüntüle"
+        },
+        {
+          "name": "image",
+          "localizedName": "resim",
+          "localizedDescription": "Dolabını bir resim olarak görüntüle",
+          "options": [
+            {
+              "name": "type",
+              "localizedName": "tür",
+              "localizedDescription": "Görüntülenecek kozmetik türü"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "exchange-code",
+      "localizedName": "exchange-code",
+      "localizedDescription": "Başka bir yerden giriş yapmak için bir kod oluşturur"
+    },
+    {
+      "name": "login",
+      "localizedName": "giriş-yap",
+      "localizedDescription": "Epic Games hesabına giriş yap",
+      "options": [
+        {
+          "name": "auth-type",
+          "localizedName": "yetkilendirme-tipi",
+          "localizedDescription": "Hesabınıza nasıl giriş yapacağınızı seçin"
+        }
+      ]
+    },
+    {
+      "name": "daily-quests",
+      "localizedName": "günlük-görevler",
+      "localizedDescription": "Günlük Dünyayı Kurtar görevlerinizi görüntüleyin"
+    },
+    {
+      "name": "news",
+      "localizedName": "haberler",
+      "localizedDescription": "Mevcut Battle Royale haberlerini görüntülersiniz",
+      "options": [
+        {
+          "name": "mode",
+          "localizedName": "mod",
+          "localizedDescription": "Haberleri görüntülenecek oyun modu"
+        }
+      ]
+    },
+    {
+      "name": "map",
+      "localizedName": "harita",
+      "localizedDescription": "Fortnite haritasını görüntüle"
+    },
+    {
+      "name": "reminder",
+      "localizedName": "hatırlatıcı",
+      "localizedDescription": "İçerik Mağazasına bir kozmetik geldiğinde haberdar ol",
+      "options": [
+        {
+          "name": "add",
+          "localizedName": "ekle",
+          "localizedDescription": "Hatırlatıcına bir kozmetik ekle",
+          "options": [
+            {
+              "name": "cosmetic",
+              "localizedName": "kozmetik",
+              "localizedDescription": "Hatırlatıcına eklenecek kozmetiğin adı"
+            },
+            {
+              "name": "language",
+              "localizedName": "dil",
+              "localizedDescription": "Arama dili ve kozmetik adının, açıklamasının vs. görünüm dili."
+            }
+          ]
+        },
+        {
+          "name": "remove",
+          "localizedName": "kaldır",
+          "localizedDescription": "Hatırlatıcından bir kozmetik kaldır",
+          "options": [
+            {
+              "name": "cosmetic",
+              "localizedName": "kozmetik",
+              "localizedDescription": "Hatırlatıcımdan kaldırılacak kozmetiğin adı"
+            },
+            {
+              "name": "language",
+              "localizedName": "dil",
+              "localizedDescription": "Arama dili ve kozmetik adının, açıklamasının vs. görünüm dili."
+            }
+          ]
+        },
+        {
+          "name": "clear",
+          "localizedName": "temizle",
+          "localizedDescription": "Hatırlatıcındaki tüm kozmetikleri kaldır"
+        },
+        {
+          "name": "list",
+          "localizedName": "liste",
+          "localizedDescription": "Hatırlatıcını görüntüle"
+        }
+      ]
+    },
+    {
+      "name": "gift",
+      "localizedName": "hediye-et",
+      "localizedDescription": "Bir arkadaşına bir içerik hediye et",
+      "options": [
+        {
+          "name": "friend-name",
+          "localizedName": "arkadaş-ismi",
+          "localizedDescription": "Hediyeyi göndereceğin arkadaşının görünen adı"
+        },
+        {
+          "name": "item",
+          "localizedName": "içerik",
+          "localizedDescription": "İçerik mağazası resminde gözüken sol alttaki sayı veya içerik ismi"
+        }
+      ]
+    },
+    {
+      "name": "gift-history",
+      "localizedName": "hediye-geçmişi",
+      "localizedDescription": "Hediye geçmişini görüntüle",
+      "options": [
+        {
+          "name": "received",
+          "localizedName": "alınan",
+          "localizedDescription": "Sana kimlerin hediye attığını görüntüle"
+        },
+        {
+          "name": "sent",
+          "localizedName": "gönderilen",
+          "localizedDescription": "Kimlere hediye attığını görüntüle"
+        }
+      ]
+    },
+    {
+      "name": "shop",
+      "localizedName": "içerik-mağazası",
+      "localizedDescription": "Bugünün içerik mağazasının bir resmini gönderir"
+    },
+    {
+      "name": "season-progress",
+      "localizedName": "sezon-ilerlemesi",
+      "localizedDescription": "Sezon ilerlemesini gönderir"
+    },
+    {
+      "name": "cosmetic",
+      "localizedName": "kozmetik",
+      "localizedDescription": "Bir kozmetik ara",
+      "options": [
+        {
+          "name": "name",
+          "localizedName": "isim",
+          "localizedDescription": "Aranacak kozmetiğin ismi"
+        },
+        {
+          "name": "search-language",
+          "localizedName": "arama-dili",
+          "localizedDescription": "Kozmetiği arama dilini belirle"
+        },
+        {
+          "name": "output-language",
+          "localizedName": "sonuç-dili",
+          "localizedDescription": "Kozmetiğin adının, açıklamasının vs. görünüm dili"
+        }
+      ]
+    },
+    {
+      "name": "creative-xp",
+      "localizedName": "kreatif-xp",
+      "localizedDescription": "Günlük Kreatif XP limitlerinizi ve kullanma miktarınızı görüntüleyin"
+    },
+    {
+      "name": "random-location",
+      "localizedName": "rastgele-konum",
+      "localizedDescription": "Size atlamanız için rastgele bir konum verir"
+    },
+    {
+      "name": "redeem",
+      "localizedName": "kod-okut",
+      "localizedDescription": "Epic Games için bir kod doğrula",
+      "options": [
+        {
+          "name": "code",
+          "localizedName": "kod",
+          "localizedDescription": "Taranacak kod"
+        },
+        {
+          "name": "bulk",
+          "localizedName": "toplu",
+          "localizedDescription": "Kodun her hesapta kullanılıp kullanılmayacağı"
+        }
+      ]
+    },
+    {
+      "name": "sac",
+      "localizedName": "sac",
+      "localizedDescription": "Desteklediğin içerik üreticisini yönet",
+      "options": [
+        {
+          "name": "change",
+          "localizedName": "değiştir",
+          "localizedDescription": "Desteklediğin içerik üreticisini değiştir",
+          "options": [
+            {
+              "name": "code",
+              "localizedName": "kod",
+              "localizedDescription": "Destekleyeceğiniz içerik üreticisi kodu"
+            }
+          ]
+        },
+        {
+          "name": "supported",
+          "localizedName": "desteklenen",
+          "localizedDescription": "Desteklediğin içerik üreticisini görüntüle"
+        },
+        {
+          "name": "search",
+          "localizedName": "ara",
+          "localizedDescription": "Bir kodun sahibini ve bilgilerini görüntüle",
+          "options": [
+            {
+              "name": "code",
+              "localizedName": "kod",
+              "localizedDescription": "Aranacak kod"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "buy",
+      "localizedName": "satın-al",
+      "localizedDescription": "İçerik mağazasından bir içerik satın alın",
+      "options": [
+        {
+          "name": "item",
+          "localizedName": "içerik",
+          "localizedDescription": "İçerik mağazası resminde gözüken sol alttaki sayı veya içerik ismi"
+        }
+      ]
+    },
+    {
+      "name": "battle-pass",
+      "localizedName": "savaş-bileti",
+      "localizedDescription": "Savaş biletini ve diğer paketleri satın al"
+    },
+    {
+      "name": "stats",
+      "localizedName": "stats",
+      "localizedDescription": "Bir Fortnite oyuncusunun istatistiklerini görüntülersiniz",
+      "options": [
+        {
+          "name": "name",
+          "localizedName": "isim",
+          "localizedDescription": "Oyunucunun Epic görünen adı"
+        }
+      ]
+    },
+    {
+      "name": "offer",
+      "localizedName": "teklif",
+      "localizedDescription": "Offer ID girerek bir teklif arayın veya satın alın",
+      "options": [
+        {
+          "name": "offer-id",
+          "localizedName": "offer-id",
+          "localizedDescription": "Arayacağınız veya satın alacağınız teklifin Offer ID'si"
+        }
+      ]
+    },
+    {
+      "name": "vbucks",
+      "localizedName": "vpapel",
+      "localizedDescription": "Belirli bir miktar için v-papel linki oluşturun, bakiyenizi ya da geçmişinizi görüntüleyin",
+      "options": [
+        {
+          "name": "buy",
+          "localizedName": "satın-al",
+          "localizedDescription": "Belirli miktarda bir v-papel satın alma linki oluştur",
+          "options": [
+            {
+              "name": "amount",
+              "localizedName": "miktar",
+              "localizedDescription": "Oluşturulacak miktar"
+            }
+          ]
+        },
+        {
+          "name": "balance",
+          "localizedName": "bakiyem",
+          "localizedDescription": "Ne kadar v-papele sahip olduğunu görüntüle",
+          "options": [
+            {
+              "name": "bulk",
+              "localizedName": "toplu",
+              "localizedDescription": "Tüm hesapların bakiyesinin görüntülenip görüntülenmeyeceği"
+            }
+          ]
+        },
+        {
+          "name": "history",
+          "localizedName": "geçmişi",
+          "localizedDescription": "V-papel satın alma geçmişinizi görüntüle"
+        }
+      ]
+    },
+    {
+      "name": "bot-info",
+      "localizedName": "bot-bilgi",
+      "localizedDescription": "Bot hakkında bilgi verir"
+    },
+    {
+      "name": "banned",
+      "localizedName": "yasaklı-mıyım",
+      "localizedDescription": "Hesabınız banlı mı değil mi kontrol edin"
+    },
+    {
+      "name": "creative-xp",
+      "localizedName": "kreatif-xp",
+      "localizedDescription": "Kreatif TP limitinizi ve kullanımınızı görüntüleyin"
+    },
+    {
+      "name": "refresh-profile",
+      "localizedName": "profil-yenile",
+      "localizedDescription": "Battle Royale ve Dünyayı Kurtar profilinizi yeniler"
+    },
+    {
+      "name": "motd",
+      "localizedName": "kişisel-haberler",
+      "localizedDescription": "Kişisel Fortnite haberlerinizi görüntüleyin"
+    },
+    {
+      "name": "launch-fortnite",
+      "localizedName": "fortnite-başlat",
+      "localizedDescription": "Fortnite'ı bir Command Prompt komutu ile başlatın"
+    },
+    {
+      "name": "preferences",
+      "localizedName": "tercihler",
+      "localizedDescription": "Bot tercihlerinizi değiştirin",
+      "options": [
+        {
+          "name": "language",
+          "localizedName": "dil",
+          "localizedDescription": "Bot dilinizi değiştirin",
+          "options": [
+            {
+              "name": "language",
+              "localizedName": "dil",
+              "localizedDescription": "Yeni dil"
+            }
+          ]
+        },
+        {
+          "name": "reply-type",
+          "localizedName": "yanıt-tipi",
+          "localizedDescription": "Bot yanıt tipini değiştirin",
+          "options": [
+            {
+              "name": "type",
+              "localizedName": "tip",
+              "localizedDescription": "Yeni yanıt tipi"
+            }
+          ]
+        },
+        {
+          "name": "censor",
+          "localizedName": "sansür",
+          "localizedDescription": "Bot sansür türünüzü değiştirin",
+          "options": [
+            {
+              "name": "type",
+              "localizedName": "tür",
+              "localizedDescription": "Yeni sansür türü"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mission-alerts",
+      "localizedName": "görev-uyarıları",
+      "localizedDescription": "Dünyayı Kurtar görev uyarılarını görüntüleyin"
+    },
+    {
+      "name": "ghost-equip",
+      "localizedName": "ghost-equip",
+      "localizedDescription": "Sahip olsanız da olmasanız da grubunuzda herhangi bir kozmetiği kuşanın",
+      "options": [
+        {
+          "name": "name",
+          "localizedName": "isim",
+          "localizedDescription": "Aranacak kozmetiğin ismi"
+        },
+        {
+          "name": "language",
+          "localizedName": "dil",
+          "localizedDescription": "Arama dili ve kozmetik adının, açıklamasının vb. görünüm dili."
+        }
+      ]
+    },
+    {
+      "name": "fake-level",
+      "localizedName": "sahte-seviye",
+      "localizedDescription": "Grubunuzda seviyenizi sahte bir seviye olarak ayarlayın",
+      "options": [
+        {
+          "name": "level",
+          "localizedName": "seviye",
+          "localizedDescription": "Yeni seviye"
+        }
+      ]
+    },
+    {
+      "name": "fake-crown-wins",
+      "localizedName": "sahte-taç-zaferleri",
+      "localizedDescription": "Grubunuzda taçlarınızı sahte taç miktarına ayarlayın",
+      "options": [
+        {
+          "name": "amount",
+          "localizedName": "miktar",
+          "localizedDescription": "Yeni taç miktarı"
+        }
+      ]
+    },
+    {
+      "name": "stw",
+      "localizedName": "dünyayı-kurtar",
+      "localizedDescription": "Dünyayı Kurtar bilgilerinizi görüntüleyin",
+      "options": [
+        {
+          "name": "info",
+          "localizedName": "bilgi",
+          "localizedDescription": "Dünyayı Kurtar istatistiklerini görüntüleyin"
+        },
+        {
+          "name": "xp",
+          "localizedName": "tp",
+          "localizedDescription": "Günlük Dünyayı Kurtar TP kullanımınızı ve limitinizi görüntüleyin"
+        }
+      ]
+    },
+    {
+      "name": "research",
+      "localizedName": "araştırma",
+      "localizedDescription": "Dünyayı Kurtar'da araştırma seviyelerinizi görüntüleyin veya yükseltin"
+    },
+    {
+      "name": "undo-purchase",
+      "localizedName": "satın-alımı-geri-al",
+      "localizedDescription": "İade biletİ kullanmadan satın alımlarınızdan birini geri alın"
+    },
+    {
+      "name": "party",
+      "localizedName": "grup",
+      "localizedDescription": "Mevcut grubunuzu yönetin",
+      "options": [
+        {
+          "name": "info",
+          "localizedName": "bilgi",
+          "localizedDescription": "Mevcut grubunuz hakkında bilgi alın"
+        },
+        {
+          "name": "leave",
+          "localizedName": "ayrıl",
+          "localizedDescription": "Mevcut grubunuzdan ayrılın"
+        }
+      ]
+    },
+    {
+      "name": "skip-tutorial",
+      "localizedName": "eğitimi-atla",
+      "localizedDescription": "Dünyayı Kurtar eğitimini atlayın"
+    },
+    {
+      "name": "account",
+      "localizedName": "hesap",
+      "localizedDescription": "Hesabınızı yönetin",
+      "options": [
+        {
+          "name": "change-name",
+          "localizedName": "isim-değiştir",
+          "localizedDescription": "Görünen adınızı değiştirir",
+          "options": [
+            {
+              "name": "name",
+              "localizedName": "isim",
+              "localizedDescription": "Yeni görünen ad"
+            }
+          ]
+        },
+        {
+          "name": "change-phone-number",
+          "localizedName": "telefon-numarası-değiştir",
+          "localizedDescription": "Telefon numaranızı değiştirir",
+          "options": [
+            {
+              "name": "number",
+              "localizedName": "numara",
+              "localizedDescription": "Yeni telefon numarası"
+            }
+          ]
+        },
+        {
+          "name": "info",
+          "localizedName": "bilgi",
+          "localizedDescription": "Hassas hesap bilgilerinizi görüntüleyin"
+        }
+      ]
+    },
+    {
+      "name": "shop-sections",
+      "localizedName": "mağaza-sekmeleri",
+      "localizedDescription": "Bugünün veya yarının içerik mağazası sekmelerini gönderir",
+      "options": [
+        {
+          "name": "day",
+          "localizedName": "gün",
+          "localizedDescription": "İçerik mağazası sekmeleri alınacak gün"
+        }
+      ]
+    },
+    {
+      "name": "claim-rank-role",
+      "localizedName": "rütbe-rolünü-al",
+      "localizedDescription": "Rütbeli derecenize göre sunucuda bir rol alın",
+      "options": [
+        {
+          "name": "mode",
+          "localizedName": "mod",
+          "localizedDescription": "Dereceli oyun modu"
+        }
+      ]
+    },
+    {
+      "name": "claim-free-items",
+      "localizedName": "ücretsiz-içerikleri-al",
+      "localizedDescription": "İçerik mağazasından ücretsiz içerikleri alır"
+    },
+    {
+      "name": "player-count",
+      "localizedName": "oyuncu-sayısı",
+      "localizedDescription": "Aktif oyuncu sayısını ve kaç oyuncunun hangi oyun modlarını oynadığını görüntüleyin"
+    },
+    {
+      "name": "weapon-info",
+      "localizedName": "silah-bilgi",
+      "localizedDescription": "Bir silah hakkında bilgi alın",
+      "options": [
+        {
+          "name": "rarity",
+          "localizedName": "nadirlik",
+          "localizedDescription": "Silahın nadirliği"
+        },
+        {
+          "name": "weapon",
+          "localizedName": "weapon",
+          "localizedDescription": "Bilgisi alınacak silah adı"
+        }
+      ]
+    },
+    {
+      "name": "device-auth",
+      "localizedName": "cihaz-bağlantısı",
+      "localizedDescription": "Cihaz bağlantılarını yönet",
+      "options": [
+        {
+          "name": "create",
+          "localizedName": "oluştur",
+          "localizedDescription": "Yeni bir cihaz bağlantısı oluştur"
+        },
+        {
+          "name": "list",
+          "localizedName": "listesi",
+          "localizedDescription": "Cihaz bağlantılarını listele"
+        },
+        {
+          "name": "delete",
+          "localizedName": "sil",
+          "localizedDescription": "Bir cihaz bağlantısını sil",
+          "options": [
+            {
+              "name": "device-id",
+              "localizedName": "device-id",
+              "localizedDescription": "Silinecek cihaz id'si"
+            }
+          ]
+        },
+        {
+          "name": "delete-all",
+          "localizedName": "hepsini-sil",
+          "localizedDescription": "Bot tarafından kullanılan hariç tüm cihaz bağlantılarını sil"
+        }
+      ]
+    },
+    {
+      "name": "server-status",
+      "localizedName": "sunucu-durumu",
+      "localizedDescription": "Fortnite sunucularının durumunu görüntüleyin"
+    },
+    {
+      "name": "access-token",
+      "localizedName": "access-token",
+      "localizedDescription": "Bir client seçerek yeni bir access token oluşturun",
+      "options": [
+        {
+          "name": "client",
+          "localizedName": "client",
+          "localizedDescription": "Kullanmak istediğiniz client"
+        }
+      ]
+    },
+    {
+      "name": "settings",
+      "localizedName": "ayarlar",
+      "localizedDescription": "Ayarlarınızı yönetin"
+    },
+    {
+      "name": "staging",
+      "localizedName": "staging",
+      "localizedDescription": "Bir staging sunucusunun MCP sunucusunun bilgilerini görüntüle",
+      "options": [
+        {
+          "name": "server",
+          "localizedName": "sunucu",
+          "localizedDescription": "Bilgisi alınacak sunucu adı veya URL"
+        }
+      ]
+    },
+    {
+      "name": "save-progress",
+      "localizedName": "ilerlemeyi-kaydet",
+      "localizedDescription": "Dünyayı Kurtardaki görevleri görevi tamamlamadan tamamlayın"
+    },
+    {
+      "name": "rank-system",
+      "localizedName": "rütbe-sistemi",
+      "localizedDescription": "Kullanıcıların /rütbe-rolünü-al komutunu kullanarak rol almalarını sağlamak için bu sistemi yönetin",
+      "options": [
+        {
+          "name": "add",
+          "localizedName": "ekle",
+          "localizedDescription": "Sunucunuza bir rütbe-rol sistemi ekleyin",
+          "options": [
+            {
+              "name": "rank",
+              "localizedName": "rütbe",
+              "localizedDescription": "Rütbe"
+            },
+            {
+              "name": "role",
+              "localizedName": "rol",
+              "localizedDescription": "Kullanıcılara verilecek rol"
+            }
+          ]
+        },
+        {
+          "name": "remove",
+          "localizedName": "kaldır",
+          "localizedDescription": "Sunucunuzdan bir rank-role sistemini kaldırın",
+          "options": [
+            {
+              "name": "rank",
+              "localizedName": "rütbe",
+              "localizedDescription": "Rütbe"
+            }
+          ]
+        },
+        {
+          "name": "list",
+          "localizedName": "liste",
+          "localizedDescription": "Sunucunuzdaki rütbe-rol sistemlerini görüntüleyin"
+        },
+        {
+          "name": "enable",
+          "localizedName": "etkinleştir",
+          "localizedDescription": "Sunucunuzda rank-role sistemini etkinleştirin"
+        },
+        {
+          "name": "disable",
+          "localizedName": "kapat",
+          "localizedDescription": "Sunucunuzdaki rütbe-rol sistemini devre dışı bırakın"
+        }
+      ]
+    },
+    {
+      "name": "account-settings",
+      "localizedName": "hesap-ayarları",
+      "localizedDescription": "Epic Games hesap ayarlarınızı güncelleyin",
+      "options": [
+        {
+          "name": "receive-gifts",
+          "localizedName": "hediye-alma",
+          "localizedDescription": "Arkadaşlarınızdan hediye alıp almayacağınızı belirleyin",
+          "options": [
+            {
+              "name": "state",
+              "localizedName": "durum",
+              "localizedDescription": "Hediye alma veya almama"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "custom-profile",
+      "localizedName": "özel-profil",
+      "localizedDescription": "Botun embed rengini ve avatarını düzenle",
+      "options": [
+        {
+          "name": "set",
+          "localizedName": "ayarla",
+          "localizedDescription": "Özel profilini ayarla",
+          "options": [
+            {
+              "name": "skin",
+              "localizedName": "karakter",
+              "localizedDescription": "Avatar ve embed rengi için kullanılacak karakter"
+            },
+            {
+              "name": "search-language",
+              "localizedName": "arama-dili",
+              "localizedDescription": "Kozmetik arama dilini ayarla"
+            }
+          ]
+        },
+        {
+          "name": "reset",
+          "localizedName": "sıfırla",
+          "localizedDescription": "Özel profilini sıfırla"
+        }
+      ]
+    },
+    {
+      "name": "activate-premium",
+      "localizedName": "premium-etkinleştir",
+      "localizedDescription": "Bir kod kullanarak Premium'u etkinleştirin",
+      "options": [
+        {
+          "name": "code",
+          "localizedName": "kod",
+          "localizedDescription": "Okutulacak kod"
+        }
+      ]
+    }
+  ]
 }

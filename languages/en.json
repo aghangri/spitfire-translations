@@ -1,1971 +1,1985 @@
 {
-    "language": "English",
-    "languageCode": "en",
-    "commands": {
-        "help": {
-            "embed1": {
-                "title": "Help Menu",
-                "description": "[name] is a easy-to-use Fortnite bot.\n\n**Links**\n[Privacy Policy]([website]/privacy-policy)\n[Terms of Service]([website]/tos)\n[Support Server]([supportServer])\n[Invite Link]([invite])"
-            },
-            "notfound": "No command with the name [command] was found.",
-            "command": "Command",
-            "description": "Description",
-            "category": "Category",
-            "loginreq": "is Login Required?",
-            "disabled": "is Disabled?"
+  "language": "English",
+  "languageCode": "en",
+  "commands": {
+    "help": {
+      "embed1": {
+        "title": "Help Menu",
+        "description": "[name] is a easy-to-use Fortnite bot.\n\n**Links**\n[Privacy Policy]([website]/privacy-policy)\n[Terms of Service]([website]/tos)\n[Support Server]([supportServer])\n[Invite Link]([invite])"
+      },
+      "notfound": "No command with the name [command] was found.",
+      "command": "Command",
+      "description": "Description",
+      "category": "Category",
+      "loginreq": "is Login Required?",
+      "disabled": "is Disabled?"
+    },
+    "2fa": {
+      "embed1": "An unknown error occurred while receiving the reward.",
+      "embed2": {
+        "title": "Claimed Rewards",
+        "description": "Successfully claimed Battle Royale rewards.",
+        "description2": "Successfully claimed Battle Royale and Save the World rewards."
+      }
+    },
+    "island": {
+      "invalid": "[code] is not a valid code.",
+      "embed1": "An unknown error occurred while searching for the island.",
+      "description": "Description",
+      "no_description": "No Description",
+      "version": "Version",
+      "creator": "Creator",
+      "creation": "Creation:",
+      "tags": "Tags",
+      "no_tags": "No Tags",
+      "footer": "Support code: [code]",
+      "embed2": "An unknown error occurred while adding the island to your favorites.",
+      "embed3": {
+        "title": "Island Added to Your Favorites",
+        "description": "[island] is added to your favorites.",
+        "footer": "Note: Playing certain banned game mods may restrict your account. Please keep this risk in mind."
+      },
+      "notallowed": "[code] is currently not allowed to matchmake."
+    },
+    "anticheat": {
+      "anticheat": "Anti-Cheat",
+      "message": "You are currently using [provider] as your anti-cheat provider."
+    },
+    "friends": {
+      "global": {
+        "accept": "Accept",
+        "deny": "Deny",
+        "block": "Block",
+        "unblock": "Unblock",
+        "remove": "Remove Friend",
+        "add": "Add Friend",
+        "back": "Cancel Request",
+        "backed": "Cancel Request",
+        "incoming": "Incoming Friend Request",
+        "outgoing": "Outgoing Friend Request",
+        "friends": "Friends with [name]",
+        "notfriends": "Not Friends with [name]",
+        "blocked": "Blocked [name]",
+        "accepted": "Request Accepted",
+        "sent": "Request Sent",
+        "sentdate": "Friend Request Date",
+        "denied": "Request Denied",
+        "blocked2": "[name] is Blocked",
+        "blockdate": "Blocking Date",
+        "nickname": "Nickname",
+        "frienddate": "Friendship Date",
+        "changenickname": "Change Nickname",
+        "removed": "[name] is Removed from Your Friends",
+        "removef": "Remove Friend",
+        "addfriend": "Add Friend",
+        "sent_w_name": "Request Sent to [name]"
+      },
+      "embed1": "No player found with the name [name]",
+      "embed2": "You can't add yourself as a friend.",
+      "embed3": "Please remove the player from your block list using the `friend unblock` or `friend user` command before performing this action.",
+      "embed4": "Friend request can't be sent due to the user's settings.",
+      "embed5": "Friend request could not be sent as the user has exceeded the incoming friend request limit.",
+      "embed6": "An unknown error occurred while sending the friend request.",
+      "embed7": "Friend request from [name] has been accepted.",
+      "embed8": "You have already sent a friend request to [name]. To cancel the request, use the `friend user` command.",
+      "embed9": "You are already friends with [name]. To remove them, use the `friend remove` or friend user` command.",
+      "embed10": "Friend request has been sent to [name].",
+      "embed11": "You can't remove yourself as a friend.",
+      "embed12": "[name] has been removed from your friends list.",
+      "embed13": "You are not friends with [name].",
+      "embed14": "You can't block yourself.",
+      "embed15": "[name] has been blocked.",
+      "embed16": "[name] is already blocked in your list. To unblock, use the `friend unblock` or `friend user` command.",
+      "embed17": "[name]'s block has been removed.",
+      "embed18": "[name] is not in your blocked list.",
+      "embed19": "You have no friends.",
+      "embed20": {
+        "title": "Friends List Cleaned Up",
+        "description": "[deleted] users whose accounts have been locked, suspended, or closed have been removed from your friends list."
+      },
+      "modal": {
+        "title": "Change Nickname",
+        "label": "New Nickname"
+      },
+      "embed21": {
+        "title": "Friends List Cleared",
+        "description": "Everybody in your friends list has been successfully removed."
+      },
+      "embed22": "An unknown error occurred while retrieving your friends list.",
+      "embed23": {
+        "description": ":x: = Not eligible for gifting",
+        "footer": "Total [friends] friends"
+      },
+      "embed24": "You have no incoming requests.",
+      "embed25": "You have no outgoing requests.",
+      "embed26": "You have no blocked users.",
+      "embed27": "Please wait while accepting [count] incoming friend requests [emoji]",
+      "embed28": "Successfully accepted [count] incoming friend requests.",
+      "embed29": "Please wait while denying [count] incoming friend requests [emoji]",
+      "embed30": "Successfully denied [count] incoming friend requests.",
+      "embed31": "Please wait while cancelling [count] outgoing friend requests [emoji]",
+      "embed32": "Successfully cancelled [count] outgoing friend requests.",
+      "friends": "Your Friends",
+      "incoming": "Incoming Requests",
+      "outgoing": "Outgoing Requests",
+      "blocklist": "Blocked Users",
+      "clearconfirmation": {
+        "title": "Clear Friends List",
+        "description": "Are you sure you want to clear your friends list? This action cannot be undone."
+      }
+    },
+    "battleroyale": {
+      "account": "Account",
+      "creation": "First played",
+      "account_level": "Account level",
+      "mfa": "2FA rewards",
+      "claimed": "Claimed [emoji]",
+      "notclaimed": "Not claimed [emoji]",
+      "br": "Battle Royale",
+      "wins": "Wins",
+      "allwins": "All wins",
+      "battlepass": "Battle pass",
+      "bp_active": "Active [emoji]",
+      "bp_notactive": "Not active [emoji]",
+      "level": "Level",
+      "superchargedxp": "Supercharged XP",
+      "xp": "XP",
+      "multiplier": "Multiplier",
+      "season_resources": "Season Resources",
+      "battlestars": "Battle stars",
+      "gold": "Gold",
+      "crown": "Crown",
+      "yescrown": "Owned [emoji]",
+      "nocrown": "Not owned [emoji]",
+      "wins_with_crown": "Wins with crown",
+      "lastmatch": "Last Match Time",
+      "season_levels": "Season Stats",
+      "season_levels2": "Season Stats (Continued)"
+    },
+    "whoami": {
+      "connections": "Connections",
+      "noconnection": "No Connection",
+      "isparent": "is Parent Account?",
+      "isparentverified": "is Parent Verified?"
+    },
+    "cloudstorage": {
+      "embed1": "No file found with name: [file].",
+      "embed2": "No data to display.",
+      "embed3": "An unknown error occurred while retrieving the file.",
+      "embed4": "An unknown error occurred while uploading the file.",
+      "embed5": "[file] has been successfully uploaded to your game files.",
+      "embed6": "Cloud Storage List",
+      "uploaded": "Uploaded",
+      "size": "Size"
+    },
+    "logout": {
+      "embed1": {
+        "title": ":wave: Goodbye, [name]!",
+        "description": "You have successfully logged out of your account. If you have any questions or problems, join our [support server]([support])."
+      },
+      "embed2": {
+        "title": ":wave: Logged out of All Accounts",
+        "description": "You have successfully logged out of all your accounts. If you have any questions or problems, join our [support server]([support])."
+      }
+    },
+    "ranked": {
+      "current": "Current rank",
+      "highest": "Highest rank",
+      "progress": "Progress: **[progress]%**",
+      "br": "Ranked Battle Royale",
+      "zb": "Ranked Zero Builds"
+    },
+    "locker": {
+      "nocosmetics": "You don't have any cosmetics.",
+      "toolong": "Your locker wans't loaded because URL was too long.",
+      "locker": "Locker",
+      "viewonfngg": "View Your Locker on Fortnite.GG",
+      "noselectedcosmetics": "You don't have any cosmetics with this type."
+    },
+    "exchangecode": {
+      "expireNotification": "**WARNING: Do not share this code with anyone as it may grant access to your account!**",
+      "expiration": "Expiration",
+      "logintoepicgames": "Login to Epic Games"
+    },
+    "news": {
+      "no_br": "There is no news for Battle Royale mode.",
+      "no_stw": "There is no news for Save the World mode."
+    },
+    "map": {
+      "randomlocation": "Random Location",
+      "embed1": "Battle Royale Map"
+    },
+    "reminder": {
+      "embed1": "No cosmetic named [cosmetic] found.",
+      "embed2": "You can't add this cosmetic to your reminders.",
+      "embed3": "You have reached your reminder limit ([limit]).",
+      "embed4": "This cosmetic is already in your reminders.",
+      "embed5": "[cosmetic] is successfully added to your reminders. You will receive a DM message and a ping in [channel] once it's back in the shop.",
+      "embed6": "This cosmetic is not in your reminders already.",
+      "embed7": "[cosmetic] is successfully removed from your reminders.",
+      "embed8": "Reminder List",
+      "embed9": "No cosmetic found in your reminders.",
+      "embed10": "Successfully reset your reminder list.",
+      "types": {
+        "outfit": "Outfits",
+        "pickaxe": "Pickaxes",
+        "backpack": "Backpacks",
+        "glider": "Gliders",
+        "emote": "Emotes",
+        "loadingscreen": "Loading Screens",
+        "emoji": "Emojis",
+        "wrap": "Wraps",
+        "spray": "Sprays",
+        "contrail": "Contrails",
+        "music": "Music",
+        "toy": "Toys"
+      }
+    },
+    "gift": {
+      "embed1": "[item] was not found in the item shop. Please make sure you typed it correctly.",
+      "embed2": "No player found with the name [name].",
+      "embed3": "You can't send a gift to yourself.",
+      "embed4": "You need to be friends with [friendName] to send a gift.",
+      "embed5": "Do you want to gift [item] to [friendName] for [price]?",
+      "embed6": "You need to enable 2FA on your account before sending a gift.",
+      "embed7": "You can't send a gift to [friendName] as you became friends within the last 2 days. Try again [afterTime].",
+      "embed8": "[friendName] doesn't accept gifts.",
+      "embed9": "Gift could not be sent. [friendName] may already have this item.",
+      "embed10": "You need [requiredVB] more to gift this item. You currently have: [currentVB]",
+      "embed11": "You can't send this item as a gift.",
+      "embed12": "An unknown error occurred while sending the gift.",
+      "embed13": "You have reached your daily gift limit (5/5). Please try again later.",
+      "embed14": "This item is not giftable.",
+      "sent": {
+        "title": "Item Gifted :white_check_mark:",
+        "description": "Successfully gifted [item] to [friendName] for [price].",
+        "footer": "Supported content creator: [supportCode]"
+      },
+      "cancelled": {
+        "title": "Gift Cancelled :x:",
+        "description": "You cancelled gifting [item] to your friend [friendName]."
+      },
+      "allcontents": "All Contents"
+    },
+    "gifthistory": {
+      "embed1": "You haven't sent any gifts to anyone.",
+      "embed2": "Sent Gift History",
+      "embed3": "You haven't received any gifts from anyone.",
+      "embed4": "Received Gift History"
+    },
+    "shop": {
+      "embed1": "Item Shop ([date])",
+      "wait": "The item shop image has not been generated yet. Please try again later."
+    },
+    "seasonprogress": {
+      "message": "Chapter 4 Season 4 is completed [percent]%. This season will end in [time].",
+      "times": {
+        "days": "days",
+        "hours": "hours"
+      }
+    },
+    "cosmetic": {
+      "embed1": "No cosmetic named [name] found.",
+      "partofset": "Part of the [set] set.",
+      "intro": "Introduced in Chapter [chapter] Season [season].",
+      "shophistory": "Shop History [total]",
+      "firstseen": "First seen",
+      "previousseen": "Previous seen",
+      "lastseen": "Last seen",
+      "selectstyle": "Select a style",
+      "selectstyleoption": "Select a style option",
+      "buy": "Use `/buy item: [number]` command to buy this item for [price]."
+    },
+    "creativexp": {
+      "embed1": {
+        "title": "Creative XP",
+        "fields": {
+          "daily": "Daily",
+          "gameplay": "Gameplay",
+          "gainedXp": "Gained XP",
+          "dailyMultiplier": "Daily excess multiplier",
+          "bankXp": "Bank XP",
+          "bankXpMultiplier": "Bank XP multiplier",
+          "bucketXp": "Bucket XP"
         },
-        "2fa": {
-            "embed1": "An unknown error occurred while receiving the reward.",
-            "embed2": {
-                "title": "Claimed Rewards",
-                "description": "Successfully claimed Battle Royale rewards.",
-                "description2": "Successfully claimed Battle Royale and Save the World rewards."
-            }
-        },
-        "island": {
-            "invalid": "[code] is not a valid code.",
-            "embed1": "An unknown error occurred while searching for the island.",
-            "description": "Description",
-            "no_description": "No Description",
-            "version": "Version",
-            "creator": "Creator",
-            "creation": "Creation:",
-            "tags": "Tags",
-            "no_tags": "No Tags",
-            "footer": "Support code: [code]",
-            "embed2": "An unknown error occurred while adding the island to your favorites.",
-            "embed3": {
-                "title": "Island Added to Your Favorites",
-                "description": "[island] is added to your favorites.",
-                "footer": "Note: Playing certain banned game mods may restrict your account. Please keep this risk in mind."
-            },
-            "notallowed": "[code] is currently not allowed to matchmake."
-        },
-        "anticheat": {
-            "anticheat": "Anti-Cheat",
-            "message": "You are currently using [provider] as your anti-cheat provider."
-        },
-        "friends": {
-            "global": {
-                "accept": "Accept",
-                "deny": "Deny",
-                "block": "Block",
-                "unblock": "Unblock",
-                "remove": "Remove Friend",
-                "add": "Add Friend",
-                "back": "Cancel Request",
-                "backed": "Cancel Request",
-                "incoming": "Incoming Friend Request",
-                "outgoing": "Outgoing Friend Request",
-                "friends": "Friends with [name]",
-                "notfriends": "Not Friends with [name]",
-                "blocked": "Blocked [name]",
-                "accepted": "Request Accepted",
-                "sent": "Request Sent",
-                "sentdate": "Friend Request Date",
-                "denied": "Request Denied",
-                "blocked2": "[name] is Blocked",
-                "blockdate": "Blocking Date",
-                "nickname": "Nickname",
-                "frienddate": "Friendship Date",
-                "changenickname": "Change Nickname",
-                "removed": "[name] is Removed from Your Friends",
-                "removef": "Remove Friend",
-                "addfriend": "Add Friend",
-                "sent_w_name": "Request Sent to [name]"
-            },
-            "embed1": "No player found with the name [name]",
-            "embed2": "You can't add yourself as a friend.",
-            "embed3": "Please remove the player from your block list using the `friend unblock` or `friend user` command before performing this action.",
-            "embed4": "Friend request can't be sent due to the user's settings.",
-            "embed5": "Friend request could not be sent as the user has exceeded the incoming friend request limit.",
-            "embed6": "An unknown error occurred while sending the friend request.",
-            "embed7": "Friend request from [name] has been accepted.",
-            "embed8": "You have already sent a friend request to [name]. To cancel the request, use the `friend user` command.",
-            "embed9": "You are already friends with [name]. To remove them, use the `friend remove` or friend user` command.",
-            "embed10": "Friend request has been sent to [name].",
-            "embed11": "You can't remove yourself as a friend.",
-            "embed12": "[name] has been removed from your friends list.",
-            "embed13": "You are not friends with [name].",
-            "embed14": "You can't block yourself.",
-            "embed15": "[name] has been blocked.",
-            "embed16": "[name] is already blocked in your list. To unblock, use the `friend unblock` or `friend user` command.",
-            "embed17": "[name]'s block has been removed.",
-            "embed18": "[name] is not in your blocked list.",
-            "embed19": "You have no friends.",
-            "embed20": {
-                "title": "Friends List Cleaned Up",
-                "description": "[deleted] users whose accounts have been locked, suspended, or closed have been removed from your friends list."
-            },
-            "modal": {
-                "title": "Change Nickname",
-                "label": "New Nickname"
-            },
-            "embed21": {
-                "title": "Friends List Cleared",
-                "description": "Everybody in your friends list has been successfully removed."
-            },
-            "embed22": "An unknown error occurred while retrieving your friends list.",
-            "embed23": {
-                "description": ":x: = Not eligible for gifting",
-                "footer": "Total [friends] friends"
-            },
-            "embed24": "You have no incoming requests.",
-            "embed25": "You have no outgoing requests.",
-            "embed26": "You have no blocked users.",
-            "embed27": "Please wait while accepting [count] incoming friend requests [emoji]",
-            "embed28": "Successfully accepted [count] incoming friend requests.",
-            "embed29": "Please wait while denying [count] incoming friend requests [emoji]",
-            "embed30": "Successfully denied [count] incoming friend requests.",
-            "embed31": "Please wait while cancelling [count] outgoing friend requests [emoji]",
-            "embed32": "Successfully cancelled [count] outgoing friend requests.",
-            "friends": "Your Friends",
-            "incoming": "Incoming Requests",
-            "outgoing": "Outgoing Requests",
-            "blocklist": "Blocked Users",
-            "clearconfirmation": {
-                "title": "Clear Friends List",
-                "description": "Are you sure you want to clear your friends list? This action cannot be undone."
-            }
-        },
-        "battleroyale": {
-            "account": "Account",
-            "creation": "First played",
-            "account_level": "Account level",
-            "mfa": "2FA rewards",
-            "claimed": "Claimed [emoji]",
-            "notclaimed": "Not claimed [emoji]",
-            "br": "Battle Royale",
-            "wins": "Wins",
-            "allwins": "All wins",
-            "battlepass": "Battle pass",
-            "bp_active": "Active [emoji]",
-            "bp_notactive": "Not active [emoji]",
-            "level": "Level",
-            "superchargedxp": "Supercharged XP",
-            "xp": "XP",
-            "multiplier": "Multiplier",
-            "season_resources": "Season Resources",
-            "battlestars": "Battle stars",
-            "gold": "Gold",
-            "crown": "Crown",
-            "yescrown": "Owned [emoji]",
-            "nocrown": "Not owned [emoji]",
-            "wins_with_crown": "Wins with crown",
-            "lastmatch": "Last Match Time",
-            "season_levels": "Season Stats",
-            "season_levels2": "Season Stats (Continued)"
-        },
-        "whoami": {
-            "connections": "Connections",
-            "noconnection": "No Connection",
-            "isparent": "is Parent Account?",
-            "isparentverified": "is Parent Verified?"
-        },
-        "cloudstorage": {
-            "embed1": "No file found with name: [file].",
-            "embed2": "No data to display.",
-            "embed3": "An unknown error occurred while retrieving the file.",
-            "embed4": "An unknown error occurred while uploading the file.",
-            "embed5": "[file] has been successfully uploaded to your game files.",
-            "embed6": "Cloud Storage List",
-            "uploaded": "Uploaded",
-            "size": "Size"
-        },
-        "logout": {
-            "embed1": {
-                "title": ":wave: Goodbye, [name]!",
-                "description": "You have successfully logged out of your account. If you have any questions or problems, join our [support server]([support])."
-            }
-        },
-        "ranked": {
-            "current": "Current rank",
-            "highest": "Highest rank",
-            "progress": "Progress: **[progress]%**",
-            "br": "Ranked Battle Royale",
-            "zb": "Ranked Zero Builds"
-        },
-        "locker": {
-            "nocosmetics": "You don't have any cosmetics.",
-            "toolong": "Your locker wans't loaded because URL was too long.",
-            "locker": "Locker",
-            "viewonfngg": "View Your Locker on Fortnite.GG",
-            "noselectedcosmetics": "You don't have any cosmetics with this type."
-        },
-        "exchangecode": {
-            "expireNotification": "**WARNING: Do not share this code with anyone as it may grant access to your account!**",
-            "expiration": "Expiration",
-            "logintoepicgames": "Login to Epic Games"
-        },
-        "news": {
-            "no_br": "There is no news for Battle Royale mode.",
-            "no_stw": "There is no news for Save the World mode."
-        },
-        "map": {
-            "randomlocation": "Random Location",
-            "embed1": "Battle Royale Map"
-        },
-        "reminder": {
-            "embed1": "No cosmetic named [cosmetic] found.",
-            "embed2": "You can't add this cosmetic to your reminders.",
-            "embed3": "You have reached your reminder limit ([limit]).",
-            "embed4": "This cosmetic is already in your reminders.",
-            "embed5": "[cosmetic] is successfully added to your reminders. You will receive a DM message and a ping in [channel] once it's back in the shop.",
-            "embed6": "This cosmetic is not in your reminders already.",
-            "embed7": "[cosmetic] is successfully removed from your reminders.",
-            "embed8": "Reminder List",
-            "embed9": "No cosmetic found in your reminders.",
-            "embed10": "Successfully reset your reminder list.",
-            "types": {
-                "outfit": "Outfits",
-                "pickaxe": "Pickaxes",
-                "backpack": "Backpacks",
-                "glider": "Gliders",
-                "emote": "Emotes",
-                "loadingscreen": "Loading Screens",
-                "emoji": "Emojis",
-                "wrap": "Wraps",
-                "spray": "Sprays",
-                "contrail": "Contrails",
-                "music": "Music",
-                "toy": "Toys"
-            }
-        },
-        "gift": {
-            "embed1": "[item] was not found in the item shop. Please make sure you typed it correctly.",
-            "embed2": "No player found with the name [name].",
-            "embed3": "You can't send a gift to yourself.",
-            "embed4": "You need to be friends with [friendName] to send a gift.",
-            "embed5": "Do you want to gift [item] to [friendName] for [price]?",
-            "embed6": "You need to enable 2FA on your account before sending a gift.",
-            "embed7": "You can't send a gift to [friendName] as you became friends within the last 2 days. Try again [afterTime].",
-            "embed8": "[friendName] doesn't accept gifts.",
-            "embed9": "Gift could not be sent. [friendName] may already have this item.",
-            "embed10": "You need [requiredVB] more to gift this item. You currently have: [currentVB]",
-            "embed11": "You can't send this item as a gift.",
-            "embed12": "An unknown error occurred while sending the gift.",
-            "embed13": "You have reached your daily gift limit (5/5). Please try again later.",
-            "embed14": "This item is not giftable.",
-            "sent": {
-                "title": "Item Gifted :white_check_mark:",
-                "description": "Successfully gifted [item] to [friendName] for [price].",
-                "footer": "Supported content creator: [supportCode]"
-            },
-            "cancelled": {
-                "title": "Gift Cancelled :x:",
-                "description": "You cancelled gifting [item] to your friend [friendName]."
-            },
-            "allcontents": "All Contents"
-        },
-        "gifthistory": {
-            "embed1": "You haven't sent any gifts to anyone.",
-            "embed2": "Sent Gift History",
-            "embed3": "You haven't received any gifts from anyone.",
-            "embed4": "Received Gift History"
-        },
-        "shop": {
-            "embed1": "Item Shop ([date])",
-            "wait": "The item shop image has not been generated yet. Please try again later."
-        },
-        "seasonprogress": {
-            "message": "Chapter 4 Season 4 is completed [percent]%. This season will end in [time].",
-            "times": {
-                "days": "days",
-                "hours": "hours"
-            }
-        },
-        "cosmetic": {
-            "embed1": "No cosmetic named [name] found.",
-            "partofset": "Part of the [set] set.",
-            "intro": "Introduced in Chapter [chapter] Season [season].",
-            "shophistory": "Shop History [total]",
-            "firstseen": "First seen",
-            "previousseen": "Previous seen",
-            "lastseen": "Last seen",
-            "selectstyle": "Select a style",
-            "selectstyleoption": "Select a style option",
-            "buy": "Use `/buy item: [number]` command to buy this item for [price]."
-        },
-        "creativexp": {
-            "embed1": {
-                "title": "Creative XP",
-                "fields": {
-                    "daily": "Daily",
-                    "gameplay": "Gameplay",
-                    "gainedXp": "Gained XP",
-                    "dailyMultiplier": "Daily excess multiplier",
-                    "bankXp": "Bank XP",
-                    "bankXpMultiplier": "Bank XP multiplier",
-                    "bucketXp": "Bucket XP"
-                },
-                "resetdate": "Reset Date"
-            }
-        },
-        "randomlocation": {
-            "random": "Random location for this match",
-            "pois": {
-                "MEGA-CITY": "Mega City",
-                "SHATTERED-SLABS": "Shattered Slabs",
-                "SLAPPY-SHORES": "Slappy Shores",
-                "SHADY-STILTS": "Shady Stilts",
-                "RUMBLE-RUINS": "Rumble Ruins",
-                "SANGUINE-SUITES": "Sanguine Suites",
-                "BREAKWATER-BAY": "Breakwater Bay",
-                "BRUTAL-BASTION": "Brutal Bastion",
-                "STEAMY-SPRINGS": "Steamy Springs",
-                "FRENZY-FIELDS": "Frenzy Fields",
-                "KENJUTSU-CROSSING": "Kenjutsu Crossing",
-                "RELENTLESS-RETREAT": "Relentless Retreat",
-                "KNOTTY-NETS": "Knotty Nets",
-                "ECLIPSED-ESTATE": "Eclipsed Estate",
-                "CREEKY-COMPOUND": "Creeky Compound"
-            }
-        },
-        "redeem": {
-            "throttled": "Code redeeming has been limited for [seconds] seconds. Please try again later.",
-            "embed2": "[code] is not a valid code.",
-            "embed3": "You already redeemed this code.",
-            "embed4": "An unknown error occurred. If the problem persists, please try another code.",
-            "embed5": "Code Redeemed",
-            "by": "By [codeSeller]",
-            "redeemedall": "Redeemed the Code in All Accounts :white_check_mark:",
-            "couldntredeemall": "Couldn't Redeemed the Code in All Accounts :x:",
-            "redeemed": "Redeemed",
-            "unknown": "Unknown"
-        },
-        "sac": {
-            "embed1": "[code] is not a valid code.",
-            "embed2": "An unknown error occurred. If the issue persists, please try another code.",
-            "embed3": {
-                "title": "SaC Changed",
-                "description": "You are now supporting [supporting]."
-            },
-            "supported": "Supported Content Creator",
-            "none": "None",
-            "supportDate": "Support Date",
-            "expire": "Expiration Date",
-            "embed4": "No information found for this code. Please make sure you typed it correctly.",
-            "active": "Active",
-            "disabled": "Disabled",
-            "embed5": {
-                "title": "Code Info",
-                "codeinfo": "Code Info",
-                "code": "Code",
-                "status": "Status",
-                "creatorinfo": "Content Creator Info",
-                "displayname": "Display Name"
-            }
-        },
-        "buy": {
-            "embed1": "[item] was not found in the item shop. Please make sure you typed it correctly.",
-            "embed2": "Do you want to buy [item] for [price]?",
-            "embed3": "You need [requiredVB] more to buy this item. You currently have: [currentVB]",
-            "embed4": "You already have this item.",
-            "embed5": "An unknown error occurred while buying the item.",
-            "bought": {
-                "title": "Item Bought :white_check_mark:",
-                "description": "Successfully bought [item] for [price].",
-                "footer": "Supported content creator: [supportCode]"
-            },
-            "cancelled": {
-                "title": "Purchase Cancelled :x:",
-                "description": "You cancelled the purchase of [item]."
-            },
-            "allcontents": "All Contents"
-        },
-        "battlepass": {
-            "prices": {
-                "bp": "950 • Battle Pass",
-                "b2800pack": "2800 • Battle Pass Bundle",
-                "atier": "150 • 1 Tier",
-                "b25tier": "1850 • 25 Tiers"
-            },
-            "embed1": {
-                "title": "Chapter 4 Season 4 Battle Pass",
-                "yourinfo": "Your Information",
-                "vbucks": "V-Bucks",
-                "level": "Your level"
-            },
-            "embed2": "You need [requiredVB] to purchase the Battle Pass. You currently have: [currentVB]",
-            "embed3": "You have already purchased the Battle Pass.",
-            "embed4": "An unknown error occurred while processing the purchase.",
-            "embed5": "Battle Pass purchased successfully.",
-            "embed6": "You need [requiredVB] to purchase the Battle Pass Bundle. You currently have: [currentVB]",
-            "embed7": "You have already purchased the Battle Pass Bundle.",
-            "embed8": "Battle Pass Bundle purchased successfully.",
-            "embed9": "You need [requiredVB] to purchase the 25 Tier Bundle. You currently have: [currentVB]",
-            "embed10": "You have already purchased the 25 Tier Bundle.",
-            "embed11": "25 Tier Bundle purchased successfully.",
-            "modal": {
-                "title": "Purchase Tier",
-                "label": "Number of Tiers to purchase"
-            }
-        },
-        "stats": {
-            "embed1": "No Epic Games account found with the name [name].",
-            "embed2": "Stats for player [name] are private.",
-            "embed3": "Stats for player [name] could not be retrieved."
-        },
-        "offer": {
-            "embed1": "No offer found associated with the specified Offer ID.",
-            "embed2": "An unknown error occurred. Please try again with a different Offer ID.",
-            "price": "Price",
-            "free": "Free",
-            "buy": "Buy",
-            "status": "Status",
-            "unknown": "Unknown",
-            "by": "By [sellerName]",
-            "releaseDate": "Release Date",
-            "viewableDate": "Viewable Date",
-            "effectiveDate": "Effective Date",
-            "expiryDate": "Expiry Date",
-            "none": "None"
-        },
-        "vbucks": {
-            "price": "Price",
-            "buy": "Buy",
-            "vbucks": "[vbucks] V-Bucks",
-            "vbplatform": "V-Bucks platform",
-            "supported": "Supported content creator",
-            "none": "None",
-            "details": "Details",
-            "neverbought": "You have never purchased V-Bucks.",
-            "embed1": {
-                "description": "You have purchased a total of [bought] V-Bucks since [date].",
-                "field": "[vbucks]: [count] times"
-            },
-            "totalVB": "Total V-Bucks",
-            "totalOnAll": "Total V-Bucks on All Accounts",
-            "st": {
-                "Giveaway": "Challenges/Battle Pass",
-                "Complimentary": "STW/Refunds",
-                "Purchased": "Purchased",
-                "Purchase Bonus": "Purchased"
-            }
-        },
-        "botinfo": {
-            "botinfo": "Bot Information",
-            "servercount": "Server count",
-            "usercount": "User count",
-            "ping": "Ping",
-            "uptime": "Uptime",
-            "ram": "RAM usage",
-            "invite": "Invite",
-            "click": "Click",
-            "userinfo": "User Information",
-            "totalregistered": "Total registered users",
-            "totalregisteredaccounts": "Total registered accounts",
-            "totalpremiums": "Total Premium users",
-            "remindercount": "Total reminders set",
-            "times": {
-                "week": "week",
-                "day": "day",
-                "hour": "hour",
-                "minute": "minute",
-                "second": "second"
-            }
-        },
-        "login": {
-            "selectmenu1": {
-                "placeholder": "Select an Account",
-                "loginnew": "Login with a New Account"
-            },
-            "loginanother": "Login to Another Account",
-            "selectaccount": "Select an account from below.",
-            "submit": "Submit",
-            "changed": "Account Changed",
-            "switchedto": "Switched to player [name].",
-            "acceptedrules": {
-                "title": "Accepted the Rules",
-                "description": "You have accepted the rules. Please use the command again to login."
-            },
-            "declinedrules": {
-                "title": "Declined the Rules",
-                "description": "You declined the rules. If you have any question/problem related to the rules or the bot, join our [support server]([support])"
-            },
-            "reachedlimit": "You have reached your registered account limit ([limit]).",
-            "waitingauth": "Waiting for authentication [emoji]",
-            "error": "An unknown error occurred while fetching your accounts.",
-            "followup": {
-                "title": "Login to a New Account",
-                "howto": "How to Login",
-                "steps": {
-                    "step1": "**Step 1:** Click on the button below.",
-                    "step2": "**Step 2:** Click on the confirm button.",
-                    "step3": "**Step 3:** Wait a few seconds and you are logged in!"
-                }
-            },
-            "login": "Login",
-            "exchange": "Exchange Code"
-        },
-        "dailyquests": {
-            "embed1": {
-                "title": "Daily Quests",
-                "gold": "[emoji] [amount] × Gold",
-                "vbucks": "[emoji] [amount] × V-Bucks",
-                "xray": "[emoji] [amount] × X-Ray Tickets",
-                "battlepassxp": "[emoji] [amount] × Battle Pass XP"
-            },
-            "embed2": "You don't have any daily quest.",
-            "reroll": "Reroll a daily quest",
-            "error": "An unknown error occurred while rerolling the daily quest.",
-            "completed": "You completed this quest."
-        },
-        "banned": {
-            "notbanned": "You are not banned! :partying_face:",
-            "banned": "You are banned."
-        },
-        "refreshprofile": {
-            "embed1": {
-                "title": "Profile Refreshed [count]",
-                "description": "Your Battle Royale and Save the World profile has been refreshed."
-            }
-        },
-        "launchfortnite": {
-            "embed1": {
-                "title": "Launch Fortnite",
-                "description": "**WARNING: Do not share this command with anyone as it may grant access to your account!**\nThis command will expire [expire].\n\n[command]"
-            }
-        },
-        "preferences": {
-            "language": "Your preferred bot language has been set to [language].",
-            "replyType": "Your preferred reply type has been set to [type].\n\nNote: Only success, error and warning messages are affected by this setting",
-            "replyTypes": {
-                "embed": "Embed",
-                "plaintext": "Plain Text"
-            },
-            "auto": "Your preferred bot language is automatically set to [language].",
-            "censorTypes": {
-                "none": "Your preferred censor type has been set to **None**. Your display name and account ID will not be censored.",
-                "dm": "Your preferred censor type has been set to **DM**. Your display name and account ID will be censored only in DMs.",
-                "server": "Your preferred censor type has been set to **Server**. Your display name and account ID will be censored only in servers.",
-                "all": "Your preferred censor type has been set to **All**. Your display name and account ID will be censored in both DMs and servers."
-            }
-        },
-        "missionalerts": {
-            "missionAlerts": "Mission Alerts",
-            "noAlerts": "There are no V-Bucks mission alerts today :(",
-            "total": "Total V-Bucks",
-            "vbucks": "V-Bucks"
-        },
-        "ghostequip": {
-            "notinparty": "You need to be in a party to use this command.",
-            "error": "An unknown error occurred while equipping the cosmetic.",
-            "notfound": "No cosmetic named [name] found.",
-            "invalidtype": "Invalid cosmetic type.",
-            "premiumNote": "If you want to equip cosmetics with their styles, you must buy Premium. Join our support server for more information.",
-            "embed1": {
-                "title": "Ghost Equip",
-                "description": "Successfully equipped [cosmetic]\n\nNote: This is only visible to other players in the party."
-            },
-            "selectstyle": "Select a style",
-            "selectstyleoption": "Select a style option"
-        },
-        "fakelevel": {
-            "notinparty": "You need to be in a party to use this command.",
-            "error": "An unknown error occurred while changing the level.",
-            "embed1": {
-                "title": "Fake Level",
-                "description": "Successfully set your level to [level].\n\nNote: This is only visible to other players in the party."
-            }
-        },
-        "fakecrownwins": {
-            "notinparty": "You need to be in a party to use this command.",
-            "error": "An unknown error occurred while changing the crown amount.",
-            "embed1": {
-                "title": "Fake Crown Wins",
-                "description": "Successfully set your crowns to [amount] and used the emote Crowning Achievement to show your crowns.\n\nNote: This is only visible to other players in the party."
-            }
-        },
-        "stw": {
-            "nostw": "You don't have access Save the World.",
-            "info": {
-                "embed1": {
-                    "title": "Save the World Statistics",
-                    "description": {
-                        "commander": "Commander level",
-                        "zonescompleted": "Zones completed",
-                        "loggedin": "Days logged in"
-                    },
-                    "fields": {
-                        "dates": {
-                            "fieldname": "Dates",
-                            "firstplayed": "First played",
-                            "lastplayed": "Last played"
-                        },
-                        "research": "Research",
-                        "collectionbook": {
-                            "fieldname": "Collection Book",
-                            "level": "Level",
-                            "unslot": "Spent for unslotting"
-                        },
-                        "miscellaneous": "Miscellaneous"
-                    }
-                },
-                "banner": {
-                    "fieldname": "Banner Challenges",
-                    "gognome": "Go Gnome!",
-                    "guardianangel": "Guardian Angel",
-                    "lootlegend": "Loot Legend",
-                    "playswellwithothers": "Plays Well With Others",
-                    "talentedbuilder": "Talented Builder",
-                    "unspeakablehorrors": "Unspeakable Horrors",
-                    "worldexplorer": "World Explorer"
-                },
-                "percent": "[percent]%",
-                "founder": "Founder Account",
-                "nonfounder": "Standard Account"
-            }
-        },
-        "research": {
-            "nostw": "You don't have access Save the World.",
-            "level": "Level [level]",
-            "fortitude": "Fortitude",
-            "offense": "Offense",
-            "resistance": "Resistance",
-            "technology": "Technology",
-            "embed1": "Research",
-            "embed2": "You don't have enough research points.",
-            "embed3": "An unknown error occurred while upgrading the research.",
-            "claim": "Claim Research Points"
-        },
-        "undopurchase": {
-            "nothingtocancel": "You don't have any purchases to undo.",
-            "purchase": "Purchase #[number]",
-            "purchasedate": "Purchase date",
-            "selectpurchase": "Select a Purchase",
-            "selecttoundo": "Select a purchase to undo",
-            "none": "None",
-            "cantrefund": "[purchase] could not be refunded! One of the following could be the reason for this:\n\n1. The refund window has expired.\n2. You refunded and bought the same cosmetic within 24 hours. In this case you have to wait 24 hours.",
-            "error": "An unknown error occurred while cancelling the purchase.",
-            "alreadyrefunded": "You have already refunded this purchase.",
-            "refunded": "Item Refunded :white_check_mark:",
-            "creator": "Supported creator",
-            "success": "The purchase below has been succesfully refunded and [vbucks] has been added to your account.",
-            "note": "Please note: If you buy the same cosmetic after refunding it in 24 hours, you will not be able to refund it again until 24 hours have passed.",
-            "vbucksspent": "V-Bucks spent"
-        },
-        "party": {
-            "notinparty": "You need to be in a party to use this command.",
-            "none": "None",
-            "partyJoinability": {
-                "onlyfriends": "Friends",
-                "inviteonly": "Invite only"
-            },
-            "partyinfo": "Party Information",
-            "id": "Party ID",
-            "type": "Party Type",
-            "region": "Region",
-            "customkey": "Custom Matchmaking Key",
-            "playlist": "Playlist",
-            "members": "Members",
-            "ready": "ready",
-            "notready": "not ready",
-            "hasbp": "has battle pass",
-            "bplevel": "[level] level",
-            "hasstw": "purchased STW",
-            "pmembers": "Party members",
-            "leaveerror": "An unknown error occurred while leaving the party.",
-            "leftparty": {
-                "title": "Left Party",
-                "description": "Left the party successfully."
-            }
-        },
-        "skiptutorial": {
-            "error": "You don't have access Save the World.",
-            "success": "Successfully skipped the Save the World tutorial."
-        },
-        "account": {
-            "cancelled": "Action Cancelled :x:",
-            "namecooldown": "You can change your name every 14 days. Please use the command after the cooldown ends.",
-            "toxicname": "You can't use this name. Please try another name.",
-            "duplicatename": "This name is already taken. Please try another name.",
-            "nameerror": "An unknown error occurred while changing the name.",
-            "namesuccess": "Your name has been successfully changed to [name].",
-            "invalidnumber": "[number] is not a valid phone number.",
-            "numbererror": "An unknown error occurred while changing the phone number.",
-            "numbersuccess": "Your phone number has been successfully changed to [number].",
-            "samename": "The name you want to set is the same as your current name.",
-            "namechange": "Change Name",
-            "nameconfirmation": "Are you sure you want to change your name to [name]? If you change your name, you can't change your name for 14 days.",
-            "invalidcharacters": "Your name contains invalid characters. Please try another name without including these characters: [chars]",
-            "namechanged": {
-                "title": "Name Changed :white_check_mark:",
-                "description": "Your name has been successfully changed to [name]. You can change your name again on [date]."
-            },
-            "numberchange": "Change Phone Number",
-            "numberconfirmation": "Are you sure you want to change your phone number to [number]?",
-            "numberchanged": {
-                "title": "Phone Number Changed :white_check_mark:",
-                "description": "Your phone number was successfully changed to [number]."
-            },
-            "nameremains": "The name change has been cancelled. Your name is still [name].",
-            "numberremains": "The phone number change has been cancelled.",
-            "name": "Name",
-            "email": "E-mail",
-            "displayname": "Display Name",
-            "lastchange": "Last change",
-            "totalchanges": "Total changes",
-            "canchangename": "You can change your display name :white_check_mark:",
-            "cantchangename": "You can't change your display name :x:",
-            "login": "Login",
-            "lastlogin": "Last login",
-            "failedattempts": "Failed login attempts",
-            "tfa": "Two-Factor Authentication",
-            "account": "Account",
-            "country": "Country",
-            "language": "Preferred language",
-            "cantchangename2": "You can't change your display name at this time. Please try again later.",
-            "id": "Account ID"
-        },
-        "shopsections": {
-            "today": "today",
-            "tomorrow": "tomorrow",
-            "notavailable": "The item shop sections for [day] are not currently available. Please try again later.",
-            "sections": "Item Shop Sections ([date])"
-        },
-        "claimrankrole": {
-            "deletedrank": "Your ranked role has been removed because your rank is the same as your role. You can claim your rank role by using the command again after ranking up.",
-            "norank": "You don't have any rank yet. Complete a match now to rank up! Once you're done, you can claim your role by using the command again.",
-            "rank": "You have received the [role] role! Keep ranking up and update your role on the server by using the command again.",
-            "disabled": "Rank roles are disabled on this server. Please contact the server owner to enable them.",
-            "ranknotfound": "Your rank is [rank] but there is no role with this rank. Please contact the server owner to add a role with this rank.",
-            "error": "Sorry, I don't have enough permissions to give you the [role] role. Please contact the server owner to give me the Manage Roles permission."
-        },
-        "claimfreeitems": {
-            "embed1": "There's no free items available to claim from the item shop.",
-            "embed2": {
-                "title": "Claimed Free Items :white_check_mark:",
-                "description": "You have successfully claimed every available free items from the item shop."
-            },
-            "items": "Items"
-        },
-        "playercount": {
-            "title": "Player Count",
-            "total": "Total player count",
-            "bymode": "Player Counts by Game Modes",
-            "battleroyale": "Battle Royale",
-            "rankedbr": "Ranked Battle Royale",
-            "zerobuilds": "Zero Builds",
-            "rankedzb": "Ranked Zero Builds",
-            "creative": "Creative",
-            "stw": "Save the World"
-        },
-        "weaponinfo": {
-            "notfound": "No weapon with [weapon] name and [rarity] rarity found.",
-            "stats": "Weapon Stats",
-            "damage": "Damage",
-            "critical": "Headshot Damage",
-            "firerate": "Fire Rate",
-            "clipsize": "Clip Size",
-            "reloadtime": "Reload Time",
-            "seconds": "[seconds] seconds",
-            "rarities": {
-                "common": "Common",
-                "uncommon": "Uncommon",
-                "rare": "Rare",
-                "epic": "Epic",
-                "legendary": "Legendary",
-                "mythic": "Mythic",
-                "exotic": "Exotic"
-            }
-        },
-        "deviceauth": {
-            "created": "Device Auth Created :white_check_mark:",
-            "deleted": "Device Auth Deleted :white_check_mark:",
-            "dontshare": "**Please don't share these details with anyone as it can be used to access your account!**",
-            "deviceid": "Device ID",
-            "noauth": "There isn't any device auth with [id] id.",
-            "error": "An unknown error occurred while deleting the device auth.",
-            "deleted2": "Device auth with [id] id has been deleted.",
-            "noauths": "You don't have any device auths.",
-            "deleteall": "Delete All Device Auths",
-            "deleteallconfirmation": "Are you sure you want to delete all your device auths except the one used by the bot? This will delete [amount] device auths and log you out from all devices.",
-            "deletedall": {
-                "title": "All Device Auths Deleted :white_check_mark:",
-                "description": "[deleted]/[total] device auths have been deleted. You have been logged out from all devices."
-            },
-            "dates": "Dates",
-            "createdat": "Created",
-            "lastAccess": "Last Used",
-            "page": "Page [page]/[total]",
-            "deleted3": "Device auth succesfully deleted.",
-            "deleteauth": "Delete Auth",
-            "unknown": "Unknown",
-            "loggedout": "You have been logged out."
-        },
-        "serverstatus": {
-            "up": "Servers Are Up!",
-            "down": "Servers Are Down!",
-            "banned": "You are banned.",
-            "notbanned": "You are not banned!",
-            "statusPage": "Check Status Page",
-            "isBanned": "Banned"
-        },
-        "settings": {
-            "select": "Select a setting to change",
-            "enabled": "Enabled",
-            "disabled": "Disabled",
-            "autosac": "Auto SAC",
-            "autosacdesc": "Refreshes your SAC automatically on every purchase.",
-            "freellama": "Free Llama Claimer",
-            "freellamadesc": "Automatically claims your free llamas every day.",
-            "embed1": {
-                "title": "Settings",
-                "description": "Use the drop-down menu below to change your settings."
-            }
-        },
-        "accesstoken": {
-            "warning": "**:warning: Warning:** Do not share these tokens with anyone as they can be used to access your account!",
-            "accountid": "Account ID"
-        },
-        "staging": {
-            "notfound": "No staging server with the name or URL [input] was found."
-        },
-        "saveprogress": {
-            "success": {
-                "title": "Progress Saved",
-                "description": "You can now leave the mission and get your rewards!"
-            },
-            "error": "An unknown error occurred while saving your progress."
-        },
-        "ranksystem": {
-            "notenabled": "Rank-role system is not enabled on this server. Add a role to the system to enable it.",
-            "rankroles": "Rank Roles",
-            "added": "Successfully added [rank] rank and the [role] role to the system",
-            "removed": "Successfully removed [rank] rank and the [role] role from the system",
-            "alreadyenabled": "Rank-role system is already enabled on this server.",
-            "alreadydisabled": "Rank-role system is already disabled on this server.",
-            "enabledsystem": "Successfully enabled the rank-role system on this server.",
-            "disabledsystem": "Successfully disabled the rank-role system on this server.",
-            "alreadyinsystem": "This rank is already in the system.",
-            "notinsystem": "This rank is not in the system.",
-            "ranks": {
-                "bronze": "Bronze",
-                "silver": "Silver",
-                "gold": "Gold",
-                "platinum": "Platinum",
-                "diamond": "Diamond",
-                "thebest": "The Best"
-            }
-        },
-        "accountsettings": {
-            "gifts": [
-                "Successfully set your gift settings to **Enabled**. You can now receive gifts from your friends.",
-                "Successfully set your gift settings to **Disabled**. You can no longer receive gifts from your friends."
-            ]
-        },
-        "customprofile": {
-            "notfound": "No skin named [name] was found.",
-            "invalidtype": "The cosmetic type must be a character.",
-            "success": "Your avatar and embed color has been successfully changed to match the [name] skin!",
-            "reset": "Your profile has been successfully synced with your Fortnite profile!"
-        },
-        "activatepremium": {
-            "alreadyPremium": "You are already a Premium user.",
-            "invalidCode": "The code you entered is invalid.",
-            "redeemed": {
-                "title": "Code Redeemed",
-                "description": "You have successfully redeemed the code. You can now use the Premium commands.",
-                "description2": "You have successfully redeemed the code. You can now use the Premium commands until [date]."
-            }
+        "resetdate": "Reset Date"
+      }
+    },
+    "randomlocation": {
+      "random": "Random location for this match",
+      "pois": {
+        "MEGA-CITY": "Mega City",
+        "SHATTERED-SLABS": "Shattered Slabs",
+        "SLAPPY-SHORES": "Slappy Shores",
+        "SHADY-STILTS": "Shady Stilts",
+        "RUMBLE-RUINS": "Rumble Ruins",
+        "SANGUINE-SUITES": "Sanguine Suites",
+        "BREAKWATER-BAY": "Breakwater Bay",
+        "BRUTAL-BASTION": "Brutal Bastion",
+        "STEAMY-SPRINGS": "Steamy Springs",
+        "FRENZY-FIELDS": "Frenzy Fields",
+        "KENJUTSU-CROSSING": "Kenjutsu Crossing",
+        "RELENTLESS-RETREAT": "Relentless Retreat",
+        "KNOTTY-NETS": "Knotty Nets",
+        "ECLIPSED-ESTATE": "Eclipsed Estate",
+        "CREEKY-COMPOUND": "Creeky Compound"
+      }
+    },
+    "redeem": {
+      "throttled": "Code redeeming has been limited for [seconds] seconds. Please try again later.",
+      "embed2": "[code] is not a valid code.",
+      "embed3": "You already redeemed this code.",
+      "embed4": "An unknown error occurred. If the problem persists, please try another code.",
+      "embed5": "Code Redeemed",
+      "by": "By [codeSeller]",
+      "redeemedall": "Redeemed the Code in All Accounts :white_check_mark:",
+      "couldntredeemall": "Couldn't Redeemed the Code in All Accounts :x:",
+      "redeemed": "Redeemed",
+      "unknown": "Unknown"
+    },
+    "sac": {
+      "embed1": "[code] is not a valid code.",
+      "embed2": "An unknown error occurred. If the issue persists, please try another code.",
+      "embed3": {
+        "title": "SaC Changed",
+        "description": "You are now supporting [supporting]."
+      },
+      "supported": "Supported Content Creator",
+      "none": "None",
+      "supportDate": "Support Date",
+      "expire": "Expiration Date",
+      "embed4": "No information found for this code. Please make sure you typed it correctly.",
+      "active": "Active",
+      "disabled": "Disabled",
+      "embed5": {
+        "title": "Code Info",
+        "codeinfo": "Code Info",
+        "code": "Code",
+        "status": "Status",
+        "creatorinfo": "Content Creator Info",
+        "displayname": "Display Name"
+      }
+    },
+    "buy": {
+      "embed1": "[item] was not found in the item shop. Please make sure you typed it correctly.",
+      "embed2": "Do you want to buy [item] for [price]?",
+      "embed3": "You need [requiredVB] more to buy this item. You currently have [currentVB]",
+      "embed4": "You already have this item.",
+      "embed5": "An unknown error occurred while buying the item.",
+      "embed6": ":warning: You must have [price] [emoji] to buy this item.",
+      "remaining": "Remaining V-Bucks",
+      "none": "None",
+      "bought": {
+        "title": "Item Bought :white_check_mark:",
+        "description": "Successfully bought [item] for [price].",
+        "footer": "Supported content creator: [supportCode]"
+      },
+      "cancelled": {
+        "title": "Purchase Cancelled :x:",
+        "description": "You cancelled the purchase of [item]."
+      },
+      "allcontents": "All Contents"
+    },
+    "battlepass": {
+      "prices": {
+        "bp": "950 • Battle Pass",
+        "b2800pack": "2800 • Battle Pass Bundle",
+        "atier": "150 • 1 Tier",
+        "b25tier": "1850 • 25 Tiers"
+      },
+      "embed1": {
+        "title": "Chapter 4 Season 4 Battle Pass",
+        "yourinfo": "Your Information",
+        "vbucks": "V-Bucks",
+        "level": "Your level"
+      },
+      "embed2": "You need [requiredVB] to purchase the Battle Pass. You currently have: [currentVB]",
+      "embed3": "You have already purchased the Battle Pass.",
+      "embed4": "An unknown error occurred while processing the purchase.",
+      "embed5": "Battle Pass purchased successfully.",
+      "embed6": "You need [requiredVB] to purchase the Battle Pass Bundle. You currently have: [currentVB]",
+      "embed7": "You have already purchased the Battle Pass Bundle.",
+      "embed8": "Battle Pass Bundle purchased successfully.",
+      "embed9": "You need [requiredVB] to purchase the 25 Tier Bundle. You currently have: [currentVB]",
+      "embed10": "You have already purchased the 25 Tier Bundle.",
+      "embed11": "25 Tier Bundle purchased successfully.",
+      "modal": {
+        "title": "Purchase Tier",
+        "label": "Number of Tiers to purchase"
+      }
+    },
+    "stats": {
+      "embed1": "No Epic Games account found with the name [name].",
+      "embed2": "Stats for player [name] are private.",
+      "embed3": "Stats for player [name] could not be retrieved."
+    },
+    "offer": {
+      "embed1": "No offer found associated with the specified Offer ID.",
+      "embed2": "An unknown error occurred. Please try again with a different Offer ID.",
+      "price": "Price",
+      "free": "Free",
+      "buy": "Buy",
+      "status": "Status",
+      "unknown": "Unknown",
+      "by": "By [sellerName]",
+      "releaseDate": "Release Date",
+      "viewableDate": "Viewable Date",
+      "effectiveDate": "Effective Date",
+      "expiryDate": "Expiry Date",
+      "none": "None"
+    },
+    "vbucks": {
+      "price": "Price",
+      "buy": "Buy",
+      "vbucks": "[vbucks] V-Bucks",
+      "vbplatform": "V-Bucks platform",
+      "supported": "Supported content creator",
+      "none": "None",
+      "details": "Details",
+      "neverbought": "You have never purchased V-Bucks.",
+      "embed1": {
+        "description": "You have purchased a total of [bought] V-Bucks since [date].",
+        "field": "[vbucks]: [count] times"
+      },
+      "totalVB": "Total V-Bucks",
+      "totalOnAll": "Total V-Bucks on All Accounts",
+      "st": {
+        "Giveaway": "Challenges/Battle Pass",
+        "Complimentary": "STW/Refunds",
+        "Purchased": "Purchased",
+        "Purchase Bonus": "Purchased"
+      }
+    },
+    "botinfo": {
+      "botinfo": "Bot Information",
+      "servercount": "Server count",
+      "usercount": "User count",
+      "ping": "Ping",
+      "uptime": "Uptime",
+      "ram": "RAM usage",
+      "invite": "Invite",
+      "click": "Click",
+      "userinfo": "User Information",
+      "totalregistered": "Total registered users",
+      "totalregisteredaccounts": "Total registered accounts",
+      "totalpremiums": "Total Premium users",
+      "remindercount": "Total reminders set",
+      "times": {
+        "week": "week",
+        "day": "day",
+        "hour": "hour",
+        "minute": "minute",
+        "second": "second"
+      }
+    },
+    "login": {
+      "selectmenu1": {
+        "placeholder": "Select an Account",
+        "loginnew": "Login with a New Account"
+      },
+      "loginanother": "Login to Another Account",
+      "selectaccount": "Select an account from below.",
+      "submit": "Submit",
+      "changed": "Account Changed",
+      "switchedto": "Switched to player [name].",
+      "acceptedrules": {
+        "title": "Accepted the Rules",
+        "description": "You have accepted the rules. Please use the command again to login."
+      },
+      "declinedrules": {
+        "title": "Declined the Rules",
+        "description": "You declined the rules. If you have any question/problem related to the rules or the bot, join our [support server]([support])"
+      },
+      "reachedlimit": "You have reached your registered account limit ([limit]).",
+      "waitingauth": "Waiting for authentication [emoji]",
+      "error": "An unknown error occurred while fetching your accounts.",
+      "followup": {
+        "title": "Login to a New Account",
+        "howto": "How to Login",
+        "steps": {
+          "step1": "**Step 1:** Click on the button below.",
+          "step2": "**Step 2:** Click on the confirm button.",
+          "step3": "**Step 3:** Wait a few seconds and you are logged in!"
         }
+      },
+      "login": "Login",
+      "exchange": "Exchange Code"
     },
-    "changenickname": {
-        "error": "An unknown error occurred while changing the nickname.",
-        "okay": "Your friend's new nickname has been set as [name]."
+    "dailyquests": {
+      "embed1": {
+        "title": "Daily Quests",
+        "gold": "[emoji] [amount] × Gold",
+        "vbucks": "[emoji] [amount] × V-Bucks",
+        "xray": "[emoji] [amount] × X-Ray Tickets",
+        "battlepassxp": "[emoji] [amount] × Battle Pass XP"
+      },
+      "embed2": "You don't have any daily quest.",
+      "reroll": "Reroll a daily quest",
+      "error": "An unknown error occurred while rerolling the daily quest.",
+      "completed": "You completed this quest."
     },
-    "buytiers": {
-        "invalid": "Please enter a valid number.",
-        "notenough": "You need [requiredVB] more to purchase [amount] tiers. You currently have: [currentVB]",
-        "unknown": "An unknown error occurred during the purchase.",
-        "okay": {
-            "title": "Tiers Purchased",
-            "description": "[amount] tiers were successfully purchased for [spentVB]."
+    "banned": {
+      "notbanned": "You are not banned! :partying_face:",
+      "banned": "You are banned."
+    },
+    "refreshprofile": {
+      "embed1": {
+        "title": "Profile Refreshed [count]",
+        "description": "Your Battle Royale and Save the World profile has been refreshed."
+      }
+    },
+    "launchfortnite": {
+      "embed1": {
+        "title": "Launch Fortnite",
+        "description": "**WARNING: Do not share this command with anyone as it may grant access to your account!**\nThis command will expire [expire].\n\n[command]"
+      }
+    },
+    "preferences": {
+      "language": "Your preferred bot language has been set to [language].",
+      "replyType": "Your preferred reply type has been set to [type].\n\nNote: Only success, error and warning messages are affected by this setting",
+      "replyTypes": {
+        "embed": "Embed",
+        "plaintext": "Plain Text"
+      },
+      "auto": "Your preferred bot language is automatically set to [language].",
+      "censorTypes": {
+        "none": "Your preferred censor type has been set to **None**. Your display name and account ID will not be censored.",
+        "dm": "Your preferred censor type has been set to **DM**. Your display name and account ID will be censored only in DMs.",
+        "server": "Your preferred censor type has been set to **Server**. Your display name and account ID will be censored only in servers.",
+        "all": "Your preferred censor type has been set to **All**. Your display name and account ID will be censored in both DMs and servers."
+      }
+    },
+    "missionalerts": {
+      "missionAlerts": "Mission Alerts",
+      "noAlerts": "There are no V-Bucks mission alerts today :(",
+      "total": "Total V-Bucks",
+      "vbucks": "V-Bucks"
+    },
+    "ghostequip": {
+      "notinparty": "You need to be in a party to use this command.",
+      "error": "An unknown error occurred while equipping the cosmetic.",
+      "notfound": "No cosmetic named [name] found.",
+      "invalidtype": "Invalid cosmetic type.",
+      "premiumNote": "If you want to equip cosmetics with their styles, you must buy Premium. Join our support server for more information.",
+      "embed1": {
+        "title": "Ghost Equip",
+        "description": "Successfully equipped [cosmetic]\n\nNote: This is only visible to other players in the party."
+      },
+      "selectstyle": "Select a style",
+      "selectstyleoption": "Select a style option"
+    },
+    "fakelevel": {
+      "notinparty": "You need to be in a party to use this command.",
+      "error": "An unknown error occurred while changing the level.",
+      "embed1": {
+        "title": "Fake Level",
+        "description": "Successfully set your level to [level].\n\nNote: This is only visible to other players in the party."
+      }
+    },
+    "fakecrownwins": {
+      "notinparty": "You need to be in a party to use this command.",
+      "error": "An unknown error occurred while changing the crown amount.",
+      "embed1": {
+        "title": "Fake Crown Wins",
+        "description": "Successfully set your crowns to [amount] and used the emote Crowning Achievement to show your crowns.\n\nNote: This is only visible to other players in the party."
+      }
+    },
+    "stw": {
+      "nostw": "You don't have access Save the World.",
+      "info": {
+        "embed1": {
+          "title": "Save the World Statistics",
+          "description": {
+            "commander": "Commander level",
+            "zonescompleted": "Zones completed",
+            "loggedin": "Days logged in"
+          },
+          "fields": {
+            "dates": {
+              "fieldname": "Dates",
+              "firstplayed": "First played",
+              "lastplayed": "Last played"
+            },
+            "research": "Research",
+            "collectionbook": {
+              "fieldname": "Collection Book",
+              "level": "Level",
+              "unslot": "Spent for unslotting"
+            },
+            "miscellaneous": "Miscellaneous"
+          }
+        },
+        "banner": {
+          "fieldname": "Banner Challenges",
+          "gognome": "Go Gnome!",
+          "guardianangel": "Guardian Angel",
+          "lootlegend": "Loot Legend",
+          "playswellwithothers": "Plays Well With Others",
+          "talentedbuilder": "Talented Builder",
+          "unspeakablehorrors": "Unspeakable Horrors",
+          "worldexplorer": "World Explorer"
+        },
+        "percent": "[percent]%",
+        "founder": "Founder Account",
+        "nonfounder": "Standard Account"
+      }
+    },
+    "research": {
+      "nostw": "You don't have access Save the World.",
+      "level": "Level [level]",
+      "fortitude": "Fortitude",
+      "offense": "Offense",
+      "resistance": "Resistance",
+      "technology": "Technology",
+      "embed1": "Research",
+      "embed2": "You don't have enough research points.",
+      "embed3": "An unknown error occurred while upgrading the research.",
+      "claim": "Claim Research Points"
+    },
+    "undopurchase": {
+      "nothingtocancel": "You don't have any purchases to undo.",
+      "purchase": "Purchase #[number]",
+      "purchasedate": "Purchase date",
+      "selectpurchase": "Select a Purchase",
+      "selecttoundo": "Select a purchase to undo",
+      "none": "None",
+      "cantrefund": "[purchase] could not be refunded! One of the following could be the reason for this:\n\n1. The refund window has expired.\n2. You refunded and bought the same cosmetic within 24 hours. In this case you have to wait 24 hours.",
+      "error": "An unknown error occurred while cancelling the purchase.",
+      "alreadyrefunded": "You have already refunded this purchase.",
+      "refunded": "Item Refunded :white_check_mark:",
+      "creator": "Supported creator",
+      "success": "The purchase below has been succesfully refunded and [vbucks] has been added to your account.",
+      "note": "Please note: If you buy the same cosmetic after refunding it in 24 hours, you will not be able to refund it again until 24 hours have passed.",
+      "vbucksspent": "V-Bucks spent"
+    },
+    "party": {
+      "notinparty": "You need to be in a party to use this command.",
+      "none": "None",
+      "partyJoinability": {
+        "onlyfriends": "Friends",
+        "inviteonly": "Invite only"
+      },
+      "partyinfo": "Party Information",
+      "id": "Party ID",
+      "type": "Party Type",
+      "region": "Region",
+      "customkey": "Custom Matchmaking Key",
+      "playlist": "Playlist",
+      "members": "Members",
+      "ready": "ready",
+      "notready": "not ready",
+      "hasbp": "has battle pass",
+      "bplevel": "[level] level",
+      "hasstw": "purchased STW",
+      "pmembers": "Party members",
+      "leaveerror": "An unknown error occurred while leaving the party.",
+      "leftparty": {
+        "title": "Left Party",
+        "description": "Left the party successfully."
+      }
+    },
+    "skiptutorial": {
+      "error": "You don't have access Save the World.",
+      "success": "Successfully skipped the Save the World tutorial."
+    },
+    "account": {
+      "cancelled": "Action Cancelled :x:",
+      "namecooldown": "You can change your name every 14 days. Please use the command after the cooldown ends.",
+      "toxicname": "You can't use this name. Please try another name.",
+      "duplicatename": "This name is already taken. Please try another name.",
+      "nameerror": "An unknown error occurred while changing the name.",
+      "namesuccess": "Your name has been successfully changed to [name].",
+      "invalidnumber": "[number] is not a valid phone number.",
+      "numbererror": "An unknown error occurred while changing the phone number.",
+      "numbersuccess": "Your phone number has been successfully changed to [number].",
+      "samename": "The name you want to set is the same as your current name.",
+      "namechange": "Change Name",
+      "nameconfirmation": "Are you sure you want to change your name to [name]? If you change your name, you can't change your name for 14 days.",
+      "invalidcharacters": "Your name contains invalid characters. Please try another name without including these characters: [chars]",
+      "namechanged": {
+        "title": "Name Changed :white_check_mark:",
+        "description": "Your name has been successfully changed to [name]. You can change your name again on [date]."
+      },
+      "numberchange": "Change Phone Number",
+      "numberconfirmation": "Are you sure you want to change your phone number to [number]?",
+      "numberchanged": {
+        "title": "Phone Number Changed :white_check_mark:",
+        "description": "Your phone number was successfully changed to [number]."
+      },
+      "nameremains": "The name change has been cancelled. Your name is still [name].",
+      "numberremains": "The phone number change has been cancelled.",
+      "name": "Name",
+      "email": "E-mail",
+      "displayname": "Display Name",
+      "lastchange": "Last change",
+      "totalchanges": "Total changes",
+      "canchangename": "You can change your display name :white_check_mark:",
+      "cantchangename": "You can't change your display name :x:",
+      "login": "Login",
+      "lastlogin": "Last login",
+      "failedattempts": "Failed login attempts",
+      "tfa": "Two-Factor Authentication",
+      "account": "Account",
+      "country": "Country",
+      "language": "Preferred language",
+      "cantchangename2": "You can't change your display name at this time. Please try again later.",
+      "id": "Account ID"
+    },
+    "shopsections": {
+      "today": "today",
+      "tomorrow": "tomorrow",
+      "notavailable": "The item shop sections for [day] are not currently available. Please try again later.",
+      "sections": "Item Shop Sections ([date])"
+    },
+    "claimrankrole": {
+      "deletedrank": "Your ranked role has been removed because your rank is the same as your role. You can claim your rank role by using the command again after ranking up.",
+      "norank": "You don't have any rank yet. Complete a match now to rank up! Once you're done, you can claim your role by using the command again.",
+      "rank": "You have received the [role] role! Keep ranking up and update your role on the server by using the command again.",
+      "disabled": "Rank roles are disabled on this server. Please contact the server owner to enable them.",
+      "ranknotfound": "Your rank is [rank] but there is no role with this rank. Please contact the server owner to add a role with this rank.",
+      "error": "Sorry, I don't have enough permissions to give you the [role] role. Please contact the server owner to give me the Manage Roles permission."
+    },
+    "claimfreeitems": {
+      "embed1": "There's no free items available to claim from the item shop.",
+      "embed2": {
+        "title": "Claimed Free Items :white_check_mark:",
+        "description": "You have successfully claimed every available free items from the item shop."
+      },
+      "items": "Items"
+    },
+    "playercount": {
+      "title": "Player Count",
+      "total": "Total player count",
+      "bymode": "Player Counts by Game Modes",
+      "battleroyale": "Battle Royale",
+      "rankedbr": "Ranked Battle Royale",
+      "zerobuilds": "Zero Builds",
+      "rankedzb": "Ranked Zero Builds",
+      "creative": "Creative",
+      "stw": "Save the World"
+    },
+    "weaponinfo": {
+      "notfound": "No weapon with [weapon] name and [rarity] rarity found.",
+      "stats": "Weapon Stats",
+      "damage": "Damage",
+      "critical": "Headshot Damage",
+      "firerate": "Fire Rate",
+      "clipsize": "Clip Size",
+      "reloadtime": "Reload Time",
+      "seconds": "[seconds] seconds",
+      "rarities": {
+        "common": "Common",
+        "uncommon": "Uncommon",
+        "rare": "Rare",
+        "epic": "Epic",
+        "legendary": "Legendary",
+        "mythic": "Mythic",
+        "exotic": "Exotic"
+      }
+    },
+    "deviceauth": {
+      "created": "Device Auth Created :white_check_mark:",
+      "deleted": "Device Auth Deleted :white_check_mark:",
+      "dontshare": "**Please don't share these details with anyone as it can be used to access your account!**",
+      "deviceid": "Device ID",
+      "noauth": "There isn't any device auth with [id] id.",
+      "error": "An unknown error occurred while deleting the device auth.",
+      "deleted2": "Device auth with [id] id has been deleted.",
+      "noauths": "You don't have any device auths.",
+      "deleteall": "Delete All Device Auths",
+      "deleteallconfirmation": "Are you sure you want to delete all your device auths except the one used by the bot? This will delete [amount] device auths and log you out from all devices.",
+      "deletedall": {
+        "title": "All Device Auths Deleted :white_check_mark:",
+        "description": "[deleted]/[total] device auths have been deleted. You have been logged out from all devices."
+      },
+      "dates": "Dates",
+      "createdat": "Created",
+      "lastAccess": "Last Used",
+      "page": "Page [page]/[total]",
+      "deleted3": "Device auth succesfully deleted.",
+      "deleteauth": "Delete Auth",
+      "unknown": "Unknown",
+      "loggedout": "You have been logged out."
+    },
+    "serverstatus": {
+      "up": "Servers Are Up!",
+      "down": "Servers Are Down!",
+      "banned": "You are banned.",
+      "notbanned": "You are not banned!",
+      "statusPage": "Check Status Page",
+      "isBanned": "Banned"
+    },
+    "settings": {
+      "select": "Select a setting to change",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "autosac": "Auto SAC",
+      "autosacdesc": "Refreshes your SAC automatically on every purchase.",
+      "freellama": "Free Llama Claimer",
+      "freellamadesc": "Automatically claims your free llamas every day.",
+      "embed1": {
+        "title": "Settings",
+        "description": "Use the drop-down menu below to change your settings."
+      }
+    },
+    "accesstoken": {
+      "warning": "**:warning: Warning:** Do not share these tokens with anyone as they can be used to access your account!",
+      "accountid": "Account ID"
+    },
+    "staging": {
+      "notfound": "No staging server with the name or URL [input] was found."
+    },
+    "saveprogress": {
+      "success": {
+        "title": "Progress Saved",
+        "description": "You can now leave the mission and get your rewards!"
+      },
+      "error": "An unknown error occurred while saving your progress."
+    },
+    "ranksystem": {
+      "notenabled": "Rank-role system is not enabled on this server. Add a role to the system to enable it.",
+      "rankroles": "Rank Roles",
+      "added": "Successfully added [rank] rank and the [role] role to the system",
+      "removed": "Successfully removed [rank] rank and the [role] role from the system",
+      "alreadyenabled": "Rank-role system is already enabled on this server.",
+      "alreadydisabled": "Rank-role system is already disabled on this server.",
+      "enabledsystem": "Successfully enabled the rank-role system on this server.",
+      "disabledsystem": "Successfully disabled the rank-role system on this server.",
+      "alreadyinsystem": "This rank is already in the system.",
+      "notinsystem": "This rank is not in the system.",
+      "ranks": {
+        "bronze": "Bronze",
+        "silver": "Silver",
+        "gold": "Gold",
+        "platinum": "Platinum",
+        "diamond": "Diamond",
+        "thebest": "The Best"
+      }
+    },
+    "accountsettings": {
+      "gifts": [
+        "Successfully set your gift settings to **Enabled**. You can now receive gifts from your friends.",
+        "Successfully set your gift settings to **Disabled**. You can no longer receive gifts from your friends."
+      ]
+    },
+    "customprofile": {
+      "notfound": "No skin named [name] was found.",
+      "invalidtype": "The cosmetic type must be a character.",
+      "success": "Your avatar and embed color has been successfully changed to match the [name] skin!",
+      "reset": "Your profile has been successfully synced with your Fortnite profile!"
+    },
+    "activatepremium": {
+      "alreadyPremium": "You are already a Premium user.",
+      "invalidCode": "The code you entered is invalid.",
+      "redeemed": {
+        "title": "Code Redeemed",
+        "description": "You have successfully redeemed the code. You can now use the Premium commands.",
+        "description2": "You have successfully redeemed the code. You can now use the Premium commands until [date]."
+      }
+    }
+  },
+  "changenickname": {
+    "error": "An unknown error occurred while changing the nickname.",
+    "okay": "Your friend's new nickname has been set as [name]."
+  },
+  "buytiers": {
+    "invalid": "Please enter a valid number.",
+    "notenough": "You need [requiredVB] more to purchase [amount] tiers. You currently have: [currentVB]",
+    "unknown": "An unknown error occurred during the purchase.",
+    "okay": {
+      "title": "Tiers Purchased",
+      "description": "[amount] tiers were successfully purchased for [spentVB]."
+    }
+  },
+  "general": {
+    "didntconnectdb": "The command couldn't be executed because the bot couldn't connect to the database. Please try again later and join our [support server]([support]) for more information.",
+    "blacklist": "You can't use the bot. You were blacklisted with reason: [reason]. Join our [support server]([support]) for more information.",
+    "blacklistguild": "You can't use the bot in this server. This server was blacklisted with reason: [reason]. Join our [support server]([support]) for more information.",
+    "disabled": "This command is disabled temporary.",
+    "supserveronly": "You can only use this command in [our support server]([support]).",
+    "loginreq": "Please login via [command] command to use this command.",
+    "dataerror": "We had to log you out of your account because your data was not properly processed in the database. Please log in again, and if the issue persists, join our [support server]([support]) for assistance.",
+    "servererror": "Commands interacting with Epic Games are temporarily disabled due to Epic Games servers being offline. Please check the status of servers [here](https://status.epicgames.com/).",
+    "hadtologout": "Your session has been terminated! It could be due to one of the following reasons:\n• Your session timed out.\n• Your account's password has changed.\n• Epic Games or you revoked all authorizations.\n\nYou have been automatically logged out of your account. You can log in again.",
+    "missingperms": "This command couldn't be executed because of missing permissions on your account.",
+    "error": "An unexpected error occurred while executing this command, and the error has been reported to the developers. Please join our [support server]([support]) for assistance.",
+    "acceptedtryagain": "You have accepted the rules. Click the button again to continue.",
+    "hellouser": "Hello, [name]",
+    "crank": "Rank",
+    "chighestrank": "Highest Rank",
+    "alreadyloggedin": "You have already logged in with this account.",
+    "welcomeuser": ":wave: Welcome, [name]!",
+    "help": "If you need help, join our [support server]([support]).",
+    "deviceidcreated": {
+      "title": "Device Auth Created",
+      "deviceId": "Device ID",
+      "secret": "Secret (Do Not Share!)",
+      "footer": "To log out and delete your account information from the bot, use the /logout command."
+    },
+    "dontuseanother": "Please log in to the bot using only the link provided by the bot.",
+    "expiredExchange": "An error occurred while logging in. The Exchange Code may have expired. Please try again.",
+    "noresults": "No results found!",
+    "page": "Page",
+    "reachedmax": "You have reached maximum page.",
+    "notactive": "The command couldn't be executed because your Epic account ([accountId]) is disabled by Epic Games. Please contact Epic Games using [this link](https://www.epicgames.com/help/en-US/contact-us) for more information.",
+    "yourvbucks": "Your V-Bucks",
+    "supportedcreator": "Supported Creator",
+    "banned": "Sorry, it appears that your account has been banned by Epic Games. Please contact Epic Games using [this link](https://www.epicgames.com/help/en-US/contact-us) for more information.",
+    "dmonly": "This command can only be used in DMs.",
+    "premium": "You can read this message [messageLink] [in our support server]([support]) to learn more about Premium!",
+    "premiumGuild": "The owner of this server must have Premium to use this command. You can read this message [messageLink] [in our support server]([support]) to learn more about Premium!",
+    "missingpermissions": "You must have [perm] permission to use this command.",
+    "missingpermsbot": "I must have [perm] permission to use this command."
+  },
+  "global": {
+    "yes": "Yes",
+    "no": "No",
+    "account_id": "Account ID",
+    "successTitles": [
+      "Great!",
+      "Successful"
+    ],
+    "errorTitles": [
+      ":warning: There was an Error!",
+      ":warning: We Hit a Roadblock!",
+      ":warning: Not the Llama You're Looking For!",
+      ":warning: That Wasn't Supposed To Happen!"
+    ],
+    "premiumTitles": [
+      ":star: A Premium Feature!"
+    ],
+    "ranks": [
+      "Unranked",
+      "Bronze I",
+      "Bronze II",
+      "Bronze III",
+      "Silver I",
+      "Silver II",
+      "Silver III",
+      "Gold I",
+      "Gold II",
+      "Gold III",
+      "Platinum I",
+      "Platinum II",
+      "Platinum III",
+      "Diamond I",
+      "Diamond II",
+      "Diamond III",
+      "Elite",
+      "Champion",
+      "Unreal"
+    ],
+    "rules": {
+      "title": "Please Read Before Logging in:",
+      "description": "1. Bot uses personal data collected from users, such as Epic Games account information, only to use it to provide the services provided. Your data will never be shown, sold, rented to a third party.\n2. We do not accept any responsibility for any action taken against your account, including but not limited to restrictions, closures, or bans. These situations can be caused by commands or unintended use of commands.\n3. Please use this bot only if you fully accept the risks involved and fully agree to the [Terms of Service](https://rookie-spitfire.cf/tos) and [Privacy Policy](https://rookie-spitfire.cf/privacy-policy).\n\n**Only click the \"I Agree\" button below if you agree to these terms!**",
+      "accept": "I Agree",
+      "deny": "I Deny"
+    }
+  },
+  "commandData": [
+    {
+      "name": "ping",
+      "localizedName": "ping",
+      "localizedDescription": "Returns bot and API latency"
+    },
+    {
+      "name": "help",
+      "localizedName": "help",
+      "localizedDescription": "Gives info about the bot",
+      "options": [
+        {
+          "name": "command",
+          "localizedName": "command",
+          "localizedDescription": "Get info about a command"
         }
+      ]
     },
-    "general": {
-        "didntconnectdb": "The command couldn't be executed because the bot couldn't connect to the database. Please try again later and join our [support server]([support]) for more information.",
-        "blacklist": "You can't use the bot. You were blacklisted with reason: [reason]. Join our [support server]([support]) for more information.",
-        "blacklistguild": "You can't use the bot in this server. This server was blacklisted with reason: [reason]. Join our [support server]([support]) for more information.",
-        "disabled": "This command is disabled temporary.",
-        "supserveronly": "You can only use this command in [our support server]([support]).",
-        "loginreq": "Please login via [command] command to use this command.",
-        "dataerror": "We had to log you out of your account because your data was not properly processed in the database. Please log in again, and if the issue persists, join our [support server]([support]) for assistance.",
-        "servererror": "Commands interacting with Epic Games are temporarily disabled due to Epic Games servers being offline. Please check the status of servers [here](https://status.epicgames.com/).",
-        "hadtologout": "Your session has been terminated! It could be due to one of the following reasons:\n• Your session timed out.\n• Your account's password has changed.\n• Epic Games or you revoked all authorizations.\n\nYou have been automatically logged out of your account. You can log in again.",
-        "missingperms": "This command couldn't be executed because of missing permissions on your account.",
-        "error": "An unexpected error occurred while executing this command, and the error has been reported to the developers. Please join our [support server]([support]) for assistance.",
-        "acceptedtryagain": "You have accepted the rules. Click the button again to continue.",
-        "hellouser": "Hello, [name]",
-        "crank": "Rank",
-        "chighestrank": "Highest Rank",
-        "alreadyloggedin": "You have already logged in with this account.",
-        "welcomeuser": ":wave: Welcome, [name]!",
-        "help": "If you need help, join our [support server]([support]).",
-        "deviceidcreated": {
-            "title": "Device Auth Created",
-            "deviceId": "Device ID",
-            "secret": "Secret (Do Not Share!)",
-            "footer": "To log out and delete your account information from the bot, use the /logout command."
-        },
-        "dontuseanother": "Please log in to the bot using only the link provided by the bot.",
-        "expiredExchange": "An error occurred while logging in. The Exchange Code may have expired. Please try again.",
-        "noresults": "No results found!",
-        "page": "Page",
-        "reachedmax": "You have reached maximum page.",
-        "notactive": "The command couldn't be executed because your Epic account ([accountId]) is disabled by Epic Games. Please contact Epic Games using [this link](https://www.epicgames.com/help/en-US/contact-us) for more information.",
-        "yourvbucks": "Your V-Bucks",
-        "supportedcreator": "Supported Creator",
-        "banned": "Sorry, it appears that your account has been banned by Epic Games. Please contact Epic Games using [this link](https://www.epicgames.com/help/en-US/contact-us) for more information.",
-        "dmonly": "This command can only be used in DMs.",
-        "premium": "You can read this message [messageLink] [in our support server]([support]) to learn more about Premium!",
-        "premiumGuild": "The owner of this server must have Premium to use this command. You can read this message [messageLink] [in our support server]([support]) to learn more about Premium!",
-        "missingpermissions": "You must have [perm] permission to use this command.",
-        "missingpermsbot": "I must have [perm] permission to use this command."
-    },
-    "global": {
-        "yes": "Yes",
-        "no": "No",
-        "account_id": "Account ID",
-        "successTitles": [
-            "Great!",
-            "Successful"
-        ],
-        "errorTitles": [
-            ":warning: There was an Error!",
-            ":warning: We Hit a Roadblock!",
-            ":warning: Not the Llama You're Looking For!",
-            ":warning: That Wasn't Supposed To Happen!"
-        ],
-        "premiumTitles": [
-            ":star: A Premium Feature!"
-        ],
-        "ranks": [
-            "Unranked",
-            "Bronze I",
-            "Bronze II",
-            "Bronze III",
-            "Silver I",
-            "Silver II",
-            "Silver III",
-            "Gold I",
-            "Gold II",
-            "Gold III",
-            "Platinum I",
-            "Platinum II",
-            "Platinum III",
-            "Diamond I",
-            "Diamond II",
-            "Diamond III",
-            "Elite",
-            "Champion",
-            "Unreal"
-        ],
-        "rules": {
-            "title": "Please Read Before Logging in:",
-            "description": "1. Bot uses personal data collected from users, such as Epic Games account information, only to use it to provide the services provided. Your data will never be shown, sold, rented to a third party.\n2. We do not accept any responsibility for any action taken against your account, including but not limited to restrictions, closures, or bans. These situations can be caused by commands or unintended use of commands.\n3. Please use this bot only if you fully accept the risks involved and fully agree to the [Terms of Service](https://rookie-spitfire.cf/tos) and [Privacy Policy](https://rookie-spitfire.cf/privacy-policy).\n\n**Only click the \"I Agree\" button below if you agree to these terms!**",
-            "accept": "I Agree",
-            "deny": "I Deny"
+    {
+      "name": "claim2fa",
+      "localizedName": "claim-2fa-rewards",
+      "localizedDescription": "Claim your 2FA rewards",
+      "options": [
+        {
+          "name": "stw",
+          "localizedName": "stw",
+          "localizedDescription": "Claim or don't claim the Save the World rewards. Default: True (claim)"
         }
+      ]
     },
-    "commandData": [
+    {
+      "name": "island",
+      "localizedName": "island",
+      "localizedDescription": "Search a Creative island or add to your favorites",
+      "options": [
         {
-            "name": "ping",
-            "localizedName": "ping",
-            "localizedDescription": "Returns bot and API latency"
+          "name": "search",
+          "localizedName": "search",
+          "localizedDescription": "Search an island",
+          "options": [
+            {
+              "name": "code",
+              "localizedName": "code",
+              "localizedDescription": "Island code"
+            }
+          ]
         },
         {
-            "name": "help",
-            "localizedName": "help",
-            "localizedDescription": "Gives info about the bot",
-            "options": [
-                {
-                    "name": "command",
-                    "localizedName": "command",
-                    "localizedDescription": "Get info about a command"
-                }
-            ]
-        },
-        {
-            "name": "claim2fa",
-            "localizedName": "claim-2fa-rewards",
-            "localizedDescription": "Claim your 2FA rewards",
-            "options": [
-                {
-                    "name": "stw",
-                    "localizedName": "stw",
-                    "localizedDescription": "Claim or don't claim the Save the World rewards. Default: True (claim)"
-                }
-            ]
-        },
-        {
-            "name": "island",
-            "localizedName": "island",
-            "localizedDescription": "Search a Creative island or add to your favorites",
-            "options": [
-                {
-                    "name": "search",
-                    "localizedName": "search",
-                    "localizedDescription": "Search an island",
-                    "options": [
-                        {
-                            "name": "code",
-                            "localizedName": "code",
-                            "localizedDescription": "Island code"
-                        }
-                    ]
-                },
-                {
-                    "name": "favorite",
-                    "description": "Add an island to your favorites",
-                    "localizedName": "favorite",
-                    "localizedDescription": "Add an island to your favorites",
-                    "options": [
-                        {
-                            "name": "code",
-                            "description": "Island code",
-                            "localizedName": "code",
-                            "localizedDescription": "Island code"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "anti-cheat",
-            "localizedName": "anti-cheat",
-            "localizedDescription": "Shows the anti-cheat provider you are using"
-        },
-        {
-            "name": "friends",
-            "localizedName": "friends",
-            "localizedDescription": "Manage your friends list",
-            "options": [
-                {
-                    "name": "user",
-                    "localizedName": "user",
-                    "localizedDescription": "Check friendship status with a player",
-                    "options": [
-                        {
-                            "name": "name",
-                            "localizedName": "name",
-                            "localizedDescription": "Player's display name"
-                        }
-                    ]
-                },
-                {
-                    "name": "remove-all",
-                    "localizedName": "remove-all",
-                    "localizedDescription": "Remove all of your friends"
-                },
-                {
-                    "name": "list",
-                    "localizedName": "list",
-                    "localizedDescription": "View your friend list",
-                    "options": [
-                        {
-                            "name": "type",
-                            "localizedName": "type",
-                            "localizedDescription": "Type of friend list to view"
-                        }
-                    ]
-                },
-                {
-                    "name": "accept-all-incoming",
-                    "localizedName": "accept-all-incoming",
-                    "localizedDescription": "Accept all incoming friend requests"
-                },
-                {
-                    "name": "decline-all-incoming",
-                    "localizedName": "decline-all-incoming",
-                    "localizedDescription": "Decline all incoming friend requests"
-                },
-                {
-                    "name": "cancel-all-outgoing",
-                    "localizedName": "cancel-all-outgoing",
-                    "localizedDescription": "Cancel all outgoing friend requests"
-                },
-                {
-                    "name": "cleanup",
-                    "localizedName": "cleanup",
-                    "localizedDescription": "Remove players whose accounts have been closed from your friends list"
-                },
-                {
-                    "name": "add",
-                    "localizedName": "add",
-                    "localizedDescription": "Add a friend to your friend list",
-                    "options": [
-                        {
-                            "name": "name",
-                            "localizedName": "name",
-                            "localizedDescription": "Player's display name"
-                        }
-                    ]
-                },
-                {
-                    "name": "remove",
-                    "localizedName": "remove",
-                    "localizedDescription": "Remove a friend from your friend list",
-                    "options": [
-                        {
-                            "name": "name",
-                            "localizedName": "name",
-                            "localizedDescription": "Player's display name"
-                        }
-                    ]
-                },
-                {
-                    "name": "block",
-                    "localizedName": "block",
-                    "localizedDescription": "Block a player",
-                    "options": [
-                        {
-                            "name": "name",
-                            "localizedName": "name",
-                            "localizedDescription": "Player's display name"
-                        }
-                    ]
-                },
-                {
-                    "name": "unblock",
-                    "localizedName": "unblock",
-                    "localizedDescription": "Unblock a player",
-                    "options": [
-                        {
-                            "name": "name",
-                            "localizedName": "name",
-                            "localizedDescription": "Player's display name"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "battle-royale",
-            "localizedName": "battle-royale",
-            "localizedDescription": "Gives your battle-royale info"
-        },
-        {
-            "name": "whoami",
-            "localizedName": "whoami",
-            "localizedDescription": "View your account info"
-        },
-        {
-            "name": "cloud-storage",
-            "localizedName": "cloud-storage",
-            "localizedDescription": "Manage and view your cloud storage",
-            "options": [
-                {
-                    "name": "download",
-                    "localizedName": "download",
-                    "localizedDescription": "Download a file from your game files",
-                    "options": [
-                        {
-                            "name": "file-name",
-                            "localizedName": "file-name",
-                            "localizedDescription": "File name to download"
-                        }
-                    ]
-                },
-                {
-                    "name": "upload",
-                    "localizedName": "upload",
-                    "localizedDescription": "Upload a file to your game files",
-                    "options": [
-                        {
-                            "name": "file",
-                            "localizedName": "file",
-                            "localizedDescription": "File to upload"
-                        },
-                        {
-                            "name": "file-name",
-                            "localizedName": "file-name",
-                            "localizedDescription": "File name to use"
-                        }
-                    ]
-                },
-                {
-                    "name": "list",
-                    "localizedName": "list",
-                    "localizedDescription": "List your game files"
-                }
-            ]
-        },
-        {
-            "name": "logout",
-            "localizedName": "logout",
-            "localizedDescription": "Logs you out of the bot"
-        },
-        {
-            "name": "ranked",
-            "localizedName": "ranked",
-            "localizedDescription": "View your ranked status",
-            "options": [
-                {
-                    "name": "mode",
-                    "localizedName": "mode",
-                    "localizedDescription": "Mode to get your stats of"
-                }
-            ]
-        },
-        {
-            "name": "locker",
-            "localizedName": "locker",
-            "localizedDescription": "View your locker",
-            "options": [
-                {
-                    "name": "fortnitegg",
-                    "localizedName": "fortnitegg",
-                    "localizedDescription": "View your locker on Fortnite.GG"
-                },
-                {
-                    "name": "image",
-                    "localizedName": "image",
-                    "localizedDescription": "View your locker as an image",
-                    "options": [
-                        {
-                            "name": "type",
-                            "description": "Cosmetic type to view"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "exchange-code",
-            "localizedName": "exchange-code",
-            "localizedDescription": "Generates an exhange code to login from another location"
-        },
-        {
-            "name": "login",
-            "localizedName": "login",
-            "localizedDescription": "Login to your Epic Games account",
-            "options": [
-                {
-                    "name": "auth-type",
-                    "localizedName": "auth-type",
-                    "localizedDescription": "Choose how you want to log in to your account"
-                }
-            ]
-        },
-        {
-            "name": "daily-quests",
-            "localizedName": "daily-quests",
-            "localizedDescription": "View your daily Save the World quests"
-        },
-        {
-            "name": "news",
-            "localizedName": "news",
-            "localizedDescription": "View latest Battle Royale news",
-            "options": [
-                {
-                    "name": "mode",
-                    "localizedName": "mode",
-                    "localizedDescription": "Mode to view news of"
-                }
-            ]
-        },
-        {
-            "name": "map",
-            "localizedName": "map",
-            "localizedDescription": "View the Fortnite map"
-        },
-        {
-            "name": "reminder",
-            "localizedName": "reminder",
-            "localizedDescription": "Be notified when a cosmetic comes to the Item Shop",
-            "options": [
-                {
-                    "name": "add",
-                    "localizedName": "add",
-                    "localizedDescription": "Add a cosmetic to your reminder list",
-                    "options": [
-                        {
-                            "name": "cosmetic",
-                            "localizedName": "cosmetic",
-                            "localizedDescription": "Cosmetic name to add to your reminder list"
-                        },
-                        {
-                            "name": "language",
-                            "localizedName": "language",
-                            "localizedDescription": "The search language and the language of appearance of the cosmetic's name, description, etc."
-                        }
-                    ]
-                },
-                {
-                    "name": "remove",
-                    "localizedName": "remove",
-                    "localizedDescription": "Remove a cosmetic from your reminder list",
-                    "options": [
-                        {
-                            "name": "cosmetic",
-                            "localizedName": "cosmetic",
-                            "localizedDescription": "Cosmetic name to remove from your reminder list"
-                        },
-                        {
-                            "name": "language",
-                            "localizedName": "language",
-                            "localizedDescription": "The search language and the language of appearance of the cosmetic's name, description, etc."
-                        }
-                    ]
-                },
-                {
-                    "name": "clear",
-                    "localizedName": "clear",
-                    "localizedDescription": "Clear your reminder list"
-                },
-                {
-                    "name": "list",
-                    "localizedName": "list",
-                    "localizedDescription": "View your reminder list"
-                }
-            ]
-        },
-        {
-            "name": "gift",
-            "localizedName": "gift",
-            "localizedDescription": "Send a gift to your friends",
-            "options": [
-                {
-                    "name": "friend-name",
-                    "localizedName": "friend-name",
-                    "localizedDescription": "The display name of your friend"
-                },
-                {
-                    "name": "item",
-                    "localizedName": "item",
-                    "localizedDescription": "The number or item name at the bottom left that appears in the Item Shop image"
-                }
-            ]
-        },
-        {
-            "name": "gift-history",
-            "localizedName": "gift-history",
-            "localizedDescription": "View your gift history",
-            "options": [
-                {
-                    "name": "received",
-                    "localizedName": "received",
-                    "localizedDescription": "View who sent gifts to you"
-                },
-                {
-                    "name": "sent",
-                    "localizedName": "sent",
-                    "localizedDescription": "View gifts you sent"
-                }
-            ]
-        },
-        {
-            "name": "shop",
-            "localizedName": "shop",
-            "localizedDescription": "Sends an image of today's item shop"
-        },
-        {
-            "name": "season-progress",
-            "localizedName": "season-progress",
-            "localizedDescription": "Sends season progress"
-        },
-        {
-            "name": "cosmetic",
-            "localizedName": "cosmetic",
-            "localizedDescription": "Search a cosmetic",
-            "options": [
-                {
-                    "name": "name",
-                    "localizedName": "name",
-                    "localizedDescription": "Cosmetic name to search"
-                },
-                {
-                    "name": "search-language",
-                    "localizedName": "search-language",
-                    "localizedDescription": "Set the cosmetic search language"
-                },
-                {
-                    "name": "output-language",
-                    "localizedName": "output-language",
-                    "localizedDescription": "The language of appearance of the cosmetic's name, description, etc."
-                }
-            ]
-        },
-        {
-            "name": "creative-xp",
-            "localizedName": "creative-xp",
-            "localizedDescription": "View your daily Creative XP limits and usage"
-        },
-        {
-            "name": "random-location",
-            "localizedName": "random-location",
-            "localizedDescription": "Gives you a random location to jump to"
-        },
-        {
-            "name": "redeem",
-            "localizedName": "redeem",
-            "localizedDescription": "Redeem a code for Epic Games",
-            "options": [
-                {
-                    "name": "code",
-                    "localizedName": "code",
-                    "localizedDescription": "Code to scan"
-                },
-                {
-                    "name": "bulk",
-                    "localizedName": "bulk",
-                    "localizedDescription": "Whether to redeem the code in every account"
-                }
-            ]
-        },
-        {
-            "name": "sac",
-            "localizedName": "sac",
-            "localizedDescription": "Manage the content creator you are supporting",
-            "options": [
-                {
-                    "name": "change",
-                    "localizedName": "change",
-                    "localizedDescription": "Change the content creator you are supporting",
-                    "options": [
-                        {
-                            "name": "code",
-                            "localizedName": "code",
-                            "localizedDescription": "Creator code to support"
-                        }
-                    ]
-                },
-                {
-                    "name": "supported",
-                    "localizedName": "supported",
-                    "localizedDescription": "View the content creator you support"
-                },
-                {
-                    "name": "search",
-                    "localizedName": "search",
-                    "localizedDescription": "View the owner and information of a code",
-                    "options": [
-                        {
-                            "name": "code",
-                            "localizedName": "code",
-                            "localizedDescription": "Code to scan"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "buy",
-            "localizedName": "buy",
-            "localizedDescription": "Buy an item from the item shop",
-            "options": [
-                {
-                    "name": "item",
-                    "localizedName": "item",
-                    "localizedDescription": "The number or item name at the bottom left that appears in the Item Shop image"
-                }
-            ]
-        },
-        {
-            "name": "battle-pass",
-            "localizedName": "battle-pass",
-            "localizedDescription": "Buy the battle pass or other packs"
-        },
-        {
-            "name": "stats",
-            "localizedName": "stats",
-            "localizedDescription": "View a Fortnite player's stats",
-            "options": [
-                {
-                    "name": "name",
-                    "localizedName": "name",
-                    "localizedDescription": "Player's Epic display name"
-                }
-            ]
-        },
-        {
-            "name": "offer",
-            "localizedName": "offer",
-            "localizedDescription": "Buy or search for an offer by entering Offer ID",
-            "options": [
-                {
-                    "name": "offer-id",
-                    "localizedName": "offer-id",
-                    "localizedDescription": "The Offer ID of the offer you will search or buy"
-                }
-            ]
-        },
-        {
-            "name": "vbucks",
-            "localizedName": "vbucks",
-            "localizedDescription": "Create a v-bucks purchase link for a specific amount, view your balance or your buy history",
-            "options": [
-                {
-                    "name": "buy",
-                    "localizedName": "buy",
-                    "localizedDescription": "Creates a link to buy a certain amount of v-bucks",
-                    "options": [
-                        {
-                            "name": "amount",
-                            "localizedName": "amount",
-                            "localizedDescription": "Amount to be generated"
-                        }
-                    ]
-                },
-                {
-                    "name": "balance",
-                    "localizedName": "balance",
-                    "localizedDescription": "View how much v-bucks you have",
-                    "options": [
-                        {
-                            "name": "bulk",
-                            "localizedName": "bulk",
-                            "localizedDescription": "Whether to view the balance of all accounts"
-                        }
-                    ]
-                },
-                {
-                    "name": "history",
-                    "localizedName": "history",
-                    "localizedDescription": "View your v-bucks buy history"
-                }
-            ]
-        },
-        {
-            "name": "bot-info",
-            "localizedName": "bot-info",
-            "localizedDescription": "Gives info about the bot"
-        },
-        {
-            "name": "banned",
-            "localizedName": "banned",
-            "localizedDescription": "Check if your account is banned or not"
-        },
-        {
-            "name": "creative-xp",
-            "localizedName": "creative-xp",
-            "localizedDescription": "View your daily Creative XP limits and usage"
-        },
-        {
-            "name": "refresh-profile",
-            "localizedName": "refresh-profile",
-            "localizedDescription": "Refreshes your Battle Royale and Save the World profile"
-        },
-        {
-            "name": "motd",
-            "localizedName": "personal-news",
-            "localizedDescription": "View your personal Fortnite news"
-        },
-        {
-            "name": "launch-fortnite",
-            "localizedName": "launch-fortnite",
-            "localizedDescription": "Launch Fortnite with a Command Prompt command"
-        },
-        {
-            "name": "preferences",
-            "localizedName": "preferences",
-            "localizedDescription": "Change your bot preferences",
-            "options": [
-                {
-                    "name": "language",
-                    "localizedName": "language",
-                    "localizedDescription": "Change your bot language",
-                    "options": [
-                        {
-                            "name": "language",
-                            "localizedName": "language",
-                            "localizedDescription": "The new language"
-                        }
-                    ]
-                },
-                {
-                    "name": "reply-type",
-                    "localizedName": "reply-type",
-                    "localizedDescription": "Change your bot reply type",
-                    "options": [
-                        {
-                            "name": "type",
-                            "localizedName": "type",
-                            "localizedDescription": "The new reply type"
-                        }
-                    ]
-                },
-                {
-                    "name": "censor",
-                    "localizedName": "censor",
-                    "localizedDescription": "Change your bot censor type",
-                    "options": [
-                        {
-                            "name": "type",
-                            "localizedName": "type",
-                            "localizedDescription": "The new censor type"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "mission-alerts",
-            "localizedName": "mission-alerts",
-            "localizedDescription": "View the Save the World mission alerts"
-        },
-        {
-            "name": "ghost-equip",
-            "localizedName": "ghost-equip",
-            "localizedDescription": "Equip any cosmetic in your party, no matter if you own it or not",
-            "options": [
-                {
-                    "name": "name",
-                    "localizedName": "name",
-                    "localizedDescription": "Cosmetic name to search"
-                },
-                {
-                    "name": "language",
-                    "localizedName": "language",
-                    "localizedDescription": "The search language and the language of appearance of the cosmetic's name, description, etc."
-                }
-            ]
-        },
-        {
-            "name": "fake-level",
-            "localizedName": "fake-level",
-            "localizedDescription": "Set your level to a fake level in your party",
-            "options": [
-                {
-                    "name": "level",
-                    "localizedName": "level",
-                    "localizedDescription": "New level"
-                }
-            ]
-        },
-        {
-            "name": "fake-crown-wins",
-            "localizedName": "fake-crown-wins",
-            "localizedDescription": "Set your crowns to a fake crown amount in your party",
-            "options": [
-                {
-                    "name": "amount",
-                    "localizedName": "amount",
-                    "localizedDescription": "New crown amount"
-                }
-            ]
-        },
-        {
-            "name": "stw",
-            "localizedName": "stw",
-            "localizedDescription": "View your Save the World information",
-            "options": [
-                {
-                    "name": "info",
-                    "localizedName": "info",
-                    "localizedDescription": "View your Save the World statistics"
-                },
-                {
-                    "name": "xp",
-                    "localizedName": "xp",
-                    "localizedDescription": "View your daily Save the World XP usage and limit"
-                }
-            ]
-        },
-        {
-            "name": "research",
-            "localizedName": "research",
-            "localizedDescription": "View or upgrade your research levels in Save the World"
-        },
-        {
-            "name": "undo-purchase",
-            "localizedName": "undo-purchase",
-            "localizedDescription": "Undo one of your purchases without using refund tickets"
-        },
-        {
-            "name": "party",
-            "localizedName": "party",
-            "localizedDescription": "Manage your current party",
-            "options": [
-                {
-                    "name": "info",
-                    "localizedName": "info",
-                    "localizedDescription": "Get info about your current party"
-                },
-                {
-                    "name": "leave",
-                    "localizedName": "leave",
-                    "localizedDescription": "Leave your current party"
-                }
-            ]
-        },
-        {
-            "name": "skip-tutorial",
-            "localizedName": "skip-tutorial",
-            "localizedDescription": "Skip the Save the World tutorial"
-        },
-        {
-            "name": "account",
-            "localizedName": "account",
-            "localizedDescription": "Manage your account",
-            "options": [
-                {
-                    "name": "change-name",
-                    "localizedName": "change-name",
-                    "localizedDescription": "Changes your display name",
-                    "options": [
-                        {
-                            "name": "name",
-                            "localizedName": "name",
-                            "localizedDescription": "New display name"
-                        }
-                    ]
-                },
-                {
-                    "name": "change-phone-number",
-                    "localizedName": "change-phone-number",
-                    "localizedDescription": "Changes your phone number",
-                    "options": [
-                        {
-                            "name": "number",
-                            "localizedName": "number",
-                            "localizedDescription": "New phone number"
-                        }
-                    ]
-                },
-                {
-                    "name": "info",
-                    "localizedName": "info",
-                    "localizedDescription": "View your sensitive account information"
-                }
-            ]
-        },
-        {
-            "name": "shop-sections",
-            "localizedName": "shop-sections",
-            "localizedDescription": "Sends today's or tomorrow's item shop sections",
-            "options": [
-                {
-                    "name": "day",
-                    "localizedName": "day",
-                    "localizedDescription": "The day to get the item shop sections for"
-                }
-            ]
-        },
-        {
-            "name": "claim-rank-role",
-            "localizedName": "claim-rank-role",
-            "localizedDescription": "Get a role based on your rank in the server",
-            "options": [
-                {
-                    "name": "mode",
-                    "localizedName": "mode",
-                    "localizedDescription": "Ranked game mode"
-                }
-            ]
-        },
-        {
-            "name": "claim-free-items",
-            "localizedName": "claim-free-items",
-            "localizedDescription": "Claims free items from the item shop"
-        },
-        {
-            "name": "player-count",
-            "localizedName": "player-count",
-            "localizedDescription": "View the number of active players and how many players are playing which game modes"
-        },
-        {
-            "name": "weapon-info",
-            "localizedName": "weapon-info",
-            "localizedDescription": "Get information about a weapon",
-            "options": [
-                {
-                    "name": "rarity",
-                    "localizedName": "rarity",
-                    "localizedDescription": "The rarity of the weapon"
-                },
-                {
-                    "name": "weapon",
-                    "localizedName": "weapon",
-                    "localizedDescription": "The weapon to get information about"
-                }
-            ]
-        },
-        {
-            "name": "device-auth",
-            "localizedName": "device-auth",
-            "localizedDescription": "Manage your device auths",
-            "options": [
-                {
-                    "name": "create",
-                    "localizedName": "create",
-                    "localizedDescription": "Create a new device auth"
-                },
-                {
-                    "name": "list",
-                    "localizedName": "list",
-                    "localizedDescription": "List your device auths"
-                },
-                {
-                    "name": "delete",
-                    "localizedName": "delete",
-                    "localizedDescription": "Delete a device auth",
-                    "options": [
-                        {
-                            "name": "device-id",
-                            "localizedName": "device-id",
-                            "localizedDescription": "Device ID to delete"
-                        }
-                    ]
-                },
-                {
-                    "name": "delete-all",
-                    "localizedName": "delete-all",
-                    "localizedDescription": "Delete all your device auths except the one used by the bot"
-                }
-            ]
-        },
-        {
-            "name": "server-status",
-            "localizedName": "server-status",
-            "localizedDescription": "View the status of Fortnite servers"
-        },
-        {
-            "name": "access-token",
-            "localizedName": "access-token",
-            "localizedDescription": "Generate a new access token by selecting a client",
-            "options": [
-                {
-                    "name": "client",
-                    "localizedName": "client",
-                    "localizedDescription": "The client you want to use"
-                }
-            ]
-        },
-        {
-            "name": "settings",
-            "localizedName": "settings",
-            "localizedDescription": "Manage your settings"
-        },
-        {
-            "name": "staging",
-            "localizedName": "staging",
-            "localizedDescription": "View the information of a staging server's MCP server",
-            "options": [
-                {
-                    "name": "server",
-                    "localizedName": "server",
-                    "localizedDescription": "The server name or URL to get information about"
-                }
-            ]
-        },
-        {
-            "name": "save-progress",
-            "localizedName": "save-progress",
-            "localizedDescription": "Complete quests in STW without completing the mission"
-        },
-        {
-            "name": "rank-system",
-            "localizedName": "rank-system",
-            "localizedDescription": "Manage the rank-role system in your server to let users get roles using /claim-rank-role command",
-            "options": [
-                {
-                    "name": "add",
-                    "localizedName": "add",
-                    "localizedDescription": "Add a rank-role system to your server",
-                    "options": [
-                        {
-                            "name": "rank",
-                            "localizedName": "rank",
-                            "localizedDescription": "The rank"
-                        },
-                        {
-                            "name": "role",
-                            "localizedName": "role",
-                            "localizedDescription": "Role to give to users"
-                        }
-                    ]
-                },
-                {
-                    "name": "remove",
-                    "localizedName": "remove",
-                    "localizedDescription": "Remove a rank-role system from your server",
-                    "options": [
-                        {
-                            "name": "rank",
-                            "localizedName": "rank",
-                            "localizedDescription": "The rank"
-                        }
-                    ]
-                },
-                {
-                    "name": "list",
-                    "localizedName": "list",
-                    "localizedDescription": "List the rank-role systems in your server"
-                },
-                {
-                    "name": "enable",
-                    "localizedName": "enable",
-                    "localizedDescription": "Enable the rank-role system in your server"
-                },
-                {
-                    "name": "disable",
-                    "localizedName": "disable",
-                    "localizedDescription": "Disable the rank-role system in your server"
-                }
-            ]
-        },
-        {
-            "name": "account-settings",
-            "localizedName": "account-settings",
-            "localizedDescription": "Update your Epic Games account settings",
-            "options": [
-                {
-                    "name": "receive-gifts",
-                    "localizedName": "receive-gifts",
-                    "localizedDescription": "Toggle receiving gifts from friends",
-                    "options": [
-                        {
-                            "name": "state",
-                            "localizedName": "state",
-                            "localizedDescription": "Whether to receive gifts or not"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "custom-profile",
-            "localizedName": "custom-profile",
-            "localizedDescription": "Edit the bot's embed color and avatar",
-            "options": [
-                {
-                    "name": "set",
-                    "localizedName": "set",
-                    "localizedDescription": "Setup your custom profile",
-                    "options": [
-                        {
-                            "name": "skin",
-                            "localizedName": "skin",
-                            "localizedDescription": "The skin to use for the avatar and embed color"
-                        },
-                        {
-                            "name": "search-language",
-                            "localizedName": "search-language",
-                            "localizedDescription": "Set the cosmetic search language"
-                        }
-                    ]
-                },
-                {
-                    "name": "reset",
-                    "localizedName": "reset",
-                    "localizedDescription": "Reset your custom profile"
-                }
-            ]
-        }, 
-        {
-            "name": "activate-premium",
-            "localizedName": "activate-premium",
-            "localizedDescription": "Activate Premium using a code",
-            "options": [
-                {
-                    "name": "code",
-                    "localizedName": "code",
-                    "localizedDescription": "The code to redeem"
-                }
-            ]
+          "name": "favorite",
+          "description": "Add an island to your favorites",
+          "localizedName": "favorite",
+          "localizedDescription": "Add an island to your favorites",
+          "options": [
+            {
+              "name": "code",
+              "description": "Island code",
+              "localizedName": "code",
+              "localizedDescription": "Island code"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "name": "anti-cheat",
+      "localizedName": "anti-cheat",
+      "localizedDescription": "Shows the anti-cheat provider you are using"
+    },
+    {
+      "name": "friends",
+      "localizedName": "friends",
+      "localizedDescription": "Manage your friends list",
+      "options": [
+        {
+          "name": "user",
+          "localizedName": "user",
+          "localizedDescription": "Check friendship status with a player",
+          "options": [
+            {
+              "name": "name",
+              "localizedName": "name",
+              "localizedDescription": "Player's display name"
+            }
+          ]
+        },
+        {
+          "name": "remove-all",
+          "localizedName": "remove-all",
+          "localizedDescription": "Remove all of your friends"
+        },
+        {
+          "name": "list",
+          "localizedName": "list",
+          "localizedDescription": "View your friend list",
+          "options": [
+            {
+              "name": "type",
+              "localizedName": "type",
+              "localizedDescription": "Type of friend list to view"
+            }
+          ]
+        },
+        {
+          "name": "accept-all-incoming",
+          "localizedName": "accept-all-incoming",
+          "localizedDescription": "Accept all incoming friend requests"
+        },
+        {
+          "name": "decline-all-incoming",
+          "localizedName": "decline-all-incoming",
+          "localizedDescription": "Decline all incoming friend requests"
+        },
+        {
+          "name": "cancel-all-outgoing",
+          "localizedName": "cancel-all-outgoing",
+          "localizedDescription": "Cancel all outgoing friend requests"
+        },
+        {
+          "name": "cleanup",
+          "localizedName": "cleanup",
+          "localizedDescription": "Remove players whose accounts have been closed from your friends list"
+        },
+        {
+          "name": "add",
+          "localizedName": "add",
+          "localizedDescription": "Add a friend to your friend list",
+          "options": [
+            {
+              "name": "name",
+              "localizedName": "name",
+              "localizedDescription": "Player's display name"
+            }
+          ]
+        },
+        {
+          "name": "remove",
+          "localizedName": "remove",
+          "localizedDescription": "Remove a friend from your friend list",
+          "options": [
+            {
+              "name": "name",
+              "localizedName": "name",
+              "localizedDescription": "Player's display name"
+            }
+          ]
+        },
+        {
+          "name": "block",
+          "localizedName": "block",
+          "localizedDescription": "Block a player",
+          "options": [
+            {
+              "name": "name",
+              "localizedName": "name",
+              "localizedDescription": "Player's display name"
+            }
+          ]
+        },
+        {
+          "name": "unblock",
+          "localizedName": "unblock",
+          "localizedDescription": "Unblock a player",
+          "options": [
+            {
+              "name": "name",
+              "localizedName": "name",
+              "localizedDescription": "Player's display name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "battle-royale",
+      "localizedName": "battle-royale",
+      "localizedDescription": "Gives your battle-royale info"
+    },
+    {
+      "name": "whoami",
+      "localizedName": "whoami",
+      "localizedDescription": "View your account info"
+    },
+    {
+      "name": "cloud-storage",
+      "localizedName": "cloud-storage",
+      "localizedDescription": "Manage and view your cloud storage",
+      "options": [
+        {
+          "name": "download",
+          "localizedName": "download",
+          "localizedDescription": "Download a file from your game files",
+          "options": [
+            {
+              "name": "file-name",
+              "localizedName": "file-name",
+              "localizedDescription": "File name to download"
+            }
+          ]
+        },
+        {
+          "name": "upload",
+          "localizedName": "upload",
+          "localizedDescription": "Upload a file to your game files",
+          "options": [
+            {
+              "name": "file",
+              "localizedName": "file",
+              "localizedDescription": "File to upload"
+            },
+            {
+              "name": "file-name",
+              "localizedName": "file-name",
+              "localizedDescription": "File name to use"
+            }
+          ]
+        },
+        {
+          "name": "list",
+          "localizedName": "list",
+          "localizedDescription": "List your game files"
+        }
+      ]
+    },
+    {
+      "name": "logout",
+      "localizedName": "logout",
+      "localizedDescription": "Logs you out of the bot",
+      "options": [
+        {
+          "name": "bulk",
+          "localizedName": "bulk",
+          "localizedDescription": "Whether to log out of all accounts"
+        }
+      ]
+    },
+    {
+      "name": "ranked",
+      "localizedName": "ranked",
+      "localizedDescription": "View your ranked status",
+      "options": [
+        {
+          "name": "mode",
+          "localizedName": "mode",
+          "localizedDescription": "Mode to get your stats of"
+        }
+      ]
+    },
+    {
+      "name": "locker",
+      "localizedName": "locker",
+      "localizedDescription": "View your locker",
+      "options": [
+        {
+          "name": "fortnitegg",
+          "localizedName": "fortnitegg",
+          "localizedDescription": "View your locker on Fortnite.GG"
+        },
+        {
+          "name": "image",
+          "localizedName": "image",
+          "localizedDescription": "View your locker as an image",
+          "options": [
+            {
+              "name": "type",
+              "description": "Cosmetic type to view"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "exchange-code",
+      "localizedName": "exchange-code",
+      "localizedDescription": "Generates an exhange code to login from another location"
+    },
+    {
+      "name": "login",
+      "localizedName": "login",
+      "localizedDescription": "Login to your Epic Games account",
+      "options": [
+        {
+          "name": "auth-type",
+          "localizedName": "auth-type",
+          "localizedDescription": "Choose how you want to log in to your account"
+        }
+      ]
+    },
+    {
+      "name": "daily-quests",
+      "localizedName": "daily-quests",
+      "localizedDescription": "View your daily Save the World quests"
+    },
+    {
+      "name": "news",
+      "localizedName": "news",
+      "localizedDescription": "View latest Battle Royale news",
+      "options": [
+        {
+          "name": "mode",
+          "localizedName": "mode",
+          "localizedDescription": "Mode to view news of"
+        }
+      ]
+    },
+    {
+      "name": "map",
+      "localizedName": "map",
+      "localizedDescription": "View the Fortnite map"
+    },
+    {
+      "name": "reminder",
+      "localizedName": "reminder",
+      "localizedDescription": "Be notified when a cosmetic comes to the Item Shop",
+      "options": [
+        {
+          "name": "add",
+          "localizedName": "add",
+          "localizedDescription": "Add a cosmetic to your reminder list",
+          "options": [
+            {
+              "name": "cosmetic",
+              "localizedName": "cosmetic",
+              "localizedDescription": "Cosmetic name to add to your reminder list"
+            },
+            {
+              "name": "language",
+              "localizedName": "language",
+              "localizedDescription": "The search language and the language of appearance of the cosmetic's name, description, etc."
+            }
+          ]
+        },
+        {
+          "name": "remove",
+          "localizedName": "remove",
+          "localizedDescription": "Remove a cosmetic from your reminder list",
+          "options": [
+            {
+              "name": "cosmetic",
+              "localizedName": "cosmetic",
+              "localizedDescription": "Cosmetic name to remove from your reminder list"
+            },
+            {
+              "name": "language",
+              "localizedName": "language",
+              "localizedDescription": "The search language and the language of appearance of the cosmetic's name, description, etc."
+            }
+          ]
+        },
+        {
+          "name": "clear",
+          "localizedName": "clear",
+          "localizedDescription": "Clear your reminder list"
+        },
+        {
+          "name": "list",
+          "localizedName": "list",
+          "localizedDescription": "View your reminder list"
+        }
+      ]
+    },
+    {
+      "name": "gift",
+      "localizedName": "gift",
+      "localizedDescription": "Send a gift to your friends",
+      "options": [
+        {
+          "name": "friend-name",
+          "localizedName": "friend-name",
+          "localizedDescription": "The display name of your friend"
+        },
+        {
+          "name": "item",
+          "localizedName": "item",
+          "localizedDescription": "The number or item name at the bottom left that appears in the Item Shop image"
+        }
+      ]
+    },
+    {
+      "name": "gift-history",
+      "localizedName": "gift-history",
+      "localizedDescription": "View your gift history",
+      "options": [
+        {
+          "name": "received",
+          "localizedName": "received",
+          "localizedDescription": "View who sent gifts to you"
+        },
+        {
+          "name": "sent",
+          "localizedName": "sent",
+          "localizedDescription": "View gifts you sent"
+        }
+      ]
+    },
+    {
+      "name": "shop",
+      "localizedName": "shop",
+      "localizedDescription": "Sends an image of today's item shop"
+    },
+    {
+      "name": "season-progress",
+      "localizedName": "season-progress",
+      "localizedDescription": "Sends season progress"
+    },
+    {
+      "name": "cosmetic",
+      "localizedName": "cosmetic",
+      "localizedDescription": "Search a cosmetic",
+      "options": [
+        {
+          "name": "name",
+          "localizedName": "name",
+          "localizedDescription": "Cosmetic name to search"
+        },
+        {
+          "name": "search-language",
+          "localizedName": "search-language",
+          "localizedDescription": "Set the cosmetic search language"
+        },
+        {
+          "name": "output-language",
+          "localizedName": "output-language",
+          "localizedDescription": "The language of appearance of the cosmetic's name, description, etc."
+        }
+      ]
+    },
+    {
+      "name": "creative-xp",
+      "localizedName": "creative-xp",
+      "localizedDescription": "View your daily Creative XP limits and usage"
+    },
+    {
+      "name": "random-location",
+      "localizedName": "random-location",
+      "localizedDescription": "Gives you a random location to jump to"
+    },
+    {
+      "name": "redeem",
+      "localizedName": "redeem",
+      "localizedDescription": "Redeem a code for Epic Games",
+      "options": [
+        {
+          "name": "code",
+          "localizedName": "code",
+          "localizedDescription": "Code to scan"
+        },
+        {
+          "name": "bulk",
+          "localizedName": "bulk",
+          "localizedDescription": "Whether to redeem the code in every account"
+        }
+      ]
+    },
+    {
+      "name": "sac",
+      "localizedName": "sac",
+      "localizedDescription": "Manage the content creator you are supporting",
+      "options": [
+        {
+          "name": "change",
+          "localizedName": "change",
+          "localizedDescription": "Change the content creator you are supporting",
+          "options": [
+            {
+              "name": "code",
+              "localizedName": "code",
+              "localizedDescription": "Creator code to support"
+            }
+          ]
+        },
+        {
+          "name": "supported",
+          "localizedName": "supported",
+          "localizedDescription": "View the content creator you support"
+        },
+        {
+          "name": "search",
+          "localizedName": "search",
+          "localizedDescription": "View the owner and information of a code",
+          "options": [
+            {
+              "name": "code",
+              "localizedName": "code",
+              "localizedDescription": "Code to scan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "buy",
+      "localizedName": "buy",
+      "localizedDescription": "Buy an item from the item shop",
+      "options": [
+        {
+          "name": "item",
+          "localizedName": "item",
+          "localizedDescription": "The number or item name at the bottom left that appears in the Item Shop image"
+        }
+      ]
+    },
+    {
+      "name": "battle-pass",
+      "localizedName": "battle-pass",
+      "localizedDescription": "Buy the battle pass or other packs"
+    },
+    {
+      "name": "stats",
+      "localizedName": "stats",
+      "localizedDescription": "View a Fortnite player's stats",
+      "options": [
+        {
+          "name": "name",
+          "localizedName": "name",
+          "localizedDescription": "Player's Epic display name"
+        }
+      ]
+    },
+    {
+      "name": "offer",
+      "localizedName": "offer",
+      "localizedDescription": "Buy or search for an offer by entering Offer ID",
+      "options": [
+        {
+          "name": "offer-id",
+          "localizedName": "offer-id",
+          "localizedDescription": "The Offer ID of the offer you will search or buy"
+        }
+      ]
+    },
+    {
+      "name": "vbucks",
+      "localizedName": "vbucks",
+      "localizedDescription": "Create a v-bucks purchase link for a specific amount, view your balance or your buy history",
+      "options": [
+        {
+          "name": "buy",
+          "localizedName": "buy",
+          "localizedDescription": "Creates a link to buy a certain amount of v-bucks",
+          "options": [
+            {
+              "name": "amount",
+              "localizedName": "amount",
+              "localizedDescription": "Amount to be generated"
+            }
+          ]
+        },
+        {
+          "name": "balance",
+          "localizedName": "balance",
+          "localizedDescription": "View how much v-bucks you have",
+          "options": [
+            {
+              "name": "bulk",
+              "localizedName": "bulk",
+              "localizedDescription": "Whether to view the balance of all accounts"
+            }
+          ]
+        },
+        {
+          "name": "history",
+          "localizedName": "history",
+          "localizedDescription": "View your v-bucks buy history"
+        }
+      ]
+    },
+    {
+      "name": "bot-info",
+      "localizedName": "bot-info",
+      "localizedDescription": "Gives info about the bot"
+    },
+    {
+      "name": "banned",
+      "localizedName": "banned",
+      "localizedDescription": "Check if your account is banned or not"
+    },
+    {
+      "name": "creative-xp",
+      "localizedName": "creative-xp",
+      "localizedDescription": "View your daily Creative XP limits and usage"
+    },
+    {
+      "name": "refresh-profile",
+      "localizedName": "refresh-profile",
+      "localizedDescription": "Refreshes your Battle Royale and Save the World profile"
+    },
+    {
+      "name": "motd",
+      "localizedName": "personal-news",
+      "localizedDescription": "View your personal Fortnite news"
+    },
+    {
+      "name": "launch-fortnite",
+      "localizedName": "launch-fortnite",
+      "localizedDescription": "Launch Fortnite with a Command Prompt command"
+    },
+    {
+      "name": "preferences",
+      "localizedName": "preferences",
+      "localizedDescription": "Change your bot preferences",
+      "options": [
+        {
+          "name": "language",
+          "localizedName": "language",
+          "localizedDescription": "Change your bot language",
+          "options": [
+            {
+              "name": "language",
+              "localizedName": "language",
+              "localizedDescription": "The new language"
+            }
+          ]
+        },
+        {
+          "name": "reply-type",
+          "localizedName": "reply-type",
+          "localizedDescription": "Change your bot reply type",
+          "options": [
+            {
+              "name": "type",
+              "localizedName": "type",
+              "localizedDescription": "The new reply type"
+            }
+          ]
+        },
+        {
+          "name": "censor",
+          "localizedName": "censor",
+          "localizedDescription": "Change your bot censor type",
+          "options": [
+            {
+              "name": "type",
+              "localizedName": "type",
+              "localizedDescription": "The new censor type"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mission-alerts",
+      "localizedName": "mission-alerts",
+      "localizedDescription": "View the Save the World mission alerts"
+    },
+    {
+      "name": "ghost-equip",
+      "localizedName": "ghost-equip",
+      "localizedDescription": "Equip any cosmetic in your party, no matter if you own it or not",
+      "options": [
+        {
+          "name": "name",
+          "localizedName": "name",
+          "localizedDescription": "Cosmetic name to search"
+        },
+        {
+          "name": "language",
+          "localizedName": "language",
+          "localizedDescription": "The search language and the language of appearance of the cosmetic's name, description, etc."
+        }
+      ]
+    },
+    {
+      "name": "fake-level",
+      "localizedName": "fake-level",
+      "localizedDescription": "Set your level to a fake level in your party",
+      "options": [
+        {
+          "name": "level",
+          "localizedName": "level",
+          "localizedDescription": "New level"
+        }
+      ]
+    },
+    {
+      "name": "fake-crown-wins",
+      "localizedName": "fake-crown-wins",
+      "localizedDescription": "Set your crowns to a fake crown amount in your party",
+      "options": [
+        {
+          "name": "amount",
+          "localizedName": "amount",
+          "localizedDescription": "New crown amount"
+        }
+      ]
+    },
+    {
+      "name": "stw",
+      "localizedName": "stw",
+      "localizedDescription": "View your Save the World information",
+      "options": [
+        {
+          "name": "info",
+          "localizedName": "info",
+          "localizedDescription": "View your Save the World statistics"
+        },
+        {
+          "name": "xp",
+          "localizedName": "xp",
+          "localizedDescription": "View your daily Save the World XP usage and limit"
+        }
+      ]
+    },
+    {
+      "name": "research",
+      "localizedName": "research",
+      "localizedDescription": "View or upgrade your research levels in Save the World"
+    },
+    {
+      "name": "undo-purchase",
+      "localizedName": "undo-purchase",
+      "localizedDescription": "Undo one of your purchases without using refund tickets"
+    },
+    {
+      "name": "party",
+      "localizedName": "party",
+      "localizedDescription": "Manage your current party",
+      "options": [
+        {
+          "name": "info",
+          "localizedName": "info",
+          "localizedDescription": "Get info about your current party"
+        },
+        {
+          "name": "leave",
+          "localizedName": "leave",
+          "localizedDescription": "Leave your current party"
+        }
+      ]
+    },
+    {
+      "name": "skip-tutorial",
+      "localizedName": "skip-tutorial",
+      "localizedDescription": "Skip the Save the World tutorial"
+    },
+    {
+      "name": "account",
+      "localizedName": "account",
+      "localizedDescription": "Manage your account",
+      "options": [
+        {
+          "name": "change-name",
+          "localizedName": "change-name",
+          "localizedDescription": "Changes your display name",
+          "options": [
+            {
+              "name": "name",
+              "localizedName": "name",
+              "localizedDescription": "New display name"
+            }
+          ]
+        },
+        {
+          "name": "change-phone-number",
+          "localizedName": "change-phone-number",
+          "localizedDescription": "Changes your phone number",
+          "options": [
+            {
+              "name": "number",
+              "localizedName": "number",
+              "localizedDescription": "New phone number"
+            }
+          ]
+        },
+        {
+          "name": "info",
+          "localizedName": "info",
+          "localizedDescription": "View your sensitive account information"
+        }
+      ]
+    },
+    {
+      "name": "shop-sections",
+      "localizedName": "shop-sections",
+      "localizedDescription": "Sends today's or tomorrow's item shop sections",
+      "options": [
+        {
+          "name": "day",
+          "localizedName": "day",
+          "localizedDescription": "The day to get the item shop sections for"
+        }
+      ]
+    },
+    {
+      "name": "claim-rank-role",
+      "localizedName": "claim-rank-role",
+      "localizedDescription": "Get a role based on your rank in the server",
+      "options": [
+        {
+          "name": "mode",
+          "localizedName": "mode",
+          "localizedDescription": "Ranked game mode"
+        }
+      ]
+    },
+    {
+      "name": "claim-free-items",
+      "localizedName": "claim-free-items",
+      "localizedDescription": "Claims free items from the item shop"
+    },
+    {
+      "name": "player-count",
+      "localizedName": "player-count",
+      "localizedDescription": "View the number of active players and how many players are playing which game modes"
+    },
+    {
+      "name": "weapon-info",
+      "localizedName": "weapon-info",
+      "localizedDescription": "Get information about a weapon",
+      "options": [
+        {
+          "name": "rarity",
+          "localizedName": "rarity",
+          "localizedDescription": "The rarity of the weapon"
+        },
+        {
+          "name": "weapon",
+          "localizedName": "weapon",
+          "localizedDescription": "The weapon to get information about"
+        }
+      ]
+    },
+    {
+      "name": "device-auth",
+      "localizedName": "device-auth",
+      "localizedDescription": "Manage your device auths",
+      "options": [
+        {
+          "name": "create",
+          "localizedName": "create",
+          "localizedDescription": "Create a new device auth"
+        },
+        {
+          "name": "list",
+          "localizedName": "list",
+          "localizedDescription": "List your device auths"
+        },
+        {
+          "name": "delete",
+          "localizedName": "delete",
+          "localizedDescription": "Delete a device auth",
+          "options": [
+            {
+              "name": "device-id",
+              "localizedName": "device-id",
+              "localizedDescription": "Device ID to delete"
+            }
+          ]
+        },
+        {
+          "name": "delete-all",
+          "localizedName": "delete-all",
+          "localizedDescription": "Delete all your device auths except the one used by the bot"
+        }
+      ]
+    },
+    {
+      "name": "server-status",
+      "localizedName": "server-status",
+      "localizedDescription": "View the status of Fortnite servers"
+    },
+    {
+      "name": "access-token",
+      "localizedName": "access-token",
+      "localizedDescription": "Generate a new access token by selecting a client",
+      "options": [
+        {
+          "name": "client",
+          "localizedName": "client",
+          "localizedDescription": "The client you want to use"
+        }
+      ]
+    },
+    {
+      "name": "settings",
+      "localizedName": "settings",
+      "localizedDescription": "Manage your settings"
+    },
+    {
+      "name": "staging",
+      "localizedName": "staging",
+      "localizedDescription": "View the information of a staging server's MCP server",
+      "options": [
+        {
+          "name": "server",
+          "localizedName": "server",
+          "localizedDescription": "The server name or URL to get information about"
+        }
+      ]
+    },
+    {
+      "name": "save-progress",
+      "localizedName": "save-progress",
+      "localizedDescription": "Complete quests in STW without completing the mission"
+    },
+    {
+      "name": "rank-system",
+      "localizedName": "rank-system",
+      "localizedDescription": "Manage the rank-role system in your server to let users get roles using /claim-rank-role command",
+      "options": [
+        {
+          "name": "add",
+          "localizedName": "add",
+          "localizedDescription": "Add a rank-role system to your server",
+          "options": [
+            {
+              "name": "rank",
+              "localizedName": "rank",
+              "localizedDescription": "The rank"
+            },
+            {
+              "name": "role",
+              "localizedName": "role",
+              "localizedDescription": "Role to give to users"
+            }
+          ]
+        },
+        {
+          "name": "remove",
+          "localizedName": "remove",
+          "localizedDescription": "Remove a rank-role system from your server",
+          "options": [
+            {
+              "name": "rank",
+              "localizedName": "rank",
+              "localizedDescription": "The rank"
+            }
+          ]
+        },
+        {
+          "name": "list",
+          "localizedName": "list",
+          "localizedDescription": "List the rank-role systems in your server"
+        },
+        {
+          "name": "enable",
+          "localizedName": "enable",
+          "localizedDescription": "Enable the rank-role system in your server"
+        },
+        {
+          "name": "disable",
+          "localizedName": "disable",
+          "localizedDescription": "Disable the rank-role system in your server"
+        }
+      ]
+    },
+    {
+      "name": "account-settings",
+      "localizedName": "account-settings",
+      "localizedDescription": "Update your Epic Games account settings",
+      "options": [
+        {
+          "name": "receive-gifts",
+          "localizedName": "receive-gifts",
+          "localizedDescription": "Toggle receiving gifts from friends",
+          "options": [
+            {
+              "name": "state",
+              "localizedName": "state",
+              "localizedDescription": "Whether to receive gifts or not"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "custom-profile",
+      "localizedName": "custom-profile",
+      "localizedDescription": "Edit the bot's embed color and avatar",
+      "options": [
+        {
+          "name": "set",
+          "localizedName": "set",
+          "localizedDescription": "Setup your custom profile",
+          "options": [
+            {
+              "name": "skin",
+              "localizedName": "skin",
+              "localizedDescription": "The skin to use for the avatar and embed color"
+            },
+            {
+              "name": "search-language",
+              "localizedName": "search-language",
+              "localizedDescription": "Set the cosmetic search language"
+            }
+          ]
+        },
+        {
+          "name": "reset",
+          "localizedName": "reset",
+          "localizedDescription": "Reset your custom profile"
+        }
+      ]
+    },
+    {
+      "name": "activate-premium",
+      "localizedName": "activate-premium",
+      "localizedDescription": "Activate Premium using a code",
+      "options": [
+        {
+          "name": "code",
+          "localizedName": "code",
+          "localizedDescription": "The code to redeem"
+        }
+      ]
+    }
+  ]
 }
