@@ -43,6 +43,7 @@
     },
     "anticheat": {
       "anticheat": "Anti-Cheat",
+      "anticheatproviders": "Anti-Cheat Sağlayıcıları",
       "message": "Şu anda anti-cheat sağlayıcınız olarak [provider] kullanıyorsunuz."
     },
     "friends": {
@@ -1043,8 +1044,15 @@
     },
     {
       "name": "anti-cheat",
-      "localizedName": "anti-hile",
-      "localizedDescription": "Kullandığınız anti-hile sağlayıcısını gösterir"
+      "localizedName": "anti-cheat",
+      "localizedDescription": "Kullandığınız anti-cheat sağlayıcısını gösterir",
+      "options": [
+        {
+          "name": "bulk",
+          "localizedName": "toplu",
+          "localizedDescription": "Tüm hesaplarınızın anti-cheat sağlayıcısını gösterip gösterilmeyeceği"
+        }
+      ]
     },
     {
       "name": "friends",

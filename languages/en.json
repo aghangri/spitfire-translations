@@ -43,6 +43,7 @@
     },
     "anticheat": {
       "anticheat": "Anti-Cheat",
+      "anticheatproviders": "Anti-Cheat Providers",
       "message": "You are currently using [provider] as your anti-cheat provider."
     },
     "friends": {
@@ -1042,7 +1043,14 @@
     {
       "name": "anti-cheat",
       "localizedName": "anti-cheat",
-      "localizedDescription": "Shows the anti-cheat provider you are using"
+      "localizedDescription": "Shows the anti-cheat provider you are using",
+      "options": [
+        {
+          "name": "bulk",
+          "localizedName": "bulk",
+          "localizedDescription": "Whether to show all of your accounts' anti-cheat provider"
+        }
+      ]
     },
     {
       "name": "friends",
