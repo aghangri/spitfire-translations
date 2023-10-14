@@ -518,7 +518,8 @@
       "embed2": "Hiçbir günlük göreviniz yok.",
       "reroll": "Bir günlük görevi değiştirin",
       "error": "Günlük görev değiştirilirken bilinmeyen bir hata oluştu.",
-      "completed": "Bu görevi tamamladın."
+      "completed": "Bu görevi tamamladın.",
+      "total": "Toplam V-Papel"
     },
     "banned": {
       "notbanned": "Oyundan yasaklı değilsiniz! :partying_face:",

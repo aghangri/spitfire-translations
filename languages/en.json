@@ -517,7 +517,8 @@
       "embed2": "You don't have any daily quest.",
       "reroll": "Reroll a daily quest",
       "error": "An unknown error occurred while rerolling the daily quest.",
-      "completed": "You completed this quest."
+      "completed": "You completed this quest.",
+      "total": "Total V-Bucks"
     },
     "banned": {
       "notbanned": "You are not banned! :partying_face:",
