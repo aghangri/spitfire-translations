@@ -651,7 +651,7 @@
       "refunded": "Item Refunded :white_check_mark:",
       "creator": "Supported creator",
       "success": "The purchase below has been succesfully refunded and [vbucks] has been added to your account.",
-      "note": "Please note: If you buy the same cosmetic after refunding it in 24 hours, you will not be able to refund it again until 24 hours have passed.",
+      "note": "**:warning: Important Note**: Entering a match with the refunded cosmetic will result in a temporary account ban!",
       "vbucksspent": "V-Bucks spent"
     },
     "party": {

@@ -652,7 +652,7 @@
       "refunded": "İçerik İade Edildi :white_check_mark:",
       "creator": "Desteklenen üretici",
       "success": "Aşağıdaki satın alma işlemi başarıyla geri alındı ve hesabınıza [vbucks] eklendi.",
-      "note": "Lütfen dikkat: 24 saat içinde iade ettikten sonra aynı kozmetiği satın alırsanız, 24 saat geçene kadar tekrar iade edemezsiniz.",
+      "note": "**:warning: Önemli Not**: İade edilen kozmetik ile bir maça girmek geçici bir hesap banı ile sonuçlanacaktır!",
       "vbucksspent": "Harcanan V-Papel",
       "supported": "Desteklenen Üretici"
     },
