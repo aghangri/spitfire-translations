@@ -342,7 +342,7 @@
       "embed1": "[code] is not a valid code.",
       "embed2": "An unknown error occurred. If the issue persists, please try another code.",
       "embed3": {
-        "title": "SaC Changed",
+        "title": "SAC Changed",
         "description": "You are now supporting [supporting]."
       },
       "supported": "Supported Content Creator",
