@@ -522,7 +522,13 @@
     },
     "banned": {
       "notbanned": "You are not banned! :partying_face:",
-      "banned": "You are banned."
+      "banned": "You are banned! :x:",
+      "bannedat": "Banned at",
+      "endsat": "Ends at",
+      "banreasons": "Ban reasons",
+      "compban": "Competitive ban reason",
+      "program": "Exploit program",
+      "additionalinfo": "Additional info"
     },
     "refreshprofile": {
       "embed1": {

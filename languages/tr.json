@@ -523,7 +523,13 @@
     },
     "banned": {
       "notbanned": "Oyundan yasaklı değilsiniz! :partying_face:",
-      "banned": "Oyundan yasaklısın."
+      "banned": "Oyundan yasaklısın! :x:",
+      "bannedat": "Yasaklanma tarihi",
+      "endsat": "Bitme tarihi",
+      "banreasons": "Yasaklanma sebepleri",
+      "compban": "Rekabetçi yasaklanma sebepleri",
+      "program": "Exploit programı",
+      "additionalinfo": "Ek bilgi"
     },
     "refreshprofile": {
       "embed1": {
