@@ -876,14 +876,21 @@
       "success": "Your avatar and embed color has been successfully changed to match the [name] skin!",
       "reset": "Your profile has been successfully synced with your Fortnite profile!"
     },
-    "activatepremium": {
+    "premium": {
       "alreadyPremium": "You are already a Premium user.",
       "invalidCode": "The code you entered is invalid.",
       "redeemed": {
         "title": "Code Redeemed",
         "description": "You have successfully redeemed the code. You can now use the Premium commands.",
         "description2": "You have successfully redeemed the code. You can now use the Premium commands until [date]."
-      }
+      },
+      "buyPremium": "Please join our [support server]([support]) and see [channel] to learn how you can get Premium.",
+      "premiumBenefits": "Please join our [support server]([support]) and see [channel] to learn benefits of Premium."
+    },
+    "grantaccess": {
+      "already": "You already have access to the Fortnite services.",
+      "error": "An unknown error occurred while granting access to the Fortnite services.",
+      "success": "You have been granted access to the Fortnite services."
     }
   },
   "changenickname": {
@@ -932,7 +939,7 @@
     "notactive": "The command couldn't be executed because your Epic account ([accountId]) is disabled by Epic Games. Please contact Epic Games using [this link](https://www.epicgames.com/help/en-US/contact-us) for more information.",
     "yourvbucks": "Your V-Bucks",
     "supportedcreator": "Supported Creator",
-    "banned": "Sorry, it appears that your account has been banned by Epic Games. Please contact Epic Games using [this link](https://www.epicgames.com/help/en-US/contact-us) for more information.",
+    "banned": "You cannot use the bot because you have never played Fortnite on your account, you have not accepted the EULA, or your account has been banned.\n\nLaunching Fortnite or using the `/grant-game-access` command may resolve this issue.",
     "dmonly": "This command can only be used in DMs.",
     "premium": "You can read this message [messageLink] [in our support server]([support]) to learn more about Premium!",
     "premiumGuild": "The owner of this server must have Premium to use this command. You can read this message [messageLink] [in our support server]([support]) to learn more about Premium!",
@@ -1985,16 +1992,43 @@
       ]
     },
     {
-      "name": "activate-premium",
-      "localizedName": "activate-premium",
-      "localizedDescription": "Activate Premium using a code",
+      "name": "premium",
+      "localizedName": "premium",
+      "localizedDescription": "Manage your Premium subscription",
       "options": [
         {
-          "name": "code",
-          "localizedName": "code",
-          "localizedDescription": "The code to redeem"
+          "name": "info",
+          "localizedName": "info",
+          "localizedDescription": "View information about your Premium subscription"
+        },
+        {
+          "name": "benefits",
+          "localizedName": "benefits",
+          "localizedDescription": "View the benefits of Premium"
+        },
+        {
+          "name": "buy",
+          "localizedName": "buy",
+          "localizedDescription": "View how you can get Premium"
+        },
+        {
+          "name": "activate",
+          "localizedName": "activate",
+          "localizedDescription": "Activate Premium by using a coden",
+          "options": [
+            {
+              "name": "code",
+              "localizedName": "code",
+              "localizedDescription": "The code you want to redeem"
+            }
+          ]
         }
       ]
+    },
+    {
+      "name": "grant-game-access",
+      "localizedName": "grant-game-access",
+      "localizedDescription": "Grants access to Fortnite services"
     }
   ]
 }

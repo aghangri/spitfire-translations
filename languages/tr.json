@@ -878,14 +878,21 @@
       "success": "Avatar ve embed rengin [name] karakteriyle uyuşacak şekilde değiştirildi!",
       "reset": "Profilin Fortnite profilinle başarıyla eşleştirildi!"
     },
-    "activatepremium": {
+    "premium": {
       "alreadyPremium": "Siz zaten bir Premium kullanıcısınız.",
       "invalidCode": "Girdiğiniz kod geçerli değil.",
       "redeemed": {
         "title": "Kod Okutuldu",
         "description": "Kodu başarıyla kullandınız. Artık Premium komutlarını kullanabilirsiniz.",
         "description2": "Kodu başarıyla kullandınız. Artık Premium komutlarını [date] tarihine kadar kullanabilirsiniz."
-      }
+      },
+      "buyPremium": "Lütfen Premium hakkında daha fazla bilgi almak için [destek sunucumuzdaki]([support]) [channel] kanalına göz atın.",
+      "premiumBenefits": "Lütfen Premium avantajları hakkında daha fazla bilgi almak için [destek sunucumuzdaki]([support]) [channel] kanalına göz atın."
+    },
+    "grantaccess": {
+      "already": "Fortnite hizmetlerine erişiminiz zaten var.",
+      "error": "Fortnite hizmetlerine erişim izni verilirken bilinmeyen bir hata oluştu.",
+      "success": "Fortnite hizmetlerine artık erişebilirsiniz."
     }
   },
   "changenickname": {
@@ -934,7 +941,7 @@
     "notactive": "Epic hesabın ([accountId]) Epic Games tarafından devre dışı bırakıldığı için komut çalıştırılamadı. Lütfen daha fazla bilgi için [bu bağlantıyı](https://www.epicgames.com/help/tr/contact-us) kullanarak Epic Games ile iletişime geçin.",
     "yourvbucks": "V-Papelin",
     "supportedcreator": "Desteklenilen Üretici",
-    "banned": "Üzgünüz, hesabınız Epic Games tarafından yasaklanmış gibi görünüyor. Lütfen daha fazla bilgi için [bu bağlantıyı](https://www.epicgames.com/help/tr/contact-us) kullanarak Epic Games ile iletişime geçin.",
+    "banned": "Hesabınızda hiç Fortnite oynamadığınız, EULA'yı kabul etmediğiniz veya hesabınız yasaklandığı için botu kullanamazsınız.\n\nFortnite'ı başlatmak veya `/oyun-erişimi-ver` komutunu kullanmak bu sorunu çözebilir.",
     "dmonly": "Bu komutu yalnızca DM'de kullanabilirsiniz.",
     "premium": "Premium hakkında daha fazla bilgi edinmek için [destek sunucumuzda]([support]) bu mesajı [messageLink] okuyabilirsiniz!",
     "premiumGuild": "Bu komutu kullanabilmek için sunucu sahibinin Premium olması gerekir. Premium hakkında daha fazla bilgi edinmek için [destek sunucumuzda]([support]) bu mesajı [messageLink] okuyabilirsiniz!",
@@ -1988,16 +1995,43 @@
       ]
     },
     {
-      "name": "activate-premium",
-      "localizedName": "premium-etkinleştir",
-      "localizedDescription": "Bir kod kullanarak Premium'u etkinleştirin",
+      "name": "premium",
+      "localizedName": "premium",
+      "localizedDescription": "Premium aboneliğinizi yönetin",
       "options": [
         {
-          "name": "code",
-          "localizedName": "kod",
-          "localizedDescription": "Okutulacak kod"
+          "name": "info",
+          "localizedName": "bilgi",
+          "localizedDescription": "Premium aboneliğiniz hakkında bilgi alın"
+        },
+        {
+          "name": "benefits",
+          "localizedName": "avantajlar",
+          "localizedDescription": "Premium avantajlarını görüntüleyin"
+        },
+        {
+          "name": "buy",
+          "localizedName": "satın-al",
+          "localizedDescription": "Nasıl Premium alabileceğinizi görüntüleyin"
+        },
+        {
+          "name": "activate",
+          "localizedName": "etkinleştir",
+          "localizedDescription": "Bir kod kullanarak Premium'u etkinleştirin",
+          "options": [
+            {
+              "name": "code",
+              "localizedName": "kod",
+              "localizedDescription": "Okutmak istediğiniz kod"
+            }
+          ]
         }
       ]
+    },
+    {
+      "name": "grant-game-access",
+      "localizedName": "oyun-erişimi-ver",
+      "localizedDescription": "Fortnite hizmetlerine erişim izni verir"
     }
   ]
 }
