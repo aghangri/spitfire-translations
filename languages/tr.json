@@ -943,8 +943,8 @@
     "supportedcreator": "Desteklenilen Üretici",
     "banned": "Hesabınızda hiç Fortnite oynamadığınız, EULA'yı kabul etmediğiniz veya hesabınız yasaklandığı için botu kullanamazsınız.\n\nFortnite'ı başlatmak veya `/oyun-erişimi-ver` komutunu kullanmak bu sorunu çözebilir.",
     "dmonly": "Bu komutu yalnızca DM'de kullanabilirsiniz.",
-    "premium": "Premium hakkında daha fazla bilgi edinmek için [destek sunucumuzda]([support]) bu mesajı [messageLink] okuyabilirsiniz!",
-    "premiumGuild": "Bu komutu kullanabilmek için sunucu sahibinin Premium olması gerekir. Premium hakkında daha fazla bilgi edinmek için [destek sunucumuzda]([support]) bu mesajı [messageLink] okuyabilirsiniz!",
+    "premium": "Lütfen Premium hakkında daha fazla bilgi almak için [destek sunucumuzdaki]([support]) [channel] kanalına göz atın.",
+    "premiumGuild": "Bu komutu kullanabilmek için sunucu sahibinin Premium olması gerekir. Lütfen Premium hakkında daha fazla bilgi almak için [destek sunucumuzdaki]([support]) [channel] kanalına göz atın.",
     "missingpermissions": "Bu komutu kullanmak için [perm] iznine sahip olmalısınız.",
     "missingpermsbot": "Bu komutu kullanmak için [perm] iznine sahip olmalıyım."
   },
