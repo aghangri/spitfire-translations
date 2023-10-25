@@ -2,41 +2,41 @@
     {
         "name": "ping",
         "localizedName": "ping",
-        "localizedDescription": "Bot ve API gecikmesini döndürür"
+        "localizedDescription": "Bot ve API gecikməsini göstərir"
     },
     {
         "name": "help",
-        "localizedName": "yardım",
-        "localizedDescription": "Bot hakkında bilgi verir",
+        "localizedName": "kömək",
+        "localizedDescription": "Bot haqıında məlumat verir",
         "options": [
             {
                 "name": "command",
-                "localizedName": "komut",
-                "localizedDescription": "Bir komut hakkında bilgi al"
+                "localizedName": "komanda",
+                "localizedDescription": "Bir komanda haqqında məlumat al"
             }
         ]
     },
     {
         "name": "claim2fa",
-        "localizedName": "2ad-ödüllerini-al",
-        "localizedDescription": "2 Aşamalı Doğrulama ödüllerinizi alın",
+        "localizedName": "2mt-mükafatlarını-al",
+        "localizedDescription": "2 Mərhələli Təstiqləmə müfakafatlarınızı alın",
         "options": [
             {
                 "name": "stw",
-                "localizedName": "dünyayı-kurtar",
-                "localizedDescription": "Dünyayı kurtar ödüllerini al veya alma. Varsayılan: True (al)"
+                "localizedName": "dünyanı-xilas-et",
+                "localizedDescription": "Dünyanı xilas et mükafatlarını al veya alma. Defolt: True (al)"
             }
         ]
     },
     {
         "name": "island",
         "localizedName": "ada",
-        "localizedDescription": "Bir kreatif adası arayın veya favorilerinize ekleyin",
+        "localizedDescription": "Bir kreativ adası axtarın və ya sevimlilərinizə əlavə edin",
         "options": [
             {
                 "name": "search",
-                "localizedName": "ara",
-                "localizedDescription": "Bir ada ara",
+                "localizedName": "axtar",
+                "localizedDescription": "Bir ara axtar",
                 "options": [
                     {
                         "name": "code",
@@ -48,8 +48,8 @@
             },
             {
                 "name": "favorite",
-                "localizedName": "favorile",
-                "localizedDescription": "Bir adayı favorilerine ekle",
+                "localizedName": "sevimlilər",
+                "localizedDescription": "Bir adanı sevimlilərinizə əlavə edir",
                 "options": [
                     {
                         "name": "code",
@@ -64,114 +64,114 @@
     {
         "name": "anti-cheat",
         "localizedName": "anti-cheat",
-        "localizedDescription": "Kullandığınız anti-cheat sağlayıcısını gösterir",
+        "localizedDescription": "Hal-hazırda istifadə olunan anti-cheat provayderini göstərir",
         "options": [
             {
                 "name": "bulk",
                 "localizedName": "toplu",
-                "localizedDescription": "Tüm hesaplarınızın anti-cheat sağlayıcısını gösterip gösterilmeyeceği"
+                "localizedDescription": "Bütün hesablarınızın anti-cheat provayderini göstərilib göstərilməyəcəyi"
             }
         ]
     },
     {
         "name": "friends",
-        "localizedName": "arkadaş",
-        "localizedDescription": "Arkadaş listenizi yönetin",
+        "localizedName": "dost",
+        "localizedDescription": "Dost siyahınızı idarə edin",
         "options": [
             {
                 "name": "user",
-                "localizedName": "kullanıcı",
-                "localizedDescription": "Bir oyuncuyla arkadaşlık durumunu kontrol et",
+                "localizedName": "istifadəçi",
+                "localizedDescription": "Bir oyunçu ilə dostluq vəziyyətini idarə edin",
                 "options": [
                     {
                         "name": "name",
                         "localizedName": "ad",
-                        "localizedDescription": "Oyuncunun görünen adı"
+                        "localizedDescription": "Oyunçunun görünən adı"
                     }
                 ]
             },
             {
                 "name": "remove-all",
-                "localizedName": "herkesi-sil",
-                "localizedDescription": "Tüm arkadaşlarını sil"
+                "localizedName": "hərkəsi-sil",
+                "localizedDescription": "Bütün dostlarınızı silin"
             },
             {
                 "name": "list",
-                "localizedName": "listem",
-                "localizedDescription": "Arkadaş listeni görüntüle",
+                "localizedName": "siyahım",
+                "localizedDescription": "Dost siyahını bax",
                 "options": [
                     {
                         "name": "type",
-                        "localizedName": "tür",
-                        "localizedDescription": "Görüntülenecek arkadaş listesi türü"
+                        "localizedName": "növ",
+                        "localizedDescription": "Baxılacaq dost siyahı növü"
                     }
                 ]
             },
             {
                 "name": "accept-all-incoming",
-                "localizedName": "gelen-istekleri-kabul-et",
-                "localizedDescription": "Gelen tüm arkadaşlık isteklerini kabul et"
+                "localizedName": "gələn-istəkləri-qəbul-et",
+                "localizedDescription": "Gələn bütün dostluq istəklərini qəbul et"
             },
             {
                 "name": "decline-all-incoming",
-                "localizedName": "gelen-istekleri-reddet",
-                "localizedDescription": "Gelen tüm arkadaşlık isteklerini reddet"
+                "localizedName": "gələn-istəkləri-rədd-et",
+                "localizedDescription": "Gələn bütün dostluq istəklərink rədd et"
             },
             {
                 "name": "cancel-all-outgoing",
-                "localizedName": "giden-istekleri-geri-çek",
-                "localizedDescription": "Giden tüm arkadaşlık isteklerini geri çek"
+                "localizedName": "gedən-istəkləri-geri-çək",
+                "localizedDescription": "Gedən bütün dostluq istəkləri geri çək"
             },
             {
                 "name": "cleanup",
-                "localizedName": "temizle",
-                "localizedDescription": "Hesabı kapatılan oyuncuları arkadaşlık listenden kaldır"
+                "localizedName": "təmizlə",
+                "localizedDescription": "Hesabı bağlanan oyunçuları dostluq siyahından sil"
             },
             {
                 "name": "add",
-                "localizedName": "ekle",
-                "localizedDescription": "Bir oyuncuyu arkadaş ekle",
+                "localizedName": "əlavə-et",
+                "localizedDescription": "Bir oyunçunu dostluğa dəvət et",
                 "options": [
                     {
                         "name": "name",
-                        "localizedName": "isim",
-                        "localizedDescription": "Oyuncunun görünen adı"
+                        "localizedName": "ad",
+                        "localizedDescription": "oyunçunun görünən adı"
                     }
                 ]
             },
             {
                 "name": "remove",
                 "localizedName": "sil",
-                "localizedDescription": "Bir oyuncuyu arkadaşlıktan sil",
+                "localizedDescription": "Bir oyunçunu dostluqdan sil",
                 "options": [
                     {
                         "name": "isim",
-                        "localizedName": "isim",
-                        "localizedDescription": "Oyuncunun görünen adı"
+                        "localizedName": "ad",
+                        "localizedDescription": "Oyunçunun görünən adı"
                     }
                 ]
             },
             {
                 "name": "block",
-                "localizedName": "engelle",
-                "localizedDescription": "Bir oyuncuyu engelle",
+                "localizedName": "blokla",
+                "localizedDescription": "Bir oyunçunu blokla",
                 "options": [
                     {
                         "name": "name",
-                        "localizedName": "isim",
-                        "localizedDescription": "Oyuncunun görünen adı"
+                        "localizedName": "ad",
+                        "localizedDescription": "Oyunçunun görünən adı"
                     }
                 ]
             },
             {
                 "name": "unblock",
-                "localizedName": "engel-kaldır",
-                "localizedDescription": "Bir oyuncunun engelini kaldır",
+                "localizedName": "bloku-ləğv-et",
+                "localizedDescription": "Bir oyunçunun blokunu ləğv et",
                 "options": [
                     {
                         "name": "name",
-                        "localizedName": "isim",
-                        "localizedDescription": "Oyuncunun görünen adı"
+                        "localizedName": "ad",
+                        "localizedDescription": "Oyunçunun görünən adı"
                     }
                 ]
             }
@@ -180,97 +180,97 @@
     {
         "name": "battle-royale",
         "localizedName": "battle-royale",
-        "localizedDescription": "Battle Royale bilgilerinizi verir"
+        "localizedDescription": "Battle Royale məlumatlarınızı göstərir"
     },
     {
         "name": "whoami",
-        "localizedName": "ben-kimim",
-        "localizedDescription": "Hesap bilgilerini görüntüle"
+        "localizedName": "mən-kiməm",
+        "localizedDescription": "Hesab məlumatlarınızı göstər"
     },
     {
         "name": "cloud-storage",
-        "localizedName": "bulut-depolama",
-        "localizedDescription": "Bulut depolamanı yönet veya görüntüle",
+        "localizedName": "bulud-yaddaş",
+        "localizedDescription": "Bulud yaddaşını idarə et və ya göstər",
         "options": [
             {
                 "name": "download",
-                "localizedName": "indir",
-                "localizedDescription": "Oyun dosyalarından bir dosya indir",
+                "localizedName": "endir",
+                "localizedDescription": "Oyun fayllarınızdan bir fayl endir",
                 "options": [
                     {
                         "name": "file-name",
-                        "localizedName": "dosya-adı",
-                        "localizedDescription": "İndirilecek dosya adı"
+                        "localizedName": "fayl-adı",
+                        "localizedDescription": "Endiriləcək fayl adı"
                     }
                 ]
             },
             {
                 "name": "upload",
-                "localizedName": "yükle",
-                "localizedDescription": "Oyun dosyalarına bir dosya yükle",
+                "localizedName": "yüklə",
+                "localizedDescription": "Oyun fayllarına bir fayl yüklə",
                 "options": [
                     {
                         "name": "file",
-                        "localizedName": "dosya",
-                        "localizedDescription": "Yüklenecek dosya"
+                        "localizedName": "fayl",
+                        "localizedDescription": "Yüklənəcək fayl"
                     },
                     {
                         "name": "file-name",
-                        "localizedName": "dosya-adı",
-                        "localizedDescription": "Kullanılacak dosya adı"
+                        "localizedName": "fayl-adı",
+                        "localizedDescription": "İstifadə olunacaq fayı adı"
                     }
                 ]
             },
             {
                 "name": "list",
-                "localizedName": "liste",
-                "localizedDescription": "Oyun dosyalarını listele"
+                "localizedName": "siyahı",
+                "localizedDescription": "Oyun fayllarınızı siyahısı"
             }
         ]
     },
     {
         "name": "logout",
-        "localizedName": "çıkış-yap",
-        "localizedDescription": "Bottan çıkış yaparsınız",
+        "localizedName": "çıxış-et",
+        "localizedDescription": "Botdan çıxış edərsiniz",
         "options": [
             {
                 "name": "bulk",
-                "localizedName": "toplu",
-                "localizedDescription": "Tüm hesaplardan çıkış yapma veya yapmama"
+                "localizedName": "birgə",
+                "localizedDescription": "Bütün hesablardan çıxış etmək və ya etməmək"
             }
         ]
     },
     {
         "name": "ranked",
-        "localizedName": "dereceli",
-        "localizedDescription": "Dereceli durumunuzu görüntüleyin",
+        "localizedName": "dərəcəli",
+        "localizedDescription": "Dərəcəli vəziyyətinizi göstər",
         "options": [
             {
                 "name": "mode",
                 "localizedName": "mod",
-                "localizedDescription": "İstatistiklerinizin alınacağı mod"
+                "localizedDescription": "Statistikalarınızın alınacağı mod"
             }
         ]
     },
     {
         "name": "locker",
-        "localizedName": "dolabım",
-        "localizedDescription": "Dolabınızı görüntülersiniz",
+        "localizedName": "qarderobum",
+        "localizedDescription": "Qarderobuna bax",
         "options": [
             {
                 "name": "fortnitegg",
                 "localizedName": "fortnitegg",
-                "localizedDescription": "Dolabını Fortnite.GG üzerinde görüntüle"
+                "localizedDescription": "Qarderobunuzu Fortnite.GG üzərində baxın"
             },
             {
                 "name": "image",
-                "localizedName": "resim",
-                "localizedDescription": "Dolabını bir resim olarak görüntüle",
+                "localizedName": "şəkil",
+                "localizedDescription": "Qarderobunuza bir şəkil olaraq bax",
                 "options": [
                     {
                         "name": "type",
-                        "localizedName": "tür",
-                        "localizedDescription": "Görüntülenecek kozmetik türü"
+                        "localizedName": "növ",
+                        "localizedDescription": "Baxılacaq kosmetika növü"
                     }
                 ]
             }
@@ -279,51 +279,51 @@
     {
         "name": "exchange-code",
         "localizedName": "exchange-code",
-        "localizedDescription": "Başka bir yerden giriş yapmak için bir kod oluşturur"
+        "localizedDescription": "Başqa bir yerdən giriş etmək üçün bir kod yaradır"
     },
     {
         "name": "login",
-        "localizedName": "giriş-yap",
-        "localizedDescription": "Epic Games hesabına giriş yap",
+        "localizedName": "giriş-et",
+        "localizedDescription": "Epic Games hesabına giriş et",
         "options": [
             {
                 "name": "auth-type",
-                "localizedName": "yetkilendirme-tipi",
-                "localizedDescription": "Hesabınıza nasıl giriş yapacağınızı seçin"
+                "localizedName": "səlahiyyətləndirmə-növü",
+                "localizedDescription": "Hesabınıza necə giriş edəciyinizi seçin"
             }
         ]
     },
     {
         "name": "daily-quests",
-        "localizedName": "günlük-görevler",
-        "localizedDescription": "Günlük Dünyayı Kurtar görevlerinizi görüntüleyin"
+        "localizedName": "gündəlik-tapşırıqlar",
+        "localizedDescription": "Gündəlik Dünyanı Xilas et tapşırıqlarınıza baxın"
     },
     {
         "name": "news",
-        "localizedName": "haberler",
-        "localizedDescription": "Mevcut Battle Royale haberlerini görüntülersiniz",
+        "localizedName": "xəbərlər",
+        "localizedDescription": "Mövcud Battle Royale xəbərlərinizə baxın",
         "options": [
             {
                 "name": "mode",
                 "localizedName": "mod",
-                "localizedDescription": "Haberleri görüntülenecek oyun modu"
+                "localizedDescription": "Xəbərləri baxılacaq oyun modu"
             }
         ]
     },
     {
         "name": "map",
-        "localizedName": "harita",
-        "localizedDescription": "Fortnite haritasını görüntüle"
+        "localizedName": "xəritə",
+        "localizedDescription": "Fortnite xəritənizə baxın"
     },
     {
         "name": "reminder",
-        "localizedName": "hatırlatıcı",
-        "localizedDescription": "İçerik Mağazasına bir kozmetik geldiğinde haberdar ol",
+        "localizedName": "xatırladıcı",
+        "localizedDescription": "Məhsul Mağazasına bir kosmetika gələmdə xəbərdar ol",
         "options": [
             {
                 "name": "add",
-                "localizedName": "ekle",
-                "localizedDescription": "Hatırlatıcına bir kozmetik ekle",
+                "localizedName": "əlavə-et",
+                "localizedDescription": "Xatırladıcınıza bir kosmetika əlavə et",
                 "options": [
                     {
                         "name": "cosmetic",
