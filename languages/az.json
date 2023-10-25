@@ -7,7 +7,7 @@
     {
         "name": "help",
         "localizedName": "kömək",
-        "localizedDescription": "Bot haqıında məlumat verir",
+        "localizedDescription": "Bot haqqında məlumat verir",
         "options": [
             {
                 "name": "command",
@@ -24,7 +24,7 @@
             {
                 "name": "stw",
                 "localizedName": "dünyanı-xilas-et",
-                "localizedDescription": "Dünyanı xilas et mükafatlarını al veya alma. Defolt: True (al)"
+                "localizedDescription": "Dünyanı Xilas et mükafatlarını al veya alma. Defolt: True (al)"
             }
         ]
     },
@@ -130,7 +130,7 @@
             {
                 "name": "add",
                 "localizedName": "əlavə-et",
-                "localizedDescription": "Bir oyunçunu dostluğa dəvət et",
+                "localizedDescription": "Bir oyunçunu dostluğa əlavə et",
                 "options": [
                     {
                         "name": "name",
@@ -224,7 +224,7 @@
             {
                 "name": "list",
                 "localizedName": "siyahı",
-                "localizedDescription": "Oyun fayllarınızı siyahısı"
+                "localizedDescription": "Oyun fayllarınızın siyahısı"
             }
         ]
     },
@@ -260,7 +260,7 @@
             {
                 "name": "fortnitegg",
                 "localizedName": "fortnitegg",
-                "localizedDescription": "Qarderobunuzu Fortnite.GG üzərində baxın"
+                "localizedDescription": "Qarderobunuza Fortnite.GG üzərində bax"
             },
             {
                 "name": "image",
@@ -284,7 +284,7 @@
     {
         "name": "login",
         "localizedName": "giriş-et",
-        "localizedDescription": "Epic Games hesabına giriş et",
+        "localizedDescription": "Epic Games hesabına daxil ol",
         "options": [
             {
                 "name": "auth-type",
@@ -318,7 +318,7 @@
     {
         "name": "reminder",
         "localizedName": "xatırladıcı",
-        "localizedDescription": "Məhsul Mağazasına bir kosmetika gələmdə xəbərdar ol",
+        "localizedDescription": "Məhsul Mağazasına bir kosmetika gələndə xəbərdar ol",
         "options": [
             {
                 "name": "add",
@@ -328,168 +328,168 @@
                     {
                         "name": "cosmetic",
                         "localizedName": "kozmetik",
-                        "localizedDescription": "Hatırlatıcına eklenecek kozmetiğin adı"
+                        "localizedDescription": "Xatırladıcına əlavə olunacaq kosmetikanın adı"
                     },
                     {
                         "name": "language",
                         "localizedName": "dil",
-                        "localizedDescription": "Arama dili ve kozmetik adının, açıklamasının vs. görünüm dili."
+                        "localizedDescription": "Axtarış dili və kosmetika adının, izahatı və s. görünüş dili."
                     }
                 ]
             },
             {
                 "name": "remove",
-                "localizedName": "kaldır",
-                "localizedDescription": "Hatırlatıcından bir kozmetik kaldır",
+                "localizedName": "çıxar",
+                "localizedDescription": "Xatırladıcından bir kosmetika çıxar",
                 "options": [
                     {
                         "name": "cosmetic",
-                        "localizedName": "kozmetik",
-                        "localizedDescription": "Hatırlatıcımdan kaldırılacak kozmetiğin adı"
+                        "localizedName": "kosmetika",
+                        "localizedDescription": "Xatırlatıcıdan çıxarılacaq kosmetikanın adı"
                     },
                     {
                         "name": "language",
                         "localizedName": "dil",
-                        "localizedDescription": "Arama dili ve kozmetik adının, açıklamasının vs. görünüm dili."
+                        "localizedDescription": "Axtarış dili və kosmetika adının, izahatının və s. görünüş dili."
                     }
                 ]
             },
             {
                 "name": "clear",
-                "localizedName": "temizle",
-                "localizedDescription": "Hatırlatıcındaki tüm kozmetikleri kaldır"
+                "localizedName": "təmizlə",
+                "localizedDescription": "Xatırlatıcından bütün kosmetikaları çıxar"
             },
             {
                 "name": "list",
-                "localizedName": "liste",
-                "localizedDescription": "Hatırlatıcını görüntüle"
+                "localizedName": "siyahı",
+                "localizedDescription": "Xatırlatıcına bax"
             }
         ]
     },
     {
         "name": "gift",
-        "localizedName": "hediye-et",
-        "localizedDescription": "Bir arkadaşına bir içerik hediye et",
+        "localizedName": "hədiyə-et",
+        "localizedDescription": "Bir dostuna bir kontent hədiyə et",
         "options": [
             {
                 "name": "friend-name",
-                "localizedName": "arkadaş-ismi",
-                "localizedDescription": "Hediyeyi göndereceğin arkadaşının görünen adı"
+                "localizedName": "dost-adı",
+                "localizedDescription": "Hədiyə göndərəcəyin dostunun görünən adı"
             },
             {
                 "name": "item",
-                "localizedName": "içerik",
+                "localizedName": "kontent",
                 "localizedDescription": "İçerik mağazası resminde gözüken sol alttaki sayı veya içerik ismi"
             }
         ]
     },
     {
         "name": "gift-history",
-        "localizedName": "hediye-geçmişi",
-        "localizedDescription": "Hediye geçmişini görüntüle",
+        "localizedName": "hədiyə-keçmişi",
+        "localizedDescription": "Hədiyə keçmişinə bax",
         "options": [
             {
                 "name": "received",
                 "localizedName": "alınan",
-                "localizedDescription": "Sana kimlerin hediye attığını görüntüle"
+                "localizedDescription": "Sənə kimlərin hədiyə atdığına bax"
             },
             {
                 "name": "sent",
-                "localizedName": "gönderilen",
-                "localizedDescription": "Kimlere hediye attığını görüntüle"
+                "localizedName": "göndərilən",
+                "localizedDescription": "Kimlərə hədiyə atdığına bax"
             }
         ]
     },
     {
         "name": "shop",
-        "localizedName": "içerik-mağazası",
-        "localizedDescription": "Bugünün içerik mağazasının bir resmini gönderir"
+        "localizedName": "kontent-mağazası",
+        "localizedDescription": "Bugünün Kontent mağazasının şəklini göndərir"
     },
     {
         "name": "season-progress",
-        "localizedName": "sezon-ilerlemesi",
-        "localizedDescription": "Sezon ilerlemesini gönderir"
+        "localizedName": "sezon-gedişatı",
+        "localizedDescription": "Sezon gedişatını göndərir"
     },
     {
         "name": "cosmetic",
-        "localizedName": "kozmetik",
-        "localizedDescription": "Bir kozmetik ara",
+        "localizedName": "kosmetika",
+        "localizedDescription": "Bir kosmetika axtar",
         "options": [
             {
                 "name": "name",
-                "localizedName": "isim",
-                "localizedDescription": "Aranacak kozmetiğin ismi"
+                "localizedName": "ad",
+                "localizedDescription": "Axtarılacaq kosmetikanın adı"
             },
             {
                 "name": "search-language",
-                "localizedName": "arama-dili",
-                "localizedDescription": "Kozmetiği arama dilini belirle"
+                "localizedName": "axtarış-dili",
+                "localizedDescription": "Kosmetikanın axtarış dilini müəyyən et"
             },
             {
                 "name": "output-language",
-                "localizedName": "sonuç-dili",
-                "localizedDescription": "Kozmetiğin adının, açıklamasının vs. görünüm dili"
+                "localizedName": "nəticə-dili",
+                "localizedDescription": "Kosmetikanın adının, izahatının və s. görünüş dili"
             }
         ]
     },
     {
         "name": "creative-xp",
-        "localizedName": "kreatif-xp",
-        "localizedDescription": "Günlük Kreatif XP limitlerinizi ve kullanma miktarınızı görüntüleyin"
+        "localizedName": "kreativ-xp",
+        "localizedDescription": "Gündəlik Kreativ XP limitlərinizi və istifadə miqdarınıza baxın"
     },
     {
         "name": "random-location",
-        "localizedName": "rastgele-konum",
-        "localizedDescription": "Size atlamanız için rastgele bir konum verir"
+        "localizedName": "təsadüfi-məkan",
+        "localizedDescription": "Size tullanmağınız üçün təsadüfi bir məkan verir"
     },
     {
         "name": "redeem",
-        "localizedName": "kod-okut",
-        "localizedDescription": "Epic Games için bir kod doğrula",
+        "localizedName": "kod-oxut",
+        "localizedDescription": "Epic Games üçün bir kod yoxla",
         "options": [
             {
                 "name": "code",
                 "localizedName": "kod",
-                "localizedDescription": "Taranacak kod"
+                "localizedDescription": "Yoxlanılacaq kod"
             },
             {
                 "name": "bulk",
-                "localizedName": "toplu",
-                "localizedDescription": "Kodun her hesapta kullanılıp kullanılmayacağı"
+                "localizedName": "birgə",
+                "localizedDescription": "Kod hər hesabda istifadə oluna bilər bilməz"
             }
         ]
     },
     {
         "name": "sac",
         "localizedName": "sac",
-        "localizedDescription": "Desteklediğin içerik üreticisini yönet",
+        "localizedDescription": "Destək verdiyin kontent istehsalçısını idarə et",
         "options": [
             {
                 "name": "change",
-                "localizedName": "değiştir",
-                "localizedDescription": "Desteklediğin içerik üreticisini değiştir",
+                "localizedName": "dəyiştir",
+                "localizedDescription": "Destək verdiyin kontent istehsalçısını dəyiştir",
                 "options": [
                     {
                         "name": "code",
                         "localizedName": "kod",
-                        "localizedDescription": "Destekleyeceğiniz içerik üreticisi kodu"
+                        "localizedDescription": "Destək verəcəyin kontent istehsalçısının kodu"
                     }
                 ]
             },
             {
                 "name": "supported",
-                "localizedName": "desteklenen",
-                "localizedDescription": "Desteklediğin içerik üreticisini görüntüle"
+                "localizedName": "dəstək-verilən",
+                "localizedDescription": "Destək verdiyin kontent istehsalçısına bax"
             },
             {
                 "name": "search",
-                "localizedName": "ara",
-                "localizedDescription": "Bir kodun sahibini ve bilgilerini görüntüle",
+                "localizedName": "axtar",
+                "localizedDescription": "Bir kodun yiyəsini və məlumatlarınına bax",
                 "options": [
                     {
                         "name": "code",
                         "localizedName": "kod",
-                        "localizedDescription": "Aranacak kod"
+                        "localizedDescription": "Axtarılacaq kod"
                     }
                 ]
             }
@@ -497,149 +497,149 @@
     },
     {
         "name": "buy",
-        "localizedName": "satın-al",
-        "localizedDescription": "İçerik mağazasından bir içerik satın alın",
+        "localizedName": "al",
+        "localizedDescription": "Mağazadan bir kontent alın",
         "options": [
             {
                 "name": "item",
-                "localizedName": "içerik",
-                "localizedDescription": "İçerik mağazası resminde gözüken sol alttaki sayı veya içerik ismi"
+                "localizedName": "kontent",
+                "localizedDescription": "Mağazanın şəklində kontentin sol altındakı nömrə və ya kontent adı"
             }
         ]
     },
     {
         "name": "battle-pass",
-        "localizedName": "savaş-bileti",
-        "localizedDescription": "Savaş biletini ve diğer paketleri satın al"
+        "localizedName": "battle-pass",
+        "localizedDescription": "Battle pass və digər paketləri al"
     },
     {
         "name": "stats",
-        "localizedName": "stats",
-        "localizedDescription": "Bir Fortnite oyuncusunun istatistiklerini görüntülersiniz",
+        "localizedName": "statistika",
+        "localizedDescription": "Bir Fortnite oyunçusunun statistikasına bax",
         "options": [
             {
                 "name": "name",
-                "localizedName": "isim",
-                "localizedDescription": "Oyunucunun Epic görünen adı"
+                "localizedName": "ad",
+                "localizedDescription": "Oyunuçunun Epic görünən adı"
             }
         ]
     },
     {
         "name": "offer",
-        "localizedName": "teklif",
-        "localizedDescription": "Offer ID girerek bir teklif arayın veya satın alın",
+        "localizedName": "təklif",
+        "localizedDescription": "Offer ID girirək bir təklif axtarın və ya alın",
         "options": [
             {
                 "name": "offer-id",
                 "localizedName": "offer-id",
-                "localizedDescription": "Arayacağınız veya satın alacağınız teklifin Offer ID'si"
+                "localizedDescription": Axtaracağınız və ya alacağınız təklifin Offer ID'si"
             }
         ]
     },
     {
         "name": "vbucks",
-        "localizedName": "vpapel",
-        "localizedDescription": "Belirli bir miktar için v-papel linki oluşturun, bakiyenizi ya da geçmişinizi görüntüleyin",
+        "localizedName": "vbucks",
+        "localizedDescription": "Müəyyən bir miqdar üçün v-papel rabitəsi yarat, balansınıza ya da keçmişinizə baxın",
         "options": [
             {
                 "name": "buy",
-                "localizedName": "satın-al",
-                "localizedDescription": "Belirli miktarda bir v-papel satın alma linki oluştur",
+                "localizedName": "al",
+                "localizedDescription": "Müəyyən miqdarda v-bucks almaq üçün link yaradır",
                 "options": [
                     {
                         "name": "amount",
-                        "localizedName": "miktar",
-                        "localizedDescription": "Oluşturulacak miktar"
+                        "localizedName": "miqdar",
+                        "localizedDescription": "Yaradılacaq miqdar"
                     }
                 ]
             },
             {
                 "name": "balance",
-                "localizedName": "bakiyem",
-                "localizedDescription": "Ne kadar v-papele sahip olduğunu görüntüle",
+                "localizedName": "balansım",
+                "localizedDescription": "Nə qədər v-bucks sahibi olduğunuza baxın",
                 "options": [
                     {
                         "name": "bulk",
-                        "localizedName": "toplu",
-                        "localizedDescription": "Tüm hesapların bakiyesinin görüntülenip görüntülenmeyeceği"
+                        "localizedName": "birgə",
+                        "localizedDescription": "Bütün hesabların balansınızın baxılıb baxılmayacağı"
                     }
                 ]
             },
             {
                 "name": "history",
-                "localizedName": "geçmişi",
-                "localizedDescription": "V-papel satın alma geçmişinizi görüntüle"
+                "localizedName": "keçmişi",
+                "localizedDescription": "V-bucks almaq keçmişinizə baxın"
             }
         ]
     },
     {
         "name": "bot-info",
-        "localizedName": "bot-bilgi",
-        "localizedDescription": "Bot hakkında bilgi verir"
+        "localizedName": "bot-məlumat",
+        "localizedDescription": "Bot haqqında məlumat verir"
     },
     {
         "name": "banned",
-        "localizedName": "yasaklı-mıyım",
-        "localizedDescription": "Hesabınız banlı mı değil mi kontrol edin"
+        "localizedName": "qadanğan-olunmuşam",
+        "localizedDescription": "Hesabınızın bloklu olub olmadığı yoxlanılsın"
     },
     {
         "name": "creative-xp",
-        "localizedName": "kreatif-xp",
-        "localizedDescription": "Kreatif TP limitinizi ve kullanımınızı görüntüleyin"
+        "localizedName": "kreativ-xp",
+        "localizedDescription": "Kreativ TP limitinizi və istifadənizə baxın"
     },
     {
         "name": "refresh-profile",
-        "localizedName": "profil-yenile",
-        "localizedDescription": "Battle Royale ve Dünyayı Kurtar profilinizi yeniler"
+        "localizedName": "profil-təzələ",
+        "localizedDescription": "Battle Royale və Dünyanı Xilas et profilinizi təzələ"
     },
     {
         "name": "motd",
-        "localizedName": "kişisel-haberler",
-        "localizedDescription": "Kişisel Fortnite haberlerinizi görüntüleyin"
+        "localizedName": "şəxsi-xəbərlər",
+        "localizedDescription": "Şəxsi Fortnite xəbərlərinizə baxın"
     },
     {
         "name": "launch-fortnite",
         "localizedName": "fortnite-başlat",
-        "localizedDescription": "Fortnite'ı bir Command Prompt komutu ile başlatın"
+        "localizedDescription": "Fortnite'ı Command Prompt komandası ilə işə salın"
     },
     {
         "name": "preferences",
-        "localizedName": "tercihler",
-        "localizedDescription": "Bot tercihlerinizi değiştirin",
+        "localizedName": "üstünlüklər",
+        "localizedDescription": "Botda verdiyiniz üstünlükləri dəyişdirin",
         "options": [
             {
                 "name": "language",
                 "localizedName": "dil",
-                "localizedDescription": "Bot dilinizi değiştirin",
+                "localizedDescription": "Botun dilini dəyişdirin",
                 "options": [
                     {
                         "name": "language",
                         "localizedName": "dil",
-                        "localizedDescription": "Yeni dil"
+                        "localizedDescription": "Təzə dil"
                     }
                 ]
             },
             {
                 "name": "reply-type",
-                "localizedName": "yanıt-tipi",
-                "localizedDescription": "Bot yanıt tipini değiştirin",
+                "localizedName": "cavab-növü",
+                "localizedDescription": "Botun cavab növünü dəyişdirin",
                 "options": [
                     {
                         "name": "type",
-                        "localizedName": "tip",
-                        "localizedDescription": "Yeni yanıt tipi"
+                        "localizedName": "növ",
+                        "localizedDescription": "Təzə cavab növü"
                     }
                 ]
             },
             {
                 "name": "censor",
-                "localizedName": "sansür",
-                "localizedDescription": "Bot sansür türünüzü değiştirin",
+                "localizedName": "senzura",
+                "localizedDescription": "Botun sansür növünü dəyişdirin",
                 "options": [
                     {
                         "name": "type",
-                        "localizedName": "tür",
-                        "localizedDescription": "Yeni sansür türü"
+                        "localizedName": "növ",
+                        "localizedDescription": "Təzə senzura növü"
                     }
                 ]
             }
@@ -647,23 +647,23 @@
     },
     {
         "name": "mission-alerts",
-        "localizedName": "görev-uyarıları",
-        "localizedDescription": "Dünyayı Kurtar görev uyarılarını görüntüleyin"
+        "localizedName": "tapşırıq-xəbərdarlıqları",
+        "localizedDescription": "Dünyanı Xilas et tapşırıq xəbərdarlıqlarına bax"
     },
     {
         "name": "ghost-equip",
         "localizedName": "ghost-equip",
-        "localizedDescription": "Sahip olsanız da olmasanız da grubunuzda herhangi bir kozmetiği kuşanın",
+        "localizedDescription": "Sahib olsanız da olmasanız da qrupunuzda hər hansı bir kosmetikanı təchiz edin",
         "options": [
             {
                 "name": "name",
-                "localizedName": "isim",
-                "localizedDescription": "Aranacak kozmetiğin ismi"
+                "localizedName": "ad",
+                "localizedDescription": "Axtarılacaq kosmetikanın adı"
             },
             {
                 "name": "language",
                 "localizedName": "dil",
-                "localizedDescription": "Arama dili ve kozmetik adının, açıklamasının vb. görünüm dili."
+                "localizedDescription": "Axtarış dili və kosmetikanın adının, izahatının və s. görünüş dili."
             }
         ]
     },
