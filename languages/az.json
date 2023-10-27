@@ -669,63 +669,63 @@
     },
     {
         "name": "fake-level",
-        "localizedName": "sahte-seviye",
-        "localizedDescription": "Grubunuzda seviyenizi sahte bir seviye olarak ayarlayın",
+        "localizedName": "saxta-səviyyə",
+        "localizedDescription": "Qrupunuzda səviyyənizi saxta səviyyə olaraq tənzimləyin",
         "options": [
             {
                 "name": "level",
-                "localizedName": "seviye",
-                "localizedDescription": "Yeni seviye"
+                "localizedName": "səviyyə",
+                "localizedDescription": "Yeni səviyyə"
             }
         ]
     },
     {
         "name": "fake-crown-wins",
-        "localizedName": "sahte-taç-zaferleri",
-        "localizedDescription": "Grubunuzda taçlarınızı sahte taç miktarına ayarlayın",
+        "localizedName": "saxta-tac-qələbələri",
+        "localizedDescription": "Qrupunuzda taclarınızı saxta tac miqdarına tənzimləyin",
         "options": [
             {
                 "name": "amount",
-                "localizedName": "miktar",
-                "localizedDescription": "Yeni taç miktarı"
+                "localizedName": "miqdar",
+                "localizedDescription": "Yeni tac miqdarı"
             }
         ]
     },
     {
         "name": "stw",
-        "localizedName": "dünyayı-kurtar",
-        "localizedDescription": "Dünyayı Kurtar bilgilerinizi görüntüleyin",
+        "localizedName": "dünyanı-xilas-et",
+        "localizedDescription": "Dünyanı Xilas et məlumatlarınıza baxın",
         "options": [
             {
                 "name": "info",
-                "localizedName": "bilgi",
-                "localizedDescription": "Dünyayı Kurtar istatistiklerini görüntüleyin"
+                "localizedName": "məlumat",
+                "localizedDescription": "Dünyanı Xilas et statistikalarına bax"
             },
             {
                 "name": "xp",
-                "localizedName": "tp",
-                "localizedDescription": "Günlük Dünyayı Kurtar TP kullanımınızı ve limitinizi görüntüleyin"
+                "localizedName": "tc",
+                "localizedDescription": "Gündəlik Dünyanı Xilas et TC istifadənizi və limitlərinizə baxın"
             }
         ]
     },
     {
         "name": "research",
-        "localizedName": "araştırma",
-        "localizedDescription": "Dünyayı Kurtar'da araştırma seviyelerinizi görüntüleyin veya yükseltin"
+        "localizedName": "araşdırma",
+        "localizedDescription": "Dünyayı Xilas et'də araşdırma səviyyələrinizə baxın və ya yüksəldin"
     },
     {
         "name": "undo-purchase",
-        "localizedName": "satın-alımı-geri-al",
-        "localizedDescription": "İade biletİ kullanmadan satın alımlarınızdan birini geri alın"
+        "localizedName": "alışı-geri-al",
+        "localizedDescription": "Qaytarma biletİ xərcləmədən alışlarınızdan birini geri alın"
     },
     {
         "name": "party",
-        "localizedName": "grup",
-        "localizedDescription": "Mevcut grubunuzu yönetin",
+        "localizedName": "qrup",
+            "localizedDescription": "Mövcud qrupunuzu idarə edin",
         "options": [
             {
                 "name": "info",
-                "localizedName": "bilgi",
+                "localizedName": "məlumat",
                 "localizedDescription": "Mevcut grubunuz hakkında bilgi alın"
             },
             {
