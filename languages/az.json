@@ -726,94 +726,94 @@
             {
                 "name": "info",
                 "localizedName": "məlumat",
-                "localizedDescription": "Mevcut grubunuz hakkında bilgi alın"
+                "localizedDescription": "Mövcud qrupunuz haqqında məlumat alın"
             },
             {
                 "name": "leave",
                 "localizedName": "ayrıl",
-                "localizedDescription": "Mevcut grubunuzdan ayrılın"
+                "localizedDescription": "Mövcud qrupunuzdan ayrılın"
             }
         ]
     },
     {
         "name": "skip-tutorial",
-        "localizedName": "eğitimi-atla",
-        "localizedDescription": "Dünyayı Kurtar eğitimini atlayın"
+        "localizedName": "təlimi-keç",
+        "localizedDescription": "Dünyanı Xilas et təlimini keçin"
     },
     {
         "name": "account",
-        "localizedName": "hesap",
-        "localizedDescription": "Hesabınızı yönetin",
+        "localizedName": "hesab",
+        "localizedDescription": "Hesabınızı idarə edin",
         "options": [
             {
                 "name": "change-name",
-                "localizedName": "isim-değiştir",
-                "localizedDescription": "Görünen adınızı değiştirir",
+                "localizedName": "adını-dəyiştir",
+                "localizedDescription": "Görünən adınızı dəyiştirər",
                 "options": [
                     {
                         "name": "name",
-                        "localizedName": "isim",
-                        "localizedDescription": "Yeni görünen ad"
+                        "localizedName": "ad",
+                        "localizedDescription": "Təzə görünən ad"
                     }
                 ]
             },
             {
                 "name": "change-phone-number",
-                "localizedName": "telefon-numarası-değiştir",
-                "localizedDescription": "Telefon numaranızı değiştirir",
+                "localizedName": "mobil-nömrənizi-dəyişdirin",
+                "localizedDescription": "Mobil nömrənizi dəyiştirər",
                 "options": [
                     {
                         "name": "number",
-                        "localizedName": "numara",
-                        "localizedDescription": "Yeni telefon numarası"
+                        "localizedName": "nömrə",
+                            "localizedDescription": "Təzə mobil nömrə"
                     }
                 ]
             },
             {
                 "name": "info",
-                "localizedName": "bilgi",
-                "localizedDescription": "Hassas hesap bilgilerinizi görüntüleyin"
+                "localizedName": "məlumat",
+                "localizedDescription": "Həssas hesab məlumatlarıza baxın"
             }
         ]
     },
     {
         "name": "shop-sections",
-        "localizedName": "mağaza-sekmeleri",
-        "localizedDescription": "Bugünün veya yarının içerik mağazası sekmelerini gönderir",
+        "localizedName": "mağaza-tab-vərəqələri",
+        "localizedDescription": "Bugünün və ya sabahın kontent mağazasının tab-vərəqələrini göndərir",
         "options": [
             {
                 "name": "day",
                 "localizedName": "gün",
-                "localizedDescription": "İçerik mağazası sekmeleri alınacak gün"
+                "localizedDescription": "Kontent mağazısının tab-vərəqələri alacağı gün"
             }
         ]
     },
     {
         "name": "claim-rank-role",
-        "localizedName": "rütbe-rolünü-al",
-        "localizedDescription": "Rütbeli derecenize göre sunucuda bir rol alın",
+        "localizedName": "rütbə-rolunu-al",
+        "localizedDescription": "Rütbəli dərəcənizə görə serverde bir rol əldə edin",
         "options": [
             {
                 "name": "mode",
                 "localizedName": "mod",
-                "localizedDescription": "Dereceli oyun modu"
+                "localizedDescription": "Dərəcəli oyun modu"
             }
         ]
     },
     {
         "name": "claim-free-items",
-        "localizedName": "ücretsiz-içerikleri-al",
-        "localizedDescription": "İçerik mağazasından ücretsiz içerikleri alır"
+        "localizedName": "pulsuz-kontentləri-al",
+        "localizedDescription": "Mağazadan pulsuz kontentləri alır"
     },
     {
         "name": "player-count",
-        "localizedName": "oyuncu-sayısı",
-        "localizedDescription": "Aktif oyuncu sayısını ve kaç oyuncunun hangi oyun modlarını oynadığını görüntüleyin"
+        "localizedName": "oyunçu-sayı",
+        "localizedDescription": "Aktif oyunçu sayını və neçə oyunçunun hansı oyun modlarını oynadığına baxın"
     },
     {
         "name": "weapon-info",
-        "localizedName": "silah-bilgi",
-        "localizedDescription": "Bir silah hakkında bilgi alın",
+        "localizedName": "silah-məlumat",
+        "localizedDescription": "Bir silah haqqında məlumat alın",
         "options": [
             {
                 "name": "rarity",
@@ -823,148 +823,148 @@
             {
                 "name": "weapon",
                 "localizedName": "weapon",
-                "localizedDescription": "Bilgisi alınacak silah adı"
+                "localizedDescription": "Məlumatı alınacaq silah adı"
             }
         ]
     },
     {
         "name": "device-auth",
-        "localizedName": "cihaz-bağlantısı",
-        "localizedDescription": "Cihaz bağlantılarını yönet",
+        "localizedName": "qurğu-rabitəsi",
+        "localizedDescription": "Qurğu rabitələrini idarə edin",
         "options": [
             {
                 "name": "create",
-                "localizedName": "oluştur",
-                "localizedDescription": "Yeni bir cihaz bağlantısı oluştur"
+                "localizedName": "yarat",
+                "localizedDescription": "Yeni qurğu rabitəsi yarat"
             },
             {
                 "name": "list",
-                "localizedName": "listesi",
-                "localizedDescription": "Cihaz bağlantılarını listele"
+                "localizedName": "siyahı",
+                "localizedDescription": "Qurğu rabitələrini siyahıla"
             },
             {
                 "name": "delete",
                 "localizedName": "sil",
-                "localizedDescription": "Bir cihaz bağlantısını sil",
+                "localizedDescription": "Bir qurğu rabitəsini sil",
                 "options": [
                     {
                         "name": "device-id",
                         "localizedName": "device-id",
-                        "localizedDescription": "Silinecek cihaz id'si"
+                        "localizedDescription": "Silinəcək qurğunun id'si"
                     }
                 ]
             },
             {
                 "name": "delete-all",
-                "localizedName": "hepsini-sil",
-                "localizedDescription": "Bot tarafından kullanılan hariç tüm cihaz bağlantılarını sil"
+                "localizedName": "hamısını-sil",
+                "localizedDescription": "Bot tərəfindən istifadə olunan xaric bütün qurğu rabitələrini sil"
             }
         ]
     },
     {
         "name": "server-status",
-        "localizedName": "sunucu-durumu",
-        "localizedDescription": "Fortnite sunucularının durumunu görüntüleyin"
+        "localizedName": "server-vəziyyəti",
+        "localizedDescription": "Fortnite serverlərinin vəziyyətinə baxın"
     },
     {
         "name": "access-token",
         "localizedName": "access-token",
-        "localizedDescription": "Bir client seçerek yeni bir access token oluşturun",
+        "localizedDescription": "Bir client seçərək təzə access token yaradın",
         "options": [
             {
                 "name": "client",
                 "localizedName": "client",
-                "localizedDescription": "Kullanmak istediğiniz client"
+                "localizedDescription": "İstifadə etmək istədiyiniz client"
             }
         ]
     },
     {
         "name": "settings",
-        "localizedName": "ayarlar",
-        "localizedDescription": "Ayarlarınızı yönetin"
+        "localizedName": "parametrlər",
+        "localizedDescription": "Parametrlərinizi idarə edin"
     },
     {
         "name": "staging",
         "localizedName": "staging",
-        "localizedDescription": "Bir staging sunucusunun MCP sunucusunun bilgilerini görüntüle",
+        "localizedDescription": "Bir staging serverinin MCP serverinin məlumatlarına baxın",
         "options": [
             {
                 "name": "server",
-                "localizedName": "sunucu",
-                "localizedDescription": "Bilgisi alınacak sunucu adı veya URL"
+                "localizedName": "server",
+                "localizedDescription": "Məlumatı alınacaq server adı və ya URL"
             }
         ]
     },
     {
         "name": "save-progress",
-        "localizedName": "ilerlemeyi-kaydet",
-        "localizedDescription": "Dünyayı Kurtardaki görevleri görevi tamamlamadan tamamlayın"
+        "localizedName": "gedişatı-saxla",
+        "localizedDescription": "Dünyanı Xilas et tapşırıqları tapşırıq həll olmadan həll edin"
     },
     {
         "name": "rank-system",
-        "localizedName": "rütbe-sistemi",
-        "localizedDescription": "Kullanıcıların /rütbe-rolünü-al komutunu kullanarak rol almalarını sağlamak için bu sistemi yönetin",
+        "localizedName": "rütbə-sistemi",
+        "localizedDescription": "İstifadəçilərin /rütbə-rolunu-al əmrini istifadə edərək rol almalarını təmin etmək üçün bu sistemi idarə edin",
         "options": [
             {
                 "name": "add",
                 "localizedName": "ekle",
-                "localizedDescription": "Sunucunuza bir rütbe-rol sistemi ekleyin",
+                "localizedDescription": "Serverinizə bir rütbə-rol sistemi əlavə edin",
                 "options": [
                     {
                         "name": "rank",
-                        "localizedName": "rütbe",
-                        "localizedDescription": "Rütbe"
+                        "localizedName": "rütbə",
+                        "localizedDescription": "rütbə"
                     },
                     {
                         "name": "role",
                         "localizedName": "rol",
-                        "localizedDescription": "Kullanıcılara verilecek rol"
+                        "localizedDescription": "İstifadəçilərə veriləcək rol"
                     }
                 ]
             },
             {
                 "name": "remove",
-                "localizedName": "kaldır",
-                "localizedDescription": "Sunucunuzdan bir rank-role sistemini kaldırın",
+                "localizedName": "çıxar",
+                "localizedDescription": "Serverinizdən rütbə-rol sistemini çıxarın",
                 "options": [
                     {
                         "name": "rank",
-                        "localizedName": "rütbe",
-                        "localizedDescription": "Rütbe"
+                        "localizedName": "rütbə",
+                        "localizedDescription": "Rütbə"
                     }
                 ]
             },
             {
                 "name": "list",
-                "localizedName": "liste",
-                "localizedDescription": "Sunucunuzdaki rütbe-rol sistemlerini görüntüleyin"
+                "localizedName": "siyahı",
+                "localizedDescription": "Serverinizdəki rütbə-rol sisteminə baxın"
             },
             {
                 "name": "enable",
-                "localizedName": "etkinleştir",
-                "localizedDescription": "Sunucunuzda rank-role sistemini etkinleştirin"
+                "localizedName": "aktivləşdir",
+                "localizedDescription": "Serverinizdə rütbə-rol sistemini aktivləşdirin"
             },
             {
                 "name": "disable",
-                "localizedName": "kapat",
-                "localizedDescription": "Sunucunuzdaki rütbe-rol sistemini devre dışı bırakın"
+                "localizedName": "deaktivləşdir",
+                "localizedDescription": "Serverinizdəki rütbə-rol sistemini deaktivləşdirin"
             }
         ]
     },
     {
         "name": "account-settings",
-        "localizedName": "hesap-ayarları",
-        "localizedDescription": "Epic Games hesap ayarlarınızı güncelleyin",
+        "localizedName": "hesab-parametrləri",
+        "localizedDescription": "Epic Games hesab parametrlərinizi yeniləyin",
         "options": [
             {
                 "name": "receive-gifts",
-                "localizedName": "hediye-alma",
-                "localizedDescription": "Arkadaşlarınızdan hediye alıp almayacağınızı belirleyin",
+                "localizedName": "hədiyyə-almaq",
+                "localizedDescription": "Dostlarınızdan hədiyyə alıb almayacağınızı təyin edin",
                 "options": [
                     {
                         "name": "state",
-                        "localizedName": "durum",
-                        "localizedDescription": "Hediye alma veya almama"
+                        "localizedName": "vəziyyət",
+                        "localizedDescription": "Hədiyyə almaq veya almamaq"
                     }
                 ]
             }
@@ -972,62 +972,62 @@
     },
     {
         "name": "custom-profile",
-        "localizedName": "özel-profil",
-        "localizedDescription": "Botun embed rengini ve avatarını düzenle",
+        "localizedName": "xüsusi-profil",
+        "localizedDescription": "Botun embed rəngini və avatarını təyin et",
         "options": [
             {
                 "name": "set",
-                "localizedName": "ayarla",
-                "localizedDescription": "Özel profilini ayarla",
+                "localizedName": "təyin-et",
+                "localizedDescription": "Xüsusi profilini ayarla",
                 "options": [
                     {
                         "name": "skin",
-                        "localizedName": "karakter",
-                        "localizedDescription": "Avatar ve embed rengi için kullanılacak karakter"
+                        "localizedName": "dəri",
+                        "localizedDescription": "Avatar ve embed rəngi üçün istifadə olunacaq dəri"
                     },
                     {
                         "name": "search-language",
-                        "localizedName": "arama-dili",
-                        "localizedDescription": "Kozmetik arama dilini ayarla"
+                        "localizedName": "axtarış-dili",
+                        "localizedDescription": "Kosmetika axtarış dilini təyin edin"
                     }
                 ]
             },
             {
                 "name": "reset",
                 "localizedName": "sıfırla",
-                "localizedDescription": "Özel profilini sıfırla"
+                "localizedDescription": "Xüsusi profilini sıfırla"
             }
         ]
     },
     {
         "name": "premium",
         "localizedName": "premium",
-        "localizedDescription": "Premium aboneliğinizi yönetin",
+        "localizedDescription": "Premium abunəliyinizi idarə edin",
         "options": [
             {
                 "name": "info",
-                "localizedName": "bilgi",
-                "localizedDescription": "Premium aboneliğiniz hakkında bilgi alın"
+                "localizedName": "məlumat",
+                "localizedDescription": "Premium abunəliyiniz haqqında məlumat əldə edin"
             },
             {
                 "name": "benefits",
                 "localizedName": "avantajlar",
-                "localizedDescription": "Premium avantajlarını görüntüleyin"
+                "localizedDescription": "Premium mənfəətlərinə bax"
             },
             {
                 "name": "buy",
-                "localizedName": "satın-al",
-                "localizedDescription": "Nasıl Premium alabileceğinizi görüntüleyin"
+                "localizedName": "al",
+                "localizedDescription": "Premium'u necə ala biləcəyinizə baxın"
             },
             {
                 "name": "activate",
-                "localizedName": "etkinleştir",
-                "localizedDescription": "Bir kod kullanarak Premium'u etkinleştirin",
+                "localizedName": "aktivləşdir",
+                "localizedDescription": "Bir kod istifadə edərək Premium'u aktivləşdirin",
                 "options": [
                     {
                         "name": "code",
                         "localizedName": "kod",
-                        "localizedDescription": "Okutmak istediğiniz kod"
+                        "localizedDescription": "Oxutmaq istədiyiniz kod"
                     }
                 ]
             }
@@ -1035,7 +1035,7 @@
     },
     {
         "name": "grant-game-access",
-        "localizedName": "oyun-erişimi-ver",
-        "localizedDescription": "Fortnite hizmetlerine erişim izni verir"
+        "localizedName": "oyuna-giriş-icazəsi-ver",
+        "localizedDescription": "Fortnite xidmətlərinə giriş icazəsi verir"
     }
 ]
