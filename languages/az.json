@@ -532,7 +532,7 @@
             {
                 "name": "offer-id",
                 "localizedName": "offer-id",
-                "localizedDescription": Axtaracağınız və ya alacağınız təklifin Offer ID'si"
+                "localizedDescription": "Axtaracağınız və ya alacağınız təklifin Offer ID'si"
             }
         ]
     },
